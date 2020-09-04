@@ -1,0 +1,2278 @@
+fileFormatVersion: 2
+guid: eb828d41407c23d4badfdab228ad89ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2147492862720178021
+    second: character sheet giuseppe-01_0
+  - first:
+      213: 740449501203064529
+    second: character sheet giuseppe-01_1
+  - first:
+      213: 8498738492707972656
+    second: character sheet giuseppe-01_2
+  - first:
+      213: 7544748659815637573
+    second: character sheet giuseppe-01_3
+  - first:
+      213: 1232695678707292794
+    second: character sheet giuseppe-01_4
+  - first:
+      213: 8065752855336849598
+    second: character sheet giuseppe-01_5
+  - first:
+      213: -1277495702752213111
+    second: character sheet giuseppe-01_6
+  - first:
+      213: -1332615721641274155
+    second: character sheet giuseppe-01_7
+  - first:
+      213: -9186931996955918188
+    second: character sheet giuseppe-01_8
+  - first:
+      213: -3631012439718456414
+    second: character sheet giuseppe-01_9
+  - first:
+      213: -4193602597161152575
+    second: character sheet giuseppe-01_10
+  - first:
+      213: -9005487848201972878
+    second: character sheet giuseppe-01_11
+  - first:
+      213: 7725772673844985119
+    second: character sheet giuseppe-01_12
+  - first:
+      213: -5324718116236331398
+    second: character sheet giuseppe-01_13
+  - first:
+      213: 7094784023085778226
+    second: character sheet giuseppe-01_14
+  - first:
+      213: 9099273194833864490
+    second: character sheet giuseppe-01_15
+  - first:
+      213: -7080047743719705854
+    second: character sheet giuseppe-01_16
+  - first:
+      213: -6098018190865015122
+    second: character sheet giuseppe-01_17
+  - first:
+      213: -4542475078427442705
+    second: character sheet giuseppe-01_18
+  - first:
+      213: -5457804882194176799
+    second: character sheet giuseppe-01_19
+  - first:
+      213: 1111795439569401022
+    second: character sheet giuseppe-01_20
+  - first:
+      213: -6961724075124239534
+    second: character sheet giuseppe-01_21
+  - first:
+      213: -3953534170376617605
+    second: character sheet giuseppe-01_22
+  - first:
+      213: 2198543998123565915
+    second: character sheet giuseppe-01_23
+  - first:
+      213: 5052496479414644015
+    second: character sheet giuseppe-01_24
+  - first:
+      213: -8170419054779605738
+    second: character sheet giuseppe-01_25
+  - first:
+      213: 5947751205180625469
+    second: character sheet giuseppe-01_26
+  - first:
+      213: 2655123642748299941
+    second: character sheet giuseppe-01_27
+  - first:
+      213: 6715190010120974850
+    second: character sheet giuseppe-01_28
+  - first:
+      213: 606415730201875092
+    second: character sheet giuseppe-01_29
+  - first:
+      213: -7227248829543597376
+    second: character sheet giuseppe-01_30
+  - first:
+      213: 4168102684425447915
+    second: character sheet giuseppe-01_31
+  - first:
+      213: -8963408943329309883
+    second: character sheet giuseppe-01_32
+  - first:
+      213: -988329054056461418
+    second: character sheet giuseppe-01_33
+  - first:
+      213: -7669057997364588074
+    second: character sheet giuseppe-01_34
+  - first:
+      213: 601549828148347554
+    second: character sheet giuseppe-01_35
+  - first:
+      213: 7047164846324102240
+    second: character sheet giuseppe-01_36
+  - first:
+      213: 3282111716655146490
+    second: character sheet giuseppe-01_37
+  - first:
+      213: 2114139389022291110
+    second: character sheet giuseppe-01_38
+  - first:
+      213: 1370529222820824978
+    second: character sheet giuseppe-01_39
+  - first:
+      213: 3006448801531763277
+    second: character sheet giuseppe-01_40
+  - first:
+      213: -1407004828407638761
+    second: character sheet giuseppe-01_41
+  - first:
+      213: -7591490691951981635
+    second: character sheet giuseppe-01_42
+  - first:
+      213: 169262028808722604
+    second: character sheet giuseppe-01_43
+  - first:
+      213: -8218064560819424893
+    second: character sheet giuseppe-01_44
+  - first:
+      213: 3701616462170092431
+    second: character sheet giuseppe-01_45
+  - first:
+      213: 8440403547020386957
+    second: character sheet giuseppe-01_46
+  - first:
+      213: -8913258207937491425
+    second: character sheet giuseppe-01_47
+  - first:
+      213: 148812050769183982
+    second: character sheet giuseppe-01_48
+  - first:
+      213: 6531515623562920489
+    second: character sheet giuseppe-01_49
+  - first:
+      213: -4166801365372251341
+    second: character sheet giuseppe-01_50
+  - first:
+      213: -5972164168326548071
+    second: character sheet giuseppe-01_51
+  - first:
+      213: -307458798905016379
+    second: character sheet giuseppe-01_52
+  - first:
+      213: 3333313888769325605
+    second: character sheet giuseppe-01_53
+  - first:
+      213: -8458119559960192073
+    second: character sheet giuseppe-01_54
+  - first:
+      213: 8647657744007683357
+    second: character sheet giuseppe-01_55
+  - first:
+      213: 4719888413969114085
+    second: character sheet giuseppe-01_56
+  - first:
+      213: 2594608855363747278
+    second: character sheet giuseppe-01_57
+  - first:
+      213: -4489250563870775445
+    second: character sheet giuseppe-01_58
+  - first:
+      213: 5868358400301049784
+    second: character sheet giuseppe-01_59
+  - first:
+      213: -588838983876923384
+    second: character sheet giuseppe-01_60
+  - first:
+      213: -4040684171511581300
+    second: character sheet giuseppe-01_61
+  - first:
+      213: -8471427764235044584
+    second: character sheet giuseppe-01_62
+  - first:
+      213: -8530415123647889084
+    second: character sheet giuseppe-01_63
+  - first:
+      213: -2883037615227223377
+    second: character sheet giuseppe-01_64
+  - first:
+      213: 8947450311890207762
+    second: character sheet giuseppe-01_65
+  - first:
+      213: 6533442165118276880
+    second: character sheet giuseppe-01_66
+  - first:
+      213: 2289106364519139740
+    second: character sheet giuseppe-01_67
+  - first:
+      213: -7381858632372474853
+    second: character sheet giuseppe-01_68
+  - first:
+      213: -5796425135785038119
+    second: character sheet giuseppe-01_69
+  - first:
+      213: 189760530024183686
+    second: character sheet giuseppe-01_70
+  - first:
+      213: -3815061409751916846
+    second: character sheet giuseppe-01_71
+  - first:
+      213: -8903614716551161566
+    second: character sheet giuseppe-01_72
+  - first:
+      213: -2158729662748881707
+    second: character sheet giuseppe-01_73
+  - first:
+      213: 7059787730256013650
+    second: character sheet giuseppe-01_74
+  - first:
+      213: 1896915961596198721
+    second: character sheet giuseppe-01_75
+  - first:
+      213: -1208613958215952526
+    second: character sheet giuseppe-01_76
+  - first:
+      213: 4242245337423022394
+    second: character sheet giuseppe-01_77
+  - first:
+      213: 1690908514654907481
+    second: character sheet giuseppe-01_78
+  - first:
+      213: 1036922363821247736
+    second: character sheet giuseppe-01_79
+  - first:
+      213: -1176642733205260838
+    second: character sheet giuseppe-01_80
+  - first:
+      213: -7495573739381533510
+    second: character sheet giuseppe-01_81
+  - first:
+      213: -1087371862837866640
+    second: character sheet giuseppe-01_82
+  - first:
+      213: 2277832223733282765
+    second: character sheet giuseppe-01_83
+  - first:
+      213: 1411535445040253500
+    second: character sheet giuseppe-01_84
+  - first:
+      213: 506018944709187970
+    second: character sheet giuseppe-01_85
+  - first:
+      213: 8354209300816743589
+    second: character sheet giuseppe-01_86
+  - first:
+      213: -5006979512297584254
+    second: character sheet giuseppe-01_87
+  - first:
+      213: -5735457684120677999
+    second: character sheet giuseppe-01_88
+  - first:
+      213: 4994476159447832701
+    second: character sheet giuseppe-01_89
+  - first:
+      213: 3298619237820052719
+    second: character sheet giuseppe-01_90
+  - first:
+      213: -3382805320913874093
+    second: character sheet giuseppe-01_91
+  - first:
+      213: 800957401716647740
+    second: character sheet giuseppe-01_92
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 270
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 4473
+        width: 327
+        height: 456
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9880e78e929232e0800000000000000
+      internalID: -2147492862720178021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_1
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 4477
+        width: 323
+        height: 461
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6e255f5ea964a00800000000000000
+      internalID: 740449501203064529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_2
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 4472
+        width: 333
+        height: 448
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0362cc081a591f570800000000000000
+      internalID: 8498738492707972656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_3
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 4477
+        width: 327
+        height: 461
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5426aebaee454b860800000000000000
+      internalID: 7544748659815637573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 3997
+        width: 304
+        height: 448
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ad18d403a6b1110800000000000000
+      internalID: 1232695678707292794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_5
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 4007
+        width: 309
+        height: 447
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0127cdc7f4fef60800000000000000
+      internalID: 8065752855336849598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_6
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 4016
+        width: 318
+        height: 452
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987cd534d6c654ee0800000000000000
+      internalID: -1277495702752213111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_7
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 4008
+        width: 323
+        height: 464
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d49879cf09918de0800000000000000
+      internalID: -1332615721641274155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_8
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 4034
+        width: 327
+        height: 443
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490c5c1f506718080800000000000000
+      internalID: -9186931996955918188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_9
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 4020
+        width: 331
+        height: 457
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a39e8b8c6d0c9dc0800000000000000
+      internalID: -3631012439718456414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_10
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 3988
+        width: 337
+        height: 482
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfcd0318a45dc5c0800000000000000
+      internalID: -4193602597161152575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_11
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 3984
+        width: 336
+        height: 469
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27313d2e384160380800000000000000
+      internalID: -9005487848201972878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_12
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 3997
+        width: 332
+        height: 456
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d33ff5055773b60800000000000000
+      internalID: 7725772673844985119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_13
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 4002
+        width: 311
+        height: 461
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7675a8b51dca16b0800000000000000
+      internalID: -5324718116236331398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_14
+      rect:
+        serializedVersion: 2
+        x: 4607
+        y: 4025
+        width: 295
+        height: 447
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235052eaa7cb57260800000000000000
+      internalID: 7094784023085778226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_15
+      rect:
+        serializedVersion: 2
+        x: 5017
+        y: 4039
+        width: 333
+        height: 433
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a276e4cb2cc174e70800000000000000
+      internalID: 9099273194833864490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_16
+      rect:
+        serializedVersion: 2
+        x: 5428
+        y: 3997
+        width: 318
+        height: 465
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203f7cab61e9ebd90800000000000000
+      internalID: -7080047743719705854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3494
+        width: 397
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaede9b93cc7f5ba0800000000000000
+      internalID: -6098018190865015122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_18
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 3490
+        width: 466
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe18445bbf2e5f0c0800000000000000
+      internalID: -4542475078427442705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_19
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 3504
+        width: 452
+        height: 405
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e46c67506bf144b0800000000000000
+      internalID: -5457804882194176799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_20
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 3490
+        width: 341
+        height: 518
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4fe6ecf04ed6f00800000000000000
+      internalID: 1111795439569401022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_21
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 3477
+        width: 327
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2535fe5a6dcf26f90800000000000000
+      internalID: -6961724075124239534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_22
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 3513
+        width: 414
+        height: 438
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7145576e993229c0800000000000000
+      internalID: -3953534170376617605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_23
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 3513
+        width: 415
+        height: 438
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53e83f2e1cc28e10800000000000000
+      internalID: 2198543998123565915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_24
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 3550
+        width: 425
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2deb6c57c21e1640800000000000000
+      internalID: 5052496479414644015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_25
+      rect:
+        serializedVersion: 2
+        x: 3716
+        y: 3536
+        width: 434
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d57cd8827dc9e80800000000000000
+      internalID: -8170419054779605738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_26
+      rect:
+        serializedVersion: 2
+        x: 4188
+        y: 3490
+        width: 442
+        height: 383
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3251356538aa8250800000000000000
+      internalID: 5947751205180625469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_27
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 3481
+        width: 411
+        height: 355
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aae0c8b2e4e8d420800000000000000
+      internalID: 2655123642748299941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_28
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 3485
+        width: 337
+        height: 383
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20233805cb5213d50800000000000000
+      internalID: 6715190010120974850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_29
+      rect:
+        serializedVersion: 2
+        x: 5479
+        y: 3486
+        width: 323
+        height: 414
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49254e8c4eb6a6800800000000000000
+      internalID: 606415730201875092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_30
+      rect:
+        serializedVersion: 2
+        x: 5830
+        y: 3486
+        width: 322
+        height: 414
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca32bb2b77a3bb90800000000000000
+      internalID: -7227248829543597376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_31
+      rect:
+        serializedVersion: 2
+        x: 6194
+        y: 3486
+        width: 323
+        height: 414
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9e784de4318d930800000000000000
+      internalID: 4168102684425447915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_32
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2978
+        width: 350
+        height: 498
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b0c446e039b9380800000000000000
+      internalID: -8963408943329309883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_33
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2978
+        width: 313
+        height: 493
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b44c336ffb842f0800000000000000
+      internalID: -988329054056461418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_34
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 2978
+        width: 304
+        height: 493
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d117314268029590800000000000000
+      internalID: -7669057997364588074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_35
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2987
+        width: 416
+        height: 470
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2ca7da162295800800000000000000
+      internalID: 601549828148347554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_36
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 2987
+        width: 415
+        height: 470
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064b4ca171f8cc160800000000000000
+      internalID: 7047164846324102240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_37
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 2987
+        width: 451
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5a06887376c8d20800000000000000
+      internalID: 3282111716655146490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_38
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 2987
+        width: 355
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4c558b29ee65d10800000000000000
+      internalID: 2114139389022291110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_39
+      rect:
+        serializedVersion: 2
+        x: 2914
+        y: 2987
+        width: 359
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29707881119150310800000000000000
+      internalID: 1370529222820824978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_40
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 2987
+        width: 383
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a13b2914d09b920800000000000000
+      internalID: 3006448801531763277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_41
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2987
+        width: 396
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715d08d2090597ce0800000000000000
+      internalID: -1407004828407638761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_42
+      rect:
+        serializedVersion: 2
+        x: 4182
+        y: 2987
+        width: 374
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb8486ef6b95a690800000000000000
+      internalID: -7591490691951981635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_43
+      rect:
+        serializedVersion: 2
+        x: 4584
+        y: 2987
+        width: 355
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca81b1d1be6595200800000000000000
+      internalID: 169262028808722604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_44
+      rect:
+        serializedVersion: 2
+        x: 4962
+        y: 2987
+        width: 360
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381b127b2d193fd80800000000000000
+      internalID: -8218064560819424893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_45
+      rect:
+        serializedVersion: 2
+        x: 5359
+        y: 2987
+        width: 392
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83f2627f88ce5330800000000000000
+      internalID: 3701616462170092431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_46
+      rect:
+        serializedVersion: 2
+        x: 5793
+        y: 2987
+        width: 355
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82e81d8e46522570800000000000000
+      internalID: 8440403547020386957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_47
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2373
+        width: 392
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e0d8462eebd4480800000000000000
+      internalID: -8913258207937491425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_48
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2369
+        width: 401
+        height: 498
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4056095cfa01200800000000000000
+      internalID: 148812050769183982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_49
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 2356
+        width: 521
+        height: 529
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922c16baada94aa50800000000000000
+      internalID: 6531515623562920489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_50
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 2373
+        width: 456
+        height: 531
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333df5f1c3c8c26c0800000000000000
+      internalID: -4166801365372251341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_51
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 2373
+        width: 405
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995749ea45c9e1da0800000000000000
+      internalID: -5972164168326548071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_52
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1718
+        width: 336
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfb234f9dfabbbf0800000000000000
+      internalID: -307458798905016379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_53
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1705
+        width: 591
+        height: 479
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ab8f8325f424e20800000000000000
+      internalID: 3333313888769325605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_54
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1788
+        width: 651
+        height: 516
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb1ac0c219be9a80800000000000000
+      internalID: -8458119559960192073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_55
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1792
+        width: 595
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ddbb2a6e6a20870800000000000000
+      internalID: 8647657744007683357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_56
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 2009
+        width: 498
+        height: 263
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e36c166189608140800000000000000
+      internalID: 4719888413969114085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_57
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 2010
+        width: 498
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdf903d107e10420800000000000000
+      internalID: 2594608855363747278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_58
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 1848
+        width: 484
+        height: 386
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67a2c0b56af2b1c0800000000000000
+      internalID: -4489250563870775445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_59
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 1848
+        width: 458
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7af988fd8907150800000000000000
+      internalID: 5868358400301049784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_60
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 1755
+        width: 610
+        height: 331
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8003d10601604d7f0800000000000000
+      internalID: -588838983876923384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_61
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 1755
+        width: 603
+        height: 208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85328b872b9ce7c0800000000000000
+      internalID: -4040684171511581300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_62
+      rect:
+        serializedVersion: 2
+        x: 5617
+        y: 1728
+        width: 623
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819736cf4517f6a80800000000000000
+      internalID: -8471427764235044584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_63
+      rect:
+        serializedVersion: 2
+        x: 6259
+        y: 1728
+        width: 622
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441095024a0ed9980800000000000000
+      internalID: -8530415123647889084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_64
+      rect:
+        serializedVersion: 2
+        x: 6909
+        y: 1728
+        width: 623
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2ca4e50946df7d0800000000000000
+      internalID: -2883037615227223377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_65
+      rect:
+        serializedVersion: 2
+        x: 7537
+        y: 1728
+        width: 627
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2148cad27aabb2c70800000000000000
+      internalID: 8947450311890207762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_66
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 1728
+        width: 622
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0151f6498037baa50800000000000000
+      internalID: 6533442165118276880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_67
+      rect:
+        serializedVersion: 2
+        x: 8796
+        y: 1728
+        width: 623
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99cf3e3c1a84cf10800000000000000
+      internalID: 2289106364519139740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_68
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1022
+        width: 355
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ca9434fae5e8990800000000000000
+      internalID: -7381858632372474853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_69
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1026
+        width: 512
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de236ebc06fe8fa0800000000000000
+      internalID: -5796425135785038119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_70
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1026
+        width: 511
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6873b78523a22a200800000000000000
+      internalID: 189760530024183686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_71
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1031
+        width: 611
+        height: 521
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de9f636cdd2e0bc0800000000000000
+      internalID: -3815061409751916846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_73
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 1026
+        width: 589
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc01c52fc6aa02e0800000000000000
+      internalID: -2158729662748881707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_74
+      rect:
+        serializedVersion: 2
+        x: 3140
+        y: 1026
+        width: 433
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259229b498769f160800000000000000
+      internalID: 7059787730256013650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_75
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 1022
+        width: 429
+        height: 516
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fb5bb4403335a10800000000000000
+      internalID: 1896915961596198721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_76
+      rect:
+        serializedVersion: 2
+        x: 4169
+        y: 1022
+        width: 289
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27795fd22042a3fe0800000000000000
+      internalID: -1208613958215952526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_77
+      rect:
+        serializedVersion: 2
+        x: 4542
+        y: 1031
+        width: 485
+        height: 526
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39082378ab7fda30800000000000000
+      internalID: 4242245337423022394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_78
+      rect:
+        serializedVersion: 2
+        x: 5115
+        y: 1022
+        width: 461
+        height: 507
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c60b3d550577710800000000000000
+      internalID: 1690908514654907481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_80
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 164
+        width: 350
+        height: 599
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad571c31ba9bbafe0800000000000000
+      internalID: -1176642733205260838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_81
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 173
+        width: 323
+        height: 683
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4da64b56f5af790800000000000000
+      internalID: -7495573739381533510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_82
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 196
+        width: 535
+        height: 632
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f4bc84d01e8e0f0800000000000000
+      internalID: -1087371862837866640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_83
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 196
+        width: 562
+        height: 637
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc77f89c65c7c9f10800000000000000
+      internalID: 2277832223733282765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_84
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 196
+        width: 576
+        height: 549
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a4f753208c69310800000000000000
+      internalID: 1411535445040253500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_85
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 164
+        width: 687
+        height: 723
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28952099c8db50700800000000000000
+      internalID: 506018944709187970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_88
+      rect:
+        serializedVersion: 2
+        x: 4496
+        y: 164
+        width: 545
+        height: 728
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191d3b1cf9f8760b0800000000000000
+      internalID: -5735457684120677999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_89
+      rect:
+        serializedVersion: 2
+        x: 5197
+        y: 141
+        width: 579
+        height: 652
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d789b0bea91ff4540800000000000000
+      internalID: 4994476159447832701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_90
+      rect:
+        serializedVersion: 2
+        x: 3057
+        y: 196
+        width: 567
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4b88f48bc07cd20800000000000000
+      internalID: 3298619237820052719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_92
+      rect:
+        serializedVersion: 2
+        x: 5913
+        y: 159
+        width: 350
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c376a8163829d1b00800000000000000
+      internalID: 800957401716647740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe-01_72
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 4863
+        width: 114
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2291703b691007480800000000000000
+      internalID: -8903614716551161566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

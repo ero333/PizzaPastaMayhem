@@ -1,0 +1,1309 @@
+fileFormatVersion: 2
+guid: aebfd5ddf90dcce45a5c30c451b3e0bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8865270114923339344
+    second: Character sheet_Salchicha_0
+  - first:
+      213: 521703706594758175
+    second: Character sheet_Salchicha_1
+  - first:
+      213: 7327070926857637782
+    second: Character sheet_Salchicha_2
+  - first:
+      213: -4600485436067611456
+    second: Character sheet_Salchicha_3
+  - first:
+      213: -5845659437251240513
+    second: Character sheet_Salchicha_4
+  - first:
+      213: 8966922136968096717
+    second: Character sheet_Salchicha_5
+  - first:
+      213: -2471649694328852891
+    second: Character sheet_Salchicha_6
+  - first:
+      213: -8158499799946246074
+    second: Character sheet_Salchicha_7
+  - first:
+      213: 3943120016759283383
+    second: Character sheet_Salchicha_8
+  - first:
+      213: -8572191175284082418
+    second: Character sheet_Salchicha_9
+  - first:
+      213: 6017680965214032849
+    second: Character sheet_Salchicha_10
+  - first:
+      213: -6935629613819287584
+    second: Character sheet_Salchicha_11
+  - first:
+      213: -4942060048201087193
+    second: Character sheet_Salchicha_12
+  - first:
+      213: 3636518541953122783
+    second: Character sheet_Salchicha_13
+  - first:
+      213: -3104047646050607953
+    second: Character sheet_Salchicha_14
+  - first:
+      213: -7202206622036761827
+    second: Character sheet_Salchicha_15
+  - first:
+      213: 4092141696958117576
+    second: Character sheet_Salchicha_16
+  - first:
+      213: -391550005349285477
+    second: Character sheet_Salchicha_17
+  - first:
+      213: -497509722880488140
+    second: Character sheet_Salchicha_18
+  - first:
+      213: 8747705848686888890
+    second: Character sheet_Salchicha_19
+  - first:
+      213: 3267283452153096441
+    second: Character sheet_Salchicha_20
+  - first:
+      213: 2083167927666922993
+    second: Character sheet_Salchicha_21
+  - first:
+      213: 2677099652306631196
+    second: Character sheet_Salchicha_22
+  - first:
+      213: -3778626538794763424
+    second: Character sheet_Salchicha_23
+  - first:
+      213: 7519481019001420879
+    second: Character sheet_Salchicha_24
+  - first:
+      213: -1167182583085945689
+    second: Character sheet_Salchicha_25
+  - first:
+      213: -6089261683005101981
+    second: Character sheet_Salchicha_26
+  - first:
+      213: 4659759018323734714
+    second: Character sheet_Salchicha_27
+  - first:
+      213: 622697255890274641
+    second: Character sheet_Salchicha_28
+  - first:
+      213: 3957412616418187971
+    second: Character sheet_Salchicha_29
+  - first:
+      213: -6413554318164662851
+    second: Character sheet_Salchicha_30
+  - first:
+      213: 7509381211412371286
+    second: Character sheet_Salchicha_31
+  - first:
+      213: -6680305373665543503
+    second: Character sheet_Salchicha_32
+  - first:
+      213: -2603258543088143769
+    second: Character sheet_Salchicha_33
+  - first:
+      213: -8913247291717181842
+    second: Character sheet_Salchicha_34
+  - first:
+      213: 7918728408943981549
+    second: Character sheet_Salchicha_35
+  - first:
+      213: 8767726236184871256
+    second: Character sheet_Salchicha_36
+  - first:
+      213: -7302667640034283161
+    second: Character sheet_Salchicha_37
+  - first:
+      213: 6025370968327911482
+    second: Character sheet_Salchicha_38
+  - first:
+      213: 3623472457088512244
+    second: Character sheet_Salchicha_39
+  - first:
+      213: -2885224340057231661
+    second: Character sheet_Salchicha_40
+  - first:
+      213: -597552124320581912
+    second: Character sheet_Salchicha_41
+  - first:
+      213: 5718674334962339457
+    second: Character sheet_Salchicha_42
+  - first:
+      213: 2870763052059626093
+    second: Character sheet_Salchicha_43
+  - first:
+      213: -282466154579479163
+    second: Character sheet_Salchicha_44
+  - first:
+      213: 4809043205163042432
+    second: Character sheet_Salchicha_45
+  - first:
+      213: -434522952247487102
+    second: Character sheet_Salchicha_46
+  - first:
+      213: 8755431693843625433
+    second: Character sheet_Salchicha_47
+  - first:
+      213: 4475405505394428588
+    second: Character sheet_Salchicha_48
+  - first:
+      213: 6336054707551483159
+    second: Character sheet_Salchicha_49
+  - first:
+      213: -4420910693406577165
+    second: Character sheet_Salchicha_50
+  - first:
+      213: 6799982132759916765
+    second: Character sheet_Salchicha_51
+  - first:
+      213: -6178717126605113617
+    second: Character sheet_Salchicha_52
+  - first:
+      213: -5564870058860552833
+    second: Character sheet_Salchicha_53
+  - first:
+      213: 5586277497678303620
+    second: Character sheet_Salchicha_54
+  - first:
+      213: 3073419313365197437
+    second: Character sheet_Salchicha_55
+  - first:
+      213: -1112446246984201619
+    second: Character sheet_Salchicha_56
+  - first:
+      213: -7476012287379970529
+    second: Character sheet_Salchicha_57
+  - first:
+      213: -1303697986837750462
+    second: Character sheet_Salchicha_58
+  - first:
+      213: 6119084441609870372
+    second: Character sheet_Salchicha_59
+  - first:
+      213: 6817924537154222069
+    second: Character sheet_Salchicha_60
+  - first:
+      213: -78386745068215118
+    second: Character sheet_Salchicha_61
+  - first:
+      213: 540500255313244525
+    second: Character sheet_Salchicha_62
+  - first:
+      213: -6498607397717755998
+    second: Character sheet_Salchicha_63
+  - first:
+      213: 4452664714460774110
+    second: Character sheet_Salchicha_64
+  - first:
+      213: -8834240117070641739
+    second: Character sheet_Salchicha_65
+  - first:
+      213: -2121752853540605567
+    second: Character sheet_Salchicha_66
+  - first:
+      213: 7668191627564193738
+    second: Character sheet_Salchicha_67
+  - first:
+      213: -5927544952478514035
+    second: Character sheet_Salchicha_68
+  - first:
+      213: 305856738169268476
+    second: Character sheet_Salchicha_41
+  - first:
+      213: 1548024236632907525
+    second: Character sheet_Salchicha_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1946
+        width: 218
+        height: 480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e54e50334c70b70800000000000000
+      internalID: 8865270114923339344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_1
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1949
+        width: 247
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ec59dc1c67d3700800000000000000
+      internalID: 521703706594758175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_2
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1949
+        width: 259
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f017fff2cfea560800000000000000
+      internalID: 7327070926857637782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_3
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1946
+        width: 259
+        height: 473
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccf4dccedac720c0800000000000000
+      internalID: -4600485436067611456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_4
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1939
+        width: 225
+        height: 477
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbddab4a6bb00eea0800000000000000
+      internalID: -5845659437251240513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_5
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1939
+        width: 214
+        height: 494
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbe19ebc28e07c70800000000000000
+      internalID: 8966922136968096717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_6
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 1939
+        width: 215
+        height: 477
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e6358c2bfe2bdd0800000000000000
+      internalID: -2471649694328852891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_7
+      rect:
+        serializedVersion: 2
+        x: 2905
+        y: 1946
+        width: 215
+        height: 453
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648cb1458af27ce80800000000000000
+      internalID: -8158499799946246074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_8
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 1946
+        width: 228
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be5ba183c6c8b630800000000000000
+      internalID: 3943120016759283383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_9
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 1946
+        width: 228
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0934722b85790980800000000000000
+      internalID: -8572191175284082418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_10
+      rect:
+        serializedVersion: 2
+        x: 3981
+        y: 1946
+        width: 215
+        height: 480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3563f64f8138350800000000000000
+      internalID: 6017680965214032849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_11
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1333
+        width: 183
+        height: 498
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e72f9edc91bfbf90800000000000000
+      internalID: -6935629613819287584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_12
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1326
+        width: 169
+        height: 502
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727035002964a6bb0800000000000000
+      internalID: -4942060048201087193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1327
+        width: 194
+        height: 497
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1cc38c852877230800000000000000
+      internalID: 3636518541953122783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_14
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1327
+        width: 270
+        height: 449
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac1443ac153ce4d0800000000000000
+      internalID: -3104047646050607953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_15
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1323
+        width: 279
+        height: 439
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1368867c3f9c0c90800000000000000
+      internalID: -7202206622036761827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_16
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1327
+        width: 273
+        height: 442
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6b0c931353ac830800000000000000
+      internalID: 4092141696958117576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_17
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 1337
+        width: 211
+        height: 491
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b918a5b385fe09af0800000000000000
+      internalID: -391550005349285477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_18
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 1340
+        width: 228
+        height: 495
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dc76ffa8d7819f0800000000000000
+      internalID: -497509722880488140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_19
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 1340
+        width: 273
+        height: 429
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c69e3f18166970800000000000000
+      internalID: 8747705848686888890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_20
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 1354
+        width: 287
+        height: 370
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8e81a2df8b75d20800000000000000
+      internalID: 3267283452153096441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_21
+      rect:
+        serializedVersion: 2
+        x: 4058
+        y: 1351
+        width: 276
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5d2107136e8ec10800000000000000
+      internalID: 2083167927666922993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_22
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1354
+        width: 242
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1afe0c23f7f62520800000000000000
+      internalID: 2677099652306631196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_23
+      rect:
+        serializedVersion: 2
+        x: 4854
+        y: 1344
+        width: 193
+        height: 487
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b3648de2f9f8bc0800000000000000
+      internalID: -3778626538794763424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 712
+        width: 208
+        height: 473
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c3fd895209a5860800000000000000
+      internalID: 7519481019001420879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_26
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 714
+        width: 284
+        height: 450
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3686518f2c89e7ba0800000000000000
+      internalID: -6089261683005101981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_28
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 721
+        width: 454
+        height: 374
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15943f3ead344a800800000000000000
+      internalID: 622697255890274641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_29
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 718
+        width: 534
+        height: 349
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca514faecd8be630800000000000000
+      internalID: 3957412616418187971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_30
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 707
+        width: 532
+        height: 436
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db56f1ef35a7ef6a0800000000000000
+      internalID: -6413554318164662851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_31
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 700
+        width: 406
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6571a35ec6ea63860800000000000000
+      internalID: 7509381211412371286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_32
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 700
+        width: 389
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba388b08a9ca43a0800000000000000
+      internalID: -6680305373665543503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_33
+      rect:
+        serializedVersion: 2
+        x: 4526
+        y: 722
+        width: 345
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762fab0d52e5fdbd0800000000000000
+      internalID: -2603258543088143769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_37
+      rect:
+        serializedVersion: 2
+        x: 3887
+        y: 691
+        width: 353
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761340bf876b7aa90800000000000000
+      internalID: -7302667640034283161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_44
+      rect:
+        serializedVersion: 2
+        x: 5023
+        y: 697
+        width: 578
+        height: 149
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585383b678a741cf0800000000000000
+      internalID: -282466154579479163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_45
+      rect:
+        serializedVersion: 2
+        x: 5743
+        y: 704
+        width: 584
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086cf31d0572db240800000000000000
+      internalID: 4809043205163042432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_57
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 67
+        width: 235
+        height: 478
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16e24a2f6edf3890800000000000000
+      internalID: -7476012287379970529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_58
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 64
+        width: 342
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dd428969558ede0800000000000000
+      internalID: -1303697986837750462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_59
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 78
+        width: 266
+        height: 301
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c96cc11ea5be450800000000000000
+      internalID: 6119084441609870372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_60
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 71
+        width: 387
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f73f7e5e322e9e50800000000000000
+      internalID: 6817924537154222069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_61
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 74
+        width: 332
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b42c11bba389eef0800000000000000
+      internalID: -78386745068215118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_62
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 37
+        width: 343
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6134f65e1e308700800000000000000
+      internalID: 540500255313244525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_63
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 68
+        width: 334
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7be4cb00f40d5a0800000000000000
+      internalID: -6498607397717755998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_64
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 71
+        width: 283
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edeb95177fa0bcd30800000000000000
+      internalID: 4452664714460774110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_65
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 71
+        width: 235
+        height: 463
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5cf795b69766580800000000000000
+      internalID: -8834240117070641739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_66
+      rect:
+        serializedVersion: 2
+        x: 4186
+        y: 67
+        width: 235
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1817a8f65050e82e0800000000000000
+      internalID: -2121752853540605567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet_Salchicha_67
+      rect:
+        serializedVersion: 2
+        x: 4604
+        y: 71
+        width: 232
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7969e48a3ea6a60800000000000000
+      internalID: 7668191627564193738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

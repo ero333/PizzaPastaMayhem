@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Salchicha_Mov : MonoBehaviour
 {
-    public enum GameState { Vivo, Muerto}
+    public enum GameState { Vivo, Muerto, Atacando}
 
     public GameState estado = GameState.Vivo;
 
@@ -100,7 +100,9 @@ public class Salchicha_Mov : MonoBehaviour
             if (transform.position == BPoint.position) // Si su posición actual es el punto B, izquierda deja de ser verdadero y flipea el sprite
             {
                 izquierda = false;
-                GetComponent<SpriteRenderer>().flipX = true;
+                //GetComponent<SpriteRenderer>().flipX = true; //--------------> esto flipea el sprite. NO RECOMENDABLE si el enemigo tiene hitbox que encesita moverse
+
+                transform.rotation = Quaternion.Euler(0, 180, 0); // gira el enemigo a 180 grados
             }
         }
 
@@ -111,7 +113,9 @@ public class Salchicha_Mov : MonoBehaviour
             if (transform.position == APoint.position) // Si su posición actual es el punto A, izquierda es verdadero y flipea el sprite
             {
                 izquierda = true;
-                GetComponent<SpriteRenderer>().flipX = false;
+                //GetComponent<SpriteRenderer>().flipX = false; //--------------> esto flipea el sprite. NO RECOMENDABLE si el enemigo tiene hitbox que encesita moverse
+
+                transform.rotation = Quaternion.Euler(0, 0, 0); // gira el enemigo a 0 grados
             }
         }
     }
@@ -142,5 +146,15 @@ public class Salchicha_Mov : MonoBehaviour
     public void SalchichaGolpeada()
     {
         SalchichaAnim.Play("Salchicha_Golpe");
+    }
+    
+    public void Atacando()
+    {
+        estado = GameState.Atacando;
+    }
+
+    public void Patrulla()
+    {
+        estado = GameState.Vivo;
     }
 }

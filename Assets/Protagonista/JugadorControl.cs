@@ -204,6 +204,7 @@ public class JugadorControl : MonoBehaviour
             if (Input.GetAxis("Horizontal") > 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.RightArrow))
             {
                 RBPlayer.velocity = new Vector2(speed, RBPlayer.velocity.y); // el jugador se mueve hacia la derecha
+
                 Body.GetComponent<SpriteRenderer>().flipX = false; // flipear o no el sprite
 
 
@@ -217,8 +218,8 @@ public class JugadorControl : MonoBehaviour
             if (Input.GetAxis("Horizontal") < 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.LeftArrow))
             {
                 RBPlayer.velocity = new Vector2(-speed, RBPlayer.velocity.y); // el jugador se mueve hacia la izquierda
-                Body.GetComponent<SpriteRenderer>().flipX = true; // flipear o no el sprite
 
+                Body.GetComponent<SpriteRenderer>().flipX = true; // flipear o no el sprite
 
                 anim.SetBool("PJMOV", true); // animacion del personaje
 
@@ -228,6 +229,8 @@ public class JugadorControl : MonoBehaviour
 
             if (Input.GetAxis("Horizontal") == 0) // Si no funciona bien, probar ((Input.GetAxis("Horizontal") == 0) && (((Input.GetAxis("Horizontal") < 0) == false) || ((Input.GetAxis("Horizontal") > 0) == false)))
             {
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);
+
                 anim.SetBool("PJMOV", false); // detiene animacion del personaje
             }
         }
@@ -260,7 +263,11 @@ public class JugadorControl : MonoBehaviour
             grounded = true;
             anim.SetBool("PJJUMP", false);
         }
+
+
+
     }
+
 
     private void OnCollisionExit2D(Collision2D collision)   //si deja de colisionar con plataforma con plataforma
     {
@@ -282,7 +289,7 @@ public class JugadorControl : MonoBehaviour
     {
 
 
-        if (Input.GetKey("d"))
+        if (Input.GetKeyDown("d"))
         {
             if (Body.GetComponent<SpriteRenderer>().flipX == false)
             {

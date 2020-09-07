@@ -247,6 +247,8 @@ public class JugadorControl : MonoBehaviour
         if((Input.GetKeyDown(KeyCode.UpArrow) && grounded))
         {
             RBPlayer.velocity = new Vector2(RBPlayer.velocity.x, speedjump);
+
+            anim.Play("PJJUMP");
         }
     }
 

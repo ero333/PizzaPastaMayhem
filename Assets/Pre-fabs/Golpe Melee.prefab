@@ -70,4 +70,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c61d6ef6fb7a54ba270d80b74f4636, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MeleeTime: 0.5
+  MeleeTime: 0.9

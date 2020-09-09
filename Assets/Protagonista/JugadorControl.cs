@@ -114,6 +114,7 @@ public class JugadorControl : MonoBehaviour
     }
 
     // Update is called once per frame
+    #region update
     void Update()
     {
         if (estado == GameState.vivo)
@@ -192,7 +193,7 @@ public class JugadorControl : MonoBehaviour
     }
 
 
-
+    #endregion
 
 
     #region Movimiento

@@ -14,6 +14,8 @@ public class BalaMov : MonoBehaviour
 
     private SpriteRenderer spriteBala;
 
+    public float BalaDestroy = 2.5f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -40,7 +42,7 @@ public class BalaMov : MonoBehaviour
 
         RBBala.velocity = new Vector2(balaSpeed, RBBala.velocity.y);  //movimiento de la bala en una direccion
 
-        Destroy(gameObject, 2.5f); //Destruye gameobject y en cuanto tiempo
+        Destroy(gameObject, BalaDestroy); //Destruye gameobject y en cuanto tiempo
     }
     // Update is called once per frame
     void Update()

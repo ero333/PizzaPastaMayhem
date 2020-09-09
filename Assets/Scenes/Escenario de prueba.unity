@@ -279,6 +279,7 @@ RectTransform:
   - {fileID: 1474964272}
   - {fileID: 956259268}
   - {fileID: 1870100492}
+  - {fileID: 915539961}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1196,6 +1197,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8074933741989405288, guid: 730923fbfe385f743a061c35d1a8828f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8074933741989405289, guid: 730923fbfe385f743a061c35d1a8828f, type: 3}
       propertyPath: m_Name
       value: PlataformaPasto1
@@ -1293,6 +1298,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &915539960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 915539961}
+  m_Layer: 5
+  m_Name: Recetas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &915539961
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915539960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 119974123}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &956259265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,6 +1421,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8074933741989405288, guid: 730923fbfe385f743a061c35d1a8828f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8074933741989405289, guid: 730923fbfe385f743a061c35d1a8828f, type: 3}
       propertyPath: m_Name
       value: PlataformaPasto1 (1)
@@ -2478,7 +2522,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 8865270114923339344, guid: aebfd5ddf90dcce45a5c30c451b3e0bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2827,10 +2871,9 @@ GameObject:
   - component: {fileID: 1857209075}
   - component: {fileID: 1857209077}
   - component: {fileID: 1857209079}
-  - component: {fileID: 1857209078}
   m_Layer: 0
   m_Name: Jugador
-  m_TagString: Untagged
+  m_TagString: PlayerAll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2907,37 +2950,6 @@ MonoBehaviour:
   MarcoHP: {fileID: 1067411420}
   Checkpoint: {fileID: 35308050}
   LevelManager: {fileID: 839081056}
---- !u!60 &1857209078
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857209074}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: cf19c41f2ee4d0d408cc57111662edfd, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.05478573, y: 1.6300374}
-      - {x: -0.56189924, y: 0.9378622}
-      - {x: -0.59912205, y: 0.79794836}
-      - {x: -0.34124893, y: 0.066259205}
-      - {x: 0.52155936, y: 0.036610067}
-      - {x: 0.5607071, y: 0.89111704}
 --- !u!61 &1857209079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2998,6 +3010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   spritePlayer: {fileID: 2053238426}
+  BalaDestroy: 2.5
 --- !u!61 &1860412885
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3612,6 +3625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   spritePlayer: {fileID: 2053238426}
+  BalaDestroy: 2.5
 --- !u!61 &2096147167
 BoxCollider2D:
   m_ObjectHideFlags: 0

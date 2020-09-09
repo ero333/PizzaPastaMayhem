@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   spritePlayer: {fileID: 0}
+  BalaDestroy: 2.5
 --- !u!95 &4179563547110486995
 Animator:
   serializedVersion: 3

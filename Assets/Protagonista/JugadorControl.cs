@@ -9,7 +9,7 @@ using Debug = UnityEngine.Debug;
 public class JugadorControl : MonoBehaviour
 {
 
-    public enum GameState { vivo, muerto } // estados que puede tener el jugador
+    public enum GameState { vivo, muerto, revive } // estados que puede tener el jugador
 
     public GameState estado = GameState.vivo; // el jugador empieza vivo
 
@@ -152,12 +152,11 @@ public class JugadorControl : MonoBehaviour
     {
         if (estado == GameState.vivo)
         {
-
             Movimiento();
             Salto();
             Disparo();
             Melee();
-
+            Limbo();
             Power1();
             Power1Time();
             Power2();
@@ -193,51 +192,6 @@ public class JugadorControl : MonoBehaviour
         if (estado == GameState.muerto)
         {
             RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // personaje se queda quieto al morir
-        }
-
-
-
-
-
-        if ((estado == GameState.muerto) && (vida >= 1)) // Si el jugador muere pero todavia le quedan vidas
-        {
-
-
-
-            Reintentomsg.SetActive(true); // activa mensaje para reiniciar
-
-            if (Input.GetKeyDown("r")) // al presioanr la "R"
-            {
-
-                transform.position = Checkpoint.position; // jugador se teletransporta al checkpoint
-
-                Reintentomsg.SetActive(false); // desactiva mensaje de muerte y reinicio
-
-                estado = GameState.vivo; // el jugador vuelve a estar vivo
-
-                anim.Play("PJ_Idle"); // Triggea animacion Idle
-
-
-
-
-
-                if (vidaActual < vidaMaxima) // Detecta que la barra de vida del jugador sea menor a su total
-                {
-                    vidaActual += vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
-
-                    float LargoBarraHP = vidaActual / vidaMaxima; // cálculo necesario
-
-                    RecuperarFullHP(LargoBarraHP); // hace que se recupere la barra de vida visualmente
-                }
-
-            }
-
-
-        }
-
-        if ((estado == GameState.muerto) && (vida == 0) && (Input.GetKeyDown("r")))
-        {
-            LevelManager.SendMessage("GameOverScreen");
         }
 
     }
@@ -637,7 +591,98 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
+    #region Revivir
+    public void Limbo()
+    {
+        if ((estado == GameState.muerto) && (vida == 0)) // Si el jugador muere pero se queda sin vidas, aparece pantalla de Game Over
+        {
+            LevelManager.SendMessage("GameOverScreen");
+        }
 
+        if ((estado == GameState.muerto) && (vida >= 1)) // Si el jugador muere pero todavia le quedan vidas, aparece en el checkpoint
+        {
+            transform.position = Checkpoint.position; // jugador se teletransporta al checkpoint
+
+            Reintentomsg.SetActive(false); // desactiva mensaje de muerte y reinicio
+
+            estado = GameState.revive; // el jugador vuelve a estar vivo
+
+            anim.Play("PJ_Revive"); // Triggea animacion Idle
+
+
+
+
+
+            if (vidaActual < vidaMaxima) // Detecta que la barra de vida del jugador sea menor a su total
+            {
+                vidaActual += vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
+
+                float LargoBarraHP = vidaActual / vidaMaxima; // cálculo necesario
+
+                RecuperarFullHP(LargoBarraHP); // hace que se recupere la barra de vida visualmente
+            }
+
+        }
+    }
+
+    #endregion
+
+
+
+
+
+
+    #region Estados especificos
+    public void ItsAlive()
+    {
+        estado = GameState.vivo;
+    }
+    public void Fiambre()
+    {
+        estado = GameState.muerto;
+    }
+    public void Revivision()
+    {
+        estado = GameState.revive;
+    }
+    #endregion
+
+    #region Animaciones especificas
+
+    public void AnimacionIdle()
+    {
+        anim.Play("PJ_Idle");
+    }
+    public void AnimacionMovimiento()
+    {
+        anim.Play("PJ_Movimiento");
+    }
+
+    public void AnimacionSalto()
+    {
+        anim.Play("PJ_Salto");
+    }
+    public void AnimacionDisparo()
+    {
+        anim.Play("PJ_Dispara");
+    }
+    public void AnimacionPowerAttack()
+    {
+        anim.Play("PJ_Power");
+    }
+    public void AnimacionHerido()
+    {
+        anim.Play("PJ_Herido");
+    }
+    public void AnimacionMuerte()
+    {
+        anim.Play("PJ_Muerte");
+    }
+    public void AnimacionRevive()
+    {
+        anim.Play("PJ_Revive");
+    }
+    #endregion
 
 }
 

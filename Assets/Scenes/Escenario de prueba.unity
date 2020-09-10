@@ -1925,6 +1925,7 @@ GameObject:
   - component: {fileID: 818430127}
   - component: {fileID: 818430126}
   - component: {fileID: 818430125}
+  - component: {fileID: 818430128}
   m_Layer: 0
   m_Name: Body
   m_TagString: Player
@@ -2016,6 +2017,19 @@ Transform:
   m_Father: {fileID: 2011258720}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &818430128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818430124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f100baa15ee2e841b1506218cd000dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerAll: {fileID: 2011258715}
 --- !u!1 &839081056
 GameObject:
   m_ObjectHideFlags: 0
@@ -4911,7 +4925,7 @@ MonoBehaviour:
   balaGenL: {fileID: 876783705}
   MeleeR: {fileID: 1095484818}
   MeleeL: {fileID: 1032866407}
-  vidaMaxima: 10
+  vidaMaxima: 5
   barraHP: {fileID: 1829085440}
   LifeContainer1: {fileID: 38028018}
   LifeContainer2: {fileID: 789855900}
@@ -4927,7 +4941,6 @@ MonoBehaviour:
   PowerSpeed: 8
   PowerSpeedJump: 10
   PowerT: 10
-  PowerTimeStart: 0
 --- !u!50 &2011258719
 Rigidbody2D:
   serializedVersion: 4

@@ -4858,6 +4858,9 @@ MonoBehaviour:
   TengoLechuga: 0
   Tomates: {fileID: 388464966}
   TengoTomate: 0
+  Receta1: 0
+  Receta2: 0
+  Receta3: 0
 --- !u!61 &2011258717
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4898,6 +4901,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   estado: 0
   Body: {fileID: 818430124}
+  Checkpoint: {fileID: 35308050}
+  LevelManager: {fileID: 839081056}
   speed: 4
   speedjump: 5
   bala: {fileID: 5373548447348573373, guid: 2c79e6bc8337e094b9d192f6e6749341, type: 3}
@@ -4911,11 +4916,13 @@ MonoBehaviour:
   LifeContainer1: {fileID: 38028018}
   LifeContainer2: {fileID: 789855900}
   vida: 2
+  MarcoHP: {fileID: 1156587846}
+  Cura: 1
   Reintentomsg: {fileID: 1451060017}
   GameOvermsg: {fileID: 1235748411}
-  MarcoHP: {fileID: 1156587846}
-  Checkpoint: {fileID: 35308050}
-  LevelManager: {fileID: 839081056}
+  Receta1: 0
+  Receta2: 0
+  Receta3: 0
 --- !u!50 &2011258719
 Rigidbody2D:
   serializedVersion: 4

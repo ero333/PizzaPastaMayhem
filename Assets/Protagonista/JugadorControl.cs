@@ -16,9 +16,30 @@ public class JugadorControl : MonoBehaviour
 
     public GameObject Body; // traer gameobject del jugador con los sprites (body)
 
+    private Animator anim;
+
+    public Transform Checkpoint; // traer game object donde se teletransportará el jugador al morir
+
+    public GameObject LevelManager; // traer game object que permite cambiar de escenas
+
+
+
+
+    #region variables movimiento
+
     public float speed = 4f; // Velocidad de movimiento
 
     public float speedjump = 5f; // Fuerza de salto
+
+    private bool grounded = true; // checkea si está en el suelo o no
+
+    #endregion
+
+    #region ataques
+
+    private bool Disparando = false; // checkea si está disparando o no
+
+
 
     public GameObject bala; // traer prefab de la bala
 
@@ -26,29 +47,16 @@ public class JugadorControl : MonoBehaviour
     public GameObject MeleeHit; // traer prefab del golpe cuerpo a cuerpo
 
 
-
-
     public Transform balaGenR; // traer generador de balas. Lado Derecho.
 
     public Transform balaGenL; // traer generador de balas. Lado Izquierdo.
-
-    private Animator anim;
-
-    private bool Disparando = false; // checkea si está disparando o no
-
-
-    private bool grounded = true; // checkea si está en el suelo o no
-
-
-
 
 
     public Transform MeleeR; // traer generador Daño Melee. Lado Derecho
 
     public Transform MeleeL; // traer generador Daño Melee. Lado Izquierdo
 
-
-
+    #endregion
 
     #region VariablesVida
 
@@ -70,24 +78,26 @@ public class JugadorControl : MonoBehaviour
 
     public int vida = 2; // cantidad de vidas del jugador
 
-    public GameObject Reintentomsg;
-
-    public GameObject GameOvermsg;
 
 
 
     public GameObject MarcoHP;
 
 
+
+    public float Cura = 1f; // cantidad de vida que me curo
+
+
     #endregion
 
+    #region PantallaGameOver
 
-    public Transform Checkpoint; // traer game object donde se teletransportará el jugador al morir
+    public GameObject Reintentomsg;
 
-    public GameObject LevelManager; // traer game object que permite cambiar de escenas
+    public GameObject GameOvermsg;
 
 
-
+    #endregion
 
 
 
@@ -125,6 +135,10 @@ public class JugadorControl : MonoBehaviour
             Disparo();
             Melee();
 
+            Power1();
+            Power2();
+            Power3();
+
 
 
             if (vidaActual <= 0) // si la barra de vida es menor o igual a 0
@@ -152,10 +166,19 @@ public class JugadorControl : MonoBehaviour
         }
 
 
-        if( (estado== GameState.muerto) && (vida >= 1)) // Si el jugador muere pero todavia le quedan vidas
+        if (estado == GameState.muerto)
+        {
+            RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // personaje se queda quieto al morir
+        }
+
+
+
+
+
+        if ( (estado== GameState.muerto) && (vida >= 1)) // Si el jugador muere pero todavia le quedan vidas
         {
 
-            RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // personaje se queda quieto al morir
+            
 
             Reintentomsg.SetActive(true); // activa mensaje para reiniciar
 
@@ -435,9 +458,80 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
+    #region Recetas
+
+    public bool Receta1 = false;
+
+    public bool Receta2 = false;
+
+    public bool Receta3 = false;
 
 
 
+
+    public void TengoReceta1()
+    {
+        Receta1 = true;
+    }
+
+    public void TengoReceta2()
+    {
+        Receta2 = true;
+    }
+
+    public void TengoReceta3()
+    {
+        Receta3 = true;
+    }
+
+
+
+
+
+
+    #endregion
+
+    #region Power-Ups
+
+    public void Power1()
+    {
+        if((Receta1==true)&& Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            print("Power1 activado");
+
+            SendMessage("Receta1Usada");
+
+            Receta1 = false;
+        }
+    }
+
+    public void Power2()
+    {
+        if ((Receta2 == true) && Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            print("Power2 activado");
+
+            SendMessage("Receta2Usada");
+
+            Receta2 = false;
+        }
+    }
+
+    public void Power3()
+    {
+        if ((Receta3 == true) && Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            print("Power3 activado");
+
+            SendMessage("Receta3Usada");
+
+            Receta3 = false;
+        }
+    }
+
+
+
+    #endregion
 
 
 

@@ -43,6 +43,12 @@ public class Salchicha_Mov : MonoBehaviour
 
 
 
+    public GameObject ItemDrop; // traer objeto que dropea la salchicha
+
+    public Transform DropPosition; // traer gameobject donde va a dropearse el objeto
+
+
+
 
 
 
@@ -69,7 +75,6 @@ public class Salchicha_Mov : MonoBehaviour
 
 
 
-
         SalchichaAnim = SalchichaBody.GetComponent<Animator>();
 
         SalchichaAnim.SetBool("SalchichaMuere", false); // Seteamos que el bool, que triggea la animación de muerte, empiece en false
@@ -85,16 +90,23 @@ public class Salchicha_Mov : MonoBehaviour
 
     }
 
+
+    #region update
+
     // Update is called once per frame
     void Update()
     {
-        if(estado == GameState.Vivo)
+        if(estado == GameState.Vivo) // si su gamestate es "vivo", entonces se mueve
         {
             Movimiento();
         }
 
     }
 
+    #endregion
+
+
+    #region Movimiento
 
     void Movimiento() // Movimiento del personaje
     {
@@ -125,14 +137,14 @@ public class Salchicha_Mov : MonoBehaviour
         }
     }
 
+    #endregion
 
 
 
+    #region Muerte
 
 
-
-
-    public void SalchichaDeath()
+    public void SalchichaDeath() // Método para que muera
     {
 
         SalchichaAnim.SetBool("SalchichaMuere", true); // triggea la animación de muerte
@@ -148,28 +160,31 @@ public class Salchicha_Mov : MonoBehaviour
 
 
 
-    public void SalchichaGolpeada()
+    #endregion
+
+
+    public void SalchichaGolpeada() // metodo para triggear animacion de que recibe daño
     {
         SalchichaAnim.Play("Salchicha_Golpe");
     }
     
-    public void Atacando()
+    public void Atacando() // metodo para cuando está atacando. Se queda quieto
     {
         estado = GameState.Atacando;
     }
 
-    public void Patrulla()
+    public void Patrulla() // cambia el estado a "vivo" para que se siga moviendo
     {
         estado = GameState.Vivo;
     }
 
-    public void AtaqueAzar()
+    public void AtaqueAzar() // agarra la variante mencionada y le da un valor al azar
     {
 
         NumeroAzar = Random.Range(1, 100); // numero al azar, probabilidades de que ataque o no
 
 
-        if (NumeroAzar < 51)
+        if (NumeroAzar < 51) // si el numero al azar da entre 1 y 50, entonces realiza un ataque
         {
             SalchichaAnim.Play("Salchicha_Ataque");
             Atacando();
@@ -177,6 +192,10 @@ public class Salchicha_Mov : MonoBehaviour
         }
     }
 
+    public void DropearItem() //metodo para que dropee items
+    {
+        Instantiate(ItemDrop, DropPosition.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+    }
 
 
 }

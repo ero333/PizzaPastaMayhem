@@ -154,6 +154,9 @@ public class JugadorControl : MonoBehaviour
 
         if( (estado== GameState.muerto) && (vida >= 1)) // Si el jugador muere pero todavia le quedan vidas
         {
+
+            RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // personaje se queda quieto al morir
+
             Reintentomsg.SetActive(true); // activa mensaje para reiniciar
 
             if (Input.GetKeyDown("r")) // al presioanr la "R"
@@ -175,7 +178,7 @@ public class JugadorControl : MonoBehaviour
                 {
                     vidaActual += vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
 
-                    float LargoBarraHP = vidaActual / vidaMaxima; // calculo necesario
+                    float LargoBarraHP = vidaActual / vidaMaxima; // cálculo necesario
 
                     RecuperarFullHP(LargoBarraHP); // hace que se recupere la barra de vida visualmente
                 }

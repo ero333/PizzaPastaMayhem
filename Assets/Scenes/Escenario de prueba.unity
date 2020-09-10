@@ -4911,18 +4911,23 @@ MonoBehaviour:
   balaGenL: {fileID: 876783705}
   MeleeR: {fileID: 1095484818}
   MeleeL: {fileID: 1032866407}
-  vidaMaxima: 3
+  vidaMaxima: 10
   barraHP: {fileID: 1829085440}
   LifeContainer1: {fileID: 38028018}
   LifeContainer2: {fileID: 789855900}
   vida: 2
   MarcoHP: {fileID: 1156587846}
-  Cura: 1
+  Curarse: 1
   Reintentomsg: {fileID: 1451060017}
   GameOvermsg: {fileID: 1235748411}
   Receta1: 0
   Receta2: 0
   Receta3: 0
+  Power1Activo: 0
+  PowerSpeed: 8
+  PowerSpeedJump: 10
+  PowerT: 10
+  PowerTimeStart: 0
 --- !u!50 &2011258719
 Rigidbody2D:
   serializedVersion: 4

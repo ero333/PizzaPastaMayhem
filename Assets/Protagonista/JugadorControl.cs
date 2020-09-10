@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
@@ -8,7 +9,7 @@ using Debug = UnityEngine.Debug;
 public class JugadorControl : MonoBehaviour
 {
 
-    public enum GameState { vivo, muerto} // estados que puede tener el jugador
+    public enum GameState { vivo, muerto } // estados que puede tener el jugador
 
     public GameState estado = GameState.vivo; // el jugador empieza vivo
 
@@ -24,8 +25,7 @@ public class JugadorControl : MonoBehaviour
 
 
 
-
-    #region variables movimiento
+    #region Variables Movimiento
 
     public float speed = 4f; // Velocidad de movimiento
 
@@ -58,7 +58,7 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
-    #region VariablesVida
+    #region Variables Vida
 
 
     public float vidaMaxima = 10;
@@ -85,12 +85,12 @@ public class JugadorControl : MonoBehaviour
 
 
 
-    public float Cura = 1f; // cantidad de vida que me curo
+    public float Curarse = 1f; // cantidad de vida que me curo
 
 
     #endregion
 
-    #region PantallaGameOver
+    #region Pantalla Game Over
 
     public GameObject Reintentomsg;
 
@@ -99,7 +99,26 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
+    #region Variables Recetas y Power Ups
 
+    public bool Receta1 = false;
+
+    public bool Receta2 = false;
+
+    public bool Receta3 = false;
+
+
+    public bool Power1Activo = false;
+
+    public float PowerSpeed = 8f;
+
+    public float PowerSpeedJump = 10f;
+
+    public float PowerT = 5f;
+
+    private float PowerTimeStart;
+
+    #endregion
 
 
 
@@ -124,7 +143,11 @@ public class JugadorControl : MonoBehaviour
     }
 
     // Update is called once per frame
+
+
     #region update
+
+
     void Update()
     {
         if (estado == GameState.vivo)
@@ -136,6 +159,7 @@ public class JugadorControl : MonoBehaviour
             Melee();
 
             Power1();
+            Power1Time();
             Power2();
             Power3();
 
@@ -175,10 +199,10 @@ public class JugadorControl : MonoBehaviour
 
 
 
-        if ( (estado== GameState.muerto) && (vida >= 1)) // Si el jugador muere pero todavia le quedan vidas
+        if ((estado == GameState.muerto) && (vida >= 1)) // Si el jugador muere pero todavia le quedan vidas
         {
 
-            
+
 
             Reintentomsg.SetActive(true); // activa mensaje para reiniciar
 
@@ -221,61 +245,113 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
-
     #region Movimiento
 
     void Movimiento() // movimiento del jugador
     {
         if (Disparando == false)
         {
-            if (Input.GetAxis("Horizontal") > 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.RightArrow))
+            if (Power1Activo == false) // detecta si el power up 1 está desactivado
             {
-                RBPlayer.velocity = new Vector2(speed, RBPlayer.velocity.y); // el jugador se mueve hacia la derecha
+                if (Input.GetAxis("Horizontal") > 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.RightArrow))
+                {
+                    RBPlayer.velocity = new Vector2(speed, RBPlayer.velocity.y); // el jugador se mueve hacia la derecha
 
-                Body.GetComponent<SpriteRenderer>().flipX = false; // flipear o no el sprite
-
-
-                anim.SetBool("PJMOV", true); // animacion del personaje
-
+                    Body.GetComponent<SpriteRenderer>().flipX = false; // flipear o no el sprite
 
 
+                    anim.SetBool("PJMOV", true); // animacion del personaje
 
+
+
+
+                }
+
+                if (Input.GetAxis("Horizontal") < 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.LeftArrow))
+                {
+                    RBPlayer.velocity = new Vector2(-speed, RBPlayer.velocity.y); // el jugador se mueve hacia la izquierda
+
+                    Body.GetComponent<SpriteRenderer>().flipX = true; // flipear o no el sprite
+
+                    anim.SetBool("PJMOV", true); // animacion del personaje
+
+
+
+                }
+
+                if (Input.GetAxis("Horizontal") == 0) // Si no funciona bien, probar ((Input.GetAxis("Horizontal") == 0) && (((Input.GetAxis("Horizontal") < 0) == false) || ((Input.GetAxis("Horizontal") > 0) == false)))
+                {
+                    RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);
+
+                    anim.SetBool("PJMOV", false); // detiene animacion del personaje
+                }
             }
 
-            if (Input.GetAxis("Horizontal") < 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.LeftArrow))
+
+            if (Power1Activo == true) // detecta si el power up 1 está activado
             {
-                RBPlayer.velocity = new Vector2(-speed, RBPlayer.velocity.y); // el jugador se mueve hacia la izquierda
+                if (Input.GetAxis("Horizontal") > 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.RightArrow))
+                {
+                    RBPlayer.velocity = new Vector2(PowerSpeed, RBPlayer.velocity.y); // el jugador se mueve hacia la derecha
 
-                Body.GetComponent<SpriteRenderer>().flipX = true; // flipear o no el sprite
-
-                anim.SetBool("PJMOV", true); // animacion del personaje
+                    Body.GetComponent<SpriteRenderer>().flipX = false; // flipear o no el sprite
 
 
+                    anim.SetBool("PJMOV", true); // animacion del personaje
 
-            }
 
-            if (Input.GetAxis("Horizontal") == 0) // Si no funciona bien, probar ((Input.GetAxis("Horizontal") == 0) && (((Input.GetAxis("Horizontal") < 0) == false) || ((Input.GetAxis("Horizontal") > 0) == false)))
-            {
-                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);
 
-                anim.SetBool("PJMOV", false); // detiene animacion del personaje
+
+                }
+
+                if (Input.GetAxis("Horizontal") < 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.LeftArrow))
+                {
+                    RBPlayer.velocity = new Vector2(-PowerSpeed, RBPlayer.velocity.y); // el jugador se mueve hacia la izquierda
+
+                    Body.GetComponent<SpriteRenderer>().flipX = true; // flipear o no el sprite
+
+                    anim.SetBool("PJMOV", true); // animacion del personaje
+
+
+
+                }
+
+                if (Input.GetAxis("Horizontal") == 0) // Si no funciona bien, probar ((Input.GetAxis("Horizontal") == 0) && (((Input.GetAxis("Horizontal") < 0) == false) || ((Input.GetAxis("Horizontal") > 0) == false)))
+                {
+                    RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);
+
+                    anim.SetBool("PJMOV", false); // detiene animacion del personaje
+                }
             }
         }
 
     }
     #endregion
 
-
     #region Salto
 
 
     void Salto()
     {
-        if((Input.GetKeyDown(KeyCode.UpArrow) && grounded))
-        {
-            RBPlayer.velocity = new Vector2(RBPlayer.velocity.x, speedjump);
 
-            anim.Play("PJJUMP");
+        if (Power1Activo == false) // detecta si el power up 1 está desactivado
+        {
+            if ((Input.GetKeyDown(KeyCode.UpArrow) && grounded))
+            {
+                RBPlayer.velocity = new Vector2(RBPlayer.velocity.x, speedjump);
+
+                anim.Play("PJJUMP");
+            }
+        }
+
+        if (Power1Activo == true) // detecta si el power up 1 está activado
+        {
+            if ((Input.GetKeyDown(KeyCode.UpArrow) && grounded))
+            {
+                RBPlayer.velocity = new Vector2(RBPlayer.velocity.x, PowerSpeedJump);
+
+                anim.Play("PJJUMP");
+            }
         }
     }
 
@@ -311,7 +387,6 @@ public class JugadorControl : MonoBehaviour
 
 
     #endregion
-
 
     #region Disparo
     void Disparo()
@@ -460,11 +535,7 @@ public class JugadorControl : MonoBehaviour
 
     #region Recetas
 
-    public bool Receta1 = false;
 
-    public bool Receta2 = false;
-
-    public bool Receta3 = false;
 
 
 
@@ -495,13 +566,15 @@ public class JugadorControl : MonoBehaviour
 
     public void Power1()
     {
-        if((Receta1==true)&& Input.GetKeyDown(KeyCode.Alpha1))
+        if ((Receta1 == true) && Input.GetKeyDown(KeyCode.Alpha1))
         {
             print("Power1 activado");
 
             SendMessage("Receta1Usada");
 
             Receta1 = false;
+
+            Power1Activo = true;
         }
     }
 
@@ -526,9 +599,40 @@ public class JugadorControl : MonoBehaviour
             SendMessage("Receta3Usada");
 
             Receta3 = false;
+
+
+
+
+            // El siguiente código hace que te recuperes la vida
+
+            vidaActual += vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
+
+            float LargoBarraHP = vidaActual / vidaMaxima; // cálculo necesario
+
+            RecuperarFullHP(LargoBarraHP); // hace que se recupere la barra de vida visualmente
         }
     }
 
+    public void Power1Time()
+    {
+        if (Power1Activo == true)
+        {
+
+            if (PowerTimeStart > 0)
+            {
+                PowerTimeStart -= Time.deltaTime;
+            }
+            else if (PowerTimeStart <= 0)
+            {
+                Power1Activo = false;
+            }
+        }
+
+        if (Power1Activo == false) // Reinicia Timer
+        {
+            PowerTimeStart = PowerT;
+        }
+    }
 
 
     #endregion

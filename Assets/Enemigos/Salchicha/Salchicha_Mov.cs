@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Salchicha_Mov : MonoBehaviour
@@ -35,6 +36,10 @@ public class Salchicha_Mov : MonoBehaviour
 
 
     public float TimeDeath = 2.5f; // tiempo de muerte para eliminar el gameobject del enemigo
+
+
+
+    private float NumeroAzar; // variable para el numero al azar
 
 
 
@@ -157,4 +162,21 @@ public class Salchicha_Mov : MonoBehaviour
     {
         estado = GameState.Vivo;
     }
+
+    public void AtaqueAzar()
+    {
+
+        NumeroAzar = Random.Range(1, 100); // numero al azar, probabilidades de que ataque o no
+
+
+        if (NumeroAzar < 51)
+        {
+            SalchichaAnim.Play("Salchicha_Ataque");
+            Atacando();
+
+        }
+    }
+
+
+
 }

@@ -32,4 +32,9 @@ public class LevelTransition : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
+    public void Lvl2()
+    {
+        SceneManager.LoadScene(3);
+    }
+
 }

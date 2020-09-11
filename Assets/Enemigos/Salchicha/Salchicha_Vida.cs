@@ -79,6 +79,28 @@ public class Salchicha_Vida : MonoBehaviour
                 Destroy(barraEnemiga);
             }
         }
+
+        if (collision.tag == "Shield") // si colisiona con un objeto con el tag mensionado
+        {
+            vidaActual--;
+
+            float LargoBarraHP = vidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+
+            PerderHP(LargoBarraHP);
+
+
+            if (vidaActual > 0)
+            {
+                SendMessage("SalchichaGolpeada"); // triggea animacion de que recibe daño
+            }
+
+            if (vidaActual <= 0)
+            {
+                SendMessage("SalchichaDeath"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+
+                Destroy(barraEnemiga);
+            }
+        }
     }
 
     public void PerderHP(float LargoBarraHP) // metodo para hacer que la barra enemiga "baje" (visualmente hablando) de cierta manera. EJ: De derecha a izquierda, izquierda es 0 y derecha es su vida

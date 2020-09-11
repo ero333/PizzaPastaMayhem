@@ -27,6 +27,7 @@ TagManager:
   - TorretaVariante
   - BalaAlbondiga
   - BalaMorron
+  - Shield
   layers:
   - Default
   - TransparentFX

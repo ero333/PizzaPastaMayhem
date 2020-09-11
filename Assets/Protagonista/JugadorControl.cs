@@ -85,16 +85,7 @@ public class JugadorControl : MonoBehaviour
 
 
 
-    public float Curarse = 4f; // cantidad de vida que me curo
-
-
-    #endregion
-
-    #region Pantalla Game Over
-
-    public GameObject Reintentomsg;
-
-    public GameObject GameOvermsg;
+    public float Curarse = 2.5f; // cantidad de vida que me curo
 
 
     #endregion
@@ -117,6 +108,14 @@ public class JugadorControl : MonoBehaviour
     public float PowerT = 5f;
 
     private float PowerTimeStart;
+
+    public GameObject PowerShield; // traer game object del escudo
+
+    public bool Power2Activo = false;
+
+    public float ShieldTime = 5f;
+
+    private float ShieldTimeStart;
 
     #endregion
 
@@ -181,8 +180,6 @@ public class JugadorControl : MonoBehaviour
                 estado = GameState.muerto; // estado cambia a "muerto"
 
                 anim.Play("PJ_Muerte"); // triggea animacion
-
-                GameOvermsg.SetActive(true); // actviva mensaje de que te quedaste sin vidas
 
             }
 
@@ -422,7 +419,7 @@ public class JugadorControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (estado == GameState.vivo)
+        if ((estado == GameState.vivo) && (Power2Activo == false))
         {
             if (collision.tag == "Salchicha") // si colisiona con un objeto con el tag mensionado
             {
@@ -570,6 +567,13 @@ public class JugadorControl : MonoBehaviour
             SendMessage("Receta2Usada");
 
             Receta2 = false;
+
+            Power2Activo = true;
+
+            if (Power2Activo == true)
+            {
+                PowerShield.SetActive(true);
+            }
         }
     }
 
@@ -588,7 +592,7 @@ public class JugadorControl : MonoBehaviour
 
             // El siguiente código hace que te recuperes la vida
 
-            vidaActual += Curarse; // Su vida actual es la misma que la vida que tiene al máximo
+            vidaActual = vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
 
             float LargoBarraHP = vidaActual / vidaMaxima; // cálculo necesario
 
@@ -616,6 +620,31 @@ public class JugadorControl : MonoBehaviour
         {
             PowerTimeStart = PowerT;
         }
+
+        if (Power2Activo == true)
+        {
+
+            if (ShieldTimeStart > 0)
+            {
+                ShieldTimeStart -= Time.deltaTime;
+            }
+            else if (ShieldTimeStart <= 0)
+            {
+                Power2Activo = false;
+            }
+        }
+
+        if (Power2Activo == false) // Reinicia Timer
+        {
+            ShieldTimeStart = ShieldTime;
+
+            PowerShield.SetActive(false);
+        }
+
+
+
+
+
     }
 
 
@@ -632,8 +661,6 @@ public class JugadorControl : MonoBehaviour
         if ((estado == GameState.muerto) && (vida >= 1)) // Si el jugador muere pero todavia le quedan vidas, aparece en el checkpoint
         {
             transform.position = Checkpoint.position; // jugador se teletransporta al checkpoint
-
-            Reintentomsg.SetActive(false); // desactiva mensaje de muerte y reinicio
 
             estado = GameState.revive; // el jugador vuelve a estar vivo
 

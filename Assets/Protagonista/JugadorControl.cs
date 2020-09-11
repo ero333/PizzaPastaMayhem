@@ -61,7 +61,7 @@ public class JugadorControl : MonoBehaviour
     #region Variables Vida
 
 
-    public float vidaMaxima = 10;
+    public float vidaMaxima = 10f;
 
     private float vidaActual;
 
@@ -85,7 +85,7 @@ public class JugadorControl : MonoBehaviour
 
 
 
-    public float Curarse = 1f; // cantidad de vida que me curo
+    public float Curarse = 4f; // cantidad de vida que me curo
 
 
     #endregion
@@ -420,12 +420,41 @@ public class JugadorControl : MonoBehaviour
 
     #region vida
 
-
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (estado == GameState.vivo)
         {
             if (collision.tag == "Salchicha") // si colisiona con un objeto con el tag mensionado
+            {
+
+                vidaActual--;
+
+                float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
+
+                PerderHP(LargoBarraHP);
+
+                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+
+                MarcoHP.SendMessage("HPHit");
+
+            }
+
+            if (collision.tag == "BalaMorron") // si colisiona con un objeto con el tag mensionado
+            {
+
+                vidaActual--;
+
+                float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
+
+                PerderHP(LargoBarraHP);
+
+                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+
+                MarcoHP.SendMessage("HPHit");
+
+            }
+
+            if (collision.tag == "BalaAlbondiga") // si colisiona con un objeto con el tag mensionado
             {
 
                 vidaActual--;
@@ -559,11 +588,12 @@ public class JugadorControl : MonoBehaviour
 
             // El siguiente código hace que te recuperes la vida
 
-            vidaActual += vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
+            vidaActual += Curarse; // Su vida actual es la misma que la vida que tiene al máximo
 
             float LargoBarraHP = vidaActual / vidaMaxima; // cálculo necesario
 
             RecuperarFullHP(LargoBarraHP); // hace que se recupere la barra de vida visualmente
+
         }
     }
 
@@ -626,11 +656,6 @@ public class JugadorControl : MonoBehaviour
     }
 
     #endregion
-
-
-
-
-
 
     #region Estados especificos
     public void ItsAlive()

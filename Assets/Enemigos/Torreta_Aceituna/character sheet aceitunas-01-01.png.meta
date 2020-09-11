@@ -1,0 +1,823 @@
+fileFormatVersion: 2
+guid: 1488cc939a5383042a987ed674fcf7aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8757648772790097254
+    second: character sheet aceitunas-01-01_0
+  - first:
+      213: -1989807368757897546
+    second: character sheet aceitunas-01-01_1
+  - first:
+      213: -4190314766976485643
+    second: character sheet aceitunas-01-01_2
+  - first:
+      213: -6092037364147139798
+    second: character sheet aceitunas-01-01_3
+  - first:
+      213: -3536640711342043414
+    second: character sheet aceitunas-01-01_4
+  - first:
+      213: -2013441561106165765
+    second: character sheet aceitunas-01-01_5
+  - first:
+      213: -2020336809042214392
+    second: character sheet aceitunas-01-01_6
+  - first:
+      213: -591109222006856126
+    second: character sheet aceitunas-01-01_7
+  - first:
+      213: 3351176457098894527
+    second: character sheet aceitunas-01-01_8
+  - first:
+      213: 3227180242531229943
+    second: character sheet aceitunas-01-01_9
+  - first:
+      213: 7820704903139467859
+    second: character sheet aceitunas-01-01_10
+  - first:
+      213: -2228288177338854916
+    second: character sheet aceitunas-01-01_11
+  - first:
+      213: -3182215348827578501
+    second: character sheet aceitunas-01-01_12
+  - first:
+      213: 8906344505021693346
+    second: character sheet aceitunas-01-01_13
+  - first:
+      213: -7319043733582919718
+    second: character sheet aceitunas-01-01_14
+  - first:
+      213: 6265491909474566654
+    second: character sheet aceitunas-01-01_15
+  - first:
+      213: -5740813186866970670
+    second: character sheet aceitunas-01-01_16
+  - first:
+      213: -6973812030700442357
+    second: character sheet aceitunas-01-01_17
+  - first:
+      213: -1507137655551655760
+    second: character sheet aceitunas-01-01_18
+  - first:
+      213: -8007551812547250265
+    second: character sheet aceitunas-01-01_19
+  - first:
+      213: -4694893731087866488
+    second: character sheet aceitunas-01-01_20
+  - first:
+      213: 2160701053539836243
+    second: character sheet aceitunas-01-01_21
+  - first:
+      213: -475314600783755881
+    second: character sheet aceitunas-01-01_22
+  - first:
+      213: 5988025697681247930
+    second: character sheet aceitunas-01-01_23
+  - first:
+      213: -140079630506391767
+    second: character sheet aceitunas-01-01_24
+  - first:
+      213: -3313381604367927868
+    second: character sheet aceitunas-01-01_25
+  - first:
+      213: 5368173337221451453
+    second: character sheet aceitunas-01-01_26
+  - first:
+      213: -5401784615316424352
+    second: character sheet aceitunas-01-01_27
+  - first:
+      213: -321395527241390763
+    second: character sheet aceitunas-01-01_0
+  - first:
+      213: 22063953504736699
+    second: character sheet aceitunas-01-01_1
+  - first:
+      213: -4491145224996041053
+    second: character sheet aceitunas-01-01_2
+  - first:
+      213: 2730279710308466985
+    second: character sheet aceitunas-01-01_3
+  - first:
+      213: -5102641715006599323
+    second: character sheet aceitunas-01-01_4
+  - first:
+      213: 3456926478719779267
+    second: character sheet aceitunas-01-01_5
+  - first:
+      213: -4063691532547678526
+    second: character sheet aceitunas-01-01_6
+  - first:
+      213: 4512078696693701126
+    second: character sheet aceitunas-01-01_7
+  - first:
+      213: 8848173376429786434
+    second: character sheet aceitunas-01-01_8
+  - first:
+      213: -8462590243987206338
+    second: character sheet aceitunas-01-01_9
+  - first:
+      213: -1477468371792770983
+    second: character sheet aceitunas-01-01_10
+  - first:
+      213: -8535849956106553608
+    second: character sheet aceitunas-01-01_11
+  - first:
+      213: -673050898029661539
+    second: character sheet aceitunas-01-01_12
+  - first:
+      213: -1454281177936718738
+    second: character sheet aceitunas-01-01_13
+  - first:
+      213: 9019798788003841081
+    second: character sheet aceitunas-01-01_14
+  - first:
+      213: 2485334352901230223
+    second: character sheet aceitunas-01-01_15
+  - first:
+      213: -797325287622536302
+    second: character sheet aceitunas-01-01_16
+  - first:
+      213: -7255350637406759658
+    second: character sheet aceitunas-01-01_19
+  - first:
+      213: 8398787302699686800
+    second: character sheet aceitunas-01-01_20
+  - first:
+      213: 7942694368219052653
+    second: character sheet aceitunas-01-01_22
+  - first:
+      213: 7101219819638477999
+    second: character sheet aceitunas-01-01_23
+  - first:
+      213: 6729059557361023644
+    second: character sheet aceitunas-01-01_24
+  - first:
+      213: -7741709398166428779
+    second: character sheet aceitunas-01-01_25
+  - first:
+      213: 8685440503189088605
+    second: character sheet aceitunas-01-01_26
+  - first:
+      213: -2348193596883036735
+    second: character sheet aceitunas-01-01_27
+  - first:
+      213: 9134485814072851944
+    second: character sheet aceitunas-01-01_17
+  - first:
+      213: 7952889786997487491
+    second: character sheet aceitunas-01-01_18
+  - first:
+      213: -1062462267829605049
+    second: character sheet aceitunas-01-01_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2078
+        width: 185
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555a066887c2a8bf0800000000000000
+      internalID: -321395527241390763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_1
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 2077
+        width: 186
+        height: 604
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb59dfe7c036e4000800000000000000
+      internalID: 22063953504736699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_2
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 2075
+        width: 187
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae4b65863f3ca1c0800000000000000
+      internalID: -4491145224996041053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_3
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 2075
+        width: 187
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921846e4ee6e3e520800000000000000
+      internalID: 2730279710308466985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_4
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 2077
+        width: 189
+        height: 583
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f01f82566cf29b0800000000000000
+      internalID: -5102641715006599323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_5
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 2079
+        width: 187
+        height: 579
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c10cba115879ff20800000000000000
+      internalID: 3456926478719779267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_6
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 2077
+        width: 185
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce9bbdd41eda97c0800000000000000
+      internalID: -4063691532547678526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_7
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2075
+        width: 187
+        height: 585
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a190b2baf1e9e30800000000000000
+      internalID: 4512078696693701126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_8
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 2077
+        width: 187
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2458a256ec60bca70800000000000000
+      internalID: 8848173376429786434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_9
+      rect:
+        serializedVersion: 2
+        x: 3516
+        y: 2077
+        width: 187
+        height: 590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fc4738207de8a80800000000000000
+      internalID: -8462590243987206338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_10
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 2077
+        width: 186
+        height: 593
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958ca64085afe7be0800000000000000
+      internalID: -1477468371792770983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_11
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 2078
+        width: 184
+        height: 601
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f63c3690b19a8980800000000000000
+      internalID: -8535849956106553608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_12
+      rect:
+        serializedVersion: 2
+        x: 4485
+        y: 2079
+        width: 185
+        height: 598
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d923f2336c7d8a6f0800000000000000
+      internalID: -673050898029661539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1297
+        width: 184
+        height: 598
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e649b8949fa51dbe0800000000000000
+      internalID: -1454281177936718738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_14
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1297
+        width: 187
+        height: 598
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934c7707533cc2d70800000000000000
+      internalID: 9019798788003841081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_15
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1297
+        width: 305
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ec0c41d6ead7220800000000000000
+      internalID: 2485334352901230223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_16
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1295
+        width: 498
+        height: 423
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29392d410e45fe4f0800000000000000
+      internalID: -797325287622536302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_19
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 1295
+        width: 579
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61557782901df4b90800000000000000
+      internalID: -7255350637406759658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_20
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 1297
+        width: 534
+        height: 356
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bd9799d8c7e8470800000000000000
+      internalID: 8398787302699686800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 460
+        width: 207
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a3139127e1a3e60800000000000000
+      internalID: 7942694368219052653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_23
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 460
+        width: 339
+        height: 544
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4d3855dc99c8260800000000000000
+      internalID: 7101219819638477999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_24
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 460
+        width: 385
+        height: 514
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a73fce30c626d50800000000000000
+      internalID: 6729059557361023644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_25
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 460
+        width: 289
+        height: 590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593acf7d15cef8490800000000000000
+      internalID: -7741709398166428779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_26
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 460
+        width: 191
+        height: 601
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d592066ce12e88870800000000000000
+      internalID: 8685440503189088605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet aceitunas-01-01_27
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 460
+        width: 189
+        height: 601
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c590f96d5a896fd0800000000000000
+      internalID: -2348193596883036735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

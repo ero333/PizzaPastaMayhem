@@ -1,0 +1,913 @@
+fileFormatVersion: 2
+guid: 2f726dcf833994e45a6fb942f666cf93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3209326674868057373
+    second: character sheet fideos-01_0
+  - first:
+      213: 8121909728078757662
+    second: character sheet fideos-01_1
+  - first:
+      213: 1018390901266038921
+    second: character sheet fideos-01_2
+  - first:
+      213: -3945018107087130522
+    second: character sheet fideos-01_3
+  - first:
+      213: 2776250508923451688
+    second: character sheet fideos-01_4
+  - first:
+      213: 5999789102545869383
+    second: character sheet fideos-01_5
+  - first:
+      213: 116218068399370896
+    second: character sheet fideos-01_6
+  - first:
+      213: 314499995374257664
+    second: character sheet fideos-01_7
+  - first:
+      213: 3599494802765398296
+    second: character sheet fideos-01_8
+  - first:
+      213: 3822161763092256621
+    second: character sheet fideos-01_9
+  - first:
+      213: 3634910165924299103
+    second: character sheet fideos-01_10
+  - first:
+      213: -3932717809176507963
+    second: character sheet fideos-01_11
+  - first:
+      213: 180627186229371321
+    second: character sheet fideos-01_12
+  - first:
+      213: 1739255005292884902
+    second: character sheet fideos-01_13
+  - first:
+      213: 2457935024770215075
+    second: character sheet fideos-01_14
+  - first:
+      213: -6395627797900746882
+    second: character sheet fideos-01_15
+  - first:
+      213: -1829574637287606312
+    second: character sheet fideos-01_16
+  - first:
+      213: 3956794618498036685
+    second: character sheet fideos-01_17
+  - first:
+      213: -7570087631841799414
+    second: character sheet fideos-01_18
+  - first:
+      213: -3702511856464007420
+    second: character sheet fideos-01_19
+  - first:
+      213: -4993846289068217578
+    second: character sheet fideos-01_20
+  - first:
+      213: -7683547366330128572
+    second: character sheet fideos-01_21
+  - first:
+      213: 6514968942845522578
+    second: character sheet fideos-01_22
+  - first:
+      213: 6760729123740814042
+    second: character sheet fideos-01_23
+  - first:
+      213: -7373150580715370791
+    second: character sheet fideos-01_24
+  - first:
+      213: -2340403992192775216
+    second: character sheet fideos-01_25
+  - first:
+      213: -6718281386489858676
+    second: character sheet fideos-01_26
+  - first:
+      213: -6610812307956614048
+    second: character sheet fideos-01_27
+  - first:
+      213: 1398976265874494606
+    second: character sheet fideos-01_28
+  - first:
+      213: -550452832840158920
+    second: character sheet fideos-01_0
+  - first:
+      213: 6731071054966410100
+    second: character sheet fideos-01_1
+  - first:
+      213: -5338979739099679578
+    second: character sheet fideos-01_2
+  - first:
+      213: 2991650278353911499
+    second: character sheet fideos-01_3
+  - first:
+      213: -4211990640117742875
+    second: character sheet fideos-01_4
+  - first:
+      213: -8368788399032229047
+    second: character sheet fideos-01_5
+  - first:
+      213: -4610592300973532072
+    second: character sheet fideos-01_6
+  - first:
+      213: -621898688825778557
+    second: character sheet fideos-01_7
+  - first:
+      213: -6780902486822665829
+    second: character sheet fideos-01_8
+  - first:
+      213: -2263598209054616120
+    second: character sheet fideos-01_9
+  - first:
+      213: -7882937826521444986
+    second: character sheet fideos-01_10
+  - first:
+      213: -809984870690944552
+    second: character sheet fideos-01_11
+  - first:
+      213: -6394300234991317983
+    second: character sheet fideos-01_12
+  - first:
+      213: 611612843695547146
+    second: character sheet fideos-01_13
+  - first:
+      213: 416366246489102867
+    second: character sheet fideos-01_14
+  - first:
+      213: -2763296945921156977
+    second: character sheet fideos-01_15
+  - first:
+      213: -5885010056002843129
+    second: character sheet fideos-01_16
+  - first:
+      213: 1358629204622130156
+    second: character sheet fideos-01_17
+  - first:
+      213: 2915595721259747623
+    second: character sheet fideos-01_18
+  - first:
+      213: 1859311320342525285
+    second: character sheet fideos-01_19
+  - first:
+      213: -8325091014296975978
+    second: character sheet fideos-01_20
+  - first:
+      213: -4187176002836147540
+    second: character sheet fideos-01_21
+  - first:
+      213: 1753527670314498560
+    second: character sheet fideos-01_22
+  - first:
+      213: 811152675260836811
+    second: character sheet fideos-01_23
+  - first:
+      213: -736797804963085435
+    second: character sheet fideos-01_24
+  - first:
+      213: -5423491616651174357
+    second: character sheet fideos-01_25
+  - first:
+      213: 4560325704389856866
+    second: character sheet fideos-01_26
+  - first:
+      213: -7232176751532811421
+    second: character sheet fideos-01_27
+  - first:
+      213: -47433108162761630
+    second: character sheet fideos-01_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet fideos-01_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1980
+        width: 650
+        height: 412
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83174f0a0166c58f0800000000000000
+      internalID: -550452832840158920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_1
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1984
+        width: 647
+        height: 399
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bcf253671996d50800000000000000
+      internalID: 6731071054966410100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_2
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1987
+        width: 643
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4b4f3e63228e5b0800000000000000
+      internalID: -5338979739099679578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_3
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1984
+        width: 651
+        height: 339
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcebb75e31a748920800000000000000
+      internalID: 2991650278353911499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_4
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 1980
+        width: 661
+        height: 353
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2038234d00c85c0800000000000000
+      internalID: -4211990640117742875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_5
+      rect:
+        serializedVersion: 2
+        x: 3414
+        y: 1981
+        width: 647
+        height: 355
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94326437a471cdb80800000000000000
+      internalID: -8368788399032229047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_6
+      rect:
+        serializedVersion: 2
+        x: 4089
+        y: 1987
+        width: 654
+        height: 398
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c5250fab2e300c0800000000000000
+      internalID: -4610592300973532072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_7
+      rect:
+        serializedVersion: 2
+        x: 4808
+        y: 1996
+        width: 647
+        height: 389
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e124eff629e57f0800000000000000
+      internalID: -621898688825778557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1416
+        width: 653
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b914f507d1565e1a0800000000000000
+      internalID: -6780902486822665829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_9
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1416
+        width: 640
+        height: 402
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5d6130c651690e0800000000000000
+      internalID: -2263598209054616120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_10
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1420
+        width: 651
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d03b7ffcd2a9290800000000000000
+      internalID: -7882937826521444986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_11
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 1420
+        width: 640
+        height: 449
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d986053d0b52c4f0800000000000000
+      internalID: -809984870690944552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_12
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 1427
+        width: 637
+        height: 438
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c452290d1e247a0800000000000000
+      internalID: -6394300234991317983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_13
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 1421
+        width: 640
+        height: 434
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a032a8014a2ec7800800000000000000
+      internalID: 611612843695547146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_14
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 1421
+        width: 651
+        height: 428
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a127a25ea37c500800000000000000
+      internalID: 416366246489102867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_15
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 1423
+        width: 681
+        height: 412
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f889279711cc6a9d0800000000000000
+      internalID: -2763296945921156977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_16
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 1427
+        width: 654
+        height: 398
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e4950c88e345ea0800000000000000
+      internalID: -5885010056002843129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_17
+      rect:
+        serializedVersion: 2
+        x: 6359
+        y: 1427
+        width: 654
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb39f23012dad210800000000000000
+      internalID: 1358629204622130156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 766
+        width: 754
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729065a6cd6467820800000000000000
+      internalID: 2915595721259747623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_19
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 780
+        width: 779
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565f0e77bc99dc910800000000000000
+      internalID: 1859311320342525285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_20
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 770
+        width: 824
+        height: 539
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695480aa4d5577c80800000000000000
+      internalID: -8325091014296975978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_21
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 752
+        width: 872
+        height: 554
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca259ea2c9924e5c0800000000000000
+      internalID: -4187176002836147540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_22
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 756
+        width: 903
+        height: 487
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00af9e42028c55810800000000000000
+      internalID: 1753527670314498560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_23
+      rect:
+        serializedVersion: 2
+        x: 4539
+        y: 759
+        width: 927
+        height: 415
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcba78b7f0bc14b00800000000000000
+      internalID: 811152675260836811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_24
+      rect:
+        serializedVersion: 2
+        x: 5518
+        y: 746
+        width: 958
+        height: 380
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58343e3dc4e56c5f0800000000000000
+      internalID: -736797804963085435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_25
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 64
+        width: 974
+        height: 332
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e923b0c13ebb4b0800000000000000
+      internalID: -5423491616651174357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_26
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 61
+        width: 993
+        height: 321
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e8d360118894f30800000000000000
+      internalID: 4560325704389856866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_27
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 61
+        width: 992
+        height: 321
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b5c0cef8522ab90800000000000000
+      internalID: -7232176751532811421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet fideos-01_28
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 61
+        width: 993
+        height: 321
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cad55e6db775ff0800000000000000
+      internalID: -47433108162761630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

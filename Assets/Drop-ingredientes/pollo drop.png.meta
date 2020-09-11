@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: f35cda9c9bd77e44bbb86b27f83b3fa0
+guid: 0084b836f8b2ea94980941abc23f70b3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1849229302041560745
-    second: Pild Shot_0
+      213: -2724436259645853703
+    second: pollo drop_0
   - first:
-      213: 6886919497940806690
-    second: Pild Shot_1
+      213: 96214910045728543
+    second: pollo drop_1
   - first:
-      213: 2331674255661897134
-    second: Pild Shot_2
+      213: -3077249287262077692
+    second: pollo drop_2
   - first:
-      213: -5962299169643880426
-    second: Pild Shot_3
-  - first:
-      213: 766351130670229972
-    second: Pild Shot_4
-  - first:
-      213: -4333910694927154046
-    second: Pild Shot_5
+      213: -8359472080112471042
+    second: pollo drop_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -64,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -131,127 +125,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pild Shot_0
+      name: pollo drop_2
       rect:
         serializedVersion: 2
-        x: 50
-        y: 0
-        width: 80
-        height: 200
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 12
+        y: 86
+        width: 488
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a64e68a048c9a910800000000000000
-      internalID: 1849229302041560745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pild Shot_1
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 0
-        width: 80
-        height: 200
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22c297f7bc0439f50800000000000000
-      internalID: 6886919497940806690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pild Shot_2
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 0
-        width: 80
-        height: 200
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea596acb165cb5020800000000000000
-      internalID: 2331674255661897134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pild Shot_3
-      rect:
-        serializedVersion: 2
-        x: 650
-        y: 0
-        width: 80
-        height: 200
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61025ccae78a14da0800000000000000
-      internalID: -5962299169643880426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pild Shot_4
-      rect:
-        serializedVersion: 2
-        x: 850
-        y: 0
-        width: 80
-        height: 200
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d961d40b40a2aa00800000000000000
-      internalID: 766351130670229972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pild Shot_5
-      rect:
-        serializedVersion: 2
-        x: 1050
-        y: 0
-        width: 90
-        height: 200
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 284c99c5f2bdad3c0800000000000000
-      internalID: -4333910694927154046
+      spriteID: 40d7b63c31a6b45d0800000000000000
+      internalID: -3077249287262077692
       vertices: []
       indices: 
       edges: []

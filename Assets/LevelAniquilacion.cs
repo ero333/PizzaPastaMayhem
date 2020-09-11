@@ -12,9 +12,13 @@ public class LevelAniquilacion : MonoBehaviour
 
     public GameObject LvlManager; // traer gameobject del lvl manager
 
+    public GameObject Player;
+
     // Start is called before the first frame update
     void Start()
     {
+        Player = GameObject.FindGameObjectWithTag("PlayerAll");
+
         completado = false;
     }
 
@@ -28,6 +32,8 @@ public class LevelAniquilacion : MonoBehaviour
             UI_Pasaste.SetActive(true);
 
             completado = true;
+
+            Player.SendMessage("ItsTimeToStop");
         }
 
         if (completado && Input.GetKeyDown("n"))

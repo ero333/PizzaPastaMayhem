@@ -9,7 +9,7 @@ using Debug = UnityEngine.Debug;
 public class JugadorControl : MonoBehaviour
 {
 
-    public enum GameState { vivo, muerto, revive } // estados que puede tener el jugador
+    public enum GameState { vivo, muerto, revive, pausa } // estados que puede tener el jugador
 
     public GameState estado = GameState.vivo; // el jugador empieza vivo
 
@@ -696,6 +696,17 @@ public class JugadorControl : MonoBehaviour
     public void Revivision()
     {
         estado = GameState.revive;
+    }
+    public void ItsTimeToStop()
+    {
+        estado = GameState.pausa;
+
+        RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);
+
+        AnimacionIdle();
+
+        anim.SetBool("PJMOV", false);
+
     }
     #endregion
 

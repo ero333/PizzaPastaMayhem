@@ -5,16 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class LevelTransition : MonoBehaviour
 {
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void Menu()
@@ -29,12 +31,12 @@ public class LevelTransition : MonoBehaviour
 
     public void GameOverScreen()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Pantalla Game Over");
     }
 
     public void Lvl2()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
 
 }

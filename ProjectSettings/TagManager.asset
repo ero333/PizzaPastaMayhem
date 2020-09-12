@@ -28,6 +28,7 @@ TagManager:
   - BalaAlbondiga
   - BalaMorron
   - Shield
+  - LVLMANAGER
   layers:
   - Default
   - TransparentFX

@@ -21,7 +21,12 @@ public class LevelTransition : MonoBehaviour
 
     public void Menu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void LvlSelector()
+    {
+        SceneManager.LoadScene("TestSelector");
     }
 
     public void Lvl1()
@@ -29,14 +34,16 @@ public class LevelTransition : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void Lvl2()
+    {
+        SceneManager.LoadScene(2);
+    }
+
     public void GameOverScreen()
     {
         SceneManager.LoadScene("Pantalla Game Over");
     }
 
-    public void Lvl2()
-    {
-        SceneManager.LoadScene(2);
-    }
+
 
 }

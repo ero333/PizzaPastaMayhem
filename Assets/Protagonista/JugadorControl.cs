@@ -587,7 +587,7 @@ public class JugadorControl : MonoBehaviour
 
             Receta3 = false;
 
-
+            MarcoHP.SendMessage("HPHeal");
 
 
             // El siguiente código hace que te recuperes la vida

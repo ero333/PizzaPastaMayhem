@@ -25,4 +25,9 @@ public class HPAnimation : MonoBehaviour
     {
         anim.Play("HP_Hit");
     }
+
+    public void HPHeal()
+    {
+        anim.Play("HP_Heal");
+    }
 }

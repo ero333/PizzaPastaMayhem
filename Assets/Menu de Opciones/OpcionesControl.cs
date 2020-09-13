@@ -63,9 +63,15 @@ public class OpcionesControl : MonoBehaviour
     #endregion
 
     #region LVL Manager
-    public void LVLControl()
+    public void LVLMENU()
     {
         LvlManager.SendMessage("Menu");
     }
+
+    public void LVLSELECTOR()
+    {
+        LvlManager.SendMessage("LvlSelector");
+    }
     #endregion
+
 }

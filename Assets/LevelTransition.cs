@@ -26,7 +26,7 @@ public class LevelTransition : MonoBehaviour
 
     public void LvlSelector()
     {
-        SceneManager.LoadScene("TestSelector");
+        SceneManager.LoadScene("SelectorDeNiveles");
     }
 
     public void Lvl1()

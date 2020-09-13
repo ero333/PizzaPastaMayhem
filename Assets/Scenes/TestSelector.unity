@@ -285,49 +285,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &259387058
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 259387060}
-  - component: {fileID: 259387059}
-  m_Layer: 0
-  m_Name: LvL manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &259387059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 259387058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76900c7eda68de94e809b2223ff66c69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &259387060
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 259387058}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14148502, y: -0.52067655, z: -2390.224}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &347689393
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +298,7 @@ GameObject:
   - component: {fileID: 347689396}
   - component: {fileID: 347689395}
   m_Layer: 5
-  m_Name: Game Canvas
+  m_Name: BOTONES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -511,7 +468,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 259387059}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
         m_MethodName: Lvl1
         m_Mode: 1
@@ -847,7 +804,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 259387059}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
         m_MethodName: Menu
         m_Mode: 1
@@ -999,7 +956,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 259387059}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
         m_MethodName: Lvl2
         m_Mode: 1

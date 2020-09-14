@@ -15,13 +15,15 @@ public class JugadorControl : MonoBehaviour
 
     private Rigidbody2D RBPlayer;
 
-    public GameObject Body; // traer gameobject del jugador con los sprites (body)
+    public GameObject Body; // traer gameobject del jugador con los sprites (body). busqueda por tag activada en el start
 
     private Animator anim;
 
-    public Transform Checkpoint; // traer game object donde se teletransportará el jugador al morir
+    public Transform Checkpoint; // traer game object donde se teletransportará el jugador al morir. busqueda por tag activada en el start
 
-    public GameObject LevelManager; // traer game object que permite cambiar de escenas
+    public GameObject LevelManager; // traer game object que permite cambiar de escenas. busqueda por tag activada en el start
+
+    public bool NivelCompletado;
 
 
 
@@ -37,7 +39,7 @@ public class JugadorControl : MonoBehaviour
 
     #region ataques
 
-    private bool Disparando = false; // checkea si está disparando o no
+    public bool Disparando = false; // checkea si está disparando o no
 
 
 
@@ -125,6 +127,14 @@ public class JugadorControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+
+        Body = GameObject.FindGameObjectWithTag("Player"); // busqueda del objeto por Tag
+
+        LevelManager = GameObject.FindGameObjectWithTag("LVLMANAGER"); // busqueda del objeto por Tag
+
+
+
         vidaActual = vidaMaxima;
 
 
@@ -139,6 +149,12 @@ public class JugadorControl : MonoBehaviour
 
         anim.SetBool("PJMOV", false);
         anim.SetBool("PJJUMP", false);
+
+
+
+
+
+        NivelCompletado = false;
     }
 
     // Update is called once per frame
@@ -340,7 +356,7 @@ public class JugadorControl : MonoBehaviour
     #endregion
 
     #region Disparo
-    void Disparo()
+    public void Disparo()
     {
 
 
@@ -354,6 +370,8 @@ public class JugadorControl : MonoBehaviour
 
                 Disparando = true;
 
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+
             }
 
             if (Body.GetComponent<SpriteRenderer>().flipX == true)
@@ -364,14 +382,16 @@ public class JugadorControl : MonoBehaviour
 
                 Disparando = true;
 
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
             }
 
         }
 
-        if (Input.GetKey("d") == false)
-        {
-            Disparando = false;
-        }
+    }
+
+    public void JugadorNoAtaca()
+    {
+        Disparando = false;
 
     }
 
@@ -391,6 +411,10 @@ public class JugadorControl : MonoBehaviour
 
                 anim.Play("PJ_Melee");
 
+                Disparando = true;
+
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+
             }
 
             if (Body.GetComponent<SpriteRenderer>().flipX == true)
@@ -399,8 +423,9 @@ public class JugadorControl : MonoBehaviour
 
                 anim.Play("PJ_Melee");
 
+                Disparando = true;
 
-
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
             }
 
 
@@ -419,7 +444,7 @@ public class JugadorControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((estado == GameState.vivo) && (Power2Activo == false))
+        if ((estado == GameState.vivo) && (Power2Activo == false) && (NivelCompletado == false))
         {
             if (collision.tag == "Salchicha") // si colisiona con un objeto con el tag mensionado
             {
@@ -682,6 +707,13 @@ public class JugadorControl : MonoBehaviour
         }
     }
 
+    #endregion
+
+    #region Nivel Completado
+    public void NivelCompleto()
+    {
+        NivelCompletado = true;
+    }
     #endregion
 
     #region Estados especificos

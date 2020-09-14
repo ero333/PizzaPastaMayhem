@@ -8,57 +8,59 @@ public class RecetasJugador : MonoBehaviour
 
     #region Ingredientes_Receta_1
 
+    public bool Receta1 = false;
+
     public GameObject Pan;
-
-    public bool TengoPan = false;
-
-    public GameObject Paty;
-
-    public bool TengoPaty = false;
 
     public GameObject Queso;
 
+    public GameObject Paty;
+
+    public bool TengoPan = false;
+
     public bool TengoQueso = false;
+
+    public bool TengoPaty = false;
 
     #endregion
 
     #region Ingredientes_Receta_2
 
-    public GameObject Jamon;
+    public bool Receta2 = false;
 
-    public bool TengoJamon = false;
+    public GameObject Jamon;
 
     public GameObject Salchichas;
 
-    public bool TengoSalchicha = false;
-
     public GameObject Albondigas;
+
+    public bool TengoJamon = false;
+
+    public bool TengoSalchicha = false;
 
     public bool TengoAlbondigas = false;
 
     #endregion
 
-    #region Ingredientes_Receta_2
+    #region Ingredientes_Receta_3
+
+    public bool Receta3 = false;
 
     public GameObject Pollo;
 
-    public bool TengoPollo = false;
-
     public GameObject Lechuga;
 
-    public bool TengoLechuga = false;
-
     public GameObject Tomates;
+
+    public bool TengoPollo = false;
+
+    public bool TengoLechuga = false;
 
     public bool TengoTomate = false;
 
     #endregion
 
-    public bool Receta1 = false;
 
-    public bool Receta2 = false;
-
-    public bool Receta3 = false;
 
     // Start is called before the first frame update
     void Start()

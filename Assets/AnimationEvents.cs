@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class AnimationEvents : MonoBehaviour
 {
-    public GameObject PlayerAll;
+    public GameObject PlayerAll; //objeto que contiene a todo el jugador
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        PlayerAll = GameObject.FindGameObjectWithTag("PlayerAll"); // busqueda del objeto por Tag
     }
 
     // Update is called once per frame
@@ -28,5 +28,10 @@ public class AnimationEvents : MonoBehaviour
         PlayerAll.SendMessage("AnimacionIdle");
 
         PlayerAll.SendMessage("ItsAlive");
+    }
+
+    public void NOAtaca()
+    {
+        PlayerAll.SendMessage("JugadorNoAtaca");
     }
 }

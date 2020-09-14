@@ -33,7 +33,7 @@ public class LevelAniquilacion : MonoBehaviour
 
             completado = true;
 
-            Player.SendMessage("ItsTimeToStop");
+            Player.SendMessage("NivelCompleto");
         }
 
         if (completado && Input.GetKeyDown("n"))

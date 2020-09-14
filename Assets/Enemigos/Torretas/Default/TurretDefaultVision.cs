@@ -26,7 +26,7 @@ public class TurretDefaultVision : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "PlayerAll") // si el jugador entra en el campo de vision
+        if (collision.tag == "Player") // si el jugador entra en el campo de vision
         {
             TurretBody.SendMessage("Vision"); //manda mensaje al script del enemigo
 
@@ -49,7 +49,7 @@ public class TurretDefaultVision : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "PlayerAll") // si el jugador entra en el campo de vision
+        if (collision.tag == "Player") // si el jugador entra en el campo de vision
         {
 
             TurretBody.SendMessage("Vision"); // manda mensaje al script del enemigo

@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Recetas lvl.unity
     guid: 1ef6c5d72112dd74994e1dd4c5d389f1
   - enabled: 1
+    path: Assets/Scenes/TIMER TEST.unity
+    guid: 177bc7fbc80f1ec4b888484e0abfd99d
+  - enabled: 1
     path: Assets/Scenes/Pantalla Game Over.unity
     guid: 494d624b0bd35be4d92cd1465f0b4838
   - enabled: 1

@@ -4,37 +4,56 @@ using UnityEngine;
 
 public class TurretDefaultHP : MonoBehaviour
 {
-    public float vida = 10f;     //vida que quiero que tenga el enemigo
+    public float vidaEnemiga = 10f;     //vida que quiero que tenga el enemigo
 
     private float VidaActual;   //vida actual del enemigo
 
-    public GameObject BarraHP; // traer gameobject de la vida
+    public GameObject barraEnemiga; // traer gameobject de la vida
 
     public GameObject ItemDrop; // traer objeto que dropea la salchicha
 
     public Transform DropPosition; // traer gameobject donde se dropea el objeto
 
 
+
+
+    public float DañoBala = 1f; // daño que recibe por colisionar con la bala del jugador
+
+    public float DañoPowerBala = 1f; // daño que recibe por colisionar con los Power Attack del jugador
+
+    public float DañoSarten = 1f; // daño que recibe por colisionar con el ataque melee del jugador
+
+    public float DañoShield = 1f; // daño que recibe por colisionar con el escudo del jugador
+
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        VidaActual = vida;
+        VidaActual = vidaEnemiga;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (VidaActual <= 0)
+        {
+            Destroy(barraEnemiga);
 
+            SendMessage("AnimacionMuerte");
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((collision.tag == "Bala") || (collision.tag == "Sartén"))
+        if (collision.tag == "Bala")
         {
-            VidaActual--;  //reduce la vida actual del enemigo si es golpeado por una bala
+            VidaActual -= DañoBala;  //reduce la vida actual del enemigo si es golpeado por una bala
 
 
-            float LargoBarraHp = VidaActual / vida;  //calcula el largo de la barra de vida del enemigo
+            float LargoBarraHp = VidaActual / vidaEnemiga;  //calcula el largo de la barra de vida del enemigo
 
             PerderHP(LargoBarraHp);
 
@@ -42,16 +61,77 @@ public class TurretDefaultHP : MonoBehaviour
 
             if (VidaActual <= 0)
             {
-                Destroy(BarraHP);
+                Destroy(barraEnemiga);
                 
                 SendMessage("AnimacionMuerte");
             }
         }
+
+
+        #region BalaPower collision
+
+        if (collision.tag == "BalaPower") // si colisiona con un objeto con el tag mensionado
+        {
+            VidaActual -= DañoPowerBala;
+
+            float LargoBarraHP = VidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+
+            PerderHP(LargoBarraHP);
+
+            if (VidaActual <= 0)
+            {
+                SendMessage("AnimacionMuerte"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+
+                Destroy(barraEnemiga);
+            }
+        }
+
+        #endregion
+
+        #region Sartén collision
+
+        if (collision.tag == "Sartén") // si colisiona con un objeto con el tag mensionado
+        {
+            VidaActual -= DañoPowerBala;
+
+            float LargoBarraHP = VidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+
+            PerderHP(LargoBarraHP);
+
+            if (VidaActual <= 0)
+            {
+                SendMessage("AnimacionMuerte"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+
+                Destroy(barraEnemiga);
+            }
+        }
+
+        #endregion
+
+        #region Shield Collision
+
+        if (collision.tag == "Shield") // si colisiona con un objeto con el tag mensionado
+        {
+            VidaActual -= DañoShield;
+
+            float LargoBarraHP = VidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+
+            PerderHP(LargoBarraHP);
+
+            if (VidaActual <= 0)
+            {
+                SendMessage("AnimacionMuerte"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+
+                Destroy(barraEnemiga);
+            }
+        }
+
+        #endregion
     }
 
     public void PerderHP(float LargoBarraHp)
     {
-        BarraHP.transform.localScale = new Vector3(LargoBarraHp, BarraHP.transform.localScale.y, BarraHP.transform.localScale.z);
+        barraEnemiga.transform.localScale = new Vector3(LargoBarraHp, barraEnemiga.transform.localScale.y, barraEnemiga.transform.localScale.z);
     }
 
     public void DropearItem() //metodo para que dropee items

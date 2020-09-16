@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Tomate_Mov : MonoBehaviour
 {
@@ -24,6 +25,9 @@ public class Tomate_Mov : MonoBehaviour
 
     public bool PlayerInRange;
 
+    public bool IsDeath;
+
+    public Transform PlayerPosition; // objeto para detectar la posicion del jugador
 
 
 
@@ -55,7 +59,11 @@ public class Tomate_Mov : MonoBehaviour
     void Start()
     {
 
+        IsDeath = false;
+
         estado = GameState.Patrullando; // Enemigo comienza estando vivo, puede moverse
+
+        PlayerPosition = GameObject.FindGameObjectWithTag("Player").transform; // busca la posicion del jugador por su tag
 
 
         if (izquierda) // Si el personaje está mirando hacia la izquierda, comienza desde el punto A
@@ -85,19 +93,44 @@ public class Tomate_Mov : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(estado==GameState.Patrullando) // Si su estado es "Patrulla", camina del punto A al punto B
+        if(estado != GameState.Muerto)
         {
-            Patrulla();
 
-            AnimacionMovimiento();
+            if(estado==GameState.Patrullando) // Si su estado es "Patrulla", camina del punto A al punto B
+            {
+                Patrulla();
+
+                AnimacionMovimiento();
+            }
+
+            if (estado == GameState.Atacando) // Si su estado es "Patrulla", camina del punto A al punto B
+            {
+                Ataque();
+
+                AnimacionAtaque();
+            }
+
         }
 
-        if (estado == GameState.Atacando) // Si su estado es "Patrulla", camina del punto A al punto B
-        {
-            Ataque();
 
-            AnimacionAtaque();
+        if (IsDeath == true)
+        {
+
+            estado = GameState.Muerto;
+
         }
+
+
+        if (estado == GameState.Muerto)
+        {
+
+                APoint.position = transform.position;
+                BPoint.position = transform.position;
+
+        }
+
+
+
     }
 
     #endregion
@@ -148,6 +181,7 @@ public class Tomate_Mov : MonoBehaviour
 
                     transform.rotation = Quaternion.Euler(0, 180, 0); // gira el enemigo a 180 grados
                 }
+
             }
 
             else
@@ -161,6 +195,8 @@ public class Tomate_Mov : MonoBehaviour
 
                     transform.rotation = Quaternion.Euler(0, 0, 0); // gira el enemigo a 0 grados
                 }
+
+
             }
     }
 
@@ -170,27 +206,50 @@ public class Tomate_Mov : MonoBehaviour
 
     public void Golpeado()
     {
-        if(estado!=GameState.Atacando)
+        if(estado != GameState.Atacando)
         {
 
             EstadoQuieto();
 
+            AnimacionGolpe();
+
         }
+
     }
 
     #endregion
 
     #region muerte
 
-    public void SalchichaDeath() // Método para que muera
+    public void TomateDeath() // Método para que muera
     {
+        if (estado == GameState.Atacando)
+        {
 
-        TomateAnim.SetBool("TomateMuere", true); // triggea la animación de muerte
+            EstadoMuerte(); // Cambia el estado a muerto
 
+            AnimacionMuerte();
 
-        estado = GameState.Muerto; // Cambia el estado a muerto
+            TomateAnim.SetBool("TomateMuere", true);
+
+        }
+
+        if (estado != GameState.Atacando)
+        {
+            EstadoMuerte(); // Cambia el estado a muerto
+
+            AnimacionMuerte();
+
+            TomateAnim.SetBool("TomateMuere", true);
+        }
+
+        IsDeath = true;
+
+        EstadoMuerte(); // Cambia el estado a muerto
 
         Destroy(TomateAll, TimeDeath); // Destruye el objeto mencionado en X tiempo
+
+
 
 
 

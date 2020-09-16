@@ -34,4 +34,9 @@ public class AnimationEvents : MonoBehaviour
     {
         PlayerAll.SendMessage("JugadorNoAtaca");
     }
+
+    public void PowerShot()
+    {
+        PlayerAll.SendMessage("PowerProyectil");
+    }
 }

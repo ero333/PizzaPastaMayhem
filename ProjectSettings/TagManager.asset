@@ -5,12 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - PJ
-  - Bala
   - Salchicha
   - VidaJugador
   - Caida
   - Piso
-  - "Sart\xE9n"
   - contraPiso
   - PlayerAll
   - DropSalchicha
@@ -31,6 +29,10 @@ TagManager:
   - LVLMANAGER
   - Checkpoint
   - GeneradorDeHorda
+  - BalaPower
+  - Bala
+  - "Sart\xE9n"
+  - Tomate
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,1102 @@
+fileFormatVersion: 2
+guid: 775ab6c73b0aca54fbb56900c946f7dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6406504252583821081
+    second: character sheet tomate-01_0
+  - first:
+      213: 5078520341594323004
+    second: character sheet tomate-01_1
+  - first:
+      213: 2268357942270897567
+    second: character sheet tomate-01_2
+  - first:
+      213: 7989461350590535201
+    second: character sheet tomate-01_3
+  - first:
+      213: -5310827617193032584
+    second: character sheet tomate-01_4
+  - first:
+      213: -211480487675997368
+    second: character sheet tomate-01_5
+  - first:
+      213: 1432613082470843773
+    second: character sheet tomate-01_6
+  - first:
+      213: 2159340292304635591
+    second: character sheet tomate-01_7
+  - first:
+      213: -2254866905500583899
+    second: character sheet tomate-01_8
+  - first:
+      213: 8545297945247876077
+    second: character sheet tomate-01_9
+  - first:
+      213: 1482867194450792618
+    second: character sheet tomate-01_10
+  - first:
+      213: -6170279759497570982
+    second: character sheet tomate-01_11
+  - first:
+      213: 1272891288805477791
+    second: character sheet tomate-01_12
+  - first:
+      213: -4370516341525487976
+    second: character sheet tomate-01_13
+  - first:
+      213: 5186474811056261459
+    second: character sheet tomate-01_14
+  - first:
+      213: 9172514905223380885
+    second: character sheet tomate-01_15
+  - first:
+      213: -3548222817757604862
+    second: character sheet tomate-01_16
+  - first:
+      213: -3453714941709446253
+    second: character sheet tomate-01_17
+  - first:
+      213: 8839543669971193262
+    second: character sheet tomate-01_18
+  - first:
+      213: -4791498960536809932
+    second: character sheet tomate-01_19
+  - first:
+      213: 3589095842514580004
+    second: character sheet tomate-01_20
+  - first:
+      213: -6268513852313880248
+    second: character sheet tomate-01_21
+  - first:
+      213: 3035301440962034033
+    second: character sheet tomate-01_22
+  - first:
+      213: 5998904109899612579
+    second: character sheet tomate-01_23
+  - first:
+      213: -3675733896113900043
+    second: character sheet tomate-01_24
+  - first:
+      213: -3729392917270323886
+    second: character sheet tomate-01_25
+  - first:
+      213: 1447312374554015745
+    second: character sheet tomate-01_26
+  - first:
+      213: 3648800584547717982
+    second: character sheet tomate-01_27
+  - first:
+      213: -8050140468664952363
+    second: character sheet tomate-01_28
+  - first:
+      213: -7301886961437791960
+    second: character sheet tomate-01_29
+  - first:
+      213: 493755341592910790
+    second: character sheet tomate-01_30
+  - first:
+      213: 8138164120018815788
+    second: character sheet tomate-01_31
+  - first:
+      213: 7399740032753368260
+    second: character sheet tomate-01_32
+  - first:
+      213: 2465800193949810528
+    second: character sheet tomate-01_33
+  - first:
+      213: 1694022154711748417
+    second: character sheet tomate-01_34
+  - first:
+      213: 2512323751697049812
+    second: character sheet tomate-01_35
+  - first:
+      213: 9072823171651207961
+    second: character sheet tomate-01_36
+  - first:
+      213: 2704863364711988245
+    second: character sheet tomate-01_37
+  - first:
+      213: 7645041793634534576
+    second: character sheet tomate-01_38
+  - first:
+      213: 866655536825210266
+    second: character sheet tomate-01_39
+  - first:
+      213: 235261549910345083
+    second: character sheet tomate-01_40
+  - first:
+      213: 4654543030449124437
+    second: character sheet tomate-01_41
+  - first:
+      213: -8453341891394544944
+    second: character sheet tomate-01_42
+  - first:
+      213: 2113233457761009330
+    second: character sheet tomate-01_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet tomate-01_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1908
+        width: 301
+        height: 408
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e046bc43568717a0800000000000000
+      internalID: -6406504252583821081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_1
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1908
+        width: 287
+        height: 408
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c383351f7578a7640800000000000000
+      internalID: 5078520341594323004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_2
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1908
+        width: 304
+        height: 383
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d2e7cb783da7f10800000000000000
+      internalID: 2268357942270897567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_3
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1911
+        width: 301
+        height: 335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12659a4b4c440ee60800000000000000
+      internalID: 7989461350590535201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_4
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1908
+        width: 301
+        height: 321
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87400ed8b662c46b0800000000000000
+      internalID: -5310827617193032584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_5
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 1911
+        width: 301
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843552fed9ba01df0800000000000000
+      internalID: -211480487675997368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_6
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 1911
+        width: 301
+        height: 373
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d758049120aa1e310800000000000000
+      internalID: 1432613082470843773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_7
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 1911
+        width: 301
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c681002e8487fd10800000000000000
+      internalID: 2159340292304635591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1389
+        width: 325
+        height: 415
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5287ad90f7a15b0e0800000000000000
+      internalID: -2254866905500583899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_9
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1392
+        width: 321
+        height: 415
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3006ec43ff69670800000000000000
+      internalID: 8545297945247876077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_10
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1396
+        width: 324
+        height: 415
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0d1565bd3349410800000000000000
+      internalID: 1482867194450792618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_11
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1413
+        width: 359
+        height: 387
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a555d521043ce5aa0800000000000000
+      internalID: -6170279759497570982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_12
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1413
+        width: 335
+        height: 391
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d80f212e73aa110800000000000000
+      internalID: 1272891288805477791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_13
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1416
+        width: 324
+        height: 395
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e555a1b8ec853c0800000000000000
+      internalID: -4370516341525487976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_14
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 1392
+        width: 322
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359058d8c5f0af740800000000000000
+      internalID: 5186474811056261459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 933
+        width: 304
+        height: 380
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fb0de45b15b4f70800000000000000
+      internalID: 9172514905223380885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_16
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 929
+        width: 311
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2045f93852e22cec0800000000000000
+      internalID: -3548222817757604862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_17
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 946
+        width: 350
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39313ff1f80f110d0800000000000000
+      internalID: -3453714941709446253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_18
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 925
+        width: 485
+        height: 387
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead8f29422e5caa70800000000000000
+      internalID: 8839543669971193262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_19
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 922
+        width: 340
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ecc83f41d218db0800000000000000
+      internalID: -4791498960536809932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_20
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 918
+        width: 329
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422b9e527a70fc130800000000000000
+      internalID: 3589095842514580004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_21
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 908
+        width: 342
+        height: 308
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84937330dd3c109a0800000000000000
+      internalID: -6268513852313880248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_22
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 911
+        width: 353
+        height: 301
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179f5ce249e8f1a20800000000000000
+      internalID: 3035301440962034033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_23
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 908
+        width: 346
+        height: 314
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a182302183604350800000000000000
+      internalID: 5998904109899612579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_24
+      rect:
+        serializedVersion: 2
+        x: 3590
+        y: 894
+        width: 321
+        height: 340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5b4411f7b2dfcc0800000000000000
+      internalID: -3675733896113900043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_25
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 908
+        width: 332
+        height: 351
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d9e32a6e88e3cc0800000000000000
+      internalID: -3729392917270323886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_26
+      rect:
+        serializedVersion: 2
+        x: 4331
+        y: 908
+        width: 301
+        height: 353
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108b15cbfe2e51410800000000000000
+      internalID: 1447312374554015745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_27
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 967
+        width: 294
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53543aacc423a230800000000000000
+      internalID: 3648800584547717982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_28
+      rect:
+        serializedVersion: 2
+        x: 5002
+        y: 960
+        width: 391
+        height: 380
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d99a3d25e7284090800000000000000
+      internalID: -8050140468664952363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_29
+      rect:
+        serializedVersion: 2
+        x: 5407
+        y: 960
+        width: 387
+        height: 399
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829a171ee7c7aaa90800000000000000
+      internalID: -7301886961437791960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_30
+      rect:
+        serializedVersion: 2
+        x: 5815
+        y: 953
+        width: 346
+        height: 411
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbd89dfddb2ad600800000000000000
+      internalID: 493755341592910790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_31
+      rect:
+        serializedVersion: 2
+        x: 6234
+        y: 946
+        width: 298
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b0d89362190f070800000000000000
+      internalID: 8138164120018815788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_32
+      rect:
+        serializedVersion: 2
+        x: 6670
+        y: 936
+        width: 305
+        height: 380
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc7082ba5821b660800000000000000
+      internalID: 7399740032753368260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 386
+        width: 331
+        height: 442
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fb7774638483220800000000000000
+      internalID: 2465800193949810528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_34
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 376
+        width: 322
+        height: 428
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f4c35ac20628710800000000000000
+      internalID: 1694022154711748417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_35
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 369
+        width: 321
+        height: 366
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8edac24219dd220800000000000000
+      internalID: 2512323751697049812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_37
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 382
+        width: 304
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c30a336ea998520800000000000000
+      internalID: 2704863364711988245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_38
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 386
+        width: 446
+        height: 332
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b40a929105a81a60800000000000000
+      internalID: 7645041793634534576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_39
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 379
+        width: 505
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9597177e9af60c00800000000000000
+      internalID: 866655536825210266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet tomate-01_41
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 382
+        width: 449
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554b0b1b932489040800000000000000
+      internalID: 4654543030449124437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

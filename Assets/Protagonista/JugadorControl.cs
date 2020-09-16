@@ -27,6 +27,8 @@ public class JugadorControl : MonoBehaviour
 
 
 
+
+
     #region Variables Movimiento
 
     public float speed = 4f; // Velocidad de movimiento
@@ -45,8 +47,9 @@ public class JugadorControl : MonoBehaviour
 
     public GameObject bala; // traer prefab de la bala
 
-
     public GameObject MeleeHit; // traer prefab del golpe cuerpo a cuerpo
+
+    public GameObject BalaPower; // traer prefab del ataque especial
 
 
     public Transform balaGenR; // traer generador de balas. Lado Derecho.
@@ -92,6 +95,18 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
+    #region Variables Vida que me quitan cada enemigo
+
+    public float SalchichaHit = 1f;
+
+    public float TomateHit = 1f;
+
+    public float BalaAlbondigaHit = 1f;
+
+    public float BalaMorrónHit = 1f;
+
+    #endregion
+
     #region Variables Recetas y Power Ups
 
     public bool Receta1 = false;
@@ -121,9 +136,7 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
-
-
-
+    #region Start
     // Start is called before the first frame update
     void Start()
     {
@@ -158,7 +171,7 @@ public class JugadorControl : MonoBehaviour
     }
 
     // Update is called once per frame
-
+    #endregion
 
     #region update
 
@@ -171,6 +184,7 @@ public class JugadorControl : MonoBehaviour
             Salto();
             Disparo();
             Melee();
+            DisparoPower();
             Limbo();
             Power1();
             Power1Time();
@@ -440,6 +454,54 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
+    #region PowerShot
+
+    public void DisparoPower()
+    {
+        if (Input.GetKeyDown("a"))
+        {
+            if (Body.GetComponent<SpriteRenderer>().flipX == false)
+            {
+                //Instantiate(BalaPower, balaGenR.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+
+                anim.Play("PJ_Power");
+
+                Disparando = true;
+
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+
+            }
+
+            if (Body.GetComponent<SpriteRenderer>().flipX == true)
+            {
+                //Instantiate(BalaPower, balaGenL.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+
+                anim.Play("PJ_Power");
+
+                Disparando = true;
+
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+            }
+
+        }
+    }
+
+    public void PowerProyectil()
+    {
+        if (Body.GetComponent<SpriteRenderer>().flipX == true)
+        {
+            Instantiate(BalaPower, balaGenL.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+        }
+
+        if (Body.GetComponent<SpriteRenderer>().flipX == false)
+        {
+            Instantiate(BalaPower, balaGenR.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+        }
+
+    }
+
+    #endregion
+
     #region vida
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -449,7 +511,7 @@ public class JugadorControl : MonoBehaviour
             if (collision.tag == "Salchicha") // si colisiona con un objeto con el tag mensionado
             {
 
-                vidaActual--;
+                vidaActual-= SalchichaHit;
 
                 float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
 
@@ -464,7 +526,7 @@ public class JugadorControl : MonoBehaviour
             if (collision.tag == "BalaMorron") // si colisiona con un objeto con el tag mensionado
             {
 
-                vidaActual--;
+                vidaActual-=BalaMorrónHit;
 
                 float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
 
@@ -479,7 +541,22 @@ public class JugadorControl : MonoBehaviour
             if (collision.tag == "BalaAlbondiga") // si colisiona con un objeto con el tag mensionado
             {
 
-                vidaActual--;
+                vidaActual-=BalaAlbondigaHit;
+
+                float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
+
+                PerderHP(LargoBarraHP);
+
+                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+
+                MarcoHP.SendMessage("HPHit");
+
+            }
+
+            if (collision.tag == "Tomate") // si colisiona con un objeto con el tag mensionado
+            {
+
+                vidaActual -= TomateHit;
 
                 float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
 

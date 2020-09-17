@@ -11,10 +11,21 @@ public class OpcionesControl : MonoBehaviour
 
     public GameObject LvlManager;
 
+    public GameObject AudioSource; // objeto de AudioSource
+
+    public GameObject MuteButton1;
+
+    public GameObject MuteButton2;
+
     // Start is called before the first frame update
     void Start()
     {
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
+
+
+
+
+        AudioSource = GameObject.FindGameObjectWithTag("AudioSource"); // busca objetos con audio por tags
     }
 
     // Update is called once per frame
@@ -28,6 +39,17 @@ public class OpcionesControl : MonoBehaviour
 
         }
 
+        if (AudioSource.GetComponent<AudioSource>().mute == true)
+        {
+            MuteButton1.SetActive(false);
+            MuteButton2.SetActive(true);
+        }
+
+        if (AudioSource.GetComponent<AudioSource>().mute == false)
+        {
+            MuteButton1.SetActive(true);
+            MuteButton2.SetActive(false);
+        }
 
     }
 
@@ -74,5 +96,8 @@ public class OpcionesControl : MonoBehaviour
     }
     #endregion
 
+    public void AudioManagerDetector()
+    {
 
+    }
 }

@@ -33,6 +33,7 @@ TagManager:
   - Bala
   - "Sart\xE9n"
   - Tomate
+  - AudioSource
   layers:
   - Default
   - TransparentFX

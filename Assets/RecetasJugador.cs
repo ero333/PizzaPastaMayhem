@@ -16,6 +16,8 @@ public class RecetasJugador : MonoBehaviour
 
     public GameObject Paty;
 
+    public GameObject TextoListo1;
+
     public bool TengoPan = false;
 
     public bool TengoQueso = false;
@@ -34,6 +36,8 @@ public class RecetasJugador : MonoBehaviour
 
     public GameObject Albondigas;
 
+    public GameObject TextoListo2;
+
     public bool TengoJamon = false;
 
     public bool TengoSalchicha = false;
@@ -51,6 +55,8 @@ public class RecetasJugador : MonoBehaviour
     public GameObject Lechuga;
 
     public GameObject Tomates;
+
+    public GameObject TextoListo3;
 
     public bool TengoPollo = false;
 
@@ -87,6 +93,8 @@ public class RecetasJugador : MonoBehaviour
             
             SendMessage("TengoReceta1");
 
+            TextoListo1.SetActive(true);
+
         }
     }
 
@@ -98,6 +106,8 @@ public class RecetasJugador : MonoBehaviour
 
             SendMessage("TengoReceta2");
 
+            TextoListo2.SetActive(true);
+
         }
     }
 
@@ -108,6 +118,8 @@ public class RecetasJugador : MonoBehaviour
             Receta3 = true;
 
             SendMessage("TengoReceta3");
+
+            TextoListo3.SetActive(true);
 
         }
     }
@@ -227,6 +239,8 @@ public class RecetasJugador : MonoBehaviour
         Paty.SetActive(false);
 
         Queso.SetActive(false);
+
+        TextoListo1.SetActive(false);
     }
 
     #endregion
@@ -248,6 +262,8 @@ public class RecetasJugador : MonoBehaviour
         Albondigas.SetActive(false);
 
         Jamon.SetActive(false);
+
+        TextoListo2.SetActive(false);
     }
 
     #endregion
@@ -269,6 +285,8 @@ public class RecetasJugador : MonoBehaviour
         Lechuga.SetActive(false);
 
         Pollo.SetActive(false);
+
+        TextoListo3.SetActive(false);
     }
     #endregion
 

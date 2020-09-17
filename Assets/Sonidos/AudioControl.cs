@@ -25,7 +25,6 @@ public class AudioControl : MonoBehaviour
         }
 
 
-        PlayerAll.GetComponent<AudioSource>().mute = isMuted;
 
     }
 
@@ -53,7 +52,6 @@ public class AudioControl : MonoBehaviour
 
         }
 
-        PlayerAll.GetComponent<AudioSource>().mute = isMuted;
 
         PlayerPrefs.SetInt("MUTED", isMuted ? 1 : 0);
 

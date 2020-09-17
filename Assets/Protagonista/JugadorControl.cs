@@ -192,7 +192,6 @@ public class JugadorControl : MonoBehaviour
             Power3();
 
 
-
             if (vidaActual <= 0) // si la barra de vida es menor o igual a 0
             {
                 estado = GameState.muerto; // cambia a estado "muerto"
@@ -597,7 +596,19 @@ public class JugadorControl : MonoBehaviour
         barraHP.transform.localScale = new Vector3(LargoBarraHP, barraHP.transform.localScale.y, barraHP.transform.localScale.z);
     }
 
+    public void VidaRota()
+    {
+        float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
 
+        PerderHP(LargoBarraHP);
+
+        if (vidaActual < 0)
+        {
+            Debug.Log("vida rota");
+
+            Debug.Log(vidaActual);
+        }
+    }
 
 
     public void ContenedoresVida()
@@ -774,7 +785,7 @@ public class JugadorControl : MonoBehaviour
 
             if (vidaActual < vidaMaxima) // Detecta que la barra de vida del jugador sea menor a su total
             {
-                vidaActual += vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
+                vidaActual = vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
 
                 float LargoBarraHP = vidaActual / vidaMaxima; // cálculo necesario
 

@@ -31,7 +31,12 @@ public class Salchicha_Vida : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (vidaActual <= 0)
+        {
+            SendMessage("SalchichaDeath"); // Le envía al gameobject un mensaje para que "reproduzca" este método
 
+            Destroy(barraEnemiga);
+        }
     }
 
 
@@ -87,6 +92,8 @@ public class Salchicha_Vida : MonoBehaviour
             if (vidaActual <= 0)
             {
                 SendMessage("SalchichaDeath"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+
+                Destroy(barraEnemiga);
             }
         }
 

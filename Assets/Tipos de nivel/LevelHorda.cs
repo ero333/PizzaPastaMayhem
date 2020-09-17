@@ -51,7 +51,7 @@ public class LevelHorda : MonoBehaviour
             Timer -= Time.deltaTime; // el tiempo del timer se resta por segundo
         }
 
-        else if (Timer <= 0) // si el timer llega a 0
+        if ((Timer <= 0) && (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)) // si el timer llega a 0
         {
             UI_Pasaste.SetActive(true); // activa Interfaz de que ganaste
 
@@ -60,7 +60,10 @@ public class LevelHorda : MonoBehaviour
             PlayerAll.SendMessage("NivelCompleto"); // envia mensaje al jugador
 
             Cronometro.gameObject.SetActive(false); // destruye el cronometro
+        }
 
+        if(Timer <= 0)
+        {
             HordaGeneratorStop();
         }
 

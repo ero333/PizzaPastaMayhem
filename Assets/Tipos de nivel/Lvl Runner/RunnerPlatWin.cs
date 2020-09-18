@@ -7,10 +7,14 @@ public class RunnerPlatWin : MonoBehaviour
 
     public GameObject PanRunnerlvl; // traer gameobject que contiene todo el objeto
 
+    public GameObject Player;
+
+    public GameObject ParedesInvisibles;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Player = GameObject.FindGameObjectWithTag("PlayerAll");
     }
 
     // Update is called once per frame
@@ -25,6 +29,10 @@ public class RunnerPlatWin : MonoBehaviour
         {
 
             PanRunnerlvl.SendMessage("LevelCompletado");
+
+            Player.SendMessage("NivelCompleto");
+
+            ParedesInvisibles.SetActive(true);
 
         }
     }

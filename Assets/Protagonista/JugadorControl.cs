@@ -135,6 +135,10 @@ public class JugadorControl : MonoBehaviour
 
     public float PowerSpeedJump = 10f;
 
+    public GameObject SpeedTornado; // traer gameobject del tornado
+
+
+
     public float PowerT = 5f;
 
     private float PowerTimeStart;
@@ -729,6 +733,11 @@ public class JugadorControl : MonoBehaviour
             Receta1 = false;
 
             Power1Activo = true;
+
+            if (Power1Activo == true)
+            {
+                SpeedTornado.SetActive(true);
+            }
         }
     }
 
@@ -787,12 +796,16 @@ public class JugadorControl : MonoBehaviour
             else if (PowerTimeStart <= 0)
             {
                 Power1Activo = false;
+
+
             }
         }
 
         if (Power1Activo == false) // Reinicia Timer
         {
             PowerTimeStart = PowerT;
+
+            SpeedTornado.SetActive(false);
         }
 
         if (Power2Activo == true)

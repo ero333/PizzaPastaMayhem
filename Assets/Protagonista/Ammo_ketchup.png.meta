@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e92ff1d34465d8244b0856e50abea4b3
+guid: 8f6075284e82fd3459a4c553c14e5777
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5287019768553228235
-    second: Plataformas nuevas pasto mini_0
+      213: 4389208181520000093
+    second: Ammo_ketchup_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,12 +44,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 470
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,22 +116,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plataformas nuevas pasto mini_0
+      name: Ammo_ketchup_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 225
-        width: 800
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 139
+        y: 6
+        width: 216
+        height: 494
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc74519b7744f5940800000000000000
-      internalID: 5287019768553228235
+      spriteID: d54ecb8069999ec30800000000000000
+      internalID: 4389208181520000093
       vertices: []
       indices: 
       edges: []

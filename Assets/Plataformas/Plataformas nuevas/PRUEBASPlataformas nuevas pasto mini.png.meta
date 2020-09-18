@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: e92ff1d34465d8244b0856e50abea4b3
+guid: dcbb4bb04c4df1e4cacb7cf4fa45892a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5287019768553228235
-    second: Plataformas nuevas pasto mini_0
+      213: 7332879347025705001
+    second: PRUEBASPlataformas nuevas pasto mini_0
+  - first:
+      213: -6183324086850541383
+    second: PRUEBASPlataformas nuevas pasto mini_1
+  - first:
+      213: -3856546101937849352
+    second: PRUEBASPlataformas nuevas pasto mini_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,7 +50,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -116,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plataformas nuevas pasto mini_0
+      name: PRUEBASPlataformas nuevas pasto mini_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 225
-        width: 800
-        height: 229
+        x: 3
+        y: 229
+        width: 171
+        height: 222
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +136,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc74519b7744f5940800000000000000
-      internalID: 5287019768553228235
+      spriteID: 928f3443aee93c560800000000000000
+      internalID: 7332879347025705001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRUEBASPlataformas nuevas pasto mini_1
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 229
+        width: 171
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b82820f08b603aa0800000000000000
+      internalID: -6183324086850541383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRUEBASPlataformas nuevas pasto mini_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 229
+        width: 455
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbb31ec0cbca7ac0800000000000000
+      internalID: -3856546101937849352
       vertices: []
       indices: 
       edges: []

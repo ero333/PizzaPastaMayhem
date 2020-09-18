@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
+using UnityEngine.UI;
 
 public class JugadorControl : MonoBehaviour
 {
@@ -95,6 +96,18 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
+    #region Variables Municion
+
+    public float municionMáxima = 100f;
+
+    public float municionActual;
+
+    public GameObject barraAmmo; // traer gameobject de la barra de vida
+
+    public Text municionContador; // traer objeto de texto con contador de municion
+
+    #endregion
+
     #region Variables Vida que me quitan cada enemigo
 
     public float SalchichaHit = 1f;
@@ -150,6 +163,8 @@ public class JugadorControl : MonoBehaviour
 
         vidaActual = vidaMaxima;
 
+        municionActual = municionMáxima;
+
 
 
         RBPlayer = GetComponent<Rigidbody2D>();
@@ -190,6 +205,10 @@ public class JugadorControl : MonoBehaviour
             Power1Time();
             Power2();
             Power3();
+
+            municionContador.text = municionActual.ToString("0"); // muestra el número de la municion como texto con numeros enteros
+
+
 
 
             if (vidaActual <= 0) // si la barra de vida es menor o igual a 0
@@ -375,27 +394,32 @@ public class JugadorControl : MonoBehaviour
 
         if (Input.GetKeyDown("d"))
         {
-            if (Body.GetComponent<SpriteRenderer>().flipX == false)
+            if (municionActual > 0)
             {
-                Instantiate(bala, balaGenR.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                if (Body.GetComponent<SpriteRenderer>().flipX == false)
+                {
+                    Instantiate(bala, balaGenR.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
-                anim.Play("PJ_Dispara");
+                    anim.Play("PJ_Dispara");
 
-                Disparando = true;
+                    Disparando = true;
 
-                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+                    RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
 
-            }
+                }
 
-            if (Body.GetComponent<SpriteRenderer>().flipX == true)
-            {
-                Instantiate(bala, balaGenL.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                if (Body.GetComponent<SpriteRenderer>().flipX == true)
+                {
+                    Instantiate(bala, balaGenL.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
-                anim.Play("PJ_Dispara");
+                    anim.Play("PJ_Dispara");
 
-                Disparando = true;
+                    Disparando = true;
 
-                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+                    RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+                }
+
+                MunicionJugador();
             }
 
         }
@@ -622,6 +646,27 @@ public class JugadorControl : MonoBehaviour
         {
             LifeContainer1.SetActive(false);
         }
+    }
+
+    #endregion
+
+    #region Municion
+
+    public void MunicionJugador()
+    {
+        float LargoBarraAmmo = municionActual / municionMáxima;
+
+        municionActual--;
+
+        AmmoBarFunction(LargoBarraAmmo);
+    }
+
+
+    public void AmmoBarFunction(float LargoBarraAmmo)
+    {
+
+        barraAmmo.transform.localScale = new Vector3(barraAmmo.transform.localScale.x, LargoBarraAmmo, barraHP.transform.localScale.z);
+
     }
 
     #endregion

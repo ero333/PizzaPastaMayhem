@@ -34,18 +34,8 @@ TagManager:
   - "Sart\xE9n"
   - Tomate
   - AudioSource
-  - UIPan
-  - UIPaty
-  - UIQueso
-  - UIJamon
-  - UISalchicha
-  - UIAlbondigas
-  - UIPollo
-  - UILechuga
-  - UITomate
-  - UIListo1
-  - UIListo2
-  - UIListo3
+  - BossRunner
+  - PanMonstruo
   layers:
   - Default
   - TransparentFX

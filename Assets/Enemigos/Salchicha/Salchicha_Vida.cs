@@ -82,7 +82,6 @@ public class Salchicha_Vida : MonoBehaviour
             PerderHP(LargoBarraHP);
 
 
-            Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
             if (vidaActual > 0)
             {

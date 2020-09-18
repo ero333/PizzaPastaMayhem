@@ -591,7 +591,23 @@ public class JugadorControl : MonoBehaviour
 
             }
 
-            else if (collision.tag == "Caida") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "Caida") // si colisiona con un objeto con el tag mensionado
+            {
+                vidaActual = 0;
+
+
+
+                float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
+
+                PerderHP(LargoBarraHP);
+
+
+                MarcoHP.SendMessage("HPHit");
+
+
+            }
+
+            if (collision.tag == "PanMonstruo") // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
 

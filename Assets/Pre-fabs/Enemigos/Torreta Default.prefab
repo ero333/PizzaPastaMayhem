@@ -358,7 +358,7 @@ MonoBehaviour:
   ItemDrop: {fileID: 8389549852549959575, guid: d5716b650e8b1c844a70b6dcbe3a01b2, type: 3}
   DropPosition: {fileID: 3491469857045249789}
   "Da\xF1oBala": 1
-  "Da\xF1oPowerBala": 1
+  "Da\xF1oPowerBala": 3
   "Da\xF1oSarten": 1
   "Da\xF1oShield": 1
 --- !u!114 &3491469857045249790

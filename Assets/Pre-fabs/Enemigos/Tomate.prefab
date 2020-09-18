@@ -246,9 +246,9 @@ MonoBehaviour:
   vidaEnemiga: 5
   barraEnemiga: {fileID: 6705473246988728080}
   "Da\xF1oBala": 1
-  "Da\xF1oPowerBala": 1
+  "Da\xF1oPowerBala": 3
   "Da\xF1oSarten": 1
-  "Da\xF1oShield": 5
+  "Da\xF1oShield": 1
 --- !u!1 &6705473247041206995
 GameObject:
   m_ObjectHideFlags: 0

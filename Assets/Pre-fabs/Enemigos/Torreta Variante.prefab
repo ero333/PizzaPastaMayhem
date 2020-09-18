@@ -530,9 +530,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaEnemiga: 10
   barraEnemiga: {fileID: 7302910768899385007}
-  "Da\xF1oBala": 5
-  "Da\xF1oPowerBala": 5
-  "Da\xF1oSarten": 5
+  "Da\xF1oBala": 1
+  "Da\xF1oPowerBala": 3
+  "Da\xF1oSarten": 1
   "Da\xF1oShield": 1
 --- !u!95 &7302910768855360327
 Animator:

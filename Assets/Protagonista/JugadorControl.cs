@@ -6,6 +6,7 @@ using System.Security.Cryptography;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 using UnityEngine.UI;
+using UnityEngine.Timeline;
 
 public class JugadorControl : MonoBehaviour
 {
@@ -52,6 +53,14 @@ public class JugadorControl : MonoBehaviour
 
     public GameObject BalaPower; // traer prefab del ataque especial
 
+    public float BalaPowerCooldownTime = 5f; // tiempo que dura el CD del power attack
+
+    private float BalaPowerTimer;
+
+    public bool BalaPowerReady; // bool que te permite activar o no el Power Attack
+
+
+
 
     public Transform balaGenR; // traer generador de balas. Lado Derecho.
 
@@ -69,7 +78,7 @@ public class JugadorControl : MonoBehaviour
 
     public float vidaMaxima = 10f;
 
-    private float vidaActual;
+    public float vidaActual;
 
     public GameObject barraHP; // traer gameobject de la barra de vida
 
@@ -187,6 +196,11 @@ public class JugadorControl : MonoBehaviour
 
 
         NivelCompletado = false;
+
+
+
+        BalaPowerReady = true;
+
     }
 
     // Update is called once per frame
@@ -206,11 +220,15 @@ public class JugadorControl : MonoBehaviour
             DisparoPower();
             Limbo();
             Power1();
-            Power1Time();
+            PowersTime();
             Power2();
             Power3();
 
             municionContador.text = municionActual.ToString("0"); // muestra el número de la municion como texto con numeros enteros
+
+            float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
+
+            PerderHP(LargoBarraHP);
 
 
 
@@ -485,7 +503,7 @@ public class JugadorControl : MonoBehaviour
 
     public void DisparoPower()
     {
-        if (Input.GetKeyDown("a"))
+        if ((Input.GetKeyDown("a")) && (BalaPowerReady == true))
         {
             if (Body.GetComponent<SpriteRenderer>().flipX == false)
             {
@@ -496,6 +514,8 @@ public class JugadorControl : MonoBehaviour
                 Disparando = true;
 
                 RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+
+                BalaPowerReady = false;
 
             }
 
@@ -508,6 +528,8 @@ public class JugadorControl : MonoBehaviour
                 Disparando = true;
 
                 RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+
+                BalaPowerReady = false;
             }
 
         }
@@ -540,10 +562,6 @@ public class JugadorControl : MonoBehaviour
 
                 vidaActual-= SalchichaHit;
 
-                float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
-
-                PerderHP(LargoBarraHP);
-
                 anim.Play("PJ_Herido"); // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
@@ -554,10 +572,6 @@ public class JugadorControl : MonoBehaviour
             {
 
                 vidaActual-=BalaMorrónHit;
-
-                float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
-
-                PerderHP(LargoBarraHP);
 
                 anim.Play("PJ_Herido"); // triggea la animación de que es herido
 
@@ -570,10 +584,6 @@ public class JugadorControl : MonoBehaviour
 
                 vidaActual-=BalaAlbondigaHit;
 
-                float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
-
-                PerderHP(LargoBarraHP);
-
                 anim.Play("PJ_Herido"); // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
@@ -585,10 +595,6 @@ public class JugadorControl : MonoBehaviour
 
                 vidaActual -= TomateHit;
 
-                float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
-
-                PerderHP(LargoBarraHP);
-
                 anim.Play("PJ_Herido"); // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
@@ -599,13 +605,6 @@ public class JugadorControl : MonoBehaviour
             {
                 vidaActual = 0;
 
-
-
-                float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
-
-                PerderHP(LargoBarraHP);
-
-
                 MarcoHP.SendMessage("HPHit");
 
 
@@ -614,13 +613,6 @@ public class JugadorControl : MonoBehaviour
             if (collision.tag == "PanMonstruo") // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
-
-
-
-                float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
-
-                PerderHP(LargoBarraHP);
-
 
                 MarcoHP.SendMessage("HPHit");
 
@@ -633,25 +625,6 @@ public class JugadorControl : MonoBehaviour
     public void PerderHP(float LargoBarraHP) // metodo para hacer que la barra de vida "baje" (visualmente hablando) de cierta manera. EJ: De derecha a izquierda, izquierda es 0 y derecha es su vida
     {
         barraHP.transform.localScale = new Vector3(LargoBarraHP, barraHP.transform.localScale.y, barraHP.transform.localScale.z); // Para que al barra de vida vaya bajando
-    }
-
-    public void RecuperarFullHP(float LargoBarraHP)
-    {
-        barraHP.transform.localScale = new Vector3(LargoBarraHP, barraHP.transform.localScale.y, barraHP.transform.localScale.z);
-    }
-
-    public void VidaRota()
-    {
-        float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
-
-        PerderHP(LargoBarraHP);
-
-        if (vidaActual < 0)
-        {
-            Debug.Log("vida rota");
-
-            Debug.Log(vidaActual);
-        }
     }
 
 
@@ -777,16 +750,17 @@ public class JugadorControl : MonoBehaviour
 
             vidaActual = vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
 
-            float LargoBarraHP = vidaActual / vidaMaxima; // cálculo necesario
-
-            RecuperarFullHP(LargoBarraHP); // hace que se recupere la barra de vida visualmente
 
         }
     }
 
-    public void Power1Time()
+    #endregion
+
+    #region Timer de habilidades especiales
+
+    public void PowersTime()
     {
-        if (Power1Activo == true)
+        if (Power1Activo == true) // Activa Timer del Power up 1
         {
 
             if (PowerTimeStart > 0)
@@ -796,19 +770,30 @@ public class JugadorControl : MonoBehaviour
             else if (PowerTimeStart <= 0)
             {
                 Power1Activo = false;
-
-
             }
+
+
+            if (vidaActual <= 0)
+            {
+                Power1Activo = false;
+            }
+
+
+
         }
 
-        if (Power1Activo == false) // Reinicia Timer
+        if (Power1Activo == false) // Reinicia Timer del Power Up 1
         {
             PowerTimeStart = PowerT;
 
             SpeedTornado.SetActive(false);
         }
 
-        if (Power2Activo == true)
+
+
+
+
+        if (Power2Activo == true) // Activa Timer del Power up 2
         {
 
             if (ShieldTimeStart > 0)
@@ -821,7 +806,7 @@ public class JugadorControl : MonoBehaviour
             }
         }
 
-        if (Power2Activo == false) // Reinicia Timer
+        if (Power2Activo == false) // Reinicia Timer del Power Up 2
         {
             ShieldTimeStart = ShieldTime;
 
@@ -829,6 +814,26 @@ public class JugadorControl : MonoBehaviour
         }
 
 
+
+
+
+
+        if (BalaPowerReady == true) // reinicia Timer del Power Attack
+        {
+            BalaPowerTimer = BalaPowerCooldownTime;
+        }
+
+        if(BalaPowerReady==false) // Activa Timer del Power Attack
+        {
+            if (BalaPowerTimer > 0)
+            {
+                BalaPowerTimer -= Time.deltaTime;
+            }
+            else if (BalaPowerTimer <= 0)
+            {
+                BalaPowerReady = true;
+            }
+        }
 
 
 
@@ -863,7 +868,7 @@ public class JugadorControl : MonoBehaviour
 
                 float LargoBarraHP = vidaActual / vidaMaxima; // cálculo necesario
 
-                RecuperarFullHP(LargoBarraHP); // hace que se recupere la barra de vida visualmente
+                PerderHP(LargoBarraHP); // hace que se recupere la barra de vida visualmente
             }
 
         }

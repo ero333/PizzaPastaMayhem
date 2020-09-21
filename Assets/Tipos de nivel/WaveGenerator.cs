@@ -14,6 +14,7 @@ public class WaveGenerator : MonoBehaviour
 
     public int EnemigosAGenerar;            // Cantidad de enemigos que van a generarse
     public int EnemigosGenerandose;         // Cantidad de enemigos que se han generado en la wave
+    public int TotalEnemigosGenerados;      // Cantidad total de enemigos generados por el objecto con este script
 
 
 
@@ -26,7 +27,8 @@ public class WaveGenerator : MonoBehaviour
     {
         Contador = 0;                       // Timer empieza en 0
         HordaStart = false;                 // La Horda empieza apagada
-        EnemigosGenerandose = 0;            
+        EnemigosGenerandose = 0;
+        TotalEnemigosGenerados = 0;
     }
 
     // Update is called once per frame
@@ -65,6 +67,8 @@ public class WaveGenerator : MonoBehaviour
                 Contador = 0;               // Reinicia Timer
 
                 EnemigosGenerandose++;      // La cuenta de enemigos generandose aumenta
+
+                TotalEnemigosGenerados++;   // La cuenta de enemigos generados (total) aumenta
 
 
                 CreateEnemy();              // Llama al método para generar enemigos

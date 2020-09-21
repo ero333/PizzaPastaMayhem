@@ -3373,7 +3373,7 @@ GameObject:
   - component: {fileID: 556796613}
   - component: {fileID: 556796612}
   m_Layer: 0
-  m_Name: Plataforma (2)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7534,7 +7534,7 @@ GameObject:
   - component: {fileID: 1217168353}
   - component: {fileID: 1217168352}
   m_Layer: 0
-  m_Name: Plataforma (3)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -18,6 +18,8 @@ public class Salchicha_Mov : MonoBehaviour
 
     public bool izquierda = true; // Dirección inicial donde va a empezar el enemigo
 
+    public bool PointStart = true; // Elegir si comienza desde el punto a o el B
+
     public float speed = 4f; // Velocidad a la que se moverá el enemigo
 
 
@@ -59,17 +61,18 @@ public class Salchicha_Mov : MonoBehaviour
 
         estado = GameState.Vivo; // Enemigo comienza estando vivo, puede moverse
 
-
-        if (izquierda) // Si el personaje está mirando hacia la izquierda, comienza desde el punto A
+        if (PointStart == true)
         {
-            transform.position = APoint.position;
-        }
+            if (izquierda) // Si el personaje está mirando hacia la izquierda, comienza desde el punto A
+            {
+                transform.position = APoint.position;
+            }
 
-        else // Si el personaje está mirando hacia la derecha, comienza desde el punto B
-        {
-            transform.position = BPoint.position;
+            else // Si el personaje está mirando hacia la derecha, comienza desde el punto B
+            {
+                transform.position = BPoint.position;
+            }
         }
-
 
 
 

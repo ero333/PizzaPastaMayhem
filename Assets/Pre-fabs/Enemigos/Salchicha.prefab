@@ -251,7 +251,7 @@ MonoBehaviour:
   APoint: {fileID: 560170332325143402}
   BPoint: {fileID: 560170333259339191}
   izquierda: 1
-  PointStart: 1
+  PointStart: 0
   speed: 2
   SalchichaAll: {fileID: 560170333600598806}
   SalchichaBody: {fileID: 560170332921798168}

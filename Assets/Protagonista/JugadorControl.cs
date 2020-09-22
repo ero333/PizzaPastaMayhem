@@ -32,6 +32,7 @@ public class JugadorControl : MonoBehaviour
 
 
     #region Variables Movimiento
+    [Header("Movimiento")]
 
     public float speed = 4f; // Velocidad de movimiento
 
@@ -42,6 +43,7 @@ public class JugadorControl : MonoBehaviour
     #endregion
 
     #region ataques
+    [Header("Ataque")]
 
     public bool Disparando = false; // checkea si está disparando o no
 
@@ -74,7 +76,7 @@ public class JugadorControl : MonoBehaviour
     #endregion
 
     #region Variables Vida
-
+    [Header("Vida")]
 
     public float vidaMaxima = 10f;
 
@@ -106,6 +108,7 @@ public class JugadorControl : MonoBehaviour
     #endregion
 
     #region Variables Municion
+    [Header("Municion")]
 
     public float municionMáxima = 100f;
 
@@ -118,6 +121,7 @@ public class JugadorControl : MonoBehaviour
     #endregion
 
     #region Variables Vida que me quitan cada enemigo
+    [Header("Daño Recibido")]
 
     public float SalchichaHit = 1f;
 
@@ -130,6 +134,7 @@ public class JugadorControl : MonoBehaviour
     #endregion
 
     #region Variables Recetas y Power Ups
+    [Header("Recetas y Power Ups")]
 
     public bool Receta1 = false;
 

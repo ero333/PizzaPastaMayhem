@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class Salchicha_Mov : MonoBehaviour
+public class JamonMov : MonoBehaviour
 {
-    public enum GameState { Vivo, Muerto, Atacando}
 
-    public GameState estado = GameState.Vivo;
+    public enum GameState { Patrullando, Muerto, Quieto }
+
+    public GameState estado = GameState.Patrullando;
 
 
+    [Header("Movimiento")]
 
     public Transform APoint; // Traer gameobject del punto A
 
@@ -23,45 +23,44 @@ public class Salchicha_Mov : MonoBehaviour
     public float speed = 4f; // Velocidad a la que se moverá el enemigo
 
 
+    [Header("Ataque")]
+
+    public GameObject Bala;         // traer pre-fab del proyectil de este enemigo
+
+    public Transform BalaGenerator; // traer objeto donde apareceran los proyectiles
+
+    public float CoolDown;
+    public float CDTimer;
+
+    public bool CdOn;
 
 
 
-    public GameObject SalchichaAll;  // traer GameObject que contiene al body
-    public GameObject SalchichaBody; // traer GameObject donde está el sprite
-    private Animator SalchichaAnim;
+
+    [Header("Objetos")]
+
+    public GameObject JamonAll; // traer GameObject que contiene al body
+    public GameObject JamonBody; //traer GameObject donde está el sprite
+    private Animator JamonAnim;
 
 
 
 
 
 
-
-
-    public float TimeDeath = 2.5f; // tiempo de muerte para eliminar el gameobject del enemigo
-
-
-
-    private float NumeroAzar; // variable para el numero al azar
 
 
 
     [Header("Drops")]
 
-    public GameObject IngredienteDrop; // traer el ingrediente que dropea este enemigo
+    public GameObject IngredienteDrop; // traer objeto que dropea la salchicha
 
     public Transform DropPosition; // traer gameobject donde va a dropearse el objeto
-
-
-
-
-
 
     // Start is called before the first frame update
     void Start()
     {
-
-
-        estado = GameState.Vivo; // Enemigo comienza estando vivo, puede moverse
+        estado = GameState.Patrullando;
 
         if (PointStart == true)
         {
@@ -76,44 +75,42 @@ public class Salchicha_Mov : MonoBehaviour
             }
         }
 
+        CDTimer = CoolDown;
+        CdOn = false;
 
+        JamonAnim = JamonBody.GetComponent<Animator>();
 
+        JamonAnim.SetBool("StartMov", true);
 
-
-        SalchichaAnim = SalchichaBody.GetComponent<Animator>();
-
-        SalchichaAnim.SetBool("SalchichaMuere", false); // Seteamos que el bool, que triggea la animación de muerte, empiece en false
-
-
-
-
-
-
-
-
-
+        JamonAnim.SetBool("IsDeath", false);
 
     }
-
-
-    #region update
 
     // Update is called once per frame
     void Update()
     {
-        if(estado == GameState.Vivo) // si su gamestate es "vivo", entonces se mueve
+        if(estado==GameState.Patrullando)
         {
             Movimiento();
         }
 
+        if(CdOn==true)
+        {
+            CoolDownTime();
+        }
+
+        if (estado == GameState.Muerto)
+        {
+            JamonAnim.SetBool("IsDeath", true);
+        }
+
+
+
     }
-
-    #endregion
-
 
     #region Movimiento
 
-    void Movimiento() // Movimiento del personaje
+    public void Movimiento()
     {
         if (izquierda)
         {
@@ -122,7 +119,6 @@ public class Salchicha_Mov : MonoBehaviour
             if (transform.position == BPoint.position) // Si su posición actual es el punto B, izquierda deja de ser verdadero y flipea el sprite
             {
                 izquierda = false;
-                //GetComponent<SpriteRenderer>().flipX = true; //--------------> esto flipea el sprite. NO RECOMENDABLE si el enemigo tiene hitbox que encesita moverse
 
                 transform.rotation = Quaternion.Euler(0, 180, 0); // gira el enemigo a 180 grados
             }
@@ -135,7 +131,6 @@ public class Salchicha_Mov : MonoBehaviour
             if (transform.position == APoint.position) // Si su posición actual es el punto A, izquierda es verdadero y flipea el sprite
             {
                 izquierda = true;
-                //GetComponent<SpriteRenderer>().flipX = false; //--------------> esto flipea el sprite. NO RECOMENDABLE si el enemigo tiene hitbox que encesita moverse
 
                 transform.rotation = Quaternion.Euler(0, 0, 0); // gira el enemigo a 0 grados
             }
@@ -144,62 +139,66 @@ public class Salchicha_Mov : MonoBehaviour
 
     #endregion
 
+    #region Ataque
 
-
-    #region Muerte
-
-
-    public void SalchichaDeath() // Método para que muera
+    public void Disparo()
     {
+        Instantiate(Bala, BalaGenerator.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+    }
 
-        SalchichaAnim.SetBool("SalchichaMuere", true); // triggea la animación de muerte
+    public void JugadorEnRango()
+    {
+        EstadoQuieto();
 
+        JamonAnim.Play("Jamon_Ataque");
 
-        estado = GameState.Muerto; // Cambia el estado a muerto
+        JamonAnim.SetBool("StartMov", false);
 
-        Destroy(SalchichaAll, TimeDeath); // Destruye el objeto mencionado en X tiempo
-
-
+        CDTimer = CoolDown;
 
     }
 
+    public void CoolDownTime()
+    {
+        CDTimer -= Time.deltaTime;
+        if(CDTimer<=0)
+        {
+            JamonAnim.SetBool("StartMov", true);
 
+            estado = GameState.Patrullando;
+            CdOn = false;
+        }
+    }
+
+    public void StartCoolDown()
+    {
+        CdOn = true;
+    }
 
     #endregion
 
 
-    public void SalchichaGolpeada() // metodo para triggear animacion de que recibe daño
+
+
+
+
+
+    #region Estados
+
+    public void EstadoPatrulla()
     {
-        SalchichaAnim.Play("Salchicha_Golpe");
+        estado = GameState.Patrullando;
     }
-    
-    public void Atacando() // metodo para cuando está atacando. Se queda quieto
+    public void EstadoQuieto()
     {
-        estado = GameState.Atacando;
+        estado = GameState.Quieto;
     }
-
-    public void Patrulla() // cambia el estado a "vivo" para que se siga moviendo
+    public void EstadoMuerto()
     {
-        estado = GameState.Vivo;
-    }
-
-    public void AtaqueAzar() // agarra la variante mencionada y le da un valor al azar
-    {
-
-        NumeroAzar = Random.Range(1, 100); // numero al azar, probabilidades de que ataque o no
-
-
-        if (NumeroAzar < 51) // si el numero al azar da entre 1 y 50, entonces realiza un ataque
-        {
-            SalchichaAnim.Play("Salchicha_Ataque");
-            Atacando();
-
-        }
+        estado = GameState.Muerto;
     }
 
-
-
-
+    #endregion
 
     #region Destruir Objeto
 
@@ -210,10 +209,12 @@ public class Salchicha_Mov : MonoBehaviour
 
     #endregion
 
+    #region drops
+
     public void DropearItem() //metodo para que dropee items
     {
         Instantiate(IngredienteDrop, DropPosition.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
     }
 
-
+    #endregion
 }

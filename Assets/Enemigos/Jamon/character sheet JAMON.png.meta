@@ -1,0 +1,1057 @@
+fileFormatVersion: 2
+guid: 9f2077f3924dae946a9301c08030aaea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4011429890491132534
+    second: character sheet JAMON_0
+  - first:
+      213: 1439449749023137398
+    second: character sheet JAMON_1
+  - first:
+      213: 3935338391833363717
+    second: character sheet JAMON_2
+  - first:
+      213: -9190845151415332437
+    second: character sheet JAMON_3
+  - first:
+      213: -8073411581932696501
+    second: character sheet JAMON_4
+  - first:
+      213: -1234904927021411467
+    second: character sheet JAMON_5
+  - first:
+      213: 1662578436936918984
+    second: character sheet JAMON_6
+  - first:
+      213: 3755048449832547501
+    second: character sheet JAMON_7
+  - first:
+      213: 5768805411260218973
+    second: character sheet JAMON_8
+  - first:
+      213: 3258004821094430352
+    second: character sheet JAMON_9
+  - first:
+      213: 2353909183748478307
+    second: character sheet JAMON_10
+  - first:
+      213: 1801427031889104635
+    second: character sheet JAMON_11
+  - first:
+      213: 3535907954415886593
+    second: character sheet JAMON_12
+  - first:
+      213: -7237827653647203118
+    second: character sheet JAMON_13
+  - first:
+      213: -1765626319028062048
+    second: character sheet JAMON_14
+  - first:
+      213: -2094156525218442259
+    second: character sheet JAMON_15
+  - first:
+      213: -2061088050315575348
+    second: character sheet JAMON_16
+  - first:
+      213: 4757677965977550051
+    second: character sheet JAMON_17
+  - first:
+      213: -5250248143847176040
+    second: character sheet JAMON_18
+  - first:
+      213: 6969819483345405557
+    second: character sheet JAMON_19
+  - first:
+      213: -4889802287396495287
+    second: character sheet JAMON_20
+  - first:
+      213: 7285775464556399668
+    second: character sheet JAMON_21
+  - first:
+      213: -3220408572049978446
+    second: character sheet JAMON_22
+  - first:
+      213: 5524776034521906733
+    second: character sheet JAMON_23
+  - first:
+      213: 4300463645057792053
+    second: character sheet JAMON_24
+  - first:
+      213: 2630334633901283153
+    second: character sheet JAMON_25
+  - first:
+      213: -7032113826839226341
+    second: character sheet JAMON_26
+  - first:
+      213: -4352314163518878608
+    second: character sheet JAMON_27
+  - first:
+      213: -4898685770352960517
+    second: character sheet JAMON_28
+  - first:
+      213: -5571121363401381929
+    second: character sheet JAMON_29
+  - first:
+      213: 6428119764064729182
+    second: character sheet JAMON_30
+  - first:
+      213: -7116991956202872790
+    second: character sheet JAMON_31
+  - first:
+      213: 4814033962311299033
+    second: character sheet JAMON_32
+  - first:
+      213: -218154928167638049
+    second: character sheet JAMON_33
+  - first:
+      213: -6533622295161185578
+    second: character sheet JAMON_0
+  - first:
+      213: 1737468751858887936
+    second: character sheet JAMON_1
+  - first:
+      213: -3805102425540677365
+    second: character sheet JAMON_2
+  - first:
+      213: 2071797642335083101
+    second: character sheet JAMON_3
+  - first:
+      213: 1722408348914373594
+    second: character sheet JAMON_4
+  - first:
+      213: 1212602756999558926
+    second: character sheet JAMON_5
+  - first:
+      213: 2451287776462616448
+    second: character sheet JAMON_6
+  - first:
+      213: 9044309332163929125
+    second: character sheet JAMON_7
+  - first:
+      213: 3176405686205832998
+    second: character sheet JAMON_8
+  - first:
+      213: -3039876447805492520
+    second: character sheet JAMON_9
+  - first:
+      213: -5276486263759986550
+    second: character sheet JAMON_10
+  - first:
+      213: 8972495347122305649
+    second: character sheet JAMON_11
+  - first:
+      213: -4597356735034946129
+    second: character sheet JAMON_12
+  - first:
+      213: -4264989326104379331
+    second: character sheet JAMON_13
+  - first:
+      213: 7254569580127148344
+    second: character sheet JAMON_14
+  - first:
+      213: 8198779322186381344
+    second: character sheet JAMON_15
+  - first:
+      213: -6146825515047640284
+    second: character sheet JAMON_16
+  - first:
+      213: -868897852063709501
+    second: character sheet JAMON_17
+  - first:
+      213: 8381476230983583917
+    second: character sheet JAMON_18
+  - first:
+      213: 5241598508282524404
+    second: character sheet JAMON_19
+  - first:
+      213: 4343450255416464325
+    second: character sheet JAMON_20
+  - first:
+      213: -5789063552095566452
+    second: character sheet JAMON_21
+  - first:
+      213: -6482064965375758923
+    second: character sheet JAMON_22
+  - first:
+      213: 6966691855940766884
+    second: character sheet JAMON_23
+  - first:
+      213: -1894513737722954813
+    second: character sheet JAMON_24
+  - first:
+      213: -8247803892455077387
+    second: character sheet JAMON_25
+  - first:
+      213: -5167184539196361705
+    second: character sheet JAMON_26
+  - first:
+      213: -421458706137425315
+    second: character sheet JAMON_27
+  - first:
+      213: 2521986011950314426
+    second: character sheet JAMON_28
+  - first:
+      213: 614944465820785657
+    second: character sheet JAMON_29
+  - first:
+      213: -8483425428593729855
+    second: character sheet JAMON_30
+  - first:
+      213: -1671073391235813843
+    second: character sheet JAMON_31
+  - first:
+      213: -3313290816743011662
+    second: character sheet JAMON_32
+  - first:
+      213: 2897761470692648473
+    second: character sheet JAMON_33
+  - first:
+      213: 2531323702284830980
+    second: character sheet JAMON_34
+  - first:
+      213: -7941562698243430108
+    second: character sheet JAMON_35
+  - first:
+      213: 4093177835152241685
+    second: character sheet JAMON_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet JAMON_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1998
+        width: 406
+        height: 449
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da5850a329e355a0800000000000000
+      internalID: -6533622295161185578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1998
+        width: 406
+        height: 456
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00de3e2df9abc1810800000000000000
+      internalID: 1737468751858887936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_2
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1998
+        width: 408
+        height: 446
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01bba7118f813bc0800000000000000
+      internalID: -3805102425540677365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_3
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1998
+        width: 401
+        height: 442
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5adfd59af080cc10800000000000000
+      internalID: 2071797642335083101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_4
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1998
+        width: 437
+        height: 463
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad35533844937e710800000000000000
+      internalID: 1722408348914373594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_5
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 1994
+        width: 407
+        height: 446
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e073e9868c704d010800000000000000
+      internalID: 1212602756999558926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_6
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 1998
+        width: 411
+        height: 463
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087bf46ce39b40220800000000000000
+      internalID: 2451287776462616448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1365
+        width: 315
+        height: 532
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524a1663b67d38d70800000000000000
+      internalID: 9044309332163929125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1365
+        width: 332
+        height: 559
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f54dc642cd41c20800000000000000
+      internalID: 3176405686205832998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_9
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1324
+        width: 559
+        height: 643
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d23a770a7030d5d0800000000000000
+      internalID: -3039876447805492520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_10
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1323
+        width: 495
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80ab5af2b726c6b0800000000000000
+      internalID: -5276486263759986550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_11
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 1323
+        width: 498
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17af11adaf4b48c70800000000000000
+      internalID: 8972495347122305649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_12
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 1365
+        width: 477
+        height: 473
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad0e764868e230c0800000000000000
+      internalID: -4597356735034946129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_13
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 1368
+        width: 335
+        height: 536
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3047b60ec6bfc4c0800000000000000
+      internalID: -4264989326104379331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_14
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 1375
+        width: 318
+        height: 553
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83955d5c8986da460800000000000000
+      internalID: 7254569580127148344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 752
+        width: 480
+        height: 509
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028bcb2ca5ae7c170800000000000000
+      internalID: 8198779322186381344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_16
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 763
+        width: 477
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4232747e2c612baa0800000000000000
+      internalID: -6146825515047640284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_17
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 770
+        width: 474
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c684a5d10e01f3f0800000000000000
+      internalID: -868897852063709501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_18
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 777
+        width: 477
+        height: 491
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da80821a93cf05470800000000000000
+      internalID: 8381476230983583917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_19
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 796
+        width: 478
+        height: 458
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2b5657216edb840800000000000000
+      internalID: 5241598508282524404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_20
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 794
+        width: 477
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c39da5aef8074c30800000000000000
+      internalID: 4343450255416464325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_21
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 797
+        width: 474
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85ce230f5d19afa0800000000000000
+      internalID: -5789063552095566452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_23
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 777
+        width: 478
+        height: 494
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acc4f4f459aea060800000000000000
+      internalID: 6966691855940766884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 43
+        width: 519
+        height: 581
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbfce80bc555b5e0800000000000000
+      internalID: -1894513737722954813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_25
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 43
+        width: 429
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9812dfe0ae98d80800000000000000
+      internalID: -8247803892455077387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_26
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 45
+        width: 353
+        height: 604
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7147f4cd9097a48b0800000000000000
+      internalID: -5167184539196361705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_27
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 40
+        width: 443
+        height: 595
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ade2d2a8da62af0800000000000000
+      internalID: -421458706137425315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_28
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 45
+        width: 332
+        height: 604
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab37dc27ae4eff220800000000000000
+      internalID: 2521986011950314426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_29
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 33
+        width: 443
+        height: 560
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb17d9cbb8b88800800000000000000
+      internalID: 614944465820785657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_30
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 33
+        width: 480
+        height: 532
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce97221581d44a80800000000000000
+      internalID: -8483425428593729855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_31
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 29
+        width: 522
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e28c9ba972fc8e0800000000000000
+      internalID: -1671073391235813843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_32
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 40
+        width: 544
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba08768e83d402d0800000000000000
+      internalID: -3313290816743011662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_33
+      rect:
+        serializedVersion: 2
+        x: 5161
+        y: 38
+        width: 547
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916e27064bae63820800000000000000
+      internalID: 2897761470692648473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet JAMON_34
+      rect:
+        serializedVersion: 2
+        x: 5798
+        y: 43
+        width: 550
+        height: 363
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51470c2fd83edc830800000000000000
+      internalID: 4093177835152241685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

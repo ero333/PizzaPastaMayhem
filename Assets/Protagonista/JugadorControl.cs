@@ -7,6 +7,7 @@ using UnityEngine;
 using Debug = UnityEngine.Debug;
 using UnityEngine.UI;
 using UnityEngine.Timeline;
+using System.Net.Sockets;
 
 public class JugadorControl : MonoBehaviour
 {
@@ -127,9 +128,15 @@ public class JugadorControl : MonoBehaviour
 
     public float TomateHit = 1f;
 
+    public float JamonHit = 1f;
+
+    public float JamonShockwave = 1f;
+
     public float BalaAlbondigaHit = 1f;
 
     public float BalaMorrónHit = 1f;
+
+    public int DistanciaKnockback = 50;
 
     #endregion
 
@@ -171,7 +178,6 @@ public class JugadorControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
 
         Body = GameObject.FindGameObjectWithTag("Player"); // busqueda del objeto por Tag
 
@@ -606,6 +612,36 @@ public class JugadorControl : MonoBehaviour
 
             }
 
+            if (collision.tag == "Jamón") // si colisiona con un objeto con el tag mensionado
+            {
+                vidaActual -= JamonHit;
+
+                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+
+                MarcoHP.SendMessage("HPHit");
+
+                Debug.Log("jamoneado");
+
+                float dir;
+
+                GameObject EnemigoJamon = GameObject.FindGameObjectWithTag("Jamón");
+
+                if (transform.position.x < EnemigoJamon.transform.position.x)
+                {
+                    dir = 1;
+                    KnockBack(dir);
+
+                }
+                if (transform.position.x > EnemigoJamon.transform.position.x)
+                {
+                    dir = -1;
+                    KnockBack(dir);
+                }
+
+
+
+            }
+
             if (collision.tag == "Caida") // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
@@ -625,6 +661,15 @@ public class JugadorControl : MonoBehaviour
             }
         }
     }
+
+    public void KnockBack(float dir)
+    {
+
+        RBPlayer.velocity = new Vector2(0f, 0f);
+        RBPlayer.AddForce(new Vector2(dir*500, 300f));
+
+    }
+
 
 
     public void PerderHP(float LargoBarraHP) // metodo para hacer que la barra de vida "baje" (visualmente hablando) de cierta manera. EJ: De derecha a izquierda, izquierda es 0 y derecha es su vida

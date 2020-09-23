@@ -27,13 +27,13 @@ public class Tomate_Mov : MonoBehaviour
 
     public bool IsDeath;
 
-    public Transform PlayerPosition; // objeto para detectar la posicion del jugador
 
 
 
 
-    public GameObject TomateAll; // traer GameObject que contiene el body de la salchicha
-    public GameObject TomateBody; //traer GameObject donde está el sprite de la salchicha
+
+    public GameObject TomateAll; // traer GameObject que contiene al body
+    public GameObject TomateBody; //traer GameObject donde está el sprite
     private Animator TomateAnim;
 
 
@@ -43,9 +43,9 @@ public class Tomate_Mov : MonoBehaviour
 
 
 
+    [Header("Drops")]
 
-
-    public GameObject ItemDrop; // traer objeto que dropea la salchicha
+    public GameObject IngredienteDrop; // traer objeto que dropea la salchicha
 
     public Transform DropPosition; // traer gameobject donde va a dropearse el objeto
 
@@ -63,7 +63,6 @@ public class Tomate_Mov : MonoBehaviour
 
         estado = GameState.Patrullando; // Enemigo comienza estando vivo, puede moverse
 
-        PlayerPosition = GameObject.FindGameObjectWithTag("Player").transform; // busca la posicion del jugador por su tag
 
 
         if (izquierda) // Si el personaje está mirando hacia la izquierda, comienza desde el punto A
@@ -311,11 +310,20 @@ public class Tomate_Mov : MonoBehaviour
 
     #endregion
 
+    #region Destruir Objeto
+
+    public void DestruirObjecto() //metodo para destruir el objeto (llamado desde la animacion)
+    {
+        Destroy(gameObject);
+    }
+
+    #endregion
+
     #region drops
 
     public void DropearItem() //metodo para que dropee items
     {
-        Instantiate(ItemDrop, DropPosition.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+        Instantiate(IngredienteDrop, DropPosition.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
     }
 
     #endregion

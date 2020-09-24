@@ -8,9 +8,9 @@ public class LevelAniquilacion : MonoBehaviour
 
     public GameObject UI_Pasaste; // traer gameobject con el mensaje de que pasaste el nivel
 
-    public bool completado; // bool para detectar si el nivel está completado
+    public bool completado = false; // bool para detectar si el nivel está completado
 
-    public GameObject LvlManager; // traer gameobject del lvl manager
+    public int ejemplo;
 
     public GameObject Player;
 
@@ -19,7 +19,6 @@ public class LevelAniquilacion : MonoBehaviour
     {
         Player = GameObject.FindGameObjectWithTag("PlayerAll");
 
-        completado = false;
     }
 
     // Update is called once per frame
@@ -27,18 +26,23 @@ public class LevelAniquilacion : MonoBehaviour
     {
 
 
+
+
+
         if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0) // detecta si hay enemigos en la escena actual
         {
-            UI_Pasaste.SetActive(true);
 
             completado = true;
 
             Player.SendMessage("NivelCompleto");
+
+            if(completado)
+            {
+                UI_Pasaste.SetActive(true);
+            }
         }
 
-        if (completado && Input.GetKeyDown("n"))
-        {
-            LvlManager.SendMessage("Lvl2");
-        }
     }
+
+
 }

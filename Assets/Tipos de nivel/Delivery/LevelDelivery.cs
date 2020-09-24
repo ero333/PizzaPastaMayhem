@@ -1,0 +1,88 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+public class LevelDelivery : MonoBehaviour
+{
+
+    public GameObject UI_Pasaste;                                            // traer gameobject con el mensaje de que pasaste el nivel
+
+    public bool completado;                                                  // bool para detectar si el nivel está completado
+
+    public GameObject LvlManager;                                            // traer gameobject del lvl manager o llamarmo desde el start (busqueda por tag)
+
+    public GameObject PlayerAll;                                             // abajo, en el start, está el código que busca el objeto que contiene a todo el Player (busqueda por tag)
+
+    public GameObject PlayerBody;                                            // abajo, en el start, está el código que busca el objeto que contiene el body del player (busqueda por tag)
+    
+    public Text Contador;                                                    // traer objeto de texto con cronometro
+    
+    public float NumContador;                                                // numero que luego va a cambiar
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        PlayerAll = GameObject.FindGameObjectWithTag("PlayerAll");           // (busqueda por tag)
+
+        PlayerBody = GameObject.FindGameObjectWithTag("Player");             // (busqueda por tag)
+
+        LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");         // (busqueda por tag)
+
+        completado = false;
+
+        ObjetosARecolectar();
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Contador.text = NumContador.ToString("0");
+
+
+        if ((NumContador == 0)) // si el timer llega a 0
+        {
+            UI_Pasaste.SetActive(true); // activa Interfaz de que ganaste
+
+            completado = true; // activa bool
+
+            PlayerAll.SendMessage("NivelCompleto"); // envia mensaje al jugador
+
+
+        }
+
+
+        if(Input.GetKeyDown("g"))
+        {
+            GelatinaMenos();
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    public void ObjetosARecolectar()                                         // busca todos los objetos que se tendrán que recolectar en el nivel
+    {
+        Object[] Gelatinas = GameObject.FindGameObjectsWithTag("Gelatina");  // llamar a todos los objetos con esta TAG
+
+        foreach (GameObject Gelatina in Gelatinas)                           // Por cada objeto que haya, suma 1 a la variable
+        {
+            NumContador++;
+        }
+
+    }
+
+    public void GelatinaMenos()
+    {
+        NumContador--;
+    }
+
+
+}

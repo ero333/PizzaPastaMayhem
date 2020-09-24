@@ -8,6 +8,8 @@ public class RecetasJugador : MonoBehaviour
 
     #region Ingredientes_Receta_1
 
+    [Header("Variables Receta 1")]
+
     public bool Receta1 = false;
 
     public GameObject Pan;
@@ -28,6 +30,8 @@ public class RecetasJugador : MonoBehaviour
 
     #region Ingredientes_Receta_2
 
+    [Header("Variables Receta 2")]
+
     public bool Receta2 = false;
 
     public GameObject Jamon;
@@ -47,6 +51,8 @@ public class RecetasJugador : MonoBehaviour
     #endregion
 
     #region Ingredientes_Receta_3
+
+    [Header("Variables Receta 3")]
 
     public bool Receta3 = false;
 

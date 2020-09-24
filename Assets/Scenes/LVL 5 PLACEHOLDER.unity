@@ -1456,7 +1456,7 @@ GameObject:
   - component: {fileID: 175141214}
   m_Layer: 5
   m_Name: Listo
-  m_TagString: UI-ListoReceta3
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1667,7 +1667,7 @@ GameObject:
   - component: {fileID: 247672960}
   m_Layer: 0
   m_Name: Tomate
-  m_TagString: UI-Tomate
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1749,7 +1749,7 @@ GameObject:
   - component: {fileID: 286510421}
   m_Layer: 0
   m_Name: Queso
-  m_TagString: UIQueso
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3259,7 +3259,7 @@ GameObject:
   - component: {fileID: 501437454}
   m_Layer: 0
   m_Name: Lechuga
-  m_TagString: UI-Lechuga
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4906,7 +4906,7 @@ GameObject:
   - component: {fileID: 805303868}
   m_Layer: 0
   m_Name: Jamon
-  m_TagString: UI-Jamon
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5263,7 +5263,7 @@ GameObject:
   - component: {fileID: 855305427}
   m_Layer: 0
   m_Name: Pan
-  m_TagString: UIPan
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6738,7 +6738,7 @@ GameObject:
   - component: {fileID: 1155899173}
   m_Layer: 0
   m_Name: Paty
-  m_TagString: UIPaty
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7941,7 +7941,7 @@ GameObject:
   - component: {fileID: 1370122109}
   m_Layer: 5
   m_Name: Listo
-  m_TagString: UIListo1
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8189,11 +8189,14 @@ MonoBehaviour:
   bala: {fileID: 5373548447348573373, guid: 2c79e6bc8337e094b9d192f6e6749341, type: 3}
   MeleeHit: {fileID: 6283934882753234349, guid: 8a36d6cec02dad946bfe419406c12ed1, type: 3}
   BalaPower: {fileID: 7760301762359053808, guid: 6f04ad82c709a4e4ababbae980dcfcdf, type: 3}
+  BalaPowerCooldownTime: 5
+  BalaPowerReady: 0
   balaGenR: {fileID: 1451580834}
   balaGenL: {fileID: 141721140}
   MeleeR: {fileID: 821897573}
   MeleeL: {fileID: 150823136}
   vidaMaxima: 10
+  vidaActual: 0
   barraHP: {fileID: 1680809476}
   LifeContainer1: {fileID: 1574128196}
   LifeContainer2: {fileID: 1770514636}
@@ -8206,6 +8209,8 @@ MonoBehaviour:
   municionContador: {fileID: 689378539}
   SalchichaHit: 1
   TomateHit: 1
+  JamonHit: 1
+  JamonShockwave: 1
   BalaAlbondigaHit: 1
   "BalaMorr\xF3nHit": 1
   Receta1: 0
@@ -8364,7 +8369,7 @@ GameObject:
   - component: {fileID: 1450502792}
   m_Layer: 5
   m_Name: 'Listo '
-  m_TagString: UI-ListoReceta2
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8797,7 +8802,7 @@ GameObject:
   - component: {fileID: 1500076103}
   m_Layer: 0
   m_Name: Salchicha
-  m_TagString: UI-Salchicha
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12317,7 +12322,7 @@ GameObject:
   - component: {fileID: 2073067325}
   m_Layer: 0
   m_Name: Pollo
-  m_TagString: UI-Pollo
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12481,7 +12486,7 @@ GameObject:
   - component: {fileID: 2111923071}
   m_Layer: 0
   m_Name: Albondigas
-  m_TagString: UI-Albondigas
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

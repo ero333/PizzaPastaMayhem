@@ -256,7 +256,7 @@ MonoBehaviour:
   SalchichaAll: {fileID: 560170333600598806}
   SalchichaBody: {fileID: 560170332921798168}
   TimeDeath: 1.5
-  ItemDrop: {fileID: 4674485106739804855, guid: 8cbd43b71a0c78c49896518a62a3a07a, type: 3}
+  IngredienteDrop: {fileID: 4674485106739804855, guid: 8cbd43b71a0c78c49896518a62a3a07a, type: 3}
   DropPosition: {fileID: 560170333779030465}
 --- !u!114 &560170332921798174
 MonoBehaviour:

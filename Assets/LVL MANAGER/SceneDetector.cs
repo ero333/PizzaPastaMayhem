@@ -50,6 +50,11 @@ public class SceneDetector : MonoBehaviour
             PlayerPrefs.SetInt("UltimoJugado", NivelActual.buildIndex); // setea el INT del Player Pref al numero de la escena actual (5)
         }
 
+        if (NivelActual.buildIndex == 6) // Detecta si la escena activa es 6
+        {
+            PlayerPrefs.SetInt("UltimoJugado", NivelActual.buildIndex); // setea el INT del Player Pref al numero de la escena actual (6)
+        }
+
     }
     public void EscenaAnterior()
     {
@@ -74,6 +79,11 @@ public class SceneDetector : MonoBehaviour
         if (LastScene == 5) // Si el Numero de la escena anterior fue 5
         {
             SceneManager.LoadScene(5);
+        }
+
+        if (LastScene == 6) // Si el Numero de la escena anterior fue 6
+        {
+            SceneManager.LoadScene(6);
         }
     }
 }

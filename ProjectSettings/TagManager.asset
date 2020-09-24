@@ -36,19 +36,10 @@ TagManager:
   - AudioSource
   - BossRunner
   - PanMonstruo
-  - UI-Jamon
-  - UI-Pollo
-  - UI-Salchicha
-  - UIListo1
-  - UI-ListoReceta3
-  - UI-Tomate
-  - UIPan
-  - UI-Lechuga
-  - UIPaty
-  - UIQueso
-  - UI-ListoReceta2
-  - UI-Albondigas
   - "Jam\xF3n"
+  - Gelatina
+  - GelatinaDestino
+  - LVLDelivery
   layers:
   - Default
   - TransparentFX
@@ -85,4 +76,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Interfaz
+    uniqueID: 1092360843
     locked: 0

@@ -136,8 +136,6 @@ public class JugadorControl : MonoBehaviour
 
     public float BalaMorrónHit = 1f;
 
-    public int DistanciaKnockback = 50;
-
     #endregion
 
     #region Variables Recetas y Power Ups

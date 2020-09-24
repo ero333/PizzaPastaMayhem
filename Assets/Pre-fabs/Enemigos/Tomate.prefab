@@ -82,9 +82,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6705473246993209995}
   - component: {fileID: 6705473246993209994}
-  - component: {fileID: 6705473246993209992}
   - component: {fileID: 6705473246993209993}
   - component: {fileID: 6705473246993209999}
+  - component: {fileID: 6705473246993209992}
   - component: {fileID: 6705473246993209998}
   m_Layer: 0
   m_Name: Body
@@ -160,32 +160,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6705473246993209992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6705473246993209988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75de9fc81af2d2649804c03eb2b43f5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  estado: 0
-  APoint: {fileID: 6705473247788466543}
-  BPoint: {fileID: 6705473247041206994}
-  izquierda: 1
-  speed: 2
-  AttackSpeed: 8
-  TimeDeath: 2.5
-  PlayerInRange: 0
-  IsDeath: 0
-  PlayerPosition: {fileID: 0}
-  TomateAll: {fileID: 6705473248201489134}
-  TomateBody: {fileID: 6705473246993209988}
-  ItemDrop: {fileID: 3671640626599346459, guid: f5e2402b4ff6c4f40a6c0e1191620415, type: 3}
-  DropPosition: {fileID: 6705473246993209995}
 --- !u!95 &6705473246993209993
 Animator:
   serializedVersion: 3
@@ -231,6 +205,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0033333, y: 1.3606262}
   m_EdgeRadius: 0
+--- !u!114 &6705473246993209992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6705473246993209988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75de9fc81af2d2649804c03eb2b43f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estado: 0
+  APoint: {fileID: 6705473247788466543}
+  BPoint: {fileID: 6705473247041206994}
+  izquierda: 1
+  speed: 2
+  AttackSpeed: 8
+  TimeDeath: 2.5
+  PlayerInRange: 0
+  IsDeath: 0
+  TomateAll: {fileID: 6705473248201489134}
+  TomateBody: {fileID: 6705473246993209988}
+  IngredienteDrop: {fileID: 3671640626599346459, guid: f5e2402b4ff6c4f40a6c0e1191620415, type: 3}
+  DropPosition: {fileID: 6705473246993209995}
 --- !u!114 &6705473246993209998
 MonoBehaviour:
   m_ObjectHideFlags: 0

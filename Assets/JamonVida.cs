@@ -11,6 +11,8 @@ public class JamonVida : MonoBehaviour
     public GameObject barraEnemiga; // traer la barra de vida del enemigo (vida visible)
 
 
+
+
     [Header("Daño recibido")]
     public float DañoBala = 1f; // daño que recibe por colisionar con la bala del jugador
 
@@ -134,4 +136,6 @@ public class JamonVida : MonoBehaviour
         barraEnemiga.transform.localScale = new Vector3(LargoBarraHP, barraEnemiga.transform.localScale.y, barraEnemiga.transform.localScale.z); // Para que al barra enemiga vaya bajando
 
     }
+
+
 }

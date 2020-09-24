@@ -202,9 +202,9 @@ public class JamonMov : MonoBehaviour
 
     #region Destruir Objeto
 
-    public void DestruirObjecto() //metodo para destruir el objeto (llamado desde la animacion)
+    public void Destruir()
     {
-        Destroy(gameObject);
+        Destroy(JamonAll); // metodo para destruir el objeto (llamado desde la animacion)
     }
 
     #endregion

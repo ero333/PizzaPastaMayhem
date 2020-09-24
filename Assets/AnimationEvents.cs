@@ -39,4 +39,15 @@ public class AnimationEvents : MonoBehaviour
     {
         PlayerAll.SendMessage("PowerProyectil");
     }
+
+    public void GenerarAmenaza()
+    {
+        PlayerAll.SendMessage("ThreatGenerator");
+    }
+
+    public void DestruirAmenaza()
+    {
+        PlayerAll.SendMessage("DestroyThreat");
+    }
+
 }

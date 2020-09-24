@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class LavaRun : MonoBehaviour
 {
-    public bool start;
 
-    public float speed = 20f;
+    public float Velocidad = 20f;         // Velocidad Máxima a la que va a llegar
 
-    public Transform APoint; // Traer gameobject del punto A
 
-    public Transform BPoint; // Traer gameobject del punto B
+
+    public Transform APoint;                    // Traer gameobject del punto A
+
+    public Transform BPoint;                    // Traer gameobject del punto B
 
     private Animator Anim;
 
 
-    public Transform Player;
 
-    public Transform Checkpoint;
 
 
 
@@ -25,14 +24,6 @@ public class LavaRun : MonoBehaviour
     void Start()
     {
         transform.position = APoint.position;
-
-
-
-        Player = GameObject.FindGameObjectWithTag("Player").transform;
-
-        Checkpoint = GameObject.FindGameObjectWithTag("Checkpoint").transform;
-
-        start = false;
 
         Anim = gameObject.GetComponent<Animator>();
 
@@ -43,28 +34,10 @@ public class LavaRun : MonoBehaviour
     void Update()
     {
 
-        if(start == true)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, BPoint.position, speed * Time.deltaTime);
-        }
+            transform.position = Vector3.MoveTowards(transform.position, BPoint.position, Velocidad * Time.deltaTime);
 
 
-    }
 
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            start = false;
-
-            transform.position = APoint.position;
-        }
-    }
-
-    public void StarClimb()
-    {
-        start = true;
     }
 
 

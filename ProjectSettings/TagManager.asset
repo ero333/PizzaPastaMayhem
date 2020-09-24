@@ -34,14 +34,17 @@ TagManager:
   - "Sart\xE9n"
   - Tomate
   - AudioSource
-  - BossRunner
-  - PanMonstruo
   - "Jam\xF3n"
   - Gelatina
   - GelatinaDestino
   - LVLDelivery
   - Pollo
   - Lechuga
+  - PanMonstruoFall
+  - PanMonstruo
+  - SalsaHazard
+  - PlataformaWin
+  - LVLRunner
   layers:
   - Default
   - TransparentFX

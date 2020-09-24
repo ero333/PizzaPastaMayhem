@@ -8,7 +8,7 @@ public class TurretDefaultVision : MonoBehaviour
 
     public GameObject TurretAll; // traer objeto que contiene a toda la torreta
 
-    public GameObject BalaGenerator; // traer objeto que genera la bala
+
 
 
     // Start is called before the first frame update
@@ -39,7 +39,6 @@ public class TurretDefaultVision : MonoBehaviour
 
 
 
-            BalaGenerator.SendMessage("startGen"); // empieza a generar balas
         }
     }
 
@@ -66,7 +65,7 @@ public class TurretDefaultVision : MonoBehaviour
 
 
 
-            BalaGenerator.SendMessage("stopGen"); // para de generar balas
+
         }
     }
 

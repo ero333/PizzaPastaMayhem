@@ -28,6 +28,8 @@ public class JugadorControl : MonoBehaviour
 
     public bool NivelCompletado;
 
+    public bool LvlRunner = false;
+
 
 
 
@@ -683,6 +685,15 @@ public class JugadorControl : MonoBehaviour
 
 
             }
+
+            if (collision.tag == "SalsaHazard") // si colisiona con un objeto con el tag mensionado
+            {
+                vidaActual = 0;
+
+                MarcoHP.SendMessage("HPHit");
+
+
+            }
         }
     }
 
@@ -1019,6 +1030,38 @@ public class JugadorControl : MonoBehaviour
         anim.Play("PJ_Revive");
     }
     #endregion
+
+
+
+
+    #region LevelRunner
+    public void ThreatGenerator()
+    {
+        if(LvlRunner == true)
+        {
+            SendMessage("AmenazaGen");
+        }
+    }
+
+    public void DestroyThreat()
+    {
+        Object[] AmenazaPan = GameObject.FindGameObjectsWithTag("PanMonstruo");     // llamar a todos los objetos con esta TAG
+
+        Object[] AmenazaHazard = GameObject.FindGameObjectsWithTag("SalsaHazard");     // llamar a todos los objetos con esta TAG
+
+        foreach (GameObject PanMonstruo in AmenazaPan)                              // Por cada objeto que haya, los destruye
+        {
+            Destroy(PanMonstruo);                                                   // Destruye Dicho Objeto
+        }
+
+        foreach (GameObject Hazard in AmenazaHazard)                              // Por cada objeto que haya, los destruye
+        {
+            Destroy(Hazard);                                                   // Destruye Dicho Objeto
+        }
+    }
+
+    #endregion
+
 
 }
 

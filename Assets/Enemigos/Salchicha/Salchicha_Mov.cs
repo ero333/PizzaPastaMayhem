@@ -37,7 +37,7 @@ public class Salchicha_Mov : MonoBehaviour
 
 
 
-    public float TimeDeath = 2.5f; // tiempo de muerte para eliminar el gameobject del enemigo
+
 
 
 
@@ -157,13 +157,14 @@ public class Salchicha_Mov : MonoBehaviour
 
         estado = GameState.Muerto; // Cambia el estado a muerto
 
-        Destroy(SalchichaAll, TimeDeath); // Destruye el objeto mencionado en X tiempo
-
 
 
     }
 
-
+    public void DestruirObjecto() //metodo para destruir el objeto (llamado desde la animacion)
+    {
+        Destroy(SalchichaAll);
+    }
 
     #endregion
 
@@ -197,18 +198,6 @@ public class Salchicha_Mov : MonoBehaviour
         }
     }
 
-
-
-
-
-    #region Destruir Objeto
-
-    public void DestruirObjecto() //metodo para destruir el objeto (llamado desde la animacion)
-    {
-        Destroy(gameObject);
-    }
-
-    #endregion
 
     public void DropearItem() //metodo para que dropee items
     {

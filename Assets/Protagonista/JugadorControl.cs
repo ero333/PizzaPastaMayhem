@@ -108,19 +108,6 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
-    #region Variables Municion
-    [Header("Municion")]
-
-    public float municionMáxima = 100f;
-
-    public float municionActual;
-
-    public GameObject barraAmmo; // traer gameobject de la barra de vida
-
-    public Text municionContador; // traer objeto de texto con contador de municion
-
-    #endregion
-
     #region Variables Vida que me quitan cada enemigo
     [Header("Daño Recibido")]
 
@@ -135,6 +122,23 @@ public class JugadorControl : MonoBehaviour
     public float BalaAlbondigaHit = 1f;
 
     public float BalaMorrónHit = 1f;
+
+    public float PolloHit = 1f;
+
+    public float LechugaHit = 1f;
+
+    #endregion
+
+    #region Variables Municion
+    [Header("Municion")]
+
+    public float municionMáxima = 100f;
+
+    public float municionActual;
+
+    public GameObject barraAmmo; // traer gameobject de la barra de vida
+
+    public Text municionContador; // traer objeto de texto con contador de municion
 
     #endregion
 
@@ -639,6 +643,28 @@ public class JugadorControl : MonoBehaviour
 
 
             }
+
+
+            if (collision.tag == "Pollo") // si colisiona con un objeto con el tag mensionado
+            {
+                vidaActual -= PolloHit;
+
+                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+
+                MarcoHP.SendMessage("HPHit");
+
+            }
+
+            if (collision.tag == "Lechuga") // si colisiona con un objeto con el tag mensionado
+            {
+                vidaActual -= LechugaHit;
+
+                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+
+                MarcoHP.SendMessage("HPHit");
+
+            }
+
 
             if (collision.tag == "Caida") // si colisiona con un objeto con el tag mensionado
             {

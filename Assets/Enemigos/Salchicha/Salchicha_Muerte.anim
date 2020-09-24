@@ -38,6 +38,15 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      - serializedVersion: 3
+        time: 1.3333334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -70,6 +79,8 @@ AnimationClip:
     - time: 1
       value: {fileID: 4809043205163042432, guid: aebfd5ddf90dcce45a5c30c451b3e0bb, type: 3}
     - time: 1.15
+      value: {fileID: 4809043205163042432, guid: aebfd5ddf90dcce45a5c30c451b3e0bb, type: 3}
+    - time: 1.3333334
       value: {fileID: 4809043205163042432, guid: aebfd5ddf90dcce45a5c30c451b3e0bb, type: 3}
     attribute: m_Sprite
     path: 
@@ -109,12 +120,13 @@ AnimationClip:
     - {fileID: -282466154579479163, guid: aebfd5ddf90dcce45a5c30c451b3e0bb, type: 3}
     - {fileID: 4809043205163042432, guid: aebfd5ddf90dcce45a5c30c451b3e0bb, type: 3}
     - {fileID: 4809043205163042432, guid: aebfd5ddf90dcce45a5c30c451b3e0bb, type: 3}
+    - {fileID: 4809043205163042432, guid: aebfd5ddf90dcce45a5c30c451b3e0bb, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1666666
+    m_StopTime: 1.35
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -151,6 +163,15 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      - serializedVersion: 3
+        time: 1.3333334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -164,6 +185,13 @@ AnimationClip:
   m_Events:
   - time: 1.15
     functionName: DropearItem
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.3333334
+    functionName: DestruirObjecto
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

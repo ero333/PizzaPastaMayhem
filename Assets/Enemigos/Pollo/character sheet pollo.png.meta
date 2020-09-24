@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 5bdb7b27f37a28a4b842a8740752a6ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1812380688568722906
+    second: character sheet pollo_0
+  - first:
+      213: 2214762065864708779
+    second: character sheet pollo_1
+  - first:
+      213: 1705837303178729971
+    second: character sheet pollo_2
+  - first:
+      213: -4160609866059254696
+    second: character sheet pollo_3
+  - first:
+      213: -7841785601663340622
+    second: character sheet pollo_4
+  - first:
+      213: 7335618498339361362
+    second: character sheet pollo_5
+  - first:
+      213: -6537265935584687137
+    second: character sheet pollo_6
+  - first:
+      213: 6467457405067740291
+    second: character sheet pollo_7
+  - first:
+      213: -6101689317784760099
+    second: character sheet pollo_8
+  - first:
+      213: 1971660943759012875
+    second: character sheet pollo_9
+  - first:
+      213: -3391135738443719286
+    second: character sheet pollo_10
+  - first:
+      213: 6324211688406716777
+    second: character sheet pollo_11
+  - first:
+      213: -5614840089414787864
+    second: character sheet pollo_12
+  - first:
+      213: -6944707475357810456
+    second: character sheet pollo_13
+  - first:
+      213: 816555196164596480
+    second: character sheet pollo_14
+  - first:
+      213: -1754601491204591397
+    second: character sheet pollo_15
+  - first:
+      213: 8404515960696830301
+    second: character sheet pollo_16
+  - first:
+      213: 6129661267954930121
+    second: character sheet pollo_17
+  - first:
+      213: -3090425829119233434
+    second: character sheet pollo_18
+  - first:
+      213: -5190930840019953208
+    second: character sheet pollo_19
+  - first:
+      213: -3656907044405403093
+    second: character sheet pollo_20
+  - first:
+      213: -7825704122553177730
+    second: character sheet pollo_21
+  - first:
+      213: 4256505232929957636
+    second: character sheet pollo_22
+  - first:
+      213: 2617730162903634077
+    second: character sheet pollo_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet pollo_0
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1919
+        width: 221
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a551cbd5129d6e0800000000000000
+      internalID: -1812380688568722906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1917
+        width: 248
+        height: 485
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba250e55d5a6cbe10800000000000000
+      internalID: 2214762065864708779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_2
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1919
+        width: 260
+        height: 492
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f914944df95ca710800000000000000
+      internalID: 1705837303178729971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_3
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1919
+        width: 241
+        height: 483
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8547d84ee5b8246c0800000000000000
+      internalID: -4160609866059254696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_4
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1919
+        width: 215
+        height: 480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf6518fa816c2390800000000000000
+      internalID: -7841785601663340622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_5
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 1919
+        width: 218
+        height: 495
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2525d41982a5dc560800000000000000
+      internalID: 7335618498339361362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1352
+        width: 243
+        height: 516
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb863b7447f645a0800000000000000
+      internalID: -6537265935584687137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_7
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1364
+        width: 297
+        height: 475
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384480d6e3601c950800000000000000
+      internalID: 6467457405067740291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_8
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1357
+        width: 491
+        height: 477
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0d4a3c4e1725ba0800000000000000
+      internalID: -6101689317784760099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_10
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1333
+        width: 493
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d1eec430440f0d0800000000000000
+      internalID: -3391135738443719286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_11
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1359
+        width: 492
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9611bd3060d14c750800000000000000
+      internalID: 6324211688406716777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_12
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 1354
+        width: 406
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec1fc7ffa41412b0800000000000000
+      internalID: -5614840089414787864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_13
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 1352
+        width: 317
+        height: 355
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e04c4688517f9f90800000000000000
+      internalID: -6944707475357810456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 741
+        width: 231
+        height: 532
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003e3e6ef9cf45b00800000000000000
+      internalID: 816555196164596480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 749
+        width: 254
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd031627d3766a7e0800000000000000
+      internalID: -1754601491204591397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_16
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 770
+        width: 303
+        height: 507
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d597f6abcb6d2a470800000000000000
+      internalID: 8404515960696830301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_17
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 770
+        width: 281
+        height: 514
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c19ce5627ee01550800000000000000
+      internalID: 6129661267954930121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_18
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 746
+        width: 241
+        height: 536
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662f7aa051a9c15d0800000000000000
+      internalID: -3090425829119233434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_19
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 78
+        width: 189
+        height: 547
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c99dfa57eb16f7b0800000000000000
+      internalID: -5190930840019953208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_20
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 68
+        width: 206
+        height: 534
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22a7911b6e004dc0800000000000000
+      internalID: -3656907044405403093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_21
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 57
+        width: 323
+        height: 442
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7968e91093856390800000000000000
+      internalID: -7825704122553177730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_22
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 44
+        width: 424
+        height: 376
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407a16915f4221b30800000000000000
+      internalID: 4256505232929957636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet pollo_23
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 44
+        width: 582
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9052bdb6bb045420800000000000000
+      internalID: 2617730162903634077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

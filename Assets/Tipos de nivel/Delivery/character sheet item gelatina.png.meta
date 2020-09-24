@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 653c4af2f229c7640944ba729ee6325a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7048553930780579517
+    second: character sheet item gelatina_0
+  - first:
+      213: -5092915179100746766
+    second: character sheet item gelatina_1
+  - first:
+      213: -879017232288899519
+    second: character sheet item gelatina_2
+  - first:
+      213: -7580885088845686063
+    second: character sheet item gelatina_3
+  - first:
+      213: -1947054767844638970
+    second: character sheet item gelatina_4
+  - first:
+      213: 2405872002097314435
+    second: character sheet item gelatina_5
+  - first:
+      213: -4068498447134725603
+    second: character sheet item gelatina_6
+  - first:
+      213: -2914582695316686520
+    second: character sheet item gelatina_7
+  - first:
+      213: 2482201309049639782
+    second: character sheet item gelatina_8
+  - first:
+      213: -3299161063127602291
+    second: character sheet item gelatina_9
+  - first:
+      213: 8917704797455217982
+    second: character sheet item gelatina_10
+  - first:
+      213: -4510032900274832283
+    second: character sheet item gelatina_11
+  - first:
+      213: -211316884080740133
+    second: character sheet item gelatina_0
+  - first:
+      213: 8941848514530774913
+    second: character sheet item gelatina_1
+  - first:
+      213: -4872543256246954965
+    second: character sheet item gelatina_2
+  - first:
+      213: 2605241783294340119
+    second: character sheet item gelatina_3
+  - first:
+      213: 8744316918886631096
+    second: character sheet item gelatina_4
+  - first:
+      213: -7641611233135599109
+    second: character sheet item gelatina_5
+  - first:
+      213: 4084909191158435769
+    second: character sheet item gelatina_6
+  - first:
+      213: 4396719878282924420
+    second: character sheet item gelatina_7
+  - first:
+      213: -8658115467470622718
+    second: character sheet item gelatina_8
+  - first:
+      213: -4549146205682841291
+    second: character sheet item gelatina_9
+  - first:
+      213: 5135692318506215749
+    second: character sheet item gelatina_10
+  - first:
+      213: -5975737511382470969
+    second: character sheet item gelatina_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet item gelatina_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 123
+        width: 381
+        height: 210
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8335dd960411df0800000000000000
+      internalID: -211316884080740133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 123
+        width: 383
+        height: 186
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f06f719d3d71c70800000000000000
+      internalID: 8941848514530774913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_2
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 123
+        width: 381
+        height: 166
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24dcaa69bf316cb0800000000000000
+      internalID: -4872543256246954965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_3
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 123
+        width: 388
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ca347499da72420800000000000000
+      internalID: 2605241783294340119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_4
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 123
+        width: 388
+        height: 156
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b60da988ed0a5970800000000000000
+      internalID: 8744316918886631096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_5
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 123
+        width: 398
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf16159021b83f590800000000000000
+      internalID: -7641611233135599109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_6
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 123
+        width: 427
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf0abe344380b830800000000000000
+      internalID: 4084909191158435769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_7
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 123
+        width: 398
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481d3f93f69440d30800000000000000
+      internalID: 4396719878282924420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_8
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 123
+        width: 386
+        height: 156
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2003911ead138d780800000000000000
+      internalID: -8658115467470622718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_9
+      rect:
+        serializedVersion: 2
+        x: 3781
+        y: 123
+        width: 388
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53945fad0af2ed0c0800000000000000
+      internalID: -4549146205682841291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_10
+      rect:
+        serializedVersion: 2
+        x: 4196
+        y: 123
+        width: 381
+        height: 166
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549e34024f4a54740800000000000000
+      internalID: 5135692318506215749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet item gelatina_11
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 123
+        width: 383
+        height: 186
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce221be46ae11da0800000000000000
+      internalID: -5975737511382470969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

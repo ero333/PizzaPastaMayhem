@@ -40,6 +40,8 @@ TagManager:
   - Gelatina
   - GelatinaDestino
   - LVLDelivery
+  - Pollo
+  - Lechuga
   layers:
   - Default
   - TransparentFX

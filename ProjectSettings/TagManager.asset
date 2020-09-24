@@ -76,6 +76,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fondo
+    uniqueID: 2687002783
+    locked: 0
+  - name: Plataformas
+    uniqueID: 3907249245
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -261,6 +261,7 @@ Transform:
   m_Children:
   - {fileID: 3491469858213290470}
   - {fileID: 3491469857726162569}
+  - {fileID: 1891937696056842832}
   m_Father: {fileID: 3491469856684805777}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -356,7 +357,7 @@ MonoBehaviour:
   vidaEnemiga: 10
   barraEnemiga: {fileID: 3491469856729905868}
   ItemDrop: {fileID: 8389549852549959575, guid: d5716b650e8b1c844a70b6dcbe3a01b2, type: 3}
-  DropPosition: {fileID: 3491469857045249789}
+  DropPosition: {fileID: 1891937696056842832}
   "Da\xF1oBala": 1
   "Da\xF1oPowerBala": 3
   "Da\xF1oSarten": 1
@@ -645,3 +646,33 @@ MonoBehaviour:
   TurretBody: {fileID: 3491469857045249786}
   TurretAll: {fileID: 3491469856684805790}
   BalaGenerator: {fileID: 0}
+--- !u!1 &7611046402427684610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1891937696056842832}
+  m_Layer: 0
+  m_Name: Drop Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1891937696056842832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7611046402427684610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.711, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3491469857045249789}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

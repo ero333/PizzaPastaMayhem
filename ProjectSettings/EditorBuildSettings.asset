@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LVL 6 PLACEHOLDER (Delivery).unity
     guid: 73b6b4a9db45d914fbc0d9333a2425bf
   - enabled: 1
+    path: Assets/Scenes/LVL 7 PLACEHOLDER.unity
+    guid: a780d2befad0d5747bc923466665d672
+  - enabled: 1
     path: Assets/Scenes/Pantalla Game Over.unity
     guid: 494d624b0bd35be4d92cd1465f0b4838
   - enabled: 1

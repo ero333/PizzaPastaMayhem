@@ -59,6 +59,11 @@ public class LevelTransition : MonoBehaviour
         SceneManager.LoadScene(6);
     }
 
+    public void Lvl7()
+    {
+        SceneManager.LoadScene(7);
+    }
+
     public void GameOverScreen()
     {
         SceneManager.LoadScene("Pantalla Game Over");

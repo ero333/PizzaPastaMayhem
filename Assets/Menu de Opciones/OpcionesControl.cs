@@ -17,6 +17,10 @@ public class OpcionesControl : MonoBehaviour
 
     public GameObject MuteButton2;
 
+    public GameObject MuteButton3;
+
+    public GameObject MuteButton4;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,12 +47,16 @@ public class OpcionesControl : MonoBehaviour
         {
             MuteButton1.SetActive(false);
             MuteButton2.SetActive(true);
+            MuteButton3.SetActive(false);
+            MuteButton4.SetActive(true);
         }
 
         if (AudioSource.GetComponent<AudioSource>().mute == false)
         {
             MuteButton1.SetActive(true);
             MuteButton2.SetActive(false);
+            MuteButton3.SetActive(true);
+            MuteButton4.SetActive(false);
         }
 
     }

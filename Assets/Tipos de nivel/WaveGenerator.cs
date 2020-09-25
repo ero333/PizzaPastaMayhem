@@ -22,6 +22,8 @@ public class WaveGenerator : MonoBehaviour
     public float EntreSpawn;                // Tiempo de espera de un Spawn a otro
     public float TiempoPausa;               // Tiempo de pausa de Wave a Wave
 
+    public bool DestroyAfterWave = true;
+
     // Start is called before the first frame update 
     void Start()
     {
@@ -81,7 +83,13 @@ public class WaveGenerator : MonoBehaviour
                 HordaStart = false;         // La Horda deja de funcionar
 
                 Contador = 0;               // Reinicia Timer
+
+                if(DestroyAfterWave==true)
+                {
+                    Destroy(gameObject);
+                }
             }
+
 
 
         }
@@ -101,10 +109,6 @@ public class WaveGenerator : MonoBehaviour
             }
         }
     }
-
-
-
-
 
 
 

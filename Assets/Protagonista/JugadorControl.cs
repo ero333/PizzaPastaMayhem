@@ -117,7 +117,7 @@ public class JugadorControl : MonoBehaviour
 
     public float JamonHit = 1f;
 
-    public float JamonShockwave = 1f;
+    public float ShockwaveHit = 1f;
 
     public float BalaAlbondigaHit = 1f;
 
@@ -622,11 +622,19 @@ public class JugadorControl : MonoBehaviour
 
                 MarcoHP.SendMessage("HPHit");
 
-                Debug.Log("jamoneado");
+            }
+
+            if (collision.tag == "Shockwave") // si colisiona con un objeto con el tag mensionado
+            {
+                vidaActual -= ShockwaveHit;
+
+                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+
+                MarcoHP.SendMessage("HPHit");
 
                 float dir;
 
-                GameObject EnemigoJamon = GameObject.FindGameObjectWithTag("Jamón");
+                GameObject EnemigoJamon = GameObject.FindGameObjectWithTag("Shockwave");
 
                 if (transform.position.x < EnemigoJamon.transform.position.x)
                 {
@@ -643,6 +651,8 @@ public class JugadorControl : MonoBehaviour
 
 
             }
+
+
 
 
             if (collision.tag == "Pollo") // si colisiona con un objeto con el tag mensionado

@@ -45,6 +45,7 @@ TagManager:
   - SalsaHazard
   - PlataformaWin
   - LVLRunner
+  - Shockwave
   layers:
   - Default
   - TransparentFX
@@ -87,6 +88,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Interfaz Fondo
+    uniqueID: 2748519335
     locked: 0
   - name: Interfaz
     uniqueID: 1092360843

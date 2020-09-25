@@ -357,7 +357,7 @@ MonoBehaviour:
   izquierda: 1
   PointStart: 0
   speed: 1
-  Bala: {fileID: 7297905322597378524, guid: a17d030e469477048ba99d538ce14bff, type: 3}
+  Bala: {fileID: 9186213570677130050, guid: 84c511356228a204e9ddf7b41dc3add8, type: 3}
   BalaGenerator: {fileID: 3857343236765241514}
   CoolDown: 15
   CDTimer: 0
@@ -378,10 +378,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b0b3746d8de5b94095c2720150bbb87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaEnemiga: 3
+  vidaEnemiga: 60
   barraEnemiga: {fileID: 3857343237905988247}
   "Da\xF1oBala": 1
-  "Da\xF1oPowerBala": 10
+  "Da\xF1oPowerBala": 7
   "Da\xF1oSarten": 1
   "Da\xF1oShield": 1
 --- !u!1 &3857343237515028837

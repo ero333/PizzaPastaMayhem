@@ -381,10 +381,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42bddb4604111d64c9fe1d3fe3f7b562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaEnemiga: 5
+  vidaEnemiga: 12
   barraEnemiga: {fileID: 6397788342595885182}
   "Da\xF1oBala": 1
-  "Da\xF1oPowerBala": 1
+  "Da\xF1oPowerBala": 5
   "Da\xF1oSarten": 1
   "Da\xF1oShield": 1
 --- !u!95 &6397788342605073070

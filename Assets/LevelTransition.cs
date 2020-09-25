@@ -64,6 +64,12 @@ public class LevelTransition : MonoBehaviour
         SceneManager.LoadScene(7);
     }
 
+
+    public void CUTSCENE1()
+    {
+        SceneManager.LoadScene("CUTSCENEPRUEBA1");
+    }
+
     public void GameOverScreen()
     {
         SceneManager.LoadScene("Pantalla Game Over");

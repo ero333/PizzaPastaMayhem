@@ -1,0 +1,706 @@
+fileFormatVersion: 2
+guid: 2b3ec20bcc415ad42842d3e81a19036f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6680110502265358877
+    second: Character sheet Giuseppe_0
+  - first:
+      213: 7453268696686361618
+    second: Character sheet Giuseppe_1
+  - first:
+      213: 3479899049289530082
+    second: Character sheet Giuseppe_2
+  - first:
+      213: -6748652162909692868
+    second: Character sheet Giuseppe_3
+  - first:
+      213: -2637639979367819271
+    second: Character sheet Giuseppe_4
+  - first:
+      213: -2261463604172680118
+    second: Character sheet Giuseppe_5
+  - first:
+      213: 382699162529639573
+    second: Character sheet Giuseppe_6
+  - first:
+      213: -7600137920140157828
+    second: Character sheet Giuseppe_7
+  - first:
+      213: 7516593812965183958
+    second: Character sheet Giuseppe_8
+  - first:
+      213: 5003400381043233937
+    second: Character sheet Giuseppe_9
+  - first:
+      213: -1503979127167843193
+    second: Character sheet Giuseppe_10
+  - first:
+      213: 8383704309784088454
+    second: Character sheet Giuseppe_11
+  - first:
+      213: -2506265463504174677
+    second: Character sheet Giuseppe_12
+  - first:
+      213: -9022395209716867375
+    second: Character sheet Giuseppe_13
+  - first:
+      213: 3770257101228271658
+    second: Character sheet Giuseppe_14
+  - first:
+      213: -2163748511336926857
+    second: Character sheet Giuseppe_15
+  - first:
+      213: 3703644647892314227
+    second: Character sheet Giuseppe_16
+  - first:
+      213: -2253591960599342463
+    second: Character sheet Giuseppe_17
+  - first:
+      213: -8506554520702717792
+    second: Character sheet Giuseppe_18
+  - first:
+      213: 5068778371900337798
+    second: Character sheet Giuseppe_19
+  - first:
+      213: 350742977567071314
+    second: Character sheet Giuseppe_20
+  - first:
+      213: -7154568273890256707
+    second: Character sheet Giuseppe_21
+  - first:
+      213: 6175667876924281695
+    second: Character sheet Giuseppe_22
+  - first:
+      213: 826236125737808230
+    second: Character sheet Giuseppe_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 3786
+        width: 821
+        height: 1067
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a02ebeb1584bc50800000000000000
+      internalID: 6680110502265358877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_1
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 3786
+        width: 821
+        height: 1067
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c7789f3645f6760800000000000000
+      internalID: 7453268696686361618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_2
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 3786
+        width: 821
+        height: 1067
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea3f1f7fb51b4030800000000000000
+      internalID: 3479899049289530082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_3
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 3786
+        width: 821
+        height: 1067
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c981d1d98f752a0800000000000000
+      internalID: -6748652162909692868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_4
+      rect:
+        serializedVersion: 2
+        x: 3466
+        y: 3786
+        width: 821
+        height: 1067
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f79960e968356bd0800000000000000
+      internalID: -2637639979367819271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_5
+      rect:
+        serializedVersion: 2
+        x: 4313
+        y: 3786
+        width: 821
+        height: 1067
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4410d075daad90e0800000000000000
+      internalID: -2261463604172680118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 2619
+        width: 860
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c2b665cde9f4500800000000000000
+      internalID: 382699162529639573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_7
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 2619
+        width: 857
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cd11234d2e68690800000000000000
+      internalID: -7600137920140157828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_8
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 2619
+        width: 857
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d150be8f3e405860800000000000000
+      internalID: 7516593812965183958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_9
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 2619
+        width: 859
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194d22d2326af6540800000000000000
+      internalID: 5003400381043233937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_10
+      rect:
+        serializedVersion: 2
+        x: 4562
+        y: 2619
+        width: 857
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7840f87c3fac02be0800000000000000
+      internalID: -1503979127167843193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_11
+      rect:
+        serializedVersion: 2
+        x: 5661
+        y: 2619
+        width: 857
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f8796a6a6e85470800000000000000
+      internalID: 8383704309784088454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1471
+        width: 1055
+        height: 1066
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba10107f6d4f73dd0800000000000000
+      internalID: -2506265463504174677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_13
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1471
+        width: 1057
+        height: 1066
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ded3a50c530ac280800000000000000
+      internalID: -9022395209716867375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_14
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1471
+        width: 1056
+        height: 1066
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28ea9e9bd4a25430800000000000000
+      internalID: 3770257101228271658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_15
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 1471
+        width: 1054
+        height: 1066
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7717b766132d8f1e0800000000000000
+      internalID: -2163748511336926857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_16
+      rect:
+        serializedVersion: 2
+        x: 4422
+        y: 1471
+        width: 1056
+        height: 1066
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378e5eb3f2df56330800000000000000
+      internalID: 3703644647892314227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_17
+      rect:
+        serializedVersion: 2
+        x: 5511
+        y: 1471
+        width: 1053
+        height: 1066
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182dcc74d02a9b0e0800000000000000
+      internalID: -2253591960599342463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_18
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 227
+        width: 952
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0750babb5a2f980800000000000000
+      internalID: -8506554520702717792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_19
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 227
+        width: 955
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e6d4ed21be75640800000000000000
+      internalID: 5068778371900337798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_20
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 227
+        width: 952
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c195931e61ed400800000000000000
+      internalID: 350742977567071314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_21
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 227
+        width: 954
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8dd79bf0ed5bc90800000000000000
+      internalID: -7154568273890256707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_22
+      rect:
+        serializedVersion: 2
+        x: 4601
+        y: 227
+        width: 952
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53dcd6c63164b550800000000000000
+      internalID: 6175667876924281695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Giuseppe_23
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 227
+        width: 952
+        height: 1076
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6617237f061677b00800000000000000
+      internalID: 826236125737808230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

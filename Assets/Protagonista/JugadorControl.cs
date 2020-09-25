@@ -6,8 +6,6 @@ using System.Security.Cryptography;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 using UnityEngine.UI;
-using UnityEngine.Timeline;
-using System.Net.Sockets;
 
 public class JugadorControl : MonoBehaviour
 {

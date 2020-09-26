@@ -10,19 +10,19 @@ using UnityEngine.UI;
 public class JugadorControl : MonoBehaviour
 {
 
-    public enum GameState { vivo, muerto, revive, pausa } // estados que puede tener el jugador
+    public enum GameState { vivo, muerto, revive, pausa }               // estados que puede tener el jugador
 
-    public GameState estado = GameState.vivo; // el jugador empieza vivo
+    public GameState estado = GameState.vivo;                           // el jugador empieza vivo
 
     private Rigidbody2D RBPlayer;
 
-    public GameObject Body; // traer gameobject del jugador con los sprites (body). busqueda por tag activada en el start
+    public GameObject Body;                                             // traer gameobject del jugador con los sprites (body). busqueda por tag activada en el start
 
     private Animator anim;
 
-    public Transform Checkpoint; // traer game object donde se teletransportará el jugador al morir. busqueda por tag activada en el start
+    public Transform Checkpoint;                                        // traer game object donde se teletransportará el jugador al morir. busqueda por tag activada en el start
 
-    public GameObject LevelManager; // traer game object que permite cambiar de escenas. busqueda por tag activada en el start
+    public GameObject LevelManager;                                     // traer game object que permite cambiar de escenas. busqueda por tag activada en el start
 
     public bool NivelCompletado;
 
@@ -35,75 +35,79 @@ public class JugadorControl : MonoBehaviour
     #region Variables Movimiento
     [Header("Movimiento")]
 
-    public float speed = 4f; // Velocidad de movimiento
+    public float speed = 4f;                                            // Velocidad de movimiento
 
-    public float speedjump = 5f; // Fuerza de salto
+    public float speedjump = 5f;                                        // Fuerza de salto
 
-    private bool grounded = true; // checkea si está en el suelo o no
+    private bool grounded = true;                                       // checkea si está en el suelo o no
 
     #endregion
 
     #region ataques
+
     [Header("Ataque")]
 
-    public bool Disparando = false; // checkea si está disparando o no
+    public bool Disparando = false;                                     // checkea si está disparando o no
 
 
 
-    public GameObject bala; // traer prefab de la bala
+    public GameObject bala;                                             // traer prefab de la bala
 
-    public GameObject MeleeHit; // traer prefab del golpe cuerpo a cuerpo
+    public GameObject MeleeHit;                                         // traer prefab del golpe cuerpo a cuerpo
 
-    public GameObject BalaPower; // traer prefab del ataque especial
+    public GameObject BalaPower;                                        // traer prefab del ataque especial
 
-    public float BalaPowerCooldownTime = 5f; // tiempo que dura el CD del power attack
+    public float BalaPowerCooldownTime = 5f;                            // tiempo que dura el CD del power attack
 
     private float BalaPowerTimer;
 
-    public bool BalaPowerReady; // bool que te permite activar o no el Power Attack
+    public bool BalaPowerReady;                                         // bool que te permite activar o no el Power Attack
+
+    public GameObject MedidorBalaPower;
 
 
+    [Header("Posición de Generacion de ataques")]
+
+    public Transform balaGenR;                                          // traer generador de balas. Lado Derecho.
+
+    public Transform balaGenL;                                          // traer generador de balas. Lado Izquierdo.
 
 
-    public Transform balaGenR; // traer generador de balas. Lado Derecho.
+    public Transform MeleeR;                                            // traer generador Daño Melee. Lado Derecho
 
-    public Transform balaGenL; // traer generador de balas. Lado Izquierdo.
-
-
-    public Transform MeleeR; // traer generador Daño Melee. Lado Derecho
-
-    public Transform MeleeL; // traer generador Daño Melee. Lado Izquierdo
+    public Transform MeleeL;                                            // traer generador Daño Melee. Lado Izquierdo
 
     #endregion
 
     #region Variables Vida
+
     [Header("Vida")]
 
     public float vidaMaxima = 10f;
 
     public float vidaActual;
 
-    public GameObject barraHP; // traer gameobject de la barra de vida
+    public GameObject barraHP;                                          // traer gameobject de la barra de vida
+
+    public GameObject MarcoHP;                                          // traer gameobject de la barra de vida
+
+
+
+
+    public GameObject LifeContainer1;                                   // traer gameobject del contenedor 1
+
+    public GameObject LifeContainer2;                                   // traer gameobject del contenedor 2
+
+    public int vida = 2;                                                // cantidad de vidas del jugador
+
+    public float Curarse = 2.5f;                                        // cantidad de vida que me curo
 
 
 
 
 
 
-    public GameObject LifeContainer1; // traer gameobject del contenedor 1
 
-    public GameObject LifeContainer2; // traer gameobject del contenedor 2
-
-    public int vida = 2; // cantidad de vidas del jugador
-
-
-
-
-    public GameObject MarcoHP;
-
-
-
-    public float Curarse = 2.5f; // cantidad de vida que me curo
 
 
     #endregion
@@ -130,19 +134,21 @@ public class JugadorControl : MonoBehaviour
     #endregion
 
     #region Variables Municion
+
     [Header("Municion")]
 
     public float municionMáxima = 100f;
 
     public float municionActual;
 
-    public GameObject barraAmmo; // traer gameobject de la barra de vida
+    public GameObject barraAmmo;                                        // traer gameobject de la barra de vida
 
-    public Text municionContador; // traer objeto de texto con contador de municion
+    public Text municionContador;                                       // traer objeto de texto con contador de municion
 
     #endregion
 
     #region Variables Recetas y Power Ups
+
     [Header("Recetas y Power Ups")]
 
     public bool Receta1 = false;
@@ -158,7 +164,7 @@ public class JugadorControl : MonoBehaviour
 
     public float PowerSpeedJump = 10f;
 
-    public GameObject SpeedTornado; // traer gameobject del tornado
+    public GameObject SpeedTornado;                                     // traer gameobject del tornado
 
 
 
@@ -166,7 +172,7 @@ public class JugadorControl : MonoBehaviour
 
     private float PowerTimeStart;
 
-    public GameObject PowerShield; // traer game object del escudo
+    public GameObject PowerShield;                                      // traer game object del escudo
 
     public bool Power2Activo = false;
 
@@ -181,9 +187,9 @@ public class JugadorControl : MonoBehaviour
     void Start()
     {
 
-        Body = GameObject.FindGameObjectWithTag("Player"); // busqueda del objeto por Tag
+        Body = GameObject.FindGameObjectWithTag("Player");              // busqueda del objeto por Tag
 
-        LevelManager = GameObject.FindGameObjectWithTag("LVLMANAGER"); // busqueda del objeto por Tag
+        LevelManager = GameObject.FindGameObjectWithTag("LVLMANAGER");  // busqueda del objeto por Tag
 
 
 
@@ -231,38 +237,39 @@ public class JugadorControl : MonoBehaviour
             Disparo();
             Melee();
             DisparoPower();
+            MedidorPowerHit();
             Limbo();
             Power1();
             PowersTime();
             Power2();
             Power3();
 
-            municionContador.text = municionActual.ToString("0"); // muestra el número de la municion como texto con numeros enteros
+            municionContador.text = municionActual.ToString("0");       // muestra el número de la municion como texto con numeros enteros
 
-            float LargoBarraHP = vidaActual / vidaMaxima; // calcula el largo de la barra de vida del jugador
+            float LargoBarraHP = vidaActual / vidaMaxima;               // calcula el largo de la barra de vida del jugador
 
             PerderHP(LargoBarraHP);
 
 
 
 
-            if (vidaActual <= 0) // si la barra de vida es menor o igual a 0
+            if (vidaActual <= 0)                                        // si la barra de vida es menor o igual a 0
             {
-                estado = GameState.muerto; // cambia a estado "muerto"
+                estado = GameState.muerto;                              // cambia a estado "muerto"
 
-                anim.Play("PJ_Muerte"); // trigea animacion
+                anim.Play("PJ_Muerte");                                 // trigea animacion
 
-                vida--; // resta la cantidad de vidas que tiene el jugador
+                vida--;                                                 // resta la cantidad de vidas que tiene el jugador
 
-                ContenedoresVida(); // los contenedores de vida se actualizan
+                ContenedoresVida();                                     // los contenedores de vida se actualizan
 
             }
 
-            if (vida == 0) // muerte definitiva cuando el jugador se queda sin vidas
+            if (vida == 0)                                              // muerte definitiva cuando el jugador se queda sin vidas
             {
-                estado = GameState.muerto; // estado cambia a "muerto"
+                estado = GameState.muerto;                              // estado cambia a "muerto"
 
-                anim.Play("PJ_Muerte"); // triggea animacion
+                anim.Play("PJ_Muerte");                                 // triggea animacion
 
             }
 
@@ -271,7 +278,7 @@ public class JugadorControl : MonoBehaviour
 
         if (estado == GameState.muerto)
         {
-            RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // personaje se queda quieto al morir
+            RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);    // personaje se queda quieto al morir
         }
 
     }
@@ -281,80 +288,80 @@ public class JugadorControl : MonoBehaviour
 
     #region Movimiento
 
-    void Movimiento() // movimiento del jugador
+    void Movimiento()                                                                   // movimiento del jugador
     {
         if (Disparando == false)
         {
-            if (Power1Activo == false) // detecta si el power up 1 está desactivado
+            if (Power1Activo == false)                                                  // detecta si el power up 1 está desactivado
             {
-                if (Input.GetAxis("Horizontal") > 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.RightArrow))
+                if (Input.GetAxis("Horizontal") > 0)                                    // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.RightArrow))
                 {
-                    RBPlayer.velocity = new Vector2(speed, RBPlayer.velocity.y); // el jugador se mueve hacia la derecha
+                    RBPlayer.velocity = new Vector2(speed, RBPlayer.velocity.y);        // el jugador se mueve hacia la derecha
 
-                    Body.GetComponent<SpriteRenderer>().flipX = false; // flipear o no el sprite
+                    Body.GetComponent<SpriteRenderer>().flipX = false;                  // flipear o no el sprite
 
 
-                    anim.SetBool("PJMOV", true); // animacion del personaje
+                    anim.SetBool("PJMOV", true);                                        // animacion del personaje
 
 
 
 
                 }
 
-                if (Input.GetAxis("Horizontal") < 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.LeftArrow))
+                if (Input.GetAxis("Horizontal") < 0)                                    // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.LeftArrow))
                 {
-                    RBPlayer.velocity = new Vector2(-speed, RBPlayer.velocity.y); // el jugador se mueve hacia la izquierda
+                    RBPlayer.velocity = new Vector2(-speed, RBPlayer.velocity.y);       // el jugador se mueve hacia la izquierda
 
-                    Body.GetComponent<SpriteRenderer>().flipX = true; // flipear o no el sprite
+                    Body.GetComponent<SpriteRenderer>().flipX = true;                   // flipear o no el sprite
 
-                    anim.SetBool("PJMOV", true); // animacion del personaje
+                    anim.SetBool("PJMOV", true);                                        // animacion del personaje
 
 
 
                 }
 
-                if (Input.GetAxis("Horizontal") == 0) // Si no funciona bien, probar ((Input.GetAxis("Horizontal") == 0) && (((Input.GetAxis("Horizontal") < 0) == false) || ((Input.GetAxis("Horizontal") > 0) == false)))
+                if (Input.GetAxis("Horizontal") == 0)
                 {
                     RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);
 
-                    anim.SetBool("PJMOV", false); // detiene animacion del personaje
+                    anim.SetBool("PJMOV", false);                                       // detiene animacion del personaje
                 }
             }
 
 
-            if (Power1Activo == true) // detecta si el power up 1 está activado
+            if (Power1Activo == true)                                                   // detecta si el power up 1 está activado
             {
-                if (Input.GetAxis("Horizontal") > 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.RightArrow))
+                if (Input.GetAxis("Horizontal") > 0)                                    // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.RightArrow))
                 {
-                    RBPlayer.velocity = new Vector2(PowerSpeed, RBPlayer.velocity.y); // el jugador se mueve hacia la derecha
+                    RBPlayer.velocity = new Vector2(PowerSpeed, RBPlayer.velocity.y);   // el jugador se mueve hacia la derecha
 
-                    Body.GetComponent<SpriteRenderer>().flipX = false; // flipear o no el sprite
+                    Body.GetComponent<SpriteRenderer>().flipX = false;                  // flipear o no el sprite
 
 
-                    anim.SetBool("PJMOV", true); // animacion del personaje
+                    anim.SetBool("PJMOV", true);                                        // animacion del personaje
 
 
 
 
                 }
 
-                if (Input.GetAxis("Horizontal") < 0) // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.LeftArrow))
+                if (Input.GetAxis("Horizontal") < 0)                                    // al presionar la tecla mencionada. VERSION ALTERNATIVA - (Input.GetKey(KeyCode.LeftArrow))
                 {
-                    RBPlayer.velocity = new Vector2(-PowerSpeed, RBPlayer.velocity.y); // el jugador se mueve hacia la izquierda
+                    RBPlayer.velocity = new Vector2(-PowerSpeed, RBPlayer.velocity.y);  // el jugador se mueve hacia la izquierda
 
-                    Body.GetComponent<SpriteRenderer>().flipX = true; // flipear o no el sprite
+                    Body.GetComponent<SpriteRenderer>().flipX = true;                   // flipear o no el sprite
 
-                    anim.SetBool("PJMOV", true); // animacion del personaje
+                    anim.SetBool("PJMOV", true);                                        // animacion del personaje
 
 
 
                 }
 
-                if (Input.GetAxis("Horizontal") == 0) // Si no funciona bien, probar ((Input.GetAxis("Horizontal") == 0) && (((Input.GetAxis("Horizontal") < 0) == false) || ((Input.GetAxis("Horizontal") > 0) == false)))
+                if (Input.GetAxis("Horizontal") == 0)                               
                 {
                     RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);
 
-                    anim.SetBool("PJMOV", false); // detiene animacion del personaje
+                    anim.SetBool("PJMOV", false);                                       // detiene animacion del personaje
                 }
             }
         }
@@ -368,7 +375,7 @@ public class JugadorControl : MonoBehaviour
     void Salto()
     {
 
-        if (Power1Activo == false) // detecta si el power up 1 está desactivado
+        if (Power1Activo == false)                                                      // detecta si el power up 1 está desactivado
         {
             if ((Input.GetKeyDown(KeyCode.UpArrow) && grounded))
             {
@@ -378,7 +385,7 @@ public class JugadorControl : MonoBehaviour
             }
         }
 
-        if (Power1Activo == true) // detecta si el power up 1 está activado
+        if (Power1Activo == true)                                                       // detecta si el power up 1 está activado
         {
             if ((Input.GetKeyDown(KeyCode.UpArrow) && grounded))
             {
@@ -390,7 +397,7 @@ public class JugadorControl : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter2D(Collision2D collision)  //si colisiona con plataforma
+    private void OnCollisionEnter2D(Collision2D collision)                              // si colisiona con plataforma
     {
         if ((collision.gameObject.tag == "Piso"))
         {
@@ -408,7 +415,7 @@ public class JugadorControl : MonoBehaviour
     }
 
 
-    private void OnCollisionExit2D(Collision2D collision)   //si deja de colisionar con plataforma con plataforma
+    private void OnCollisionExit2D(Collision2D collision)                               // si deja de colisionar con plataforma con plataforma
     {
         if (collision.gameObject.tag == "Piso")
         {
@@ -433,25 +440,25 @@ public class JugadorControl : MonoBehaviour
             {
                 if (Body.GetComponent<SpriteRenderer>().flipX == false)
                 {
-                    Instantiate(bala, balaGenR.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                    Instantiate(bala, balaGenR.position, Quaternion.identity);          // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                     anim.Play("PJ_Dispara");
 
                     Disparando = true;
 
-                    RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+                    RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);            // jugador se queda quieto al atacar
 
                 }
 
                 if (Body.GetComponent<SpriteRenderer>().flipX == true)
                 {
-                    Instantiate(bala, balaGenL.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                    Instantiate(bala, balaGenL.position, Quaternion.identity);          //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                     anim.Play("PJ_Dispara");
 
                     Disparando = true;
 
-                    RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+                    RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);            // jugador se queda quieto al atacar
                 }
 
                 MunicionJugador();
@@ -479,25 +486,25 @@ public class JugadorControl : MonoBehaviour
         {
             if (Body.GetComponent<SpriteRenderer>().flipX == false)
             {
-                Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                 anim.Play("PJ_Melee");
 
                 Disparando = true;
 
-                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);                // jugador se queda quieto al atacar
 
             }
 
             if (Body.GetComponent<SpriteRenderer>().flipX == true)
             {
-                Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                 anim.Play("PJ_Melee");
 
                 Disparando = true;
 
-                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);                // jugador se queda quieto al atacar
             }
 
 
@@ -520,13 +527,12 @@ public class JugadorControl : MonoBehaviour
         {
             if (Body.GetComponent<SpriteRenderer>().flipX == false)
             {
-                //Instantiate(BalaPower, balaGenR.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                 anim.Play("PJ_Power");
 
                 Disparando = true;
 
-                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);                // jugador se queda quieto al atacar
 
                 BalaPowerReady = false;
 
@@ -534,13 +540,12 @@ public class JugadorControl : MonoBehaviour
 
             if (Body.GetComponent<SpriteRenderer>().flipX == true)
             {
-                //Instantiate(BalaPower, balaGenL.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                 anim.Play("PJ_Power");
 
                 Disparando = true;
 
-                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y); // jugador se queda quieto al atacar
+                RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);                // jugador se queda quieto al atacar
 
                 BalaPowerReady = false;
             }
@@ -552,15 +557,33 @@ public class JugadorControl : MonoBehaviour
     {
         if (Body.GetComponent<SpriteRenderer>().flipX == true)
         {
-            Instantiate(BalaPower, balaGenL.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+            Instantiate(BalaPower, balaGenL.position, Quaternion.identity);             // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
         }
 
         if (Body.GetComponent<SpriteRenderer>().flipX == false)
         {
-            Instantiate(BalaPower, balaGenR.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+            Instantiate(BalaPower, balaGenR.position, Quaternion.identity);             // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
         }
 
     }
+
+    public void MedidorPowerHit()
+    {
+        float LargoBarraPowerHit = BalaPowerTimer / BalaPowerCooldownTime;
+
+        MedidorPowerHitFunction(LargoBarraPowerHit);
+    }
+
+
+    public void MedidorPowerHitFunction(float LargoBarraPowerHit)
+    {
+
+        MedidorBalaPower.transform.localScale = new Vector3(MedidorBalaPower.transform.localScale.x, LargoBarraPowerHit, MedidorBalaPower.transform.localScale.z);
+
+    }
+
+
+
 
     #endregion
 
@@ -570,65 +593,65 @@ public class JugadorControl : MonoBehaviour
     {
         if ((estado == GameState.vivo) && (Power2Activo == false) && (NivelCompletado == false))
         {
-            if (collision.tag == "Salchicha") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "Salchicha")               // si colisiona con un objeto con el tag mensionado
             {
 
                 vidaActual-= SalchichaHit;
 
-                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
 
             }
 
-            if (collision.tag == "BalaMorron") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "BalaMorron")              // si colisiona con un objeto con el tag mensionado
             {
 
                 vidaActual-=BalaMorrónHit;
 
-                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
 
             }
 
-            if (collision.tag == "BalaAlbondiga") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "BalaAlbondiga")           // si colisiona con un objeto con el tag mensionado
             {
 
                 vidaActual-=BalaAlbondigaHit;
 
-                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
 
             }
 
-            if (collision.tag == "Tomate") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "Tomate")                  // si colisiona con un objeto con el tag mensionado
             {
 
                 vidaActual -= TomateHit;
 
-                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
 
             }
 
-            if (collision.tag == "Jamón") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "Jamón")                   // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual -= JamonHit;
 
-                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
 
             }
 
-            if (collision.tag == "Shockwave") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "Shockwave")               // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual -= ShockwaveHit;
 
-                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
 
@@ -655,28 +678,28 @@ public class JugadorControl : MonoBehaviour
 
 
 
-            if (collision.tag == "Pollo") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "Pollo")                   // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual -= PolloHit;
 
-                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
 
             }
 
-            if (collision.tag == "Lechuga") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "Lechuga")                 // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual -= LechugaHit;
 
-                anim.Play("PJ_Herido"); // triggea la animación de que es herido
+                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
                 MarcoHP.SendMessage("HPHit");
 
             }
 
 
-            if (collision.tag == "Caida") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "Caida")                   // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
 
@@ -685,7 +708,7 @@ public class JugadorControl : MonoBehaviour
 
             }
 
-            if (collision.tag == "PanMonstruo") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "PanMonstruo")             // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
 
@@ -694,7 +717,7 @@ public class JugadorControl : MonoBehaviour
 
             }
 
-            if (collision.tag == "SalsaHazard") // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "SalsaHazard")             // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
 
@@ -715,7 +738,7 @@ public class JugadorControl : MonoBehaviour
 
 
 
-    public void PerderHP(float LargoBarraHP) // metodo para hacer que la barra de vida "baje" (visualmente hablando) de cierta manera. EJ: De derecha a izquierda, izquierda es 0 y derecha es su vida
+    public void PerderHP(float LargoBarraHP)                // metodo para hacer que la barra de vida "baje" (visualmente hablando) de cierta manera. EJ: De derecha a izquierda, izquierda es 0 y derecha es su vida
     {
         barraHP.transform.localScale = new Vector3(LargoBarraHP, barraHP.transform.localScale.y, barraHP.transform.localScale.z); // Para que al barra de vida vaya bajando
     }
@@ -751,7 +774,7 @@ public class JugadorControl : MonoBehaviour
     public void AmmoBarFunction(float LargoBarraAmmo)
     {
 
-        barraAmmo.transform.localScale = new Vector3(barraAmmo.transform.localScale.x, LargoBarraAmmo, barraHP.transform.localScale.z);
+        barraAmmo.transform.localScale = new Vector3(barraAmmo.transform.localScale.x, LargoBarraAmmo, barraAmmo.transform.localScale.z);
 
     }
 
@@ -841,7 +864,7 @@ public class JugadorControl : MonoBehaviour
 
             // El siguiente código hace que te recuperes la vida
 
-            vidaActual = vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
+            vidaActual = vidaMaxima;                            // Su vida actual es la misma que la vida que tiene al máximo
 
 
         }
@@ -853,7 +876,7 @@ public class JugadorControl : MonoBehaviour
 
     public void PowersTime()
     {
-        if (Power1Activo == true) // Activa Timer del Power up 1
+        if (Power1Activo == true)                               // Activa Timer del Power up 1
         {
 
             if (PowerTimeStart > 0)
@@ -875,7 +898,7 @@ public class JugadorControl : MonoBehaviour
 
         }
 
-        if (Power1Activo == false) // Reinicia Timer del Power Up 1
+        if (Power1Activo == false)                              // Reinicia Timer del Power Up 1
         {
             PowerTimeStart = PowerT;
 
@@ -886,7 +909,7 @@ public class JugadorControl : MonoBehaviour
 
 
 
-        if (Power2Activo == true) // Activa Timer del Power up 2
+        if (Power2Activo == true)                               // Activa Timer del Power up 2
         {
 
             if (ShieldTimeStart > 0)
@@ -899,7 +922,7 @@ public class JugadorControl : MonoBehaviour
             }
         }
 
-        if (Power2Activo == false) // Reinicia Timer del Power Up 2
+        if (Power2Activo == false)                              // Reinicia Timer del Power Up 2
         {
             ShieldTimeStart = ShieldTime;
 
@@ -911,16 +934,21 @@ public class JugadorControl : MonoBehaviour
 
 
 
-        if (BalaPowerReady == true) // reinicia Timer del Power Attack
+        if (BalaPowerReady == true)                             // reinicia Timer del Power Attack
         {
             BalaPowerTimer = BalaPowerCooldownTime;
+
+            float LargoBarraPowerHit = 0;
+
+            MedidorPowerHitFunction(LargoBarraPowerHit);
         }
 
-        if(BalaPowerReady==false) // Activa Timer del Power Attack
+        if(BalaPowerReady==false)                               // Activa Timer del Power Attack
         {
             if (BalaPowerTimer > 0)
             {
                 BalaPowerTimer -= Time.deltaTime;
+
             }
             else if (BalaPowerTimer <= 0)
             {
@@ -938,30 +966,30 @@ public class JugadorControl : MonoBehaviour
     #region Revivir
     public void Limbo()
     {
-        if ((estado == GameState.muerto) && (vida == 0)) // Si el jugador muere pero se queda sin vidas, aparece pantalla de Game Over
+        if ((estado == GameState.muerto) && (vida == 0))        // Si el jugador muere pero se queda sin vidas, aparece pantalla de Game Over
         {
             LevelManager.SendMessage("GameOverScreen");
         }
 
-        if ((estado == GameState.muerto) && (vida >= 1)) // Si el jugador muere pero todavia le quedan vidas, aparece en el checkpoint
+        if ((estado == GameState.muerto) && (vida >= 1))        // Si el jugador muere pero todavia le quedan vidas, aparece en el checkpoint
         {
-            transform.position = Checkpoint.position; // jugador se teletransporta al checkpoint
+            transform.position = Checkpoint.position;           // jugador se teletransporta al checkpoint
 
-            estado = GameState.revive; // el jugador vuelve a estar vivo
+            estado = GameState.revive;                          // el jugador vuelve a estar vivo
 
-            anim.Play("PJ_Revive"); // Triggea animacion Idle
-
-
+            anim.Play("PJ_Revive");                             // Triggea animacion Idle
 
 
 
-            if (vidaActual < vidaMaxima) // Detecta que la barra de vida del jugador sea menor a su total
+
+
+            if (vidaActual < vidaMaxima)                        // Detecta que la barra de vida del jugador sea menor a su total
             {
-                vidaActual = vidaMaxima; // Su vida actual es la misma que la vida que tiene al máximo
+                vidaActual = vidaMaxima;                        // Su vida actual es la misma que la vida que tiene al máximo
 
-                float LargoBarraHP = vidaActual / vidaMaxima; // cálculo necesario
+                float LargoBarraHP = vidaActual / vidaMaxima;   // cálculo necesario
 
-                PerderHP(LargoBarraHP); // hace que se recupere la barra de vida visualmente
+                PerderHP(LargoBarraHP);                         // hace que se recupere la barra de vida visualmente
             }
 
         }
@@ -1039,9 +1067,6 @@ public class JugadorControl : MonoBehaviour
     }
     #endregion
 
-
-
-
     #region LevelRunner
     public void ThreatGenerator()
     {
@@ -1053,18 +1078,18 @@ public class JugadorControl : MonoBehaviour
 
     public void DestroyThreat()
     {
-        Object[] AmenazaPan = GameObject.FindGameObjectsWithTag("PanMonstruo");     // llamar a todos los objetos con esta TAG
+        Object[] AmenazaPan = GameObject.FindGameObjectsWithTag("PanMonstruo");         // llamar a todos los objetos con esta TAG
 
-        Object[] AmenazaHazard = GameObject.FindGameObjectsWithTag("SalsaHazard");     // llamar a todos los objetos con esta TAG
+        Object[] AmenazaHazard = GameObject.FindGameObjectsWithTag("SalsaHazard");      // llamar a todos los objetos con esta TAG
 
-        foreach (GameObject PanMonstruo in AmenazaPan)                              // Por cada objeto que haya, los destruye
+        foreach (GameObject PanMonstruo in AmenazaPan)                                  // Por cada objeto que haya, los destruye
         {
-            Destroy(PanMonstruo);                                                   // Destruye Dicho Objeto
+            Destroy(PanMonstruo);                                                       // Destruye Dicho Objeto
         }
 
-        foreach (GameObject Hazard in AmenazaHazard)                              // Por cada objeto que haya, los destruye
+        foreach (GameObject Hazard in AmenazaHazard)                                    // Por cada objeto que haya, los destruye
         {
-            Destroy(Hazard);                                                   // Destruye Dicho Objeto
+            Destroy(Hazard);                                                            // Destruye Dicho Objeto
         }
     }
 

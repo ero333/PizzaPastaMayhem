@@ -1407,7 +1407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 418948078}
   m_Layer: 0
-  m_Name: Objetos Importantes (1)
+  m_Name: Objetos Importantes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

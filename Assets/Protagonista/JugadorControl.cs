@@ -602,6 +602,17 @@ public class JugadorControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+
+
+        if (collision.tag == "1UP")               // si colisiona con un objeto con el tag mensionado
+        {
+            Destroy(collision.gameObject);
+            VidaExtra();
+
+        }
+
+        #region Colisiones enemigas
+
         if ((estado == GameState.vivo) && (NivelCompletado == false))
         {
             if(Power2Activo == false)
@@ -741,6 +752,7 @@ public class JugadorControl : MonoBehaviour
 
             }
         }
+        #endregion
     }
 
     public void KnockBack(float dir)
@@ -756,6 +768,12 @@ public class JugadorControl : MonoBehaviour
     public void PerderHP(float LargoBarraHP)                // metodo para hacer que la barra de vida "baje" (visualmente hablando) de cierta manera. EJ: De derecha a izquierda, izquierda es 0 y derecha es su vida
     {
         barraHP.transform.localScale = new Vector3(LargoBarraHP, barraHP.transform.localScale.y, barraHP.transform.localScale.z); // Para que al barra de vida vaya bajando
+    }
+
+
+    public void VidaExtra()
+    {
+        vida++;
     }
 
     #endregion

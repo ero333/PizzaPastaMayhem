@@ -46,6 +46,7 @@ TagManager:
   - PlataformaWin
   - LVLRunner
   - Shockwave
+  - 1UP
   layers:
   - Default
   - TransparentFX

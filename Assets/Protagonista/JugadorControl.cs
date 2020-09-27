@@ -91,20 +91,15 @@ public class JugadorControl : MonoBehaviour
 
     [Header("Vida")]
 
-    public float vidaMaxima = 10f;
+    public float vidaMaxima = 10f;                                      // Cantidad de Vida total que va a tener el jugador. Modificable
 
-    public float vidaActual;
+    public float vidaActual;                                            // Cantidad de vida que tiene el jugador actualmente. No modificable
 
     public GameObject barraHP;                                          // traer gameobject de la barra de vida
 
     public GameObject MarcoHP;                                          // traer gameobject de la barra de vida
 
-
-
-
-    public GameObject LifeContainer1;                                   // traer gameobject del contenedor 1
-
-    public GameObject LifeContainer2;                                   // traer gameobject del contenedor 2
+    public Text VidaContador;                                           // traer gameobject del texto del contador de vidas
 
     public int vida = 2;                                                // cantidad de vidas del jugador
 
@@ -238,6 +233,9 @@ public class JugadorControl : MonoBehaviour
 
     void Update()
     {
+
+        VidaContador.text = vida.ToString("0");                         // muestra el numero de la cantidad de vida como texto
+
         if (estado == GameState.vivo)
         {
             Movimiento();
@@ -253,7 +251,7 @@ public class JugadorControl : MonoBehaviour
             Power3();
             NextLevel();
 
-            municionContador.text = municionActual.ToString("0");       // muestra el número de la municion como texto con numeros enteros
+            municionContador.text = municionActual.ToString("0");       // muestra el número de la municion como texto
 
             float LargoBarraHP = vidaActual / vidaMaxima;               // calcula el largo de la barra de vida del jugador
 
@@ -269,8 +267,6 @@ public class JugadorControl : MonoBehaviour
                 anim.Play("PJ_Muerte");                                 // trigea animacion
 
                 vida--;                                                 // resta la cantidad de vidas que tiene el jugador
-
-                ContenedoresVida();                                     // los contenedores de vida se actualizan
 
             }
 
@@ -288,6 +284,12 @@ public class JugadorControl : MonoBehaviour
         if (estado == GameState.muerto)
         {
             RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);    // personaje se queda quieto al morir
+
+            Power1Activo = false;                                       // Power Up 1 se desactiva al morir
+
+            Power2Activo = false;                                       // Power Up 2 se desactiva al morir
+
+            PowerShield.SetActive(false);                               // Desactiva el escudo
         }
 
     }
@@ -600,110 +602,114 @@ public class JugadorControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((estado == GameState.vivo) && (Power2Activo == false) && (NivelCompletado == false))
+        if ((estado == GameState.vivo) && (NivelCompletado == false))
         {
-            if (collision.tag == "Salchicha")               // si colisiona con un objeto con el tag mensionado
+            if(Power2Activo == false)
             {
-
-                vidaActual-= SalchichaHit;
-
-                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
-
-                MarcoHP.SendMessage("HPHit");
-
-            }
-
-            if (collision.tag == "BalaMorron")              // si colisiona con un objeto con el tag mensionado
-            {
-
-                vidaActual-=BalaMorrónHit;
-
-                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
-
-                MarcoHP.SendMessage("HPHit");
-
-            }
-
-            if (collision.tag == "BalaAlbondiga")           // si colisiona con un objeto con el tag mensionado
-            {
-
-                vidaActual-=BalaAlbondigaHit;
-
-                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
-
-                MarcoHP.SendMessage("HPHit");
-
-            }
-
-            if (collision.tag == "Tomate")                  // si colisiona con un objeto con el tag mensionado
-            {
-
-                vidaActual -= TomateHit;
-
-                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
-
-                MarcoHP.SendMessage("HPHit");
-
-            }
-
-            if (collision.tag == "Jamón")                   // si colisiona con un objeto con el tag mensionado
-            {
-                vidaActual -= JamonHit;
-
-                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
-
-                MarcoHP.SendMessage("HPHit");
-
-            }
-
-            if (collision.tag == "Shockwave")               // si colisiona con un objeto con el tag mensionado
-            {
-                vidaActual -= ShockwaveHit;
-
-                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
-
-                MarcoHP.SendMessage("HPHit");
-
-                float dir;
-
-                GameObject EnemigoJamon = GameObject.FindGameObjectWithTag("Shockwave");
-
-                if (transform.position.x < EnemigoJamon.transform.position.x)
+                if (collision.tag == "Salchicha")               // si colisiona con un objeto con el tag mensionado
                 {
-                    dir = 1;
-                    KnockBack(dir);
+
+                    vidaActual -= SalchichaHit;
+
+                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
 
                 }
-                if (transform.position.x > EnemigoJamon.transform.position.x)
+
+                if (collision.tag == "BalaMorron")              // si colisiona con un objeto con el tag mensionado
                 {
-                    dir = -1;
-                    KnockBack(dir);
+
+                    vidaActual -= BalaMorrónHit;
+
+                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "BalaAlbondiga")           // si colisiona con un objeto con el tag mensionado
+                {
+
+                    vidaActual -= BalaAlbondigaHit;
+
+                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "Tomate")                  // si colisiona con un objeto con el tag mensionado
+                {
+
+                    vidaActual -= TomateHit;
+
+                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "Jamón")                   // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= JamonHit;
+
+                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "Shockwave")               // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= ShockwaveHit;
+
+                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                    float dir;
+
+                    GameObject EnemigoJamon = GameObject.FindGameObjectWithTag("Shockwave");
+
+                    if (transform.position.x < EnemigoJamon.transform.position.x)
+                    {
+                        dir = 1;
+                        KnockBack(dir);
+
+                    }
+                    if (transform.position.x > EnemigoJamon.transform.position.x)
+                    {
+                        dir = -1;
+                        KnockBack(dir);
+                    }
+
+
+
                 }
 
 
 
-            }
 
+                if (collision.tag == "Pollo")                   // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= PolloHit;
 
+                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
+                    MarcoHP.SendMessage("HPHit");
 
-            if (collision.tag == "Pollo")                   // si colisiona con un objeto con el tag mensionado
-            {
-                vidaActual -= PolloHit;
+                }
 
-                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+                if (collision.tag == "Lechuga")                 // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= LechugaHit;
 
-                MarcoHP.SendMessage("HPHit");
+                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
-            }
+                    MarcoHP.SendMessage("HPHit");
 
-            if (collision.tag == "Lechuga")                 // si colisiona con un objeto con el tag mensionado
-            {
-                vidaActual -= LechugaHit;
-
-                anim.Play("PJ_Herido");                     // triggea la animación de que es herido
-
-                MarcoHP.SendMessage("HPHit");
+                }
 
             }
 
@@ -750,20 +756,6 @@ public class JugadorControl : MonoBehaviour
     public void PerderHP(float LargoBarraHP)                // metodo para hacer que la barra de vida "baje" (visualmente hablando) de cierta manera. EJ: De derecha a izquierda, izquierda es 0 y derecha es su vida
     {
         barraHP.transform.localScale = new Vector3(LargoBarraHP, barraHP.transform.localScale.y, barraHP.transform.localScale.z); // Para que al barra de vida vaya bajando
-    }
-
-
-    public void ContenedoresVida()
-    {
-        if (vida == 1)
-        {
-            LifeContainer2.SetActive(false);
-        }
-
-        if (vida == 0)
-        {
-            LifeContainer1.SetActive(false);
-        }
     }
 
     #endregion

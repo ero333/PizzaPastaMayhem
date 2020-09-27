@@ -5630,7 +5630,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098295170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6040001, y: -2.036, z: 0}
+  m_LocalPosition: {x: -7.964, y: -3.8059998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 854470079}
@@ -9217,7 +9217,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796091969}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.49, y: -2.91, z: 0}
+  m_LocalPosition: {x: -7.85, y: -4.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2087495819}
@@ -9340,8 +9340,9 @@ MonoBehaviour:
   estado: 0
   Body: {fileID: 2087495818}
   Checkpoint: {fileID: 1098295171}
-  LevelManager: {fileID: 1203974048}
   NivelCompletado: 0
+  Felicidades: {fileID: 1748813675}
+  LevelManager: {fileID: 1203974048}
   LvlRunner: 1
   speed: 4
   speedjump: 7

@@ -22,14 +22,22 @@ public class JugadorControl : MonoBehaviour
 
     public Transform Checkpoint;                                        // traer game object donde se teletransportará el jugador al morir. busqueda por tag activada en el start
 
-    public GameObject LevelManager;                                     // traer game object que permite cambiar de escenas. busqueda por tag activada en el start
+
+
+
+
+
+
+
+    [Header("Manejo de Niveles")]
 
     public bool NivelCompletado;
 
+    public Button Felicidades;                                          // Traer botón que te permite pasar de nivel
+
+    public GameObject LevelManager;                                     // traer game object que permite cambiar de escenas. busqueda por tag activada en el start
+
     public bool LvlRunner = false;
-
-
-
 
 
     #region Variables Movimiento
@@ -243,6 +251,7 @@ public class JugadorControl : MonoBehaviour
             PowersTime();
             Power2();
             Power3();
+            NextLevel();
 
             municionContador.text = municionActual.ToString("0");       // muestra el número de la municion como texto con numeros enteros
 
@@ -998,10 +1007,21 @@ public class JugadorControl : MonoBehaviour
     #endregion
 
     #region Nivel Completado
-    public void NivelCompleto()
+    public void NivelCompleto()                                 // Método que activa el bool "nivel completado", llamado desde el objeto "lvl manager"
     {
         NivelCompletado = true;
     }
+
+    public void NextLevel()
+    {
+        if(NivelCompletado && Input.GetKeyDown("n"))            // Si el bool es "nivel completado" y activo la tecla "N"
+        {
+            Felicidades.onClick.Invoke();                       // Activa el botón que permite pasar al siguiente nivel
+        }
+    }
+
+
+
     #endregion
 
     #region Estados especificos

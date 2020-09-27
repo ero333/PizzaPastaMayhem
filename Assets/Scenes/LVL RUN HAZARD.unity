@@ -5132,8 +5132,9 @@ MonoBehaviour:
   estado: 0
   Body: {fileID: 657105420}
   Checkpoint: {fileID: 228522093}
-  LevelManager: {fileID: 957380755}
   NivelCompletado: 0
+  Felicidades: {fileID: 216836029}
+  LevelManager: {fileID: 957380755}
   LvlRunner: 1
   speed: 4
   speedjump: 7

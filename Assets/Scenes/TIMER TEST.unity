@@ -3413,7 +3413,8 @@ MonoBehaviour:
   Checkpoint: {fileID: 1613695428}
   LevelManager: {fileID: 1996823812}
   NivelCompletado: 0
-  LvlRunner: 1
+  LvlRunner: 0
+  Felicidades: {fileID: 722733406}
   speed: 4
   speedjump: 7
   Disparando: 0

@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pantalla Game Over.unity
     guid: 494d624b0bd35be4d92cd1465f0b4838
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestSelector.unity
     guid: 3e5879f9eca32094e95662cb4dda87cf
   - enabled: 1

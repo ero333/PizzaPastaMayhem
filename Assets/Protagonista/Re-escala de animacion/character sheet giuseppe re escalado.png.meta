@@ -1,0 +1,2269 @@
+fileFormatVersion: 2
+guid: ea446e93e607dc14a901b70d9c171bc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1335851399650980441
+    second: character sheet giuseppe re escalado_0
+  - first:
+      213: 6888845878136980775
+    second: character sheet giuseppe re escalado_1
+  - first:
+      213: 464385153864885641
+    second: character sheet giuseppe re escalado_2
+  - first:
+      213: -924058175820629809
+    second: character sheet giuseppe re escalado_3
+  - first:
+      213: 2328502319995206893
+    second: character sheet giuseppe re escalado_4
+  - first:
+      213: 3163172303671551603
+    second: character sheet giuseppe re escalado_5
+  - first:
+      213: -6658775990019118786
+    second: character sheet giuseppe re escalado_6
+  - first:
+      213: 3272482498906622237
+    second: character sheet giuseppe re escalado_7
+  - first:
+      213: 2379495123702489511
+    second: character sheet giuseppe re escalado_8
+  - first:
+      213: -3794452475646880124
+    second: character sheet giuseppe re escalado_9
+  - first:
+      213: 7612528397158607045
+    second: character sheet giuseppe re escalado_10
+  - first:
+      213: -2094957868223181674
+    second: character sheet giuseppe re escalado_11
+  - first:
+      213: 603480518248383331
+    second: character sheet giuseppe re escalado_12
+  - first:
+      213: -7544428993289782414
+    second: character sheet giuseppe re escalado_13
+  - first:
+      213: -4834510759350945526
+    second: character sheet giuseppe re escalado_14
+  - first:
+      213: 884045215491998647
+    second: character sheet giuseppe re escalado_15
+  - first:
+      213: -1197685340228588838
+    second: character sheet giuseppe re escalado_16
+  - first:
+      213: 5292274925472009963
+    second: character sheet giuseppe re escalado_17
+  - first:
+      213: -709838832549768213
+    second: character sheet giuseppe re escalado_18
+  - first:
+      213: -1266863234775387099
+    second: character sheet giuseppe re escalado_19
+  - first:
+      213: -4885542734445017557
+    second: character sheet giuseppe re escalado_20
+  - first:
+      213: -4461631446888103201
+    second: character sheet giuseppe re escalado_21
+  - first:
+      213: -9187041119051844502
+    second: character sheet giuseppe re escalado_22
+  - first:
+      213: -1372693633088350194
+    second: character sheet giuseppe re escalado_23
+  - first:
+      213: -4439738419269452625
+    second: character sheet giuseppe re escalado_24
+  - first:
+      213: -2013680165665404446
+    second: character sheet giuseppe re escalado_25
+  - first:
+      213: 1737364761888925305
+    second: character sheet giuseppe re escalado_26
+  - first:
+      213: 4807167279987634497
+    second: character sheet giuseppe re escalado_27
+  - first:
+      213: -5205319958873406064
+    second: character sheet giuseppe re escalado_28
+  - first:
+      213: -704281387411650684
+    second: character sheet giuseppe re escalado_29
+  - first:
+      213: -7552067990932843431
+    second: character sheet giuseppe re escalado_30
+  - first:
+      213: -1292952377027409571
+    second: character sheet giuseppe re escalado_31
+  - first:
+      213: 5622817387666868664
+    second: character sheet giuseppe re escalado_32
+  - first:
+      213: -4765476453005666082
+    second: character sheet giuseppe re escalado_33
+  - first:
+      213: -1649782142021020789
+    second: character sheet giuseppe re escalado_34
+  - first:
+      213: 6773953673099720553
+    second: character sheet giuseppe re escalado_35
+  - first:
+      213: 1496136858796852769
+    second: character sheet giuseppe re escalado_36
+  - first:
+      213: 1012654395632720018
+    second: character sheet giuseppe re escalado_37
+  - first:
+      213: -5495252522528298663
+    second: character sheet giuseppe re escalado_38
+  - first:
+      213: -3212740582935567672
+    second: character sheet giuseppe re escalado_39
+  - first:
+      213: -1748014985255434444
+    second: character sheet giuseppe re escalado_40
+  - first:
+      213: 2945656398921604851
+    second: character sheet giuseppe re escalado_41
+  - first:
+      213: 352526882371122060
+    second: character sheet giuseppe re escalado_42
+  - first:
+      213: -9058007776349813716
+    second: character sheet giuseppe re escalado_43
+  - first:
+      213: -1259450316496459399
+    second: character sheet giuseppe re escalado_44
+  - first:
+      213: 5169020702894109523
+    second: character sheet giuseppe re escalado_45
+  - first:
+      213: 2515932262185144614
+    second: character sheet giuseppe re escalado_46
+  - first:
+      213: -8403751490217266929
+    second: character sheet giuseppe re escalado_47
+  - first:
+      213: 7450640395274840320
+    second: character sheet giuseppe re escalado_48
+  - first:
+      213: 5405195350100352387
+    second: character sheet giuseppe re escalado_49
+  - first:
+      213: 8852288353226210936
+    second: character sheet giuseppe re escalado_50
+  - first:
+      213: 4491542006530131072
+    second: character sheet giuseppe re escalado_51
+  - first:
+      213: -2152465937648850031
+    second: character sheet giuseppe re escalado_52
+  - first:
+      213: -478690880653028494
+    second: character sheet giuseppe re escalado_53
+  - first:
+      213: 3619624437135069623
+    second: character sheet giuseppe re escalado_54
+  - first:
+      213: -6734471840531318130
+    second: character sheet giuseppe re escalado_55
+  - first:
+      213: 8194618006452984632
+    second: character sheet giuseppe re escalado_56
+  - first:
+      213: 2992302648715976732
+    second: character sheet giuseppe re escalado_57
+  - first:
+      213: 8796217829097708269
+    second: character sheet giuseppe re escalado_58
+  - first:
+      213: -9075096594928698512
+    second: character sheet giuseppe re escalado_59
+  - first:
+      213: 6816160903568262738
+    second: character sheet giuseppe re escalado_60
+  - first:
+      213: 8989134734155402401
+    second: character sheet giuseppe re escalado_61
+  - first:
+      213: -5109733068336788189
+    second: character sheet giuseppe re escalado_62
+  - first:
+      213: 8344800397370123806
+    second: character sheet giuseppe re escalado_63
+  - first:
+      213: 5455998608657035169
+    second: character sheet giuseppe re escalado_64
+  - first:
+      213: 4010011471262758841
+    second: character sheet giuseppe re escalado_65
+  - first:
+      213: -6611249184299014296
+    second: character sheet giuseppe re escalado_66
+  - first:
+      213: -9075181226696410358
+    second: character sheet giuseppe re escalado_67
+  - first:
+      213: -8458509887237360789
+    second: character sheet giuseppe re escalado_68
+  - first:
+      213: 3173419404818365794
+    second: character sheet giuseppe re escalado_69
+  - first:
+      213: -6726111201009157615
+    second: character sheet giuseppe re escalado_70
+  - first:
+      213: -7897761388935759790
+    second: character sheet giuseppe re escalado_71
+  - first:
+      213: -3850693135446320905
+    second: character sheet giuseppe re escalado_72
+  - first:
+      213: -1078332775963339304
+    second: character sheet giuseppe re escalado_73
+  - first:
+      213: -7319088193002656412
+    second: character sheet giuseppe re escalado_74
+  - first:
+      213: -8844458327312091689
+    second: character sheet giuseppe re escalado_75
+  - first:
+      213: 4864832678082648019
+    second: character sheet giuseppe re escalado_76
+  - first:
+      213: 6037004494787497682
+    second: character sheet giuseppe re escalado_77
+  - first:
+      213: 1257541107128527437
+    second: character sheet giuseppe re escalado_78
+  - first:
+      213: -1322227942848599637
+    second: character sheet giuseppe re escalado_79
+  - first:
+      213: 5283602292102540083
+    second: character sheet giuseppe re escalado_80
+  - first:
+      213: 2956801120334186335
+    second: character sheet giuseppe re escalado_81
+  - first:
+      213: 8904149411324610585
+    second: character sheet giuseppe re escalado_82
+  - first:
+      213: 4554803245875369576
+    second: character sheet giuseppe re escalado_83
+  - first:
+      213: 2352177980689823943
+    second: character sheet giuseppe re escalado_84
+  - first:
+      213: 8581182921831515077
+    second: character sheet giuseppe re escalado_85
+  - first:
+      213: 4260243848973208197
+    second: character sheet giuseppe re escalado_86
+  - first:
+      213: 8962781332356484500
+    second: character sheet giuseppe re escalado_87
+  - first:
+      213: -1855634124146787343
+    second: character sheet giuseppe re escalado_88
+  - first:
+      213: 3723231119910395531
+    second: character sheet giuseppe re escalado_89
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 345
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 4394
+        width: 414
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad481bca3a167de0800000000000000
+      internalID: -1335851399650980441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_1
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 4389
+        width: 410
+        height: 586
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725c4c6d3d81a9f50800000000000000
+      internalID: 6888845878136980775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_2
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 4386
+        width: 426
+        height: 575
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985e41746d3d17600800000000000000
+      internalID: 464385153864885641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_3
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 4389
+        width: 415
+        height: 586
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc87a662cf51d23f0800000000000000
+      internalID: -924058175820629809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_4
+      rect:
+        serializedVersion: 2
+        x: 6610
+        y: 4366
+        width: 433
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decbcf9e580805020800000000000000
+      internalID: 2328502319995206893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_5
+      rect:
+        serializedVersion: 2
+        x: 7053
+        y: 4362
+        width: 446
+        height: 558
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37662b37378d5eb20800000000000000
+      internalID: 3163172303671551603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_6
+      rect:
+        serializedVersion: 2
+        x: 7501
+        y: 4362
+        width: 580
+        height: 590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39a20c44864793a0800000000000000
+      internalID: -6658775990019118786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_7
+      rect:
+        serializedVersion: 2
+        x: 8095
+        y: 4366
+        width: 507
+        height: 591
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1903019e713a6d20800000000000000
+      internalID: 3272482498906622237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_8
+      rect:
+        serializedVersion: 2
+        x: 8621
+        y: 4362
+        width: 452
+        height: 576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1af09353aa50120800000000000000
+      internalID: 2379495123702489511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3734
+        width: 394
+        height: 568
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48657f7c395675bc0800000000000000
+      internalID: -3794452475646880124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_10
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 3734
+        width: 353
+        height: 565
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8663b8e3225a960800000000000000
+      internalID: 7612528397158607045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_11
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 3734
+        width: 346
+        height: 562
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cc52d1be63de2e0800000000000000
+      internalID: -2094957868223181674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_12
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 3734
+        width: 471
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363401f755eff5800800000000000000
+      internalID: 603480518248383331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_13
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 3734
+        width: 480
+        height: 549
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bfdcd7dcdcc4790800000000000000
+      internalID: -7544428993289782414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_14
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 3070
+        width: 433
+        height: 666
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a093516241e58ecb0800000000000000
+      internalID: -4834510759350945526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_15
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 3734
+        width: 517
+        height: 558
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3c8ca8072c44c00800000000000000
+      internalID: 884045215491998647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_16
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 3734
+        width: 418
+        height: 568
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada6bf65787f06fe0800000000000000
+      internalID: -1197685340228588838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_17
+      rect:
+        serializedVersion: 2
+        x: 4422
+        y: 3734
+        width: 452
+        height: 568
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee477a4100f17940800000000000000
+      internalID: 5292274925472009963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_18
+      rect:
+        serializedVersion: 2
+        x: 4879
+        y: 3734
+        width: 434
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3d71ab7552626f0800000000000000
+      internalID: -709838832549768213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_19
+      rect:
+        serializedVersion: 2
+        x: 5345
+        y: 3734
+        width: 438
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524f530a9923b6ee0800000000000000
+      internalID: -1266863234775387099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_20
+      rect:
+        serializedVersion: 2
+        x: 5797
+        y: 3734
+        width: 484
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b260a6a84c0133cb0800000000000000
+      internalID: -4885542734445017557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_21
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 3734
+        width: 434
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2c58976d91512c0800000000000000
+      internalID: -4461631446888103201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 3070
+        width: 504
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64f10af6c2118080800000000000000
+      internalID: -9187041119051844502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_23
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 3070
+        width: 588
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08145ed96633fce0800000000000000
+      internalID: -1372693633088350194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_24
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 3070
+        width: 570
+        height: 516
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac3acf2e61e262c0800000000000000
+      internalID: -4439738419269452625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_25
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 3070
+        width: 415
+        height: 655
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9834aee88fd04e0800000000000000
+      internalID: -2013680165665404446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_26
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 3070
+        width: 523
+        height: 558
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976aba5cb0c5c1810800000000000000
+      internalID: 1737364761888925305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_27
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 3070
+        width: 518
+        height: 558
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1413b83fb2d76b240800000000000000
+      internalID: 4807167279987634497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_28
+      rect:
+        serializedVersion: 2
+        x: 3641
+        y: 3070
+        width: 541
+        height: 469
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095891d831df2c7b0800000000000000
+      internalID: -5205319958873406064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_29
+      rect:
+        serializedVersion: 2
+        x: 4187
+        y: 3070
+        width: 554
+        height: 470
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487c8614fc3e936f0800000000000000
+      internalID: -704281387411650684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_30
+      rect:
+        serializedVersion: 2
+        x: 4745
+        y: 3070
+        width: 563
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95499d0cc2aa13790800000000000000
+      internalID: -7552067990932843431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_31
+      rect:
+        serializedVersion: 2
+        x: 5308
+        y: 3071
+        width: 526
+        height: 456
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59c8c7d9a28e0ee0800000000000000
+      internalID: -1292952377027409571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_32
+      rect:
+        serializedVersion: 2
+        x: 5843
+        y: 3070
+        width: 425
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b906c48f92480e40800000000000000
+      internalID: 5622817387666868664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_33
+      rect:
+        serializedVersion: 2
+        x: 6277
+        y: 3070
+        width: 410
+        height: 526
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8db112a60adddb0800000000000000
+      internalID: -4765476453005666082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_34
+      rect:
+        serializedVersion: 2
+        x: 6692
+        y: 3070
+        width: 411
+        height: 526
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83dd0cf1ebca19e0800000000000000
+      internalID: -1649782142021020789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_35
+      rect:
+        serializedVersion: 2
+        x: 7108
+        y: 3070
+        width: 410
+        height: 526
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967bf0ac9fae10e50800000000000000
+      internalID: 6773953673099720553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2180
+        width: 393
+        height: 604
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12684f3db8853c410800000000000000
+      internalID: 1496136858796852769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_37
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 2167
+        width: 694
+        height: 562
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2981debbecbad0e00800000000000000
+      internalID: 1012654395632720018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_38
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 2263
+        width: 756
+        height: 604
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959a1a322f0fcb3b0800000000000000
+      internalID: -5495252522528298663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_39
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 2267
+        width: 692
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2e4ae267d0a63d0800000000000000
+      internalID: -3212740582935567672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_40
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 2526
+        width: 581
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4374acdd1adcdb7e0800000000000000
+      internalID: -1748014985255434444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_41
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 2526
+        width: 581
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe141853e211e820800000000000000
+      internalID: 2945656398921604851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_42
+      rect:
+        serializedVersion: 2
+        x: 3910
+        y: 2332
+        width: 563
+        height: 454
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83b18de45d64e400800000000000000
+      internalID: 352526882371122060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_43
+      rect:
+        serializedVersion: 2
+        x: 4482
+        y: 2332
+        width: 535
+        height: 383
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2481f53bed7b4280800000000000000
+      internalID: -9058007776349813716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_44
+      rect:
+        serializedVersion: 2
+        x: 5023
+        y: 2226
+        width: 710
+        height: 389
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979a9f82c98858ee0800000000000000
+      internalID: -1259450316496459399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_45
+      rect:
+        serializedVersion: 2
+        x: 5756
+        y: 2226
+        width: 701
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353b4a051fc0cb740800000000000000
+      internalID: 5169020702894109523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_46
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2194
+        width: 729
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6219d7eff036ae220800000000000000
+      internalID: 2515932262185144614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_47
+      rect:
+        serializedVersion: 2
+        x: 7209
+        y: 2194
+        width: 729
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01b0fc6b80ef5b80800000000000000
+      internalID: -8403751490217266929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_48
+      rect:
+        serializedVersion: 2
+        x: 7941
+        y: 2194
+        width: 726
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009688dd6fdf56760800000000000000
+      internalID: 7450640395274840320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_49
+      rect:
+        serializedVersion: 2
+        x: 8672
+        y: 2194
+        width: 728
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d1350788c130b40800000000000000
+      internalID: 5405195350100352387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_50
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1488
+        width: 383
+        height: 562
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e30671b55a9da70800000000000000
+      internalID: 8852288353226210936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_51
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1488
+        width: 389
+        height: 558
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08449f068a9255e30800000000000000
+      internalID: 4491542006530131072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_52
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1488
+        width: 397
+        height: 567
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bef4b42a7e022e0800000000000000
+      internalID: -2152465937648850031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_53
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1489
+        width: 397
+        height: 590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27315752e295b59f0800000000000000
+      internalID: -478690880653028494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_54
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1488
+        width: 402
+        height: 553
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b152cb7f3d7b3230800000000000000
+      internalID: 3619624437135069623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_55
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 1488
+        width: 405
+        height: 576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a7243ba895a82a0800000000000000
+      internalID: -6734471840531318130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_56
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 1488
+        width: 401
+        height: 608
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b56a0f8a129b170800000000000000
+      internalID: 8194618006452984632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_57
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 1488
+        width: 407
+        height: 586
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c102d25b76bc68920800000000000000
+      internalID: 2992302648715976732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_58
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 1488
+        width: 407
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea935ed281721a70800000000000000
+      internalID: 8796217829097708269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_59
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 1488
+        width: 387
+        height: 576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bfae49ab7ce0280800000000000000
+      internalID: -9075096594928698512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_60
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 1488
+        width: 373
+        height: 562
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256871d6a3ed79e50800000000000000
+      internalID: 6816160903568262738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_61
+      rect:
+        serializedVersion: 2
+        x: 4505
+        y: 1492
+        width: 408
+        height: 545
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac457b0a62dfbc70800000000000000
+      internalID: 8989134734155402401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_62
+      rect:
+        serializedVersion: 2
+        x: 4919
+        y: 1492
+        width: 417
+        height: 554
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d08bcc8d49619b0800000000000000
+      internalID: -5109733068336788189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_63
+      rect:
+        serializedVersion: 2
+        x: 5341
+        y: 1488
+        width: 391
+        height: 581
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16e8ceafbfaec370800000000000000
+      internalID: 8344800397370123806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_64
+      rect:
+        serializedVersion: 2
+        x: 5737
+        y: 1488
+        width: 394
+        height: 571
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af2704d3d997bb40800000000000000
+      internalID: 5455998608657035169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_66
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 849
+        width: 397
+        height: 574
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867244015ef1044a0800000000000000
+      internalID: -6611249184299014296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_67
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 847
+        width: 572
+        height: 571
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b7776b1ca7e0280800000000000000
+      internalID: -9075181226696410358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_68
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 847
+        width: 567
+        height: 571
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63761a92165d9a80800000000000000
+      internalID: -8458509887237360789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_69
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 851
+        width: 665
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26db78b92204a0c20800000000000000
+      internalID: 3173419404818365794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_71
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 847
+        width: 658
+        height: 575
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25830b36cd3856290800000000000000
+      internalID: -7897761388935759790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_72
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 847
+        width: 480
+        height: 575
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8dfa2cef69f8ac0800000000000000
+      internalID: -3850693135446320905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_73
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 847
+        width: 480
+        height: 576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d55b03bd0ef801f0800000000000000
+      internalID: -1078332775963339304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_74
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 847
+        width: 322
+        height: 581
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d225011106d6a90800000000000000
+      internalID: -7319088193002656412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_75
+      rect:
+        serializedVersion: 2
+        x: 4381
+        y: 849
+        width: 544
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d531d1e20c224580800000000000000
+      internalID: -8844458327312091689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_76
+      rect:
+        serializedVersion: 2
+        x: 4954
+        y: 847
+        width: 515
+        height: 562
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d714d4bb8b538340800000000000000
+      internalID: 4864832678082648019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_77
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 68
+        width: 360
+        height: 593
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dece334a9fb7c350800000000000000
+      internalID: 6037004494787497682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_78
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 67
+        width: 330
+        height: 673
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ae8d469fea37110800000000000000
+      internalID: 1257541107128527437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_79
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 68
+        width: 545
+        height: 626
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9e96201b086ade0800000000000000
+      internalID: -1322227942848599637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_80
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 67
+        width: 573
+        height: 623
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b263b7a40235940800000000000000
+      internalID: 5283602292102540083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_81
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 67
+        width: 705
+        height: 712
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f570ff004faa80920800000000000000
+      internalID: 2956801120334186335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_83
+      rect:
+        serializedVersion: 2
+        x: 3836
+        y: 67
+        width: 563
+        height: 715
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86692347b69e53f30800000000000000
+      internalID: 4554803245875369576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_84
+      rect:
+        serializedVersion: 2
+        x: 4409
+        y: 68
+        width: 599
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8338b396d94a020800000000000000
+      internalID: 2352177980689823943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_85
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 67
+        width: 591
+        height: 540
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c38a60076c761770800000000000000
+      internalID: 8581182921831515077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_86
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 68
+        width: 582
+        height: 503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a479a753d6f1b30800000000000000
+      internalID: 4260243848973208197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_88
+      rect:
+        serializedVersion: 2
+        x: 5013
+        y: 67
+        width: 553
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb332d78967f36e0800000000000000
+      internalID: -1855634124146787343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_89
+      rect:
+        serializedVersion: 2
+        x: 5608
+        y: 67
+        width: 360
+        height: 475
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e50fe1af29ba330800000000000000
+      internalID: 3723231119910395531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_65
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 3734
+        width: 464
+        height: 568
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7bbd9ef2c66a730800000000000000
+      internalID: 4010011471262758841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_82
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 3734
+        width: 464
+        height: 568
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918c101a6b4e19b70800000000000000
+      internalID: 8904149411324610585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet giuseppe re escalado_87
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 3733
+        width: 421
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d4c9a8222326c70800000000000000
+      internalID: 8962781332356484500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

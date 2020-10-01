@@ -1,0 +1,946 @@
+fileFormatVersion: 2
+guid: 93c6c58cc94351e41ad8f72e5016da6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2489395302607185002
+    second: character sheet re escalado_0
+  - first:
+      213: -4819456399785874228
+    second: character sheet re escalado_1
+  - first:
+      213: 2104685282831883461
+    second: character sheet re escalado_2
+  - first:
+      213: 1401928215507770519
+    second: character sheet re escalado_3
+  - first:
+      213: 1700621534655239835
+    second: character sheet re escalado_4
+  - first:
+      213: -1849379888379385377
+    second: character sheet re escalado_5
+  - first:
+      213: -610607725490573998
+    second: character sheet re escalado_6
+  - first:
+      213: -8101075420037165383
+    second: character sheet re escalado_7
+  - first:
+      213: 3320326503649083332
+    second: character sheet re escalado_8
+  - first:
+      213: 7939810963322482605
+    second: character sheet re escalado_9
+  - first:
+      213: 6893792108556304506
+    second: character sheet re escalado_10
+  - first:
+      213: -4265767623248972876
+    second: character sheet re escalado_11
+  - first:
+      213: -2219868056714834372
+    second: character sheet re escalado_12
+  - first:
+      213: -5522366532234963098
+    second: character sheet re escalado_13
+  - first:
+      213: -7675446843964544249
+    second: character sheet re escalado_14
+  - first:
+      213: -5124633198235574797
+    second: character sheet re escalado_15
+  - first:
+      213: -6613633132779125430
+    second: character sheet re escalado_16
+  - first:
+      213: 6369613785956588182
+    second: character sheet re escalado_17
+  - first:
+      213: -7032620313834044742
+    second: character sheet re escalado_18
+  - first:
+      213: 513485897838675897
+    second: character sheet re escalado_19
+  - first:
+      213: 446064101500766599
+    second: character sheet re escalado_20
+  - first:
+      213: -8219441929510006935
+    second: character sheet re escalado_21
+  - first:
+      213: -6488044998662905970
+    second: character sheet re escalado_22
+  - first:
+      213: -7210356032251425534
+    second: character sheet re escalado_23
+  - first:
+      213: -4921662417408611769
+    second: character sheet re escalado_24
+  - first:
+      213: -8113106718102718197
+    second: character sheet re escalado_25
+  - first:
+      213: -7036207640744137687
+    second: character sheet re escalado_26
+  - first:
+      213: 8334304135505445526
+    second: character sheet re escalado_27
+  - first:
+      213: 2715868463518448731
+    second: character sheet re escalado_28
+  - first:
+      213: 2402611151340626904
+    second: character sheet re escalado_29
+  - first:
+      213: 6731449959645626841
+    second: character sheet re escalado_30
+  - first:
+      213: -9158246016975243826
+    second: character sheet re escalado_31
+  - first:
+      213: -6602906997710863741
+    second: character sheet re escalado_32
+  - first:
+      213: -8591125612581680783
+    second: character sheet re escalado_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet re escalado_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 4085
+        width: 793
+        height: 872
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a646d6d96db1c8220800000000000000
+      internalID: 2489395302607185002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_1
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 4085
+        width: 793
+        height: 890
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccca74060f9dd1db0800000000000000
+      internalID: -4819456399785874228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_2
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 4085
+        width: 793
+        height: 867
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccdf271d18553d10800000000000000
+      internalID: 2104685282831883461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_3
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 4085
+        width: 784
+        height: 862
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c10f5c846a47310800000000000000
+      internalID: 1401928215507770519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_4
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 4085
+        width: 853
+        height: 908
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9651868642d99710800000000000000
+      internalID: 1700621534655239835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_5
+      rect:
+        serializedVersion: 2
+        x: 4533
+        y: 4085
+        width: 789
+        height: 862
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9256a3acea556e0800000000000000
+      internalID: -1849379888379385377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_6
+      rect:
+        serializedVersion: 2
+        x: 5428
+        y: 4085
+        width: 798
+        height: 899
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d6601428fa687f0800000000000000
+      internalID: -610607725490573998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2936
+        width: 826
+        height: 881
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be490aa3d2339f80800000000000000
+      internalID: -8101075420037165383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_8
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 2934
+        width: 826
+        height: 883
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf715cfc5b241e20800000000000000
+      internalID: 3320326503649083332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_9
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2934
+        width: 826
+        height: 882
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafa6941100ef2e60800000000000000
+      internalID: 7939810963322482605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_10
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 2932
+        width: 825
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70c3e9d56babaf50800000000000000
+      internalID: 6893792108556304506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_11
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 2937
+        width: 829
+        height: 797
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3f1e992f2fcc4c0800000000000000
+      internalID: -4265767623248972876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_12
+      rect:
+        serializedVersion: 2
+        x: 4593
+        y: 2936
+        width: 826
+        height: 807
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e864783c17131e0800000000000000
+      internalID: -2219868056714834372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_13
+      rect:
+        serializedVersion: 2
+        x: 5543
+        y: 2936
+        width: 822
+        height: 835
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66711aec5ec9c53b0800000000000000
+      internalID: -5522366532234963098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_14
+      rect:
+        serializedVersion: 2
+        x: 6485
+        y: 2914
+        width: 825
+        height: 857
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ba91df2c55b7590800000000000000
+      internalID: -7675446843964544249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1562
+        width: 793
+        height: 885
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd9ef6f145a1e8b0800000000000000
+      internalID: -5124633198235574797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_16
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1566
+        width: 666
+        height: 946
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4542fdc4b7a734a0800000000000000
+      internalID: -6613633132779125430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_17
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1566
+        width: 539
+        height: 932
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a9f5c9df9656850800000000000000
+      internalID: 6369613785956588182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_18
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 1566
+        width: 683
+        height: 918
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2c9b1c51d176e90800000000000000
+      internalID: -7032620313834044742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_19
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 1566
+        width: 511
+        height: 927
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7c8d914b4402700800000000000000
+      internalID: 513485897838675897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_20
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 1567
+        width: 679
+        height: 862
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c10ddfecb03600800000000000000
+      internalID: 446064101500766599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_21
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 1566
+        width: 738
+        height: 821
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fca931d1daeed80800000000000000
+      internalID: -8219441929510006935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_22
+      rect:
+        serializedVersion: 2
+        x: 5723
+        y: 1566
+        width: 808
+        height: 646
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f92f7e275d5f5a0800000000000000
+      internalID: -6488044998662905970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_23
+      rect:
+        serializedVersion: 2
+        x: 6642
+        y: 1566
+        width: 839
+        height: 382
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d0f89046bafeb90800000000000000
+      internalID: -7210356032251425534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_24
+      rect:
+        serializedVersion: 2
+        x: 7569
+        y: 1559
+        width: 844
+        height: 491
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a28f18b1eb2bbb0800000000000000
+      internalID: -4921662417408611769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_25
+      rect:
+        serializedVersion: 2
+        x: 8534
+        y: 1562
+        width: 848
+        height: 544
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09f6aacc64786f80800000000000000
+      internalID: -8113106718102718197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 118
+        width: 579
+        height: 978
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c6e8f1e6e5a5e90800000000000000
+      internalID: -7036207640744137687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_27
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 113
+        width: 608
+        height: 1028
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6920fd6447569a370800000000000000
+      internalID: 8334304135505445526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_28
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 39
+        width: 1045
+        height: 1190
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cf3b07af3b0b520800000000000000
+      internalID: 2715868463518448731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_29
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 39
+        width: 913
+        height: 934
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3ec01dc1ac75120800000000000000
+      internalID: 2402611151340626904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_30
+      rect:
+        serializedVersion: 2
+        x: 4436
+        y: 39
+        width: 914
+        height: 604
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1cef3d21aea6d50800000000000000
+      internalID: 6731449959645626841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_31
+      rect:
+        serializedVersion: 2
+        x: 5465
+        y: 116
+        width: 876
+        height: 868
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5fd8025cf57e080800000000000000
+      internalID: -9158246016975243826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_32
+      rect:
+        serializedVersion: 2
+        x: 6443
+        y: 118
+        width: 614
+        height: 982
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382c08cb113cd54a0800000000000000
+      internalID: -6602906997710863741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet re escalado_33
+      rect:
+        serializedVersion: 2
+        x: 7371
+        y: 113
+        width: 599
+        height: 1029
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1790f49e5c036c880800000000000000
+      internalID: -8591125612581680783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

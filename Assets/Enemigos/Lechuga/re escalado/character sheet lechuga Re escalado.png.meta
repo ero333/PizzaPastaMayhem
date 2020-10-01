@@ -1,0 +1,757 @@
+fileFormatVersion: 2
+guid: 7ba1d1e389094df46bcdc89afb0a1796
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5505225871680516006
+    second: character sheet lechuga Re escalado_0
+  - first:
+      213: 5225895253566322311
+    second: character sheet lechuga Re escalado_1
+  - first:
+      213: 5412432826245862788
+    second: character sheet lechuga Re escalado_2
+  - first:
+      213: -7417122753469430767
+    second: character sheet lechuga Re escalado_3
+  - first:
+      213: 5419412846967745734
+    second: character sheet lechuga Re escalado_4
+  - first:
+      213: 4060022354987773295
+    second: character sheet lechuga Re escalado_5
+  - first:
+      213: 6974863427389582863
+    second: character sheet lechuga Re escalado_6
+  - first:
+      213: 5746917206355983165
+    second: character sheet lechuga Re escalado_7
+  - first:
+      213: 6990724582773461888
+    second: character sheet lechuga Re escalado_8
+  - first:
+      213: -7890161180642203232
+    second: character sheet lechuga Re escalado_9
+  - first:
+      213: 119514687177579072
+    second: character sheet lechuga Re escalado_10
+  - first:
+      213: 127130596402023141
+    second: character sheet lechuga Re escalado_11
+  - first:
+      213: -9099940541775527418
+    second: character sheet lechuga Re escalado_12
+  - first:
+      213: -599946918549690989
+    second: character sheet lechuga Re escalado_13
+  - first:
+      213: 3141483724937474514
+    second: character sheet lechuga Re escalado_14
+  - first:
+      213: -6076355398714401074
+    second: character sheet lechuga Re escalado_15
+  - first:
+      213: -1903531627042103385
+    second: character sheet lechuga Re escalado_16
+  - first:
+      213: 3088781319875906054
+    second: character sheet lechuga Re escalado_17
+  - first:
+      213: -1671254400575921740
+    second: character sheet lechuga Re escalado_18
+  - first:
+      213: -3908862502805370706
+    second: character sheet lechuga Re escalado_19
+  - first:
+      213: 4435578226576539705
+    second: character sheet lechuga Re escalado_20
+  - first:
+      213: -6458497582195800751
+    second: character sheet lechuga Re escalado_21
+  - first:
+      213: -5997556602874802104
+    second: character sheet lechuga Re escalado_22
+  - first:
+      213: -2608073321916670561
+    second: character sheet lechuga Re escalado_23
+  - first:
+      213: -1580606842003380030
+    second: character sheet lechuga Re escalado_24
+  - first:
+      213: 881560417988413548
+    second: character sheet lechuga Re escalado_25
+  - first:
+      213: -4114902035761599328
+    second: character sheet lechuga Re escalado_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1908
+        width: 422
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afaec923cd766c40800000000000000
+      internalID: 5505225871680516006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_1
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1906
+        width: 436
+        height: 549
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786783e8b0c168840800000000000000
+      internalID: 5225895253566322311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_2
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1908
+        width: 422
+        height: 539
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4855c0baaf2dc1b40800000000000000
+      internalID: 5412432826245862788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_3
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 1908
+        width: 438
+        height: 547
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114ccff3726111990800000000000000
+      internalID: -7417122753469430767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_5
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1908
+        width: 458
+        height: 563
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6de03922d8185830800000000000000
+      internalID: 4060022354987773295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_6
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 1906
+        width: 422
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e6b623551bbc060800000000000000
+      internalID: 6974863427389582863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_7
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 1908
+        width: 421
+        height: 557
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bbd6e20c621cf40800000000000000
+      internalID: 5746917206355983165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1284
+        width: 450
+        height: 598
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0839dc638fa040160800000000000000
+      internalID: 6990724582773461888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_9
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1280
+        width: 448
+        height: 604
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9ae37c534808290800000000000000
+      internalID: -7890161180642203232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_10
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1290
+        width: 444
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a59aa89f998a100800000000000000
+      internalID: 119514687177579072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_11
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1305
+        width: 451
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea40a69a98a3c100800000000000000
+      internalID: 127130596402023141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_12
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1309
+        width: 452
+        height: 573
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6024b427a4486b180800000000000000
+      internalID: -9099940541775527418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_13
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 1323
+        width: 450
+        height: 566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39561cbc47f8ca7f0800000000000000
+      internalID: -599946918549690989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 693
+        width: 422
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1b194bdcac89b20800000000000000
+      internalID: 3141483724937474514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_15
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 691
+        width: 497
+        height: 579
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eced99275f27caba0800000000000000
+      internalID: -6076355398714401074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_16
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 734
+        width: 551
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af1f6f021c4595e0800000000000000
+      internalID: -1903531627042103385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_17
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 695
+        width: 508
+        height: 421
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ac010de3e8dda20800000000000000
+      internalID: 3088781319875906054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_18
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 685
+        width: 538
+        height: 345
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b12d543af28ec8e0800000000000000
+      internalID: -1671254400575921740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_19
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 694
+        width: 535
+        height: 409
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea80174834ee0c9c0800000000000000
+      internalID: -3908862502805370706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_20
+      rect:
+        serializedVersion: 2
+        x: 3451
+        y: 694
+        width: 535
+        height: 409
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9304d8875e65e8d30800000000000000
+      internalID: 4435578226576539705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 88
+        width: 420
+        height: 569
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1550086eaaece56a0800000000000000
+      internalID: -6458497582195800751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_22
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 21
+        width: 649
+        height: 581
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840595dcb0664cca0800000000000000
+      internalID: -5997556602874802104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_23
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 21
+        width: 567
+        height: 554
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ddbf2c1234ecbd0800000000000000
+      internalID: -2608073321916670561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_24
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 23
+        width: 567
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c826dc937e801ae0800000000000000
+      internalID: -1580606842003380030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_25
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 82
+        width: 515
+        height: 423
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c688e3a878eeb3c00800000000000000
+      internalID: 881560417988413548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet lechuga Re escalado_26
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 90
+        width: 410
+        height: 500
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ace5e0766ee4e6c0800000000000000
+      internalID: -4114902035761599328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

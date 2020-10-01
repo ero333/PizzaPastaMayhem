@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class LevelTransition : MonoBehaviour
 {
+    [Header("Variables que se mantienen")]
+    public int NumeroVidas = 2;
+    public float VidaTotal = 10f;
+    public float MunicioTotal = 50f;
 
 
     // Start is called before the first frame update
@@ -74,6 +78,39 @@ public class LevelTransition : MonoBehaviour
     {
         SceneManager.LoadScene("Pantalla Game Over");
     }
+
+    public void Reinicio()
+    {
+        PlayerPrefs.SetInt("vidas", NumeroVidas);
+        PlayerPrefs.SetFloat("VidaTotal", VidaTotal);
+        PlayerPrefs.SetFloat("VidaActual", VidaTotal);
+
+        PlayerPrefs.SetFloat("MunicionMaxima", MunicioTotal);
+        PlayerPrefs.SetFloat("MunicionActual", MunicioTotal);
+
+        RecetasReinicio();
+    }
+
+    public void RecetasReinicio()
+    {
+        PlayerPrefs.SetInt("DropPan", 0);
+        PlayerPrefs.SetInt("DropQueso", 0);
+        PlayerPrefs.SetInt("DropPaty", 0);
+
+        PlayerPrefs.SetInt("DropJamon", 0);
+        PlayerPrefs.SetInt("DropSalchicha", 0);
+        PlayerPrefs.SetInt("DropAlbondiga", 0);
+
+        PlayerPrefs.SetInt("DropPollo", 0);
+        PlayerPrefs.SetInt("DropLechuga", 0);
+        PlayerPrefs.SetInt("DropTomate", 0);
+
+    }
+
+
+
+
+
 
 
 

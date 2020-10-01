@@ -91,7 +91,7 @@ public class JugadorControl : MonoBehaviour
 
     [Header("Vida")]
 
-    public float vidaMaxima = 10f;                                      // Cantidad de Vida total que va a tener el jugador. Modificable
+    public float vidaMaxima;                                      // Cantidad de Vida total que va a tener el jugador. Modificable
 
     public float vidaActual;                                            // Cantidad de vida que tiene el jugador actualmente. No modificable
 
@@ -101,7 +101,7 @@ public class JugadorControl : MonoBehaviour
 
     public Text VidaContador;                                           // traer gameobject del texto del contador de vidas
 
-    public int vida = 2;                                                // cantidad de vidas del jugador
+    public int vida;                                                    // cantidad de vidas del jugador
 
     public float Curarse = 2.5f;                                        // cantidad de vida que me curo
 
@@ -140,7 +140,7 @@ public class JugadorControl : MonoBehaviour
 
     [Header("Municion")]
 
-    public float municionMáxima = 100f;
+    public float municionMáxima;
 
     public float municionActual;
 
@@ -189,17 +189,22 @@ public class JugadorControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        vida = PlayerPrefs.GetInt("vidas");                             // Recupera valores de estas variables 
+        vidaMaxima = PlayerPrefs.GetFloat("VidaTotal");                 // Recupera valores de estas variables
+        vidaActual = PlayerPrefs.GetFloat("VidaActual");                // Recupera valores de estas variables
+        municionMáxima = PlayerPrefs.GetFloat("MunicionMaxima");        // Recupera valores de estas variables
+        municionActual = PlayerPrefs.GetFloat("MunicionActual");        // Recupera valores de estas variables
+
+
+
+
+
+
+
 
         Body = GameObject.FindGameObjectWithTag("Player");              // busqueda del objeto por Tag
 
         LevelManager = GameObject.FindGameObjectWithTag("LVLMANAGER");  // busqueda del objeto por Tag
-
-
-
-        vidaActual = vidaMaxima;
-
-        municionActual = municionMáxima;
-
 
 
         RBPlayer = GetComponent<Rigidbody2D>();
@@ -234,6 +239,21 @@ public class JugadorControl : MonoBehaviour
     void Update()
     {
 
+
+        PlayerPrefs.SetInt("vidas", vida);                              // Todo cambio que el jugador reciba con esta variable, va a actualizar el player pref
+        PlayerPrefs.SetFloat("VidaTotal", vidaMaxima);
+        PlayerPrefs.SetFloat("VidaActual", vidaActual);
+        PlayerPrefs.SetFloat("MunicionMaxima", municionMáxima);
+        PlayerPrefs.SetFloat("MunicionActual", municionActual);
+
+
+
+
+
+
+
+
+
         VidaContador.text = vida.ToString("0");                         // muestra el numero de la cantidad de vida como texto
 
         if (estado == GameState.vivo)
@@ -255,7 +275,11 @@ public class JugadorControl : MonoBehaviour
 
             float LargoBarraHP = vidaActual / vidaMaxima;               // calcula el largo de la barra de vida del jugador
 
+            float LargoBarraAmmo = municionActual / municionMáxima;     // calcula el largo de la barra de municion del jugador
+
             PerderHP(LargoBarraHP);
+
+            AmmoBarFunction(LargoBarraAmmo);
 
 
 

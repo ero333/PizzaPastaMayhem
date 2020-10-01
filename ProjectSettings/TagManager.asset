@@ -84,6 +84,9 @@ TagManager:
   - name: Fondo
     uniqueID: 2687002783
     locked: 0
+  - name: Fondo Plataformas
+    uniqueID: 2306202355
+    locked: 0
   - name: Plataformas
     uniqueID: 3907249245
     locked: 0

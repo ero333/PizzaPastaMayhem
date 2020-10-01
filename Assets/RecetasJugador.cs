@@ -20,11 +20,11 @@ public class RecetasJugador : MonoBehaviour
 
     public GameObject TextoListo1;
 
-    public bool TengoPan = false;
+    public int TengoPan;
 
-    public bool TengoQueso = false;
+    public int TengoQueso;
 
-    public bool TengoPaty = false;
+    public int TengoPaty;
 
     #endregion
 
@@ -42,11 +42,11 @@ public class RecetasJugador : MonoBehaviour
 
     public GameObject TextoListo2;
 
-    public bool TengoJamon = false;
+    public int TengoJamon;
 
-    public bool TengoSalchicha = false;
+    public int TengoSalchicha;
 
-    public bool TengoAlbondigas = false;
+    public int TengoAlbondigas;
 
     #endregion
 
@@ -64,11 +64,11 @@ public class RecetasJugador : MonoBehaviour
 
     public GameObject TextoListo3;
 
-    public bool TengoPollo = false;
+    public int TengoPollo;
 
-    public bool TengoLechuga = false;
+    public int TengoLechuga;
 
-    public bool TengoTomate = false;
+    public int TengoTomate;
 
     #endregion
 
@@ -77,7 +77,18 @@ public class RecetasJugador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        TengoPan = PlayerPrefs.GetInt("DropPan");
+        TengoQueso = PlayerPrefs.GetInt("DropQueso");
+        TengoPaty = PlayerPrefs.GetInt("DropPaty");
+
+        TengoJamon = PlayerPrefs.GetInt("DropJamon");
+        TengoSalchicha = PlayerPrefs.GetInt("DropSalchicha");
+        TengoAlbondigas = PlayerPrefs.GetInt("DropAlbondiga");
+
+        TengoTomate = PlayerPrefs.GetInt("DropTomate");
+        TengoLechuga = PlayerPrefs.GetInt("DropLechuga");
+        TengoPollo = PlayerPrefs.GetInt("DropPollo");
+
     }
 
     // Update is called once per frame
@@ -88,12 +99,17 @@ public class RecetasJugador : MonoBehaviour
         Receta2Lista();
 
         Receta3Lista();
+
+        RecetasPrefUpdate();
+
+        UIFunction();
+
     }
 
     #region RecetasListas
     public void Receta1Lista()
     {
-        if ((TengoPan == true) && (TengoPaty == true) && (TengoQueso == true))
+        if ((TengoPan == 1) && (TengoPaty == 1) && (TengoQueso == 1))
         {
             Receta1 = true;
             
@@ -106,7 +122,7 @@ public class RecetasJugador : MonoBehaviour
 
     public void Receta2Lista()
     {
-        if ((TengoJamon == true) && (TengoSalchicha == true) && (TengoAlbondigas == true))
+        if ((TengoJamon == 1) && (TengoSalchicha == 1) && (TengoAlbondigas == 1))
         {
             Receta2 = true;
 
@@ -119,7 +135,7 @@ public class RecetasJugador : MonoBehaviour
 
     public void Receta3Lista()
     {
-        if ((TengoPollo == true) && (TengoLechuga == true) && (TengoTomate == true))
+        if ((TengoPollo == 1) && (TengoLechuga == 1) && (TengoTomate == 1))
         {
             Receta3 = true;
 
@@ -139,7 +155,7 @@ public class RecetasJugador : MonoBehaviour
 
         if ((collision.gameObject.tag == "DropPan"))
         {
-            TengoPan = true;
+            TengoPan = 1;
 
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
@@ -148,7 +164,7 @@ public class RecetasJugador : MonoBehaviour
 
         if ((collision.gameObject.tag == "DropPaty"))
         {
-            TengoPaty = true;
+            TengoPaty = 1;
 
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
@@ -157,7 +173,7 @@ public class RecetasJugador : MonoBehaviour
 
         if ((collision.gameObject.tag == "DropQueso"))
         {
-            TengoQueso = true;
+            TengoQueso = 1;
 
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
@@ -169,7 +185,7 @@ public class RecetasJugador : MonoBehaviour
         #region receta2
         if ((collision.gameObject.tag == "DropJamon"))
         {
-            TengoJamon = true;
+            TengoJamon = 1;
 
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
@@ -178,7 +194,7 @@ public class RecetasJugador : MonoBehaviour
 
         if ((collision.gameObject.tag == "DropSalchicha"))
         {
-            TengoSalchicha = true;
+            TengoSalchicha = 1;
 
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
@@ -187,7 +203,7 @@ public class RecetasJugador : MonoBehaviour
 
         if ((collision.gameObject.tag == "DropAlbondigas"))
         {
-            TengoAlbondigas = true;
+            TengoAlbondigas = 1;
 
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
@@ -199,7 +215,7 @@ public class RecetasJugador : MonoBehaviour
         #region receta3
         if ((collision.gameObject.tag == "DropPollo"))
         {
-            TengoPollo = true;
+            TengoPollo = 1;
 
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
@@ -208,7 +224,7 @@ public class RecetasJugador : MonoBehaviour
 
         if ((collision.gameObject.tag == "DropTomate"))
         {
-            TengoTomate = true;
+            TengoTomate = 1;
 
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
@@ -217,7 +233,7 @@ public class RecetasJugador : MonoBehaviour
 
         if ((collision.gameObject.tag == "DropLechuga"))
         {
-            TengoLechuga = true;
+            TengoLechuga = 1;
 
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
@@ -227,18 +243,18 @@ public class RecetasJugador : MonoBehaviour
     }
     #endregion
 
-    #region RecetasUsadas
+    #region Recetas Usadas
 
     #region receta1
     public void Receta1Usada()
     {
         Receta1 = false;
 
-        TengoPan = false;
+        TengoPan = 0;
 
-        TengoPaty = false;
+        TengoPaty = 0;
 
-        TengoQueso = false;
+        TengoQueso = 0;
 
         Pan.SetActive(false);
 
@@ -257,11 +273,11 @@ public class RecetasJugador : MonoBehaviour
     {
         Receta2 = false;
 
-        TengoAlbondigas = false;
+        TengoAlbondigas = 0;
 
-        TengoSalchicha = false;
+        TengoSalchicha = 0;
 
-        TengoJamon = false;
+        TengoJamon = 0;
 
         Salchichas.SetActive(false);
 
@@ -280,11 +296,11 @@ public class RecetasJugador : MonoBehaviour
     {
         Receta3 = false;
 
-        TengoLechuga = false;
+        TengoLechuga = 0;
 
-        TengoTomate = false;
+        TengoTomate = 0;
 
-        TengoJamon = false;
+        TengoJamon = 0;
 
         Tomates.SetActive(false);
 
@@ -298,5 +314,132 @@ public class RecetasJugador : MonoBehaviour
 
 
     #endregion
+
+    #region Activacion de UI
+
+    public void UIFunction()
+    {
+        #region Receta 1
+
+        if (TengoPan==1)
+        {
+            Pan.SetActive(true);
+        }
+
+        if (TengoQueso == 1)
+        {
+            Queso.SetActive(true);
+        }
+
+        if (TengoPaty == 1)
+        {
+            Paty.SetActive(true);
+        }
+
+        if (TengoPan == 0)
+        {
+            Pan.SetActive(false);
+        }
+
+        if (TengoQueso == 0)
+        {
+            Queso.SetActive(false);
+        }
+
+        if (TengoPaty == 0)
+        {
+            Paty.SetActive(false);
+        }
+
+        #endregion
+
+        #region Receta 2
+
+        if (TengoSalchicha == 1)
+        {
+            Salchichas.SetActive(true);
+        }
+
+        if (TengoAlbondigas == 1)
+        {
+            Albondigas.SetActive(true);
+        }
+
+        if (TengoJamon == 1)
+        {
+            Jamon.SetActive(true);
+        }
+
+        if (TengoSalchicha == 0)
+        {
+            Salchichas.SetActive(false);
+        }
+
+        if (TengoAlbondigas == 0)
+        {
+            Albondigas.SetActive(false);
+        }
+
+        if (TengoJamon == 0)
+        {
+            Jamon.SetActive(false);
+        }
+
+        #endregion
+
+        #region Receta 3
+
+        if (TengoPollo == 1)
+        {
+            Pollo.SetActive(true);
+        }
+
+        if (TengoLechuga == 1)
+        {
+            Lechuga.SetActive(true);
+        }
+
+        if (TengoTomate == 1)
+        {
+            Tomates.SetActive(true);
+        }
+
+        if (TengoPollo == 0)
+        {
+            Pollo.SetActive(false);
+        }
+
+        if (TengoLechuga == 0)
+        {
+            Lechuga.SetActive(false);
+        }
+
+        if (TengoTomate == 0)
+        {
+            Tomates.SetActive(false);
+        }
+
+        #endregion
+
+
+
+    }
+
+    #endregion
+
+    public void RecetasPrefUpdate()
+    {
+        PlayerPrefs.SetInt("DropPan", TengoPan);
+        PlayerPrefs.SetInt("DropQueso", TengoQueso);
+        PlayerPrefs.SetInt("DropPaty", TengoPaty);
+
+        PlayerPrefs.SetInt("DropJamon", TengoJamon);
+        PlayerPrefs.SetInt("DropSalchicha", TengoSalchicha);
+        PlayerPrefs.SetInt("DropAlbondiga", TengoAlbondigas);
+
+        PlayerPrefs.SetInt("DropTomate", TengoTomate);
+        PlayerPrefs.SetInt("DropLechuga", TengoLechuga);
+        PlayerPrefs.SetInt("DropPollo", TengoPollo);
+    }
 }
 

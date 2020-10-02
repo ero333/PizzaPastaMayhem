@@ -134,6 +134,8 @@ public class JugadorControl : MonoBehaviour
 
     public float LechugaHit = 1f;
 
+    public float PancitoHit = 1f;
+
     #endregion
 
     #region Variables Municion
@@ -739,6 +741,16 @@ public class JugadorControl : MonoBehaviour
                 if (collision.tag == "Lechuga")                 // si colisiona con un objeto con el tag mensionado
                 {
                     vidaActual -= LechugaHit;
+
+                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "Pancito")                 // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= PancitoHit;
 
                     anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 

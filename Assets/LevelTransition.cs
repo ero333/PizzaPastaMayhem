@@ -68,6 +68,11 @@ public class LevelTransition : MonoBehaviour
         SceneManager.LoadScene(7);
     }
 
+    public void Lvl8()
+    {
+        SceneManager.LoadScene(8);
+    }
+
 
     public void CUTSCENE1()
     {

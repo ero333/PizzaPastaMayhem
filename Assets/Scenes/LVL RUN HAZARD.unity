@@ -6264,6 +6264,7 @@ MonoBehaviour:
   "BalaMorr\xF3nHit": 1
   PolloHit: 1
   LechugaHit: 1
+  PancitoHit: 1
   "municionM\xE1xima": 50
   municionActual: 0
   barraAmmo: {fileID: 225798878}
@@ -7094,7 +7095,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 1092360843
-  m_SortingOrder: 6
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!224 &1239598438
 RectTransform:

@@ -200,7 +200,10 @@ public class JugadorControl : MonoBehaviour
 
 
 
-
+        if (vida < 0)                                                   // Corrige Issue de que las vidas quedan en negativo
+        {
+            vida = 0;
+        }
 
 
 
@@ -258,8 +261,15 @@ public class JugadorControl : MonoBehaviour
 
         VidaContador.text = vida.ToString("0");                         // muestra el numero de la cantidad de vida como texto
 
+        if(vida < 0)                                                     // Corrige Issue de que las vidas quedan en negativo
+        {
+            vida = 0;
+        }
+
         if (estado == GameState.vivo)
         {
+
+
             Movimiento();
             Salto();
             Disparo();
@@ -434,7 +444,7 @@ public class JugadorControl : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter2D(Collision2D collision)                              // si colisiona con plataforma
+    private void OnCollisionStay2D(Collision2D collision)                              // si colisiona con plataforma
     {
         if ((collision.gameObject.tag == "Piso"))
         {
@@ -449,7 +459,7 @@ public class JugadorControl : MonoBehaviour
 
 
 
-    }
+    } 
 
 
     private void OnCollisionExit2D(Collision2D collision)                               // si deja de colisionar con plataforma con plataforma
@@ -728,40 +738,40 @@ public class JugadorControl : MonoBehaviour
 
 
 
-                if (collision.tag == "Pollo")                   // si colisiona con un objeto con el tag mensionado
+                if (collision.tag == "Pollo")                                                           // si colisiona con un objeto con el tag mensionado
                 {
                     vidaActual -= PolloHit;
 
-                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
 
                     MarcoHP.SendMessage("HPHit");
 
                 }
 
-                if (collision.tag == "Lechuga")                 // si colisiona con un objeto con el tag mensionado
+                if (collision.tag == "Lechuga")                                                         // si colisiona con un objeto con el tag mensionado
                 {
                     vidaActual -= LechugaHit;
 
-                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
 
                     MarcoHP.SendMessage("HPHit");
 
                 }
 
-                if (collision.tag == "Pancito")                 // si colisiona con un objeto con el tag mensionado
+                /*if (collision.tag == "Pancito")                                                       // si colisiona con un objeto con el tag mensionado
                 {
                     vidaActual -= PancitoHit;
 
-                    anim.Play("PJ_Herido");                     // triggea la animación de que es herido
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
 
                     MarcoHP.SendMessage("HPHit");
 
-                }
+                }*/
 
             }
 
 
-            if (collision.tag == "Caida")                   // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "Caida")                                                               // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
 
@@ -770,7 +780,7 @@ public class JugadorControl : MonoBehaviour
 
             }
 
-            if (collision.tag == "PanMonstruo")             // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "PanMonstruo")                                                         // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
 
@@ -779,7 +789,7 @@ public class JugadorControl : MonoBehaviour
 
             }
 
-            if (collision.tag == "SalsaHazard")             // si colisiona con un objeto con el tag mensionado
+            if (collision.tag == "SalsaHazard")                                                         // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
 
@@ -790,6 +800,8 @@ public class JugadorControl : MonoBehaviour
         }
         #endregion
     }
+
+
 
     public void KnockBack(float dir)
     {
@@ -813,6 +825,31 @@ public class JugadorControl : MonoBehaviour
     }
 
     #endregion
+
+    void OnTriggerStay2D(Collider2D collision)                                                          // Al permanecer dentro de la Hitbox de X objeto
+    {
+        #region colision con enemigos
+
+        if ((estado == GameState.vivo) && (NivelCompletado == false))
+        {
+            if (Power2Activo == false)
+            {
+
+                if (collision.tag == "Pancito")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= PancitoHit*Time.deltaTime;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+            }
+        }
+
+        #endregion
+
+    }
 
     #region Municion
 
@@ -1021,9 +1058,16 @@ public class JugadorControl : MonoBehaviour
     #region Revivir
     public void Limbo()
     {
-        if ((estado == GameState.muerto) && (vida == 0))        // Si el jugador muere pero se queda sin vidas, aparece pantalla de Game Over
+        if ((estado == GameState.muerto) && (vida <= 0))        // Si el jugador muere pero se queda sin vidas, aparece pantalla de Game Over
         {
             LevelManager.SendMessage("GameOverScreen");
+        }
+
+        if (vida < 0)                                                     // Corrige Issue de que las vidas quedan en negativo
+        {
+            // LevelManager.SendMessage("GameOverScreen");
+
+            LevelManager.SendMessage("Reinicio");
         }
 
         if ((estado == GameState.muerto) && (vida >= 1))        // Si el jugador muere pero todavia le quedan vidas, aparece en el checkpoint

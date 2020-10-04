@@ -91,7 +91,7 @@ public class JugadorControl : MonoBehaviour
 
     [Header("Vida")]
 
-    public float vidaMaxima;                                      // Cantidad de Vida total que va a tener el jugador. Modificable
+    public float vidaMaxima;                                            // Cantidad de Vida total que va a tener el jugador. Modificable
 
     public float vidaActual;                                            // Cantidad de vida que tiene el jugador actualmente. No modificable
 
@@ -110,6 +110,23 @@ public class JugadorControl : MonoBehaviour
 
 
 
+
+
+    #endregion
+
+    #region Variables Municion
+
+    [Header("Municion")]
+
+    public float municionMáxima;
+
+    public float municionActual;
+
+    public GameObject barraAmmo;                                        // traer gameobject de la barra de vida
+
+    public Text municionContador;                                       // traer objeto de texto con contador de municion
+
+    public int RecargaAmmo;                                             // numero que dice cuanto va a recargar el jugador al colisionar con X item
 
 
 
@@ -135,20 +152,6 @@ public class JugadorControl : MonoBehaviour
     public float LechugaHit = 1f;
 
     public float PancitoHit = 1f;
-
-    #endregion
-
-    #region Variables Municion
-
-    [Header("Municion")]
-
-    public float municionMáxima;
-
-    public float municionActual;
-
-    public GameObject barraAmmo;                                        // traer gameobject de la barra de vida
-
-    public Text municionContador;                                       // traer objeto de texto con contador de municion
 
     #endregion
 
@@ -196,7 +199,6 @@ public class JugadorControl : MonoBehaviour
         vidaActual = PlayerPrefs.GetFloat("VidaActual");                // Recupera valores de estas variables
         municionMáxima = PlayerPrefs.GetFloat("MunicionMaxima");        // Recupera valores de estas variables
         municionActual = PlayerPrefs.GetFloat("MunicionActual");        // Recupera valores de estas variables
-
 
 
 
@@ -255,7 +257,15 @@ public class JugadorControl : MonoBehaviour
 
 
 
+        if (vidaActual > vidaMaxima)
+        {
+            vidaActual = vidaMaxima;
+        }
 
+        if (municionActual > municionMáxima)
+        {
+            municionActual = municionMáxima;
+        }
 
 
 
@@ -872,6 +882,32 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
+    #region recargar
+
+    void RefillAmmo()
+    {
+        Time.timeScale = 1f;
+        if(municionActual<municionMáxima)
+        {
+            municionActual += Time.timeScale;
+        }
+    }
+
+    void MasMunicion()
+    {
+            municionActual += RecargaAmmo;
+    }
+
+    void MasVida()
+    {
+        if(vidaActual <= vidaMaxima)
+        {
+            vidaActual += (Curarse/ vidaMaxima);
+        }
+    }
+
+    #endregion
+
     #region Recetas
 
 
@@ -1204,6 +1240,8 @@ public class JugadorControl : MonoBehaviour
     }
 
     #endregion
+
+
 
 
 }

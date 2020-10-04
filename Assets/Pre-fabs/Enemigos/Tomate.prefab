@@ -229,6 +229,8 @@ MonoBehaviour:
   TomateAll: {fileID: 6705473248201489134}
   TomateBody: {fileID: 6705473246993209988}
   IngredienteDrop: {fileID: 3671640626599346459, guid: f5e2402b4ff6c4f40a6c0e1191620415, type: 3}
+  HPDrop: {fileID: 0}
+  AmmoDrop: {fileID: 0}
   DropPosition: {fileID: 6705473246993209995}
 --- !u!114 &6705473246993209998
 MonoBehaviour:

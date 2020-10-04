@@ -45,13 +45,6 @@ public class Salchicha_Mov : MonoBehaviour
 
 
 
-    [Header("Drops")]
-
-    public GameObject IngredienteDrop; // traer el ingrediente que dropea este enemigo
-
-    public Transform DropPosition; // traer gameobject donde va a dropearse el objeto
-
-
 
 
 
@@ -199,10 +192,41 @@ public class Salchicha_Mov : MonoBehaviour
     }
 
 
-    public void DropearItem() //metodo para que dropee items
+    #region drops
+
+    [Header("Drops")]
+
+    private float AzarDrop;
+
+    public GameObject HPDrop;                       //  traer Gameobject del paquete de vida
+
+    public GameObject AmmoDrop;                     // traer Gameobject del paquete de municion
+
+    public Transform DropPosition;                  // traer gameobject donde va a dropearse el objeto
+
+    public GameObject IngredienteDrop;              // traer objeto que dropea la salchicha
+
+    public void DropearItem()                                                       // metodo para que dropee items
     {
-        Instantiate(IngredienteDrop, DropPosition.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+
+        AzarDrop = Random.Range(1, 100);                                            // numero al azar, probabilidades del drop de items
+
+        if (AzarDrop < 51)                                                          // si el numero al azar da entre 0 y 50, dropea ingrediente
+        {
+            Instantiate(IngredienteDrop, DropPosition.position, Quaternion.identity);
+        }
+
+        if ((AzarDrop > 50) && (AzarDrop < 75))                                      // si el numero al azar da entre 50 y 75, dropea municion
+        {
+            Instantiate(AmmoDrop, DropPosition.position, Quaternion.identity);
+        }
+        if (AzarDrop > 75)                                                          // si el numero al azar da entre 75 y 100, dropea vida
+        {
+            Instantiate(HPDrop, DropPosition.position, Quaternion.identity);
+        }
     }
+
+    #endregion
 
 
 }

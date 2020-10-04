@@ -149,7 +149,7 @@ public class RecetasJugador : MonoBehaviour
 
 
     #region colisiones
-    private void OnCollisionEnter2D(Collision2D collision)  //si colisiona con plataforma
+    private void OnCollisionEnter2D(Collision2D collision)  // si colisiona con objetos
     {
         #region receta1
 
@@ -239,6 +239,24 @@ public class RecetasJugador : MonoBehaviour
 
             Lechuga.SetActive(true);
         }
+        #endregion
+
+        #region items drop
+
+        if ((collision.gameObject.tag == "DropHP"))
+        {
+            SendMessage("MasVida");
+
+            Destroy(collision.gameObject);                  // Al colisionar con objeto, este mismo se destruye
+        }
+
+        if ((collision.gameObject.tag == "DropAmmo"))
+        {
+            SendMessage("MasMunicion");
+
+            Destroy(collision.gameObject);                  // Al colisionar con objeto, este mismo se destruye
+        }
+
         #endregion
     }
     #endregion

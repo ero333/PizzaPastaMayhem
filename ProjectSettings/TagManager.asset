@@ -48,6 +48,8 @@ TagManager:
   - Shockwave
   - 1UP
   - Pancito
+  - DropHP
+  - DropAmmo
   layers:
   - Default
   - TransparentFX

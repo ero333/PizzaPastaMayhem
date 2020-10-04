@@ -5018,6 +5018,12 @@ MonoBehaviour:
   VidaContador: {fileID: 1042252423}
   vida: 2
   Curarse: 5
+  RecargaVida: 3
+  "municionM\xE1xima": 50
+  municionActual: 0
+  barraAmmo: {fileID: 9470277}
+  municionContador: {fileID: 839270466}
+  RecargaAmmo: 15
   SalchichaHit: 1
   TomateHit: 1
   JamonHit: 1
@@ -5027,10 +5033,6 @@ MonoBehaviour:
   PolloHit: 1
   LechugaHit: 1
   PancitoHit: 1
-  "municionM\xE1xima": 50
-  municionActual: 0
-  barraAmmo: {fileID: 9470277}
-  municionContador: {fileID: 839270466}
   Receta1: 0
   Receta2: 0
   Receta3: 0

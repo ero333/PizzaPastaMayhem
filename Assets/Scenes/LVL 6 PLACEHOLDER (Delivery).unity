@@ -10761,7 +10761,7 @@ MonoBehaviour:
   NivelCompletado: 0
   Felicidades: {fileID: 1255552594}
   LevelManager: {fileID: 896996867}
-  LvlRunner: 1
+  LvlRunner: 0
   speed: 4
   speedjump: 7
   Disparando: 0
@@ -10781,8 +10781,6 @@ MonoBehaviour:
   MarcoHP: {fileID: 1970878793}
   VidaContador: {fileID: 864794387}
   vida: 2
-  Curarse: 5
-  RecargaVida: 3
   "municionM\xE1xima": 50
   municionActual: 0
   barraAmmo: {fileID: 1352500765}

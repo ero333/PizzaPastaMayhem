@@ -10,10 +10,6 @@ public class TurretDefaultHP : MonoBehaviour
 
     public GameObject barraEnemiga; // traer gameobject de la vida
 
-    public GameObject ItemDrop; // traer objeto que dropea la salchicha
-
-    public Transform DropPosition; // traer gameobject donde se dropea el objeto
-
 
 
 
@@ -25,6 +21,18 @@ public class TurretDefaultHP : MonoBehaviour
 
     public float DañoShield = 1f; // daño que recibe por colisionar con el escudo del jugador
 
+
+    [Header("Drops")]
+
+    public GameObject HPDrop;                       //  traer Gameobject del paquete de vida
+
+    public GameObject AmmoDrop;                     // traer Gameobject del paquete de municion
+
+    public GameObject ItemDrop;                     // traer objeto que dropea la salchicha
+
+    public Transform DropPosition;                  // traer gameobject donde va a dropearse el objeto
+
+    private float AzarDrop;
 
 
 
@@ -134,8 +142,26 @@ public class TurretDefaultHP : MonoBehaviour
         barraEnemiga.transform.localScale = new Vector3(LargoBarraHp, barraEnemiga.transform.localScale.y, barraEnemiga.transform.localScale.z);
     }
 
-    public void DropearItem() //metodo para que dropee items
+    #region drops
+
+    public void DropearItem()                                                       //metodo para que dropee items
     {
-        Instantiate(ItemDrop, DropPosition.position, Quaternion.identity);    //Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+        AzarDrop = Random.Range(1, 100);                                            // numero al azar, probabilidades del drop de items
+
+        if (AzarDrop < 51)                                                          // si el numero al azar da entre 0 y 50, dropea ingrediente
+        {
+            Instantiate(ItemDrop, DropPosition.position, Quaternion.identity);
+        }
+
+        if ((AzarDrop > 50) && (AzarDrop < 75))                                      // si el numero al azar da entre 50 y 75, dropea municion
+        {
+            Instantiate(AmmoDrop, DropPosition.position, Quaternion.identity);
+        }
+        if (AzarDrop > 75)                                                          // si el numero al azar da entre 75 y 100, dropea vida
+        {
+            Instantiate(HPDrop, DropPosition.position, Quaternion.identity);
+        }
     }
+
+    #endregion
 }

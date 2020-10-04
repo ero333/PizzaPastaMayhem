@@ -103,7 +103,7 @@ public class JugadorControl : MonoBehaviour
 
     public int vida;                                                    // cantidad de vidas del jugador
 
-    public float Curarse = 2.5f;                                        // cantidad de vida que me curo
+    private float Curarse = 50f;                                        // cantidad de vida que me curo
 
 
 

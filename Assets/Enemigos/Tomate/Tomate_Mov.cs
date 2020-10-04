@@ -37,10 +37,17 @@ public class Tomate_Mov : MonoBehaviour
     private Animator TomateAnim;
 
 
+    [Header("Drops")]
 
+    public GameObject HPDrop;                       //  traer Gameobject del paquete de vida
 
+    public GameObject AmmoDrop;                     // traer Gameobject del paquete de municion
 
+    public GameObject IngredienteDrop;              // traer objeto que dropea la salchicha
 
+    public Transform DropPosition;                  // traer gameobject donde va a dropearse el objeto
+
+    private float AzarDrop;
 
 
 
@@ -312,18 +319,6 @@ public class Tomate_Mov : MonoBehaviour
     #endregion
 
     #region drops
-
-    [Header("Drops")]
-
-    private float AzarDrop;
-
-    public GameObject HPDrop;                       //  traer Gameobject del paquete de vida
-
-    public GameObject AmmoDrop;                     // traer Gameobject del paquete de municion
-
-    public Transform DropPosition;                  // traer gameobject donde va a dropearse el objeto
-
-    public GameObject IngredienteDrop;              // traer objeto que dropea la salchicha
 
     public void DropearItem()                                                       // metodo para que dropee items
     {

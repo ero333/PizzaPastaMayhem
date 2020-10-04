@@ -364,6 +364,8 @@ MonoBehaviour:
   CdOn: 0
   JamonAll: {fileID: 3857343237810830827}
   JamonBody: {fileID: 3857343237498152874}
+  HPDrop: {fileID: 5578138193744230183, guid: 81a80951424ccad4e834ed443f9873ac, type: 3}
+  AmmoDrop: {fileID: 6661339149648770415, guid: 488e808be9a5a50479dea2c1cc537194, type: 3}
   IngredienteDrop: {fileID: 1331930068489227079, guid: 9a87119d69a784b4abe6bd2c0c9c205a, type: 3}
   DropPosition: {fileID: 4089399958653724890}
 --- !u!114 &3857343237498152884

@@ -116,7 +116,6 @@ GameObject:
   - component: {fileID: 560170332921798170}
   - component: {fileID: 560170332921798173}
   - component: {fileID: 560170332921798174}
-  - component: {fileID: 3474684024676436903}
   m_Layer: 0
   m_Name: Body
   m_TagString: Salchicha
@@ -278,18 +277,6 @@ MonoBehaviour:
   "Da\xF1oPowerBala": 3
   "Da\xF1oSarten": 1
   "Da\xF1oShield": 1
---- !u!114 &3474684024676436903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560170332921798168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12f3cf8cd92f93f4e83120149b55d16d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &560170333259339190
 GameObject:
   m_ObjectHideFlags: 0

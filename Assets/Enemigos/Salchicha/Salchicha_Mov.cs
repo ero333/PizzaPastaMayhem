@@ -30,6 +30,26 @@ public class Salchicha_Mov : MonoBehaviour
     public GameObject SalchichaBody; // traer GameObject donde está el sprite
     private Animator SalchichaAnim;
 
+    [Header("Drops")]
+
+    public GameObject HPDrop;                       //  traer Gameobject del paquete de vida
+
+    public GameObject AmmoDrop;                     // traer Gameobject del paquete de municion
+
+    public GameObject IngredienteDrop;              // traer objeto que dropea la salchicha
+
+    public Transform DropPosition;                  // traer gameobject donde va a dropearse el objeto
+
+    private float AzarDrop;
+
+
+
+
+
+
+
+
+
 
 
 
@@ -193,18 +213,6 @@ public class Salchicha_Mov : MonoBehaviour
 
 
     #region drops
-
-    [Header("Drops")]
-
-    private float AzarDrop;
-
-    public GameObject HPDrop;                       //  traer Gameobject del paquete de vida
-
-    public GameObject AmmoDrop;                     // traer Gameobject del paquete de municion
-
-    public Transform DropPosition;                  // traer gameobject donde va a dropearse el objeto
-
-    public GameObject IngredienteDrop;              // traer objeto que dropea la salchicha
 
     public void DropearItem()                                                       // metodo para que dropee items
     {

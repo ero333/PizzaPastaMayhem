@@ -367,6 +367,8 @@ MonoBehaviour:
   speed: 4
   ObjectAll: {fileID: 6397788341505135239}
   ObjectBody: {fileID: 6397788342605073064}
+  HPDrop: {fileID: 5578138193744230183, guid: 81a80951424ccad4e834ed443f9873ac, type: 3}
+  AmmoDrop: {fileID: 6661339149648770415, guid: 488e808be9a5a50479dea2c1cc537194, type: 3}
   IngredienteDrop: {fileID: 8375465513008284824, guid: b8e897679393e994f89bd9d061a5cf2f, type: 3}
   DropPosition: {fileID: 6397788342404673220}
 --- !u!114 &6397788342605073069

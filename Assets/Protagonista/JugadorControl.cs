@@ -809,6 +809,8 @@ public class JugadorControl : MonoBehaviour
             }
         }
         #endregion
+
+
     }
 
 
@@ -858,6 +860,12 @@ public class JugadorControl : MonoBehaviour
         }
 
         #endregion
+
+        if (collision.tag == "AmmoStation")                                                             // si colisiona con un objeto con el tag mensionado
+        {
+            RefillAmmo();
+
+        }
 
     }
 

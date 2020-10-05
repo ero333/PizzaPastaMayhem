@@ -50,6 +50,7 @@ TagManager:
   - Pancito
   - DropHP
   - DropAmmo
+  - AmmoStation
   layers:
   - Default
   - TransparentFX

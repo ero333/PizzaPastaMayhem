@@ -6,6 +6,8 @@ using System.Security.Cryptography;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 using UnityEngine.UI;
+using UnityEngine.Analytics;
+using UnityEngine.SceneManagement;
 
 public class JugadorControl : MonoBehaviour
 {
@@ -23,7 +25,7 @@ public class JugadorControl : MonoBehaviour
     public Transform Checkpoint;                                        // traer game object donde se teletransportará el jugador al morir. busqueda por tag activada en el start
 
 
-
+    Scene NivelActual;
 
 
 
@@ -235,6 +237,12 @@ public class JugadorControl : MonoBehaviour
 
         BalaPowerReady = true;
 
+
+
+
+
+
+        NivelActual = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
@@ -1104,6 +1112,13 @@ public class JugadorControl : MonoBehaviour
     {
         if ((estado == GameState.muerto) && (vida <= 0))        // Si el jugador muere pero se queda sin vidas, aparece pantalla de Game Over
         {
+            Analytics.CustomEvent("game_over", new Dictionary<string, object>
+            {
+                {"nivel", NivelActual.buildIndex }
+            });
+
+            Debug.Log("GAME OVER");
+            Debug.Log("Moriste en el nivel: "+NivelActual.buildIndex);
             LevelManager.SendMessage("GameOverScreen");
         }
 

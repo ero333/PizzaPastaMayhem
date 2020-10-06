@@ -192,6 +192,16 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
+    
+    void Awake()
+    {
+        vida = PlayerPrefs.GetInt("vidas");                             // Recupera valores de estas variables 
+        if(vida <= 0)                                                   // Corrige Issue de que las vidas quedan en negativo
+        {
+            LevelManager.SendMessage("Reinicio");
+        }
+
+    }
     #region Start
     // Start is called before the first frame update
     void Start()
@@ -204,10 +214,8 @@ public class JugadorControl : MonoBehaviour
 
 
 
-        if (vida < 0)                                                   // Corrige Issue de que las vidas quedan en negativo
-        {
-            vida = 0;
-        }
+
+
 
 
 
@@ -279,10 +287,6 @@ public class JugadorControl : MonoBehaviour
 
         VidaContador.text = vida.ToString("0");                         // muestra el numero de la cantidad de vida como texto
 
-        if(vida < 0)                                                     // Corrige Issue de que las vidas quedan en negativo
-        {
-            vida = 0;
-        }
 
         if (estado == GameState.vivo)
         {
@@ -1112,10 +1116,10 @@ public class JugadorControl : MonoBehaviour
     {
         if ((estado == GameState.muerto) && (vida <= 0))        // Si el jugador muere pero se queda sin vidas, aparece pantalla de Game Over
         {
-            Analytics.CustomEvent("game_over", new Dictionary<string, object>
+            /*Analytics.CustomEvent("game_over", new Dictionary<string, object>
             {
                 {"nivel", NivelActual.buildIndex }
-            });
+            });*/
 
             Debug.Log("GAME OVER");
             Debug.Log("Moriste en el nivel: "+NivelActual.buildIndex);

@@ -51,6 +51,8 @@ TagManager:
   - DropHP
   - DropAmmo
   - AmmoStation
+  - "Bot\xF3n"
+  - EventSystem
   layers:
   - Default
   - TransparentFX

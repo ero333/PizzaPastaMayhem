@@ -25,7 +25,7 @@ public class JugadorControl : MonoBehaviour
     public Transform Checkpoint;                                        // traer game object donde se teletransportará el jugador al morir. busqueda por tag activada en el start
 
 
-    Scene NivelActual;
+
 
 
 
@@ -40,6 +40,8 @@ public class JugadorControl : MonoBehaviour
     public GameObject LevelManager;                                     // traer game object que permite cambiar de escenas. busqueda por tag activada en el start
 
     public bool LvlRunner = false;
+
+    Scene NivelActual;
 
 
     #region Variables Movimiento
@@ -199,6 +201,8 @@ public class JugadorControl : MonoBehaviour
         if(vida <= 0)                                                   // Corrige Issue de que las vidas quedan en negativo
         {
             LevelManager.SendMessage("Reinicio");
+
+            SceneManager.LoadScene(NivelActual.buildIndex);
         }
 
     }
@@ -472,7 +476,7 @@ public class JugadorControl : MonoBehaviour
         {
 
 
-            Debug.Log("piso");
+            //Debug.Log("piso");
 
 
             grounded = true;

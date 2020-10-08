@@ -1,0 +1,1297 @@
+fileFormatVersion: 2
+guid: 640cecf178c0c6946ad78afad27b1baa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7895949531993138339
+    second: Character sheet pepino boss_0
+  - first:
+      213: 1032681527271708593
+    second: Character sheet pepino boss_1
+  - first:
+      213: 4833866664436153114
+    second: Character sheet pepino boss_2
+  - first:
+      213: -5538323764559376272
+    second: Character sheet pepino boss_3
+  - first:
+      213: 4029421446499918780
+    second: Character sheet pepino boss_4
+  - first:
+      213: 5506614458336419786
+    second: Character sheet pepino boss_5
+  - first:
+      213: -7890002111406431001
+    second: Character sheet pepino boss_6
+  - first:
+      213: -3406981756910727101
+    second: Character sheet pepino boss_7
+  - first:
+      213: -8479075896140577527
+    second: Character sheet pepino boss_8
+  - first:
+      213: 512591755651476676
+    second: Character sheet pepino boss_9
+  - first:
+      213: 7894635489998330965
+    second: Character sheet pepino boss_10
+  - first:
+      213: -5043382671909226558
+    second: Character sheet pepino boss_11
+  - first:
+      213: -7064741919902598809
+    second: Character sheet pepino boss_12
+  - first:
+      213: -3040795576281142699
+    second: Character sheet pepino boss_13
+  - first:
+      213: 887430045064307554
+    second: Character sheet pepino boss_14
+  - first:
+      213: -5833943461040945662
+    second: Character sheet pepino boss_15
+  - first:
+      213: -3878459603956574501
+    second: Character sheet pepino boss_16
+  - first:
+      213: -6345881557454682014
+    second: Character sheet pepino boss_17
+  - first:
+      213: -4445084981539556632
+    second: Character sheet pepino boss_18
+  - first:
+      213: -7370975837256569850
+    second: Character sheet pepino boss_19
+  - first:
+      213: -273367035089625493
+    second: Character sheet pepino boss_20
+  - first:
+      213: 7390657745161351165
+    second: Character sheet pepino boss_21
+  - first:
+      213: 8774312072536162107
+    second: Character sheet pepino boss_22
+  - first:
+      213: -1418322600092569447
+    second: Character sheet pepino boss_23
+  - first:
+      213: 149218521856925689
+    second: Character sheet pepino boss_24
+  - first:
+      213: -8386873569128085195
+    second: Character sheet pepino boss_25
+  - first:
+      213: -5497053586542142401
+    second: Character sheet pepino boss_26
+  - first:
+      213: -3140290834301852217
+    second: Character sheet pepino boss_27
+  - first:
+      213: 7386630745109528167
+    second: Character sheet pepino boss_28
+  - first:
+      213: -1121635297528729976
+    second: Character sheet pepino boss_29
+  - first:
+      213: 868737305346645679
+    second: Character sheet pepino boss_30
+  - first:
+      213: 1330295806004819846
+    second: Character sheet pepino boss_31
+  - first:
+      213: -1723015582629400136
+    second: Character sheet pepino boss_32
+  - first:
+      213: 6653985593585657050
+    second: Character sheet pepino boss_33
+  - first:
+      213: -1921964530591815169
+    second: Character sheet pepino boss_34
+  - first:
+      213: 5506318793062979091
+    second: Character sheet pepino boss_35
+  - first:
+      213: -3512522302094924644
+    second: Character sheet pepino boss_36
+  - first:
+      213: 1465236617392918722
+    second: Character sheet pepino boss_37
+  - first:
+      213: 3709246086093583941
+    second: Character sheet pepino boss_38
+  - first:
+      213: 886568477742846943
+    second: Character sheet pepino boss_39
+  - first:
+      213: 3436008815912828572
+    second: Character sheet pepino boss_40
+  - first:
+      213: -4048841742854139658
+    second: Character sheet pepino boss_41
+  - first:
+      213: 332497249624324803
+    second: Character sheet pepino boss_42
+  - first:
+      213: 7579309268815722493
+    second: Character sheet pepino boss_43
+  - first:
+      213: -842966303534025907
+    second: Character sheet pepino boss_44
+  - first:
+      213: 5277475536862894828
+    second: Character sheet pepino boss_45
+  - first:
+      213: -6493724656493552535
+    second: Character sheet pepino boss_46
+  - first:
+      213: -5941422497479190853
+    second: Character sheet pepino boss_47
+  - first:
+      213: 1721346941843472100
+    second: Character sheet pepino boss_48
+  - first:
+      213: -5917972354743175059
+    second: Character sheet pepino boss_49
+  - first:
+      213: -7567552999115755691
+    second: Character sheet pepino boss_50
+  - first:
+      213: 392550523665192374
+    second: Character sheet pepino boss_51
+  - first:
+      213: 3370684242430149439
+    second: Character sheet pepino boss_52
+  - first:
+      213: -8201183973183185825
+    second: Character sheet pepino boss_53
+  - first:
+      213: 1520196219568505986
+    second: Character sheet pepino boss_54
+  - first:
+      213: -5802150033636703772
+    second: Character sheet pepino boss_55
+  - first:
+      213: 3457781150883334008
+    second: Character sheet pepino boss_56
+  - first:
+      213: -4896018681979626289
+    second: Character sheet pepino boss_57
+  - first:
+      213: -7106473356000299263
+    second: Character sheet pepino boss_58
+  - first:
+      213: -413940804092798237
+    second: Character sheet pepino boss_59
+  - first:
+      213: -1963690954029128294
+    second: Character sheet pepino boss_60
+  - first:
+      213: 8755285622961990451
+    second: Character sheet pepino boss_61
+  - first:
+      213: 2857465269187441538
+    second: Character sheet pepino boss_62
+  - first:
+      213: 5357347893251058147
+    second: Character sheet pepino boss_63
+  - first:
+      213: -7611197594877971129
+    second: Character sheet pepino boss_64
+  - first:
+      213: -961165461060483684
+    second: Character sheet pepino boss_65
+  - first:
+      213: -2717193030056087271
+    second: Character sheet pepino boss_66
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character sheet pepino boss_0
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1959
+        width: 254
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b13253cb3fb6290800000000000000
+      internalID: -7895949531993138339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_1
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1959
+        width: 253
+        height: 601
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7532fa062d45e00800000000000000
+      internalID: 1032681527271708593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1959
+        width: 244
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bb151de18551340800000000000000
+      internalID: 4833866664436153114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_3
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1959
+        width: 252
+        height: 617
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070955221ebe323b0800000000000000
+      internalID: -5538323764559376272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_4
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1959
+        width: 253
+        height: 586
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3e7f0f4716be730800000000000000
+      internalID: 4029421446499918780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_5
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1959
+        width: 286
+        height: 583
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf1c20bcac6b6c40800000000000000
+      internalID: 5506614458336419786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_9
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 1959
+        width: 286
+        height: 531
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc66666c771d1700800000000000000
+      internalID: 512591755651476676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_10
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 1959
+        width: 277
+        height: 495
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cda8c86216f8d60800000000000000
+      internalID: 7894635489998330965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_12
+      rect:
+        serializedVersion: 2
+        x: 2906
+        y: 1959
+        width: 269
+        height: 507
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769f46a87aef4fd90800000000000000
+      internalID: -7064741919902598809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_13
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 1959
+        width: 298
+        height: 425
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55aee21c88cecc5d0800000000000000
+      internalID: -3040795576281142699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_14
+      rect:
+        serializedVersion: 2
+        x: 3613
+        y: 1959
+        width: 271
+        height: 354
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26321179ce8c05c00800000000000000
+      internalID: 887430045064307554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_17
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 1959
+        width: 277
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268063d6856eee7a0800000000000000
+      internalID: -6345881557454682014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_21
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 1959
+        width: 236
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffe4d4df04e09660800000000000000
+      internalID: 7390657745161351165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_23
+      rect:
+        serializedVersion: 2
+        x: 4573
+        y: 1959
+        width: 234
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990f29c1c1b115ce0800000000000000
+      internalID: -1418322600092569447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_25
+      rect:
+        serializedVersion: 2
+        x: 4865
+        y: 1959
+        width: 232
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5390208ace6db9b80800000000000000
+      internalID: -8386873569128085195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_27
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1314
+        width: 255
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5e50acf127b64d0800000000000000
+      internalID: -3140290834301852217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_28
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1314
+        width: 395
+        height: 598
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e7b31d685928660800000000000000
+      internalID: 7386630745109528167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_29
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1314
+        width: 513
+        height: 633
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ea24bb3a62f60f0800000000000000
+      internalID: -1121635297528729976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_30
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 1314
+        width: 576
+        height: 544
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae1158f9ff5e0c00800000000000000
+      internalID: 868737305346645679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_31
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1314
+        width: 588
+        height: 607
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687fb13ccf8267210800000000000000
+      internalID: 1330295806004819846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_32
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 1314
+        width: 552
+        height: 647
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b179eed47e9618e0800000000000000
+      internalID: -1723015582629400136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_33
+      rect:
+        serializedVersion: 2
+        x: 3836
+        y: 1314
+        width: 588
+        height: 607
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad46d3e94a4b75c50800000000000000
+      internalID: 6653985593585657050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_35
+      rect:
+        serializedVersion: 2
+        x: 4611
+        y: 1314
+        width: 320
+        height: 601
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3169390c4cf5a6c40800000000000000
+      internalID: 5506318793062979091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_36
+      rect:
+        serializedVersion: 2
+        x: 5101
+        y: 1314
+        width: 253
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94aefd8393014fc0800000000000000
+      internalID: -3512522302094924644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 657
+        width: 255
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cead68d1a0c5d3940800000000000000
+      internalID: 5277475536862894828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_46
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 657
+        width: 244
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c918484d7a1e5a0800000000000000
+      internalID: -6493724656493552535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_47
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 657
+        width: 253
+        height: 589
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb61d31b7b3db8da0800000000000000
+      internalID: -5941422497479190853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_48
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 657
+        width: 280
+        height: 576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eef8cb6ce373e710800000000000000
+      internalID: 1721346941843472100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_49
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 657
+        width: 294
+        height: 562
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6873f48f732fdda0800000000000000
+      internalID: -5917972354743175059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_50
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 657
+        width: 280
+        height: 579
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f63c454a6aaf690800000000000000
+      internalID: -7567552999115755691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_51
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 657
+        width: 300
+        height: 565
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b515771f9e927500800000000000000
+      internalID: 392550523665192374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_52
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 657
+        width: 270
+        height: 581
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f334e08b57317ce20800000000000000
+      internalID: 3370684242430149439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_53
+      rect:
+        serializedVersion: 2
+        x: 3455
+        y: 657
+        width: 251
+        height: 584
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c1accc0aa8f2e80800000000000000
+      internalID: -8201183973183185825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_54
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 657
+        width: 250
+        height: 598
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284c5484862d81510800000000000000
+      internalID: 1520196219568505986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_55
+      rect:
+        serializedVersion: 2
+        x: 4144
+        y: 657
+        width: 252
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e14097194f9a7fa0800000000000000
+      internalID: -5802150033636703772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_56
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 4
+        width: 256
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8774179f2a18cff20800000000000000
+      internalID: 3457781150883334008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_57
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 4
+        width: 261
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc9deee2f8dd0cb0800000000000000
+      internalID: -4896018681979626289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_58
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4
+        width: 261
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107f2d9622cb06d90800000000000000
+      internalID: -7106473356000299263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_59
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 4
+        width: 272
+        height: 608
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea52062803614af0800000000000000
+      internalID: -413940804092798237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_60
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 4
+        width: 280
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95227c3b719fb4e0800000000000000
+      internalID: -1963690954029128294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_61
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 4
+        width: 269
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bebb7f2e5018970800000000000000
+      internalID: 8755285622961990451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_62
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 4
+        width: 259
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283fee7d581c7a720800000000000000
+      internalID: 2857465269187441538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_63
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 4
+        width: 258
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9aa63468f195a40800000000000000
+      internalID: 5357347893251058147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_64
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 4
+        width: 253
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745bdf10d189f5690800000000000000
+      internalID: -7611197594877971129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_65
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 4
+        width: 249
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c958d1b0b1149a2f0800000000000000
+      internalID: -961165461060483684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet pepino boss_66
+      rect:
+        serializedVersion: 2
+        x: 4203
+        y: 4
+        width: 253
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911f651e5579a4ad0800000000000000
+      internalID: -2717193030056087271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

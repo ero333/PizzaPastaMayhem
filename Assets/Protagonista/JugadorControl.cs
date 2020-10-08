@@ -666,7 +666,7 @@ public class JugadorControl : MonoBehaviour
     {
 
 
-        if (collision.tag == "1UP")               // si colisiona con un objeto con el tag mensionado
+        if (collision.tag == "1UP")                             // si colisiona con un objeto con el tag mensionado
         {
             Destroy(collision.gameObject);
             VidaExtra();
@@ -816,6 +816,15 @@ public class JugadorControl : MonoBehaviour
             }
 
             if (collision.tag == "SalsaHazard")                                                         // si colisiona con un objeto con el tag mensionado
+            {
+                vidaActual = 0;
+
+                MarcoHP.SendMessage("HPHit");
+
+
+            }
+
+            if (collision.tag == "BossPepino")                                                         // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
 

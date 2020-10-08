@@ -53,6 +53,10 @@ TagManager:
   - AmmoStation
   - "Bot\xF3n"
   - EventSystem
+  - BossPepino
+  - Pepino
+  - PepinoVGen
+  - PepinoHGen
   layers:
   - Default
   - TransparentFX

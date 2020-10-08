@@ -116,9 +116,9 @@ public class BossPepinoManager : MonoBehaviour
 
     public void AtaqueAzar()                                                       // metodo para que dropee items
     {
-        NumeroAzar = Random.Range(1, 10);                                           // numero al azar
+        NumeroAzar = Random.Range(0, 15);                                           // numero al azar
 
-        if (NumeroAzar <=3)
+        if (NumeroAzar >=10)
         {
 
             IdleTimer = IdleTimeCD;
@@ -128,7 +128,7 @@ public class BossPepinoManager : MonoBehaviour
             Debug.Log("nro " + NumeroAzar);
         }
 
-        if (3 < NumeroAzar && NumeroAzar<=6) 
+        if (NumeroAzar < 10 && NumeroAzar >4) 
         {
 
             IdleTimer = IdleTimeCD;
@@ -138,11 +138,11 @@ public class BossPepinoManager : MonoBehaviour
             Debug.Log("nro " + NumeroAzar);
         }
 
-        if (6 < NumeroAzar)
+        if (NumeroAzar <= 4)
         {
             IdleTimer = IdleTimeCD;
 
-            ObjectAnim.Play("Pepino_Lluvia");
+            ObjectAnim.Play("Pepino_Enjambre");
 
             Debug.Log("nro " + NumeroAzar);
         }

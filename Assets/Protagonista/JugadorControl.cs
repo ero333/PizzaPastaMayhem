@@ -157,6 +157,8 @@ public class JugadorControl : MonoBehaviour
 
     public float PancitoHit = 1f;
 
+    public float PepinoHit = 3f;
+
     #endregion
 
     #region Variables Recetas y Power Ups
@@ -784,6 +786,15 @@ public class JugadorControl : MonoBehaviour
 
                 }
 
+                if (collision.tag == "Pepino")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= PepinoHit;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
                 /*if (collision.tag == "Pancito")                                                       // si colisiona con un objeto con el tag mensionado
                 {
                     vidaActual -= PancitoHit;

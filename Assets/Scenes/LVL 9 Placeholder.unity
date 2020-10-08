@@ -833,8 +833,8 @@ MonoBehaviour:
   IdleTimer: 0
   ObjectAll: {fileID: 1189315264}
   ObjectBody: {fileID: 90580069}
-  PepinoVerticalPrefab: {fileID: 9186213570677130050, guid: 84c511356228a204e9ddf7b41dc3add8, type: 3}
-  PepinoHorizontalPrefab: {fileID: 0}
+  PepinoVerticalPrefab: {fileID: 263630980630974354, guid: 8b6db80a6dd18674ca6dcad3a48b89f0, type: 3}
+  PepinoHorizontalPrefab: {fileID: 8152438695315131799, guid: 2d829c4fa16fd3c4594883dd02bf7d84, type: 3}
 --- !u!61 &90580075
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8660,6 +8660,7 @@ MonoBehaviour:
   PolloHit: 1
   LechugaHit: 1
   PancitoHit: 1
+  PepinoHit: 3
   Receta1: 0
   Receta2: 0
   Receta3: 0

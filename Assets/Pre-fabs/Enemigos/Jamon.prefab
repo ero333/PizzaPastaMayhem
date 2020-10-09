@@ -382,9 +382,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaEnemiga: 60
   barraEnemiga: {fileID: 3857343237905988247}
-  "Da\xF1oBala": 1
-  "Da\xF1oPowerBala": 7
-  "Da\xF1oSarten": 1
+  "Da\xF1oBala": 0.3
+  "Da\xF1oPowerBala": 5
+  "Da\xF1oSarten": 0.2
   "Da\xF1oShield": 1
 --- !u!1 &3857343237515028837
 GameObject:

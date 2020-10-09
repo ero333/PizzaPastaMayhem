@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 05f5062e7f700c84f83f97df48490d3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4981666633679386521
+    second: character sheet Paty_0
+  - first:
+      213: 8126145805686652849
+    second: character sheet Paty_1
+  - first:
+      213: -7394936742937455896
+    second: character sheet Paty_2
+  - first:
+      213: -1451800784220996633
+    second: character sheet Paty_3
+  - first:
+      213: -2901095903297161574
+    second: character sheet Paty_4
+  - first:
+      213: 6707457123968818794
+    second: character sheet Paty_5
+  - first:
+      213: 1348749373967983206
+    second: character sheet Paty_6
+  - first:
+      213: 3817442029383674679
+    second: character sheet Paty_7
+  - first:
+      213: 7639196912931479809
+    second: character sheet Paty_8
+  - first:
+      213: -7575331607433039310
+    second: character sheet Paty_9
+  - first:
+      213: -4147465491639875592
+    second: character sheet Paty_10
+  - first:
+      213: 8936343322961677198
+    second: character sheet Paty_11
+  - first:
+      213: -2825312529939319604
+    second: character sheet Paty_12
+  - first:
+      213: -7868150928944511972
+    second: character sheet Paty_13
+  - first:
+      213: 489157922389336510
+    second: character sheet Paty_14
+  - first:
+      213: 7473715737325372023
+    second: character sheet Paty_15
+  - first:
+      213: 2606465366434828776
+    second: character sheet Paty_16
+  - first:
+      213: 5974080099318830886
+    second: character sheet Paty_17
+  - first:
+      213: -2326355074879611425
+    second: character sheet Paty_18
+  - first:
+      213: -5111593110897464037
+    second: character sheet Paty_19
+  - first:
+      213: 8838412721247397568
+    second: character sheet Paty_20
+  - first:
+      213: 6852245020600866762
+    second: character sheet Paty_21
+  - first:
+      213: -634406140638675400
+    second: character sheet Paty_22
+  - first:
+      213: -3228107586706409071
+    second: character sheet Paty_23
+  - first:
+      213: -4823458655309488226
+    second: character sheet Paty_24
+  - first:
+      213: 4825585615853738033
+    second: character sheet Paty_25
+  - first:
+      213: -7317543039030583472
+    second: character sheet Paty_26
+  - first:
+      213: 1358335655848173818
+    second: character sheet Paty_27
+  - first:
+      213: 2634763355311939162
+    second: character sheet Paty_28
+  - first:
+      213: -438583783709317688
+    second: character sheet Paty_29
+  - first:
+      213: 7098329487590931374
+    second: character sheet Paty_30
+  - first:
+      213: 7272745428851925426
+    second: character sheet Paty_31
+  - first:
+      213: -4956887591042847099
+    second: character sheet Paty_32
+  - first:
+      213: -6518696681695438858
+    second: character sheet Paty_33
+  - first:
+      213: -4822052260770510323
+    second: character sheet Paty_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet Paty_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2361
+        width: 397
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99730e9c86f622540800000000000000
+      internalID: 4981666633679386521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_1
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 2360
+        width: 419
+        height: 550
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfbbfc5e8ed5c070800000000000000
+      internalID: 8126145805686652849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_2
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 2364
+        width: 780
+        height: 590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e29abc5638ef5990800000000000000
+      internalID: -7394936742937455896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_3
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 2360
+        width: 531
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebbfd3f0ea2adbe0800000000000000
+      internalID: -1451800784220996633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_4
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 2361
+        width: 536
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96b1a885ac3db7d0800000000000000
+      internalID: -2901095903297161574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_5
+      rect:
+        serializedVersion: 2
+        x: 2937
+        y: 2360
+        width: 413
+        height: 457
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e135477bca51d50800000000000000
+      internalID: 6707457123968818794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_6
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 2364
+        width: 369
+        height: 549
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662646ed868b7b210800000000000000
+      internalID: 1348749373967983206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_7
+      rect:
+        serializedVersion: 2
+        x: 3964
+        y: 2361
+        width: 389
+        height: 564
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b6f00dc474af430800000000000000
+      internalID: 3817442029383674679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1643
+        width: 285
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2323a23f9040fd690800000000000000
+      internalID: -7575331607433039310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_10
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1633
+        width: 249
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f74d9c0c1e3176c0800000000000000
+      internalID: -4147465491639875592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_11
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1650
+        width: 279
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b801cc7e4440c70800000000000000
+      internalID: 8936343322961677198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_12
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1656
+        width: 425
+        height: 593
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4b18129397ac8d0800000000000000
+      internalID: -2825312529939319604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_13
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1684
+        width: 384
+        height: 565
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c144a19da66bec290800000000000000
+      internalID: -7868150928944511972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_14
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1665
+        width: 251
+        height: 584
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1a51be986d9c600800000000000000
+      internalID: 489157922389336510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_15
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 1675
+        width: 287
+        height: 587
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772868b9dd8f7b760800000000000000
+      internalID: 7473715737325372023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_16
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1656
+        width: 385
+        height: 593
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1d4bde0760c2420800000000000000
+      internalID: 2606465366434828776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 938
+        width: 396
+        height: 575
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62711a3c23238e250800000000000000
+      internalID: 5974080099318830886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 932
+        width: 438
+        height: 571
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd9f5c826027bfd0800000000000000
+      internalID: -2326355074879611425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_19
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 935
+        width: 459
+        height: 581
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d6f94e529ff09b0800000000000000
+      internalID: -5111593110897464037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_20
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 935
+        width: 427
+        height: 565
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6ae34ca8958aa70800000000000000
+      internalID: 8838412721247397568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_21
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 935
+        width: 368
+        height: 565
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac79ade9a80181f50800000000000000
+      internalID: 6852245020600866762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_22
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 938
+        width: 371
+        height: 587
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83eb7efe9f22237f0800000000000000
+      internalID: -634406140638675400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_23
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 938
+        width: 387
+        height: 559
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199fe9dc0457333d0800000000000000
+      internalID: -3228107586706409071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 40
+        width: 403
+        height: 615
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f9e75a8e1af0db0800000000000000
+      internalID: -4823458655309488226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_25
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 27
+        width: 282
+        height: 655
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1385232fc8ce7f240800000000000000
+      internalID: 4825585615853738033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_26
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 37
+        width: 270
+        height: 666
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f13f1406dd27a90800000000000000
+      internalID: -7317543039030583472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_27
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 33
+        width: 301
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0e39c0517c9d210800000000000000
+      internalID: 1358335655848173818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_28
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 14
+        width: 196
+        height: 610
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e9594ef4f809420800000000000000
+      internalID: 2634763355311939162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_29
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 8
+        width: 314
+        height: 524
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c562c75f56d9e9f0800000000000000
+      internalID: -438583783709317688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_30
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 27
+        width: 444
+        height: 425
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabb9867f05528260800000000000000
+      internalID: 7098329487590931374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_31
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 46
+        width: 625
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1a0945f6bfde460800000000000000
+      internalID: 7272745428851925426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_32
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 46
+        width: 625
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e6958aff8953bb0800000000000000
+      internalID: -4956887591042847099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_33
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 49
+        width: 625
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f79601d7efe885a0800000000000000
+      internalID: -6518696681695438858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Paty_34
+      rect:
+        serializedVersion: 2
+        x: 4677
+        y: 49
+        width: 625
+        height: 334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a87646401a41db0800000000000000
+      internalID: -4822052260770510323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

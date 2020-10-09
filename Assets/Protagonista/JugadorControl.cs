@@ -139,6 +139,8 @@ public class JugadorControl : MonoBehaviour
     #region Variables Vida que me quitan cada enemigo
     [Header("Daño Recibido")]
 
+    public float AlbondigaHit = 3f;
+
     public float BalaAlbondigaHit = 1f;
 
     public float BalaMorrónHit = 1f;
@@ -204,12 +206,20 @@ public class JugadorControl : MonoBehaviour
     void Awake()
     {
         vida = PlayerPrefs.GetInt("vidas");                             // Recupera valores de estas variables 
-        if(vida <= 0)                                                   // Corrige Issue de que las vidas quedan en negativo
+        vidaActual = PlayerPrefs.GetFloat("VidaActual");                // Recupera valores de estas variables
+        if (vida <= 0)                                                  // Corrige Issue de que las vidas quedan en negativo
         {
             LevelManager.SendMessage("Reinicio");
 
             SceneManager.LoadScene(NivelActual.buildIndex);
         }
+
+        if(vidaActual <= 0)
+        {
+            vidaActual = vidaMaxima;
+            SceneManager.LoadScene(NivelActual.buildIndex);
+        }
+
 
     }
     #region Start
@@ -900,7 +910,7 @@ public class JugadorControl : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collision)                                                          // Al permanecer dentro de la Hitbox de X objeto
     {
-        #region colision con enemigos
+        #region colision con enemigos (POR SEGUNDO)
 
         if ((estado == GameState.vivo) && (NivelCompletado == false))
         {
@@ -910,6 +920,16 @@ public class JugadorControl : MonoBehaviour
                 if (collision.tag == "Pancito")                                                         // si colisiona con un objeto con el tag mensionado
                 {
                     vidaActual -= PancitoHit*Time.deltaTime;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "Albondiga")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= AlbondigaHit * Time.deltaTime;
 
                     anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
 

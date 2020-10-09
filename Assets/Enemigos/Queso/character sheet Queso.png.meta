@@ -1,0 +1,901 @@
+fileFormatVersion: 2
+guid: 5c3dc1b5336be594bb6b437021bb5aa0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7656128480040152534
+    second: character sheet Queso_0
+  - first:
+      213: 8080719291770110302
+    second: character sheet Queso_1
+  - first:
+      213: 7858711064369168620
+    second: character sheet Queso_2
+  - first:
+      213: 296046871941865833
+    second: character sheet Queso_3
+  - first:
+      213: 1753069871647317008
+    second: character sheet Queso_4
+  - first:
+      213: -1806586623753617891
+    second: character sheet Queso_5
+  - first:
+      213: -7831671853981900660
+    second: character sheet Queso_6
+  - first:
+      213: 3372326280389537649
+    second: character sheet Queso_7
+  - first:
+      213: -4115576990890107393
+    second: character sheet Queso_8
+  - first:
+      213: 2755787853299306202
+    second: character sheet Queso_9
+  - first:
+      213: 5135504186240967585
+    second: character sheet Queso_10
+  - first:
+      213: -9202908995121831269
+    second: character sheet Queso_11
+  - first:
+      213: 7891062603087291621
+    second: character sheet Queso_13
+  - first:
+      213: 6279163513638425104
+    second: character sheet Queso_10
+  - first:
+      213: -6407470370448874352
+    second: character sheet Queso_14
+  - first:
+      213: -6674162709079053298
+    second: character sheet Queso_15
+  - first:
+      213: 7669277698543943121
+    second: character sheet Queso_13
+  - first:
+      213: -2883281974629642952
+    second: character sheet Queso_17
+  - first:
+      213: 1574546067555251498
+    second: character sheet Queso_18
+  - first:
+      213: -4432996388264531999
+    second: character sheet Queso_19
+  - first:
+      213: -4257792511524649606
+    second: character sheet Queso_20
+  - first:
+      213: -1334241503036002829
+    second: character sheet Queso_21
+  - first:
+      213: 4180988020187953068
+    second: character sheet Queso_22
+  - first:
+      213: 6995879566569478844
+    second: character sheet Queso_23
+  - first:
+      213: -23576357823340923
+    second: character sheet Queso_24
+  - first:
+      213: -1001832654516012785
+    second: character sheet Queso_25
+  - first:
+      213: -5771114244075515993
+    second: character sheet Queso_26
+  - first:
+      213: 1778619318588868887
+    second: character sheet Queso_27
+  - first:
+      213: 2809493192194920193
+    second: character sheet Queso_28
+  - first:
+      213: 4664038262251647154
+    second: character sheet Queso_29
+  - first:
+      213: 1137160870314701441
+    second: character sheet Queso_30
+  - first:
+      213: 2150076814109700903
+    second: character sheet Queso_31
+  - first:
+      213: -6136593885577273943
+    second: character sheet Queso_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet Queso_0
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2272
+        width: 306
+        height: 567
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd6b87e948004a60800000000000000
+      internalID: 7656128480040152534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_1
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 2264
+        width: 328
+        height: 620
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e518a93e16b742070800000000000000
+      internalID: 8080719291770110302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_2
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 2267
+        width: 358
+        height: 622
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce008286310cf0d60800000000000000
+      internalID: 7858711064369168620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_3
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 2267
+        width: 323
+        height: 580
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961e5febf05cb1400800000000000000
+      internalID: 296046871941865833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_4
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 2267
+        width: 351
+        height: 513
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c5af592c7245810800000000000000
+      internalID: 1753069871647317008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_5
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 2267
+        width: 364
+        height: 473
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e71339907bde6e0800000000000000
+      internalID: -1806586623753617891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_6
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 2244
+        width: 597
+        height: 345
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80ebf951ff405390800000000000000
+      internalID: -7831671853981900660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_7
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 2232
+        width: 588
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f255972e8ecce20800000000000000
+      internalID: 3372326280389537649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_8
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1576
+        width: 304
+        height: 561
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd5934388882e6c0800000000000000
+      internalID: -4115576990890107393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_9
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1580
+        width: 381
+        height: 552
+      alignment: 9
+      pivot: {x: 0.33414617, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adecd38a3768e3620800000000000000
+      internalID: 2755787853299306202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_11
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 1580
+        width: 315
+        height: 567
+      alignment: 9
+      pivot: {x: 0.4590619, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92248d2703b84080800000000000000
+      internalID: -9202908995121831269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_16
+      rect:
+        serializedVersion: 2
+        x: 4334
+        y: 1576
+        width: 303
+        height: 561
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4236df0afa28d60800000000000000
+      internalID: 7891062603087291621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_10
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1535
+        width: 547
+        height: 579
+      alignment: 9
+      pivot: {x: 0.7750742, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012130d72f1142750800000000000000
+      internalID: 6279163513638425104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_14
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1535
+        width: 523
+        height: 421
+      alignment: 9
+      pivot: {x: 0.8231619, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094ed8475a71417a0800000000000000
+      internalID: -6407470370448874352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_15
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 1582
+        width: 518
+        height: 418
+      alignment: 9
+      pivot: {x: 0.8026684, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c2f28906c9063a0800000000000000
+      internalID: -6674162709079053298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_13
+      rect:
+        serializedVersion: 2
+        x: 3062
+        y: 1582
+        width: 398
+        height: 479
+      alignment: 9
+      pivot: {x: 0.710816, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd7989ee6fbe6a60800000000000000
+      internalID: 7669277698543943121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_17
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 1582
+        width: 303
+        height: 513
+      alignment: 9
+      pivot: {x: 0.5560992, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dc9e202568cf7d0800000000000000
+      internalID: -2883281974629642952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_18
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 875
+        width: 306
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a257e1f5e49e9d510800000000000000
+      internalID: 1574546067555251498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_19
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 875
+        width: 304
+        height: 533
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e727ea9545da72c0800000000000000
+      internalID: -4432996388264531999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_20
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 875
+        width: 305
+        height: 476
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75414ff44849e4c0800000000000000
+      internalID: -4257792511524649606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_21
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 875
+        width: 304
+        height: 451
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fda4fe0c62db7de0800000000000000
+      internalID: -1334241503036002829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_22
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 875
+        width: 305
+        height: 478
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca77779d37ad50a30800000000000000
+      internalID: 4180988020187953068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_23
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 875
+        width: 304
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba99c8666b561160800000000000000
+      internalID: 6995879566569478844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_24
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 875
+        width: 306
+        height: 570
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e97de6d6d3caff0800000000000000
+      internalID: -23576357823340923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 116
+        width: 279
+        height: 590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09bf273286c812f0800000000000000
+      internalID: -1001832654516012785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_26
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 111
+        width: 278
+        height: 592
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af8ea3fb22e8efa0800000000000000
+      internalID: -5771114244075515993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_27
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 126
+        width: 276
+        height: 587
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7190323c8dceea810800000000000000
+      internalID: 1778619318588868887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_28
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 136
+        width: 396
+        height: 567
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f08a74c235df620800000000000000
+      internalID: 2809493192194920193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_29
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 158
+        width: 383
+        height: 548
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0f650a61ef9b040800000000000000
+      internalID: 4664038262251647154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_30
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 158
+        width: 316
+        height: 555
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182f49f59c108cf00800000000000000
+      internalID: 1137160870314701441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_31
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 123
+        width: 278
+        height: 593
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723ffc8887b96dd10800000000000000
+      internalID: 2150076814109700903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet Queso_32
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 138
+        width: 299
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad1557cf5076daa0800000000000000
+      internalID: -6136593885577273943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

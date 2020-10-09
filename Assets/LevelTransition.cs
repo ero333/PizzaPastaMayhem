@@ -10,11 +10,13 @@ public class LevelTransition : MonoBehaviour
     public float VidaTotal = 10f;
     public float MunicioTotal = 50f;
 
+    float vidaActual;
+
 
     // Start is called before the first frame update
     void Start()
     {
-
+        vidaActual = PlayerPrefs.GetFloat("VidaActual");
     }
 
     // Update is called once per frame
@@ -114,6 +116,15 @@ public class LevelTransition : MonoBehaviour
         PlayerPrefs.SetInt("DropPollo", 0);
         PlayerPrefs.SetInt("DropLechuga", 0);
         PlayerPrefs.SetInt("DropTomate", 0);
+
+    }
+
+    public void VidaReinicio()
+    {
+        if(vidaActual <= 0)
+        {
+            PlayerPrefs.SetFloat("VidaActual", VidaTotal);
+        }
 
     }
 

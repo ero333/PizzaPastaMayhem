@@ -884,6 +884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaEnemiga: 5
   barraEnemiga: {fileID: 0}
+  EnemyAll: {fileID: 0}
   "Da\xF1oBala": 1
   "Da\xF1oPowerBala": 1
   "Da\xF1oSarten": 1
@@ -7585,6 +7586,7 @@ MonoBehaviour:
   barraAmmo: {fileID: 1557555521}
   municionContador: {fileID: 739947894}
   RecargaAmmo: 15
+  AlbondigaHit: 3
   BalaAlbondigaHit: 1
   "BalaMorr\xF3nHit": 1
   JamonHit: 1
@@ -10286,7 +10288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2120933485673254372, guid: 369c34f454c7f404db436dfb6fd74e94, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2120933485673254372, guid: 369c34f454c7f404db436dfb6fd74e94, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10367,67 +10369,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11f1e741203cc694780646e10385596e, type: 3}
---- !u!1001 &5678102918464095764
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949983764, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949984747, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_Name
-      value: Pancito
-      objectReference: {fileID: 0}
-    - target: {fileID: 5678102917949984747, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5647ab712bd933d479eee8f393b12f12, type: 3}
 --- !u!1001 &8933643640529698913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10482,6 +10423,10 @@ PrefabInstance:
     - target: {fileID: 8933643639793607021, guid: dd034bb39a89a844c8918542d13427b9, type: 3}
       propertyPath: m_Name
       value: Queso
+      objectReference: {fileID: 0}
+    - target: {fileID: 8933643639793607021, guid: dd034bb39a89a844c8918542d13427b9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd034bb39a89a844c8918542d13427b9, type: 3}

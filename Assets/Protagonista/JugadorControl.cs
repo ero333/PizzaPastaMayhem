@@ -139,25 +139,29 @@ public class JugadorControl : MonoBehaviour
     #region Variables Vida que me quitan cada enemigo
     [Header("Daño Recibido")]
 
-    public float SalchichaHit = 1f;
-
-    public float TomateHit = 1f;
-
-    public float JamonHit = 1f;
-
-    public float ShockwaveHit = 1f;
-
     public float BalaAlbondigaHit = 1f;
 
     public float BalaMorrónHit = 1f;
 
-    public float PolloHit = 1f;
+    public float JamonHit = 1f;
 
     public float LechugaHit = 1f;
 
     public float PancitoHit = 1f;
 
     public float PepinoHit = 3f;
+
+    public float PatyHit = 1f;
+
+    public float PolloHit = 1f;
+
+    public float SalchichaHit = 1f;
+
+    public float ShockwaveHit = 1f;
+
+    public float TomateHit = 1f;
+
+    public float QuesoHit = 1f;
 
     #endregion
 
@@ -789,6 +793,26 @@ public class JugadorControl : MonoBehaviour
                 if (collision.tag == "Pepino")                                                         // si colisiona con un objeto con el tag mensionado
                 {
                     vidaActual -= PepinoHit;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "Paty")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= PatyHit;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "Queso")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= QuesoHit;
 
                     anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
 

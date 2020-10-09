@@ -33,13 +33,13 @@ public class PolloMov : MonoBehaviour
 
     [Header("Drops")]
 
-    public GameObject HPDrop;                       //  traer Gameobject del paquete de vida
+    public GameObject HPDrop;                           //  traer Gameobject del paquete de vida
 
-    public GameObject AmmoDrop;                     // traer Gameobject del paquete de municion
+    public GameObject AmmoDrop;                         // traer Gameobject del paquete de municion
 
-    public GameObject IngredienteDrop;              // traer objeto que dropea la salchicha
+    public GameObject IngredienteDrop;                  // traer objeto que dropea la salchicha
 
-    public Transform DropPosition;                  // traer gameobject donde va a dropearse el objeto
+    public Transform DropPosition;                      // traer gameobject donde va a dropearse el objeto
 
     private float AzarDrop;
 
@@ -137,7 +137,7 @@ public class PolloMov : MonoBehaviour
         estado = GameState.Atacando;
     }
 
-    public void EstadoQuieto()                              // metodo para cuando está atacando. Se queda quieto
+    public void EstadoQuieto()                          // metodo para cuando está atacando. Se queda quieto
     {
         estado = GameState.Quieto;
     }

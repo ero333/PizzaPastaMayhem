@@ -113,6 +113,7 @@ GameObject:
   - component: {fileID: 2120933485329197470}
   - component: {fileID: 2120933485329197468}
   - component: {fileID: 2120933485329197471}
+  - component: {fileID: 4111633384836484855}
   m_Layer: 5
   m_Name: Fondo
   m_TagString: Untagged
@@ -130,7 +131,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2120933485614252703}
   m_Father: {fileID: 2120933487139707228}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -174,6 +176,20 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &4111633384836484855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120933485329197441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
 --- !u!1 &2120933485333039721
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,12 +245,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120933485614252702}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2120933487139707228}
-  m_RootOrder: 2
+  m_Father: {fileID: 2120933485329197470}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -300,7 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120933485673254375}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.57, y: -4.02, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2120933487062657265}
@@ -504,8 +520,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 505c52ee47a106848bf5702888f7097b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaEnemiga: 5
   barraEnemiga: {fileID: 2120933485614252702}
+  vidaEnemiga: 5
   "Da\xF1oBala": 1
   "Da\xF1oPowerBala": 1
   "Da\xF1oSarten": 1
@@ -568,14 +584,13 @@ RectTransform:
   m_Children:
   - {fileID: 2120933485214449558}
   - {fileID: 2120933485329197470}
-  - {fileID: 2120933485614252703}
   m_Father: {fileID: 2120933487062657265}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.054, y: 3.26}
-  m_SizeDelta: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.054, y: 3.216}
+  m_SizeDelta: {x: 0.9, y: 0.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &2120933487139707227
 Canvas:

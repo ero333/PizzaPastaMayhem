@@ -55,12 +55,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560170332791503956}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 560170333621526358}
-  m_RootOrder: 2
+  m_Father: {fileID: 560170333990229195}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -257,8 +257,8 @@ MonoBehaviour:
   SalchichaBody: {fileID: 560170332921798168}
   HPDrop: {fileID: 5578138193744230183, guid: 81a80951424ccad4e834ed443f9873ac, type: 3}
   AmmoDrop: {fileID: 6661339149648770415, guid: 488e808be9a5a50479dea2c1cc537194, type: 3}
-  DropPosition: {fileID: 560170333779030465}
   IngredienteDrop: {fileID: 4674485106739804855, guid: 8cbd43b71a0c78c49896518a62a3a07a, type: 3}
+  DropPosition: {fileID: 560170333779030465}
 --- !u!114 &560170332921798174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,8 +271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ac6fdd763130743a0e0f71c70416ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaEnemiga: 3
   barraEnemiga: {fileID: 560170332791503956}
+  vidaEnemiga: 3
   "Da\xF1oBala": 1
   "Da\xF1oPowerBala": 3
   "Da\xF1oSarten": 1
@@ -466,14 +466,13 @@ RectTransform:
   m_Children:
   - {fileID: 560170333317478786}
   - {fileID: 560170333990229195}
-  - {fileID: 560170332791503957}
   m_Father: {fileID: 560170332921798169}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0.08149916, y: 1.888}
-  m_SizeDelta: {x: 0.8149984, y: 0.189429}
+  m_SizeDelta: {x: 0.9, y: 0.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &560170333621526361
 Canvas:
@@ -576,6 +575,7 @@ GameObject:
   - component: {fileID: 560170333990229195}
   - component: {fileID: 560170333990229197}
   - component: {fileID: 560170333990229196}
+  - component: {fileID: 1104821226101696195}
   m_Layer: 5
   m_Name: Fondo
   m_TagString: Untagged
@@ -593,7 +593,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 560170332791503957}
   m_Father: {fileID: 560170333621526358}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -637,3 +638,17 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &1104821226101696195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560170333990229194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}

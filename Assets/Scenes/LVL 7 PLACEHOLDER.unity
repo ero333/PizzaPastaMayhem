@@ -4098,15 +4098,19 @@ MonoBehaviour:
   barraAmmo: {fileID: 331185277}
   municionContador: {fileID: 1633513746}
   RecargaAmmo: 15
-  SalchichaHit: 1
-  TomateHit: 1
-  JamonHit: 1
-  ShockwaveHit: 1
+  AlbondigaHit: 3
   BalaAlbondigaHit: 1
   "BalaMorr\xF3nHit": 1
-  PolloHit: 1
+  JamonHit: 1
   LechugaHit: 1
   PancitoHit: 1
+  PepinoHit: 3
+  PatyHit: 1
+  PolloHit: 1
+  SalchichaHit: 1
+  ShockwaveHit: 1
+  TomateHit: 1
+  QuesoHit: 1
   Receta1: 0
   Receta2: 0
   Receta3: 0
@@ -4957,6 +4961,7 @@ MonoBehaviour:
   Opciones: {fileID: 1320645626}
   BotonOpciones: {fileID: 1360392726}
   BotonFelicidades: {fileID: 2030796061}
+  BotonCerrarCONTROLES: {fileID: 0}
   controles: {fileID: 1026885416}
   LvlManager: {fileID: 0}
   AudioSource: {fileID: 0}
@@ -8425,6 +8430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomate
       objectReference: {fileID: 0}
+    - target: {fileID: 6705473248201489134, guid: 759ab9dcba9c1a04497f41661bfff325, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 759ab9dcba9c1a04497f41661bfff325, type: 3}
 --- !u!1 &1705367610
@@ -10806,6 +10815,10 @@ PrefabInstance:
     - target: {fileID: 6397788341505135239, guid: 15478362d8e54ec4fb6660dbd6f82f54, type: 3}
       propertyPath: m_Name
       value: Lechuga
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397788341505135239, guid: 15478362d8e54ec4fb6660dbd6f82f54, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15478362d8e54ec4fb6660dbd6f82f54, type: 3}

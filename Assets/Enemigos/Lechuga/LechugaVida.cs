@@ -4,19 +4,26 @@ using UnityEngine;
 
 public class LechugaVida : MonoBehaviour
 {
-    public float vidaEnemiga = 5f; // vida que quiero que tenga el enemigo
 
-    private float vidaActual; // vida actual del enemigo
+    [Header("Vida y Barra")]
 
-    public GameObject barraEnemiga; // traer la barra de vida del enemigo (vida visible)
+    public float vidaEnemiga = 5f;              // vida que quiero que tenga el enemigo
 
-    public float DañoBala = 1f; // daño que recibe por colisionar con la bala del jugador
+    public GameObject barraEnemiga;             // traer la barra de vida del enemigo (vida visible)
 
-    public float DañoPowerBala = 1f; // daño que recibe por colisionar con los Power Attack del jugador
+    private float vidaActual;                   // vida actual del enemigo
 
-    public float DañoSarten = 1f; // daño que recibe por colisionar con el ataque melee del jugador
 
-    public float DañoShield = 1f; // daño que recibe por colisionar con el escudo del jugador
+
+    [Header("Daño Recibido")]
+
+    public float DañoBala = 1f;                 // daño que recibe por colisionar con la bala del jugador
+
+    public float DañoPowerBala = 1f;            // daño que recibe por colisionar con los Power Attack del jugador
+
+    public float DañoSarten = 1f;               // daño que recibe por colisionar con el ataque melee del jugador
+
+    public float DañoShield = 1f;               // daño que recibe por colisionar con el escudo del jugador
 
     // Start is called before the first frame update
     void Start()
@@ -29,9 +36,8 @@ public class LechugaVida : MonoBehaviour
     {
         if (vidaActual <= 0)
         {
-            SendMessage("Death"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+            SendMessage("Death");               // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-            Destroy(barraEnemiga);
         }
     }
 
@@ -46,20 +52,20 @@ public class LechugaVida : MonoBehaviour
 
         #region Bala collision
 
-        if (collision.tag == "Bala") // si colisiona con un objeto con el tag mensionado
+        if (collision.tag == "Bala")                        // si colisiona con un objeto con el tag mensionado
         {
             vidaActual -= DañoBala;
 
-            float LargoBarraHP = vidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+            float LargoBarraHP = vidaActual / vidaEnemiga;  // calcula el largo de la barra de vida del enemigo
 
             PerderHP(LargoBarraHP);
 
 
-            Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
+            Destroy(collision.gameObject);                  // Al colisionar con objeto, este mismo se destruye
 
             if (vidaActual > 0)
             {
-                SendMessage("RecibeGolpe"); // triggea animacion de que recibe daño
+                SendMessage("RecibeGolpe");                 // triggea animacion de que recibe daño
             }
 
         }
@@ -68,11 +74,11 @@ public class LechugaVida : MonoBehaviour
 
         #region BalaPower collision
 
-        if (collision.tag == "BalaPower") // si colisiona con un objeto con el tag mensionado
+        if (collision.tag == "BalaPower")                   // si colisiona con un objeto con el tag mensionado
         {
             vidaActual -= DañoPowerBala;
 
-            float LargoBarraHP = vidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+            float LargoBarraHP = vidaActual / vidaEnemiga;  // calcula el largo de la barra de vida del enemigo
 
             PerderHP(LargoBarraHP);
 
@@ -80,7 +86,7 @@ public class LechugaVida : MonoBehaviour
 
             if (vidaActual > 0)
             {
-                SendMessage("RecibeGolpe"); // triggea animacion de que recibe daño
+                SendMessage("RecibeGolpe");                 // triggea animacion de que recibe daño
             }
 
         }
@@ -89,11 +95,11 @@ public class LechugaVida : MonoBehaviour
 
         #region Sartén collision
 
-        if (collision.tag == "Sartén") // si colisiona con un objeto con el tag mensionado
+        if (collision.tag == "Sartén")                      // si colisiona con un objeto con el tag mensionado
         {
             vidaActual -= DañoSarten;
 
-            float LargoBarraHP = vidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+            float LargoBarraHP = vidaActual / vidaEnemiga;  // calcula el largo de la barra de vida del enemigo
 
             PerderHP(LargoBarraHP);
 
@@ -101,7 +107,7 @@ public class LechugaVida : MonoBehaviour
 
             if (vidaActual > 0)
             {
-                SendMessage("RecibeGolpe"); // triggea animacion de que recibe daño
+                SendMessage("RecibeGolpe");                 // triggea animacion de que recibe daño
             }
 
         }
@@ -110,18 +116,18 @@ public class LechugaVida : MonoBehaviour
 
         #region Shield Collision
 
-        if (collision.tag == "Shield") // si colisiona con un objeto con el tag mensionado
+        if (collision.tag == "Shield")                      // si colisiona con un objeto con el tag mensionado
         {
             vidaActual -= DañoShield;
 
-            float LargoBarraHP = vidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+            float LargoBarraHP = vidaActual / vidaEnemiga;  // calcula el largo de la barra de vida del enemigo
 
             PerderHP(LargoBarraHP);
 
 
             if (vidaActual > 0)
             {
-                SendMessage("RecibeGolpe"); // triggea animacion de que recibe daño
+                SendMessage("RecibeGolpe");                 // triggea animacion de que recibe daño
             }
         }
 

@@ -25,12 +25,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6705473246988728080}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6705473248252360069}
-  m_RootOrder: 2
+  m_Father: {fileID: 6705473247300288129}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -230,8 +230,8 @@ MonoBehaviour:
   TomateBody: {fileID: 6705473246993209988}
   HPDrop: {fileID: 5578138193744230183, guid: 81a80951424ccad4e834ed443f9873ac, type: 3}
   AmmoDrop: {fileID: 6661339149648770415, guid: 488e808be9a5a50479dea2c1cc537194, type: 3}
-  DropPosition: {fileID: 6705473246993209995}
   IngredienteDrop: {fileID: 3671640626599346459, guid: f5e2402b4ff6c4f40a6c0e1191620415, type: 3}
+  DropPosition: {fileID: 6705473246993209995}
 --- !u!114 &6705473246993209998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 6705473247300288129}
   - component: {fileID: 6705473247300288135}
   - component: {fileID: 6705473247300288128}
+  - component: {fileID: 1038537300300323910}
   m_Layer: 5
   m_Name: Fondo
   m_TagString: Untagged
@@ -380,7 +381,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6705473246988728087}
   m_Father: {fileID: 6705473248252360069}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -424,6 +426,20 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &1038537300300323910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6705473247300288130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
 --- !u!1 &6705473247788466536
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +567,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6705473248201489134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.63, y: -4.423, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6705473247788466543}
@@ -613,14 +629,13 @@ RectTransform:
   m_Children:
   - {fileID: 6705473248142100580}
   - {fileID: 6705473247300288129}
-  - {fileID: 6705473246988728087}
   m_Father: {fileID: 6705473246993209995}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 1.888}
-  m_SizeDelta: {x: 0.8149984, y: 0.189429}
+  m_SizeDelta: {x: 0.9, y: 0.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &6705473248252360074
 Canvas:

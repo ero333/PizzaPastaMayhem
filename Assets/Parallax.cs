@@ -16,6 +16,9 @@ public class Parallax : MonoBehaviour
     public bool HayMovimientoHorizontal = true;
 
 
+    private float lastX;
+
+
 
 
 
@@ -24,16 +27,30 @@ public class Parallax : MonoBehaviour
     {
         Player = GameObject.FindGameObjectWithTag("PlayerAll").transform;
 
+        lastX = Player.transform.position.x;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        #region Fondo Sigue al jugador
+
         Vector3 temp = transform.position;
 
+        if (HayMovimientoHorizontal)
+        {
+            temp.x = Player.transform.position.x;
+
+        }
+
+        transform.position = temp;
+
+        #endregion
 
 
-        if(Input.GetAxis("Horizontal") < 0)
+
+        if (Input.GetAxis("Horizontal") < 0)
         {
             parallaxActual = parallaxSpeed * -1;
 
@@ -47,18 +64,16 @@ public class Parallax : MonoBehaviour
 
         if (Input.GetAxis("Horizontal") != 0)
         {
-            Paralax();
+            if (lastX != Player.transform.position.x)       // Si la posicion actual de X es distinta a la anterior (personaje avanza), genera el efecto parallax. Si el jugador deja de avanzar en X, el efecto Parallax deja de funcionar
+            {
+                Paralax();
+            }
         }
 
+        lastX = gameObject.transform.position.x;            // Toma la última posicion del jugador
 
 
-        if (HayMovimientoHorizontal)
-        {
-            temp.x = Player.transform.position.x;
 
-        }
-
-        transform.position = temp;
 
 
     }

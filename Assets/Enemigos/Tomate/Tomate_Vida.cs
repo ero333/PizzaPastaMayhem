@@ -4,19 +4,26 @@ using UnityEngine;
 
 public class Tomate_Vida : MonoBehaviour
 {
-    public float vidaEnemiga = 5f; // vida que quiero que tenga el enemigo
 
-    private float vidaActual; // vida actual del enemigo
+    [Header("Vida y Barra")]
 
-    public GameObject barraEnemiga; // traer la barra de vida del enemigo (vida visible)
+    public GameObject barraEnemiga;             // traer la barra de vida del enemigo (vida visible)
 
-    public float DañoBala = 1f; // daño que recibe por colisionar con la bala del jugador
+    public float vidaEnemiga = 5f;              // vida que quiero que tenga el enemigo
 
-    public float DañoPowerBala = 1f; // daño que recibe por colisionar con los Power Attack del jugador
+    private float vidaActual;                   // vida actual del enemigo
 
-    public float DañoSarten = 1f; // daño que recibe por colisionar con el ataque melee del jugador
 
-    public float DañoShield = 1f; // daño que recibe por colisionar con el escudo del jugador
+
+    [Header("Daño Recibido")]
+
+    public float DañoBala = 1f;                 // daño que recibe por colisionar con la bala del jugador
+
+    public float DañoPowerBala = 1f;            // daño que recibe por colisionar con los Power Attack del jugador
+
+    public float DañoSarten = 1f;               // daño que recibe por colisionar con el ataque melee del jugador
+
+    public float DañoShield = 1f;               // daño que recibe por colisionar con el escudo del jugador
 
 
 
@@ -33,9 +40,8 @@ public class Tomate_Vida : MonoBehaviour
     {
         if (vidaActual <= 0)
         {
-            SendMessage("TomateDeath"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+            SendMessage("TomateDeath");                     // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-            Destroy(barraEnemiga);
         }
     }
 
@@ -45,27 +51,26 @@ public class Tomate_Vida : MonoBehaviour
 
         #region Bala collision
 
-        if (collision.tag == "Bala") // si colisiona con un objeto con el tag mensionado
+        if (collision.tag == "Bala")                        // si colisiona con un objeto con el tag mensionado
         {
             vidaActual -= DañoBala;
 
-            float LargoBarraHP = vidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+            float LargoBarraHP = vidaActual / vidaEnemiga;  // calcula el largo de la barra de vida del enemigo
 
             PerderHP(LargoBarraHP);
 
 
-            Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
+            Destroy(collision.gameObject);                  // Al colisionar con objeto, este mismo se destruye
 
             if (vidaActual > 0)
             {
-                SendMessage("Golpeado"); // triggea animacion de que recibe daño si no está atacando
+                SendMessage("Golpeado");                    // triggea animacion de que recibe daño si no está atacando
             }
 
             if (vidaActual <= 0)
             {
-                SendMessage("TomateDeath"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+                SendMessage("TomateDeath");                 // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-                Destroy(barraEnemiga);
             }
         }
 
@@ -73,24 +78,23 @@ public class Tomate_Vida : MonoBehaviour
 
         #region BalaPower collision
 
-        if (collision.tag == "BalaPower") // si colisiona con un objeto con el tag mensionado
+        if (collision.tag == "BalaPower")                   // si colisiona con un objeto con el tag mensionado
         {
             vidaActual -= DañoPowerBala;
 
-            float LargoBarraHP = vidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+            float LargoBarraHP = vidaActual / vidaEnemiga;  // calcula el largo de la barra de vida del enemigo
 
             PerderHP(LargoBarraHP);
 
             if (vidaActual > 0)
             {
-                SendMessage("Golpeado"); // triggea animacion de que recibe daño si no está atacando
+                SendMessage("Golpeado");                    // triggea animacion de que recibe daño si no está atacando
             }
 
             if (vidaActual <= 0)
             {
-                SendMessage("TomateDeath"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+                SendMessage("TomateDeath");                 // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-                Destroy(barraEnemiga);
             }
         }
 
@@ -98,24 +102,23 @@ public class Tomate_Vida : MonoBehaviour
 
         #region Sartén collision
 
-        if (collision.tag == "Sartén") // si colisiona con un objeto con el tag mensionado
+        if (collision.tag == "Sartén")                      // si colisiona con un objeto con el tag mensionado
         {
-            vidaActual -= DañoPowerBala;
+            vidaActual -= DañoSarten;
 
-            float LargoBarraHP = vidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+            float LargoBarraHP = vidaActual / vidaEnemiga;  // calcula el largo de la barra de vida del enemigo
 
             PerderHP(LargoBarraHP);
 
             if (vidaActual > 0)
             {
-                SendMessage("Golpeado"); // triggea animacion de que recibe daño si no está atacando
+                SendMessage("Golpeado");                    // triggea animacion de que recibe daño si no está atacando
             }
 
             if (vidaActual <= 0)
             {
-                SendMessage("TomateDeath"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+                SendMessage("TomateDeath");                 // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-                Destroy(barraEnemiga);
             }
         }
 
@@ -123,25 +126,24 @@ public class Tomate_Vida : MonoBehaviour
 
         #region Shield Collision
 
-        if (collision.tag == "Shield") // si colisiona con un objeto con el tag mensionado
+        if (collision.tag == "Shield")                      // si colisiona con un objeto con el tag mensionado
         {
             vidaActual -= DañoShield;
 
-            float LargoBarraHP = vidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
+            float LargoBarraHP = vidaActual / vidaEnemiga;  // calcula el largo de la barra de vida del enemigo
 
             PerderHP(LargoBarraHP);
 
 
             if (vidaActual > 0)
             {
-                SendMessage("Golpeado"); // triggea animacion de que recibe daño si no está atacando
+                SendMessage("Golpeado");                    // triggea animacion de que recibe daño si no está atacando
             }
 
             if (vidaActual <= 0)
             {
-                SendMessage("TomateDeath"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+                SendMessage("TomateDeath");                 // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-                Destroy(barraEnemiga);
             }
         }
 

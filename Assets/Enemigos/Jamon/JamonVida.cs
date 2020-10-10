@@ -4,23 +4,30 @@ using UnityEngine;
 
 public class JamonVida : MonoBehaviour
 {
-    public float vidaEnemiga = 5f; // vida que quiero que tenga el enemigo
-
-    private float vidaActual; // vida actual del enemigo
-
-    public GameObject barraEnemiga; // traer la barra de vida del enemigo (vida visible)
 
 
 
 
-    [Header("Daño recibido")]
-    public float DañoBala = 1f; // daño que recibe por colisionar con la bala del jugador
 
-    public float DañoPowerBala = 1f; // daño que recibe por colisionar con los Power Attack del jugador
+    [Header("Vida y Barra")]
 
-    public float DañoSarten = 1f; // daño que recibe por colisionar con el ataque melee del jugador
+    public float vidaEnemiga = 5f;              // vida que quiero que tenga el enemigo
 
-    public float DañoShield = 1f; // daño que recibe por colisionar con el escudo del jugador
+    public GameObject barraEnemiga;             // traer la barra de vida del enemigo (vida visible)
+
+    private float vidaActual;                   // vida actual del enemigo
+
+
+
+    [Header("Daño Recibido")]
+
+    public float DañoBala = 1f;                 // daño que recibe por colisionar con la bala del jugador
+
+    public float DañoPowerBala = 1f;            // daño que recibe por colisionar con los Power Attack del jugador
+
+    public float DañoSarten = 1f;               // daño que recibe por colisionar con el ataque melee del jugador
+
+    public float DañoShield = 1f;               // daño que recibe por colisionar con el escudo del jugador
 
 
 
@@ -37,9 +44,8 @@ public class JamonVida : MonoBehaviour
     {
         if (vidaActual <= 0)
         {
-            SendMessage("EstadoMuerto"); // Le envía al gameobject un mensaje para que "reproduzca" este método
+            SendMessage("EstadoMuerto");        // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-            Destroy(barraEnemiga);
         }
     }
 
@@ -64,7 +70,6 @@ public class JamonVida : MonoBehaviour
             {
                 SendMessage("EstadoMuerto"); // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-                Destroy(barraEnemiga);
             }
         }
 
@@ -84,7 +89,6 @@ public class JamonVida : MonoBehaviour
             {
                 SendMessage("EstadoMuerto"); // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-                Destroy(barraEnemiga);
             }
         }
 
@@ -94,7 +98,7 @@ public class JamonVida : MonoBehaviour
 
         if (collision.tag == "Sartén") // si colisiona con un objeto con el tag mensionado
         {
-            vidaActual -= DañoPowerBala;
+            vidaActual -= DañoSarten;
 
             float LargoBarraHP = vidaActual / vidaEnemiga; // calcula el largo de la barra de vida del enemigo
 
@@ -104,7 +108,6 @@ public class JamonVida : MonoBehaviour
             {
                 SendMessage("EstadoMuerto"); // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-                Destroy(barraEnemiga);
             }
         }
 
@@ -124,7 +127,6 @@ public class JamonVida : MonoBehaviour
             {
                 SendMessage("EstadoMuerto"); // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-                Destroy(barraEnemiga);
             }
         }
 

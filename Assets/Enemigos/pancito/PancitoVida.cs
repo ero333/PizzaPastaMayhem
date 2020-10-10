@@ -9,9 +9,14 @@ public class PancitoVida : MonoBehaviour
 
     private float vidaActual;           // vida actual del enemigo
 
+    [Header("GameObjects")]
+
     public GameObject barraEnemiga;     // traer la barra de vida del enemigo (vida visible)
 
     public GameObject EnemyAll;         // traer gameobject que contiene a este enemigo
+
+
+    [Header("Daño Recibido")]
 
     public float DañoBala = 1f;         // daño que recibe por colisionar con la bala del jugador
 

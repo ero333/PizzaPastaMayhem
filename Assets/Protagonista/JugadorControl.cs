@@ -29,8 +29,6 @@ public class JugadorControl : MonoBehaviour
 
 
 
-
-
     [Header("Manejo de Niveles")]
 
     public bool NivelCompletado;
@@ -1335,9 +1333,6 @@ public class JugadorControl : MonoBehaviour
     }
 
     #endregion
-
-
-
 
 }
 

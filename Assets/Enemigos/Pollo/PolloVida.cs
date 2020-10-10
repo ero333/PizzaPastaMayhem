@@ -5,12 +5,17 @@ using UnityEngine;
 public class PolloVida : MonoBehaviour
 {
 
+    [Header("Vida y Barra")]
+
+    public GameObject barraEnemiga;             // traer la barra de vida del enemigo (vida visible)
 
     public float vidaEnemiga = 5f;              // vida que quiero que tenga el enemigo
 
     private float vidaActual;                   // vida actual del enemigo
 
-    public GameObject barraEnemiga;             // traer la barra de vida del enemigo (vida visible)
+
+
+    [Header("Daño Recibido")]
 
     public float DañoBala = 1f;                 // daño que recibe por colisionar con la bala del jugador
 
@@ -33,7 +38,7 @@ public class PolloVida : MonoBehaviour
         {
             SendMessage("Death");               // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-            Destroy(barraEnemiga);
+
         }
     }
 

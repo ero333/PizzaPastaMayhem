@@ -4958,18 +4958,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a3215aad412e543a3737f5c867fdbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Opciones: {fileID: 1320645626}
-  BotonOpciones: {fileID: 1360392726}
-  BotonFelicidades: {fileID: 2030796061}
-  BotonCerrarCONTROLES: {fileID: 0}
-  controles: {fileID: 1026885416}
+  FelicitacionesAll: {fileID: 1821503645}
   LvlManager: {fileID: 0}
   AudioSource: {fileID: 0}
+  EventSys: {fileID: 0}
+  Opciones: {fileID: 1320645626}
+  controles: {fileID: 1026885416}
+  BotonOpciones: {fileID: 1360392726}
+  BotonFelicidades: {fileID: 2030796061}
   MuteButton1: {fileID: 2028197722}
   MuteButton2: {fileID: 480172620}
   MuteButton3: {fileID: 788992685}
   MuteButton4: {fileID: 487279769}
-  EventSys: {fileID: 0}
+  BotonCerrarCONTROLES: {fileID: 478602881}
 --- !u!114 &901717103
 MonoBehaviour:
   m_ObjectHideFlags: 0

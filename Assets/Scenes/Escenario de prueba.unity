@@ -6205,7 +6205,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Gelatina: {fileID: 0}
   LVLDelivery: {fileID: 0}
-  TengoGelatina: 0
 --- !u!114 &822912259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7191,18 +7190,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a3215aad412e543a3737f5c867fdbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Opciones: {fileID: 849134637}
-  BotonOpciones: {fileID: 1090308279}
-  BotonFelicidades: {fileID: 444780613}
-  BotonCerrarCONTROLES: {fileID: 2028749654}
-  controles: {fileID: 1754288084}
+  FelicitacionesAll: {fileID: 0}
   LvlManager: {fileID: 0}
   AudioSource: {fileID: 0}
+  EventSys: {fileID: 0}
+  Opciones: {fileID: 849134637}
+  controles: {fileID: 1754288084}
+  BotonOpciones: {fileID: 1090308279}
+  BotonFelicidades: {fileID: 444780613}
   MuteButton1: {fileID: 46756242}
   MuteButton2: {fileID: 1415103466}
   MuteButton3: {fileID: 449765169}
   MuteButton4: {fileID: 543328210}
-  EventSys: {fileID: 0}
+  BotonCerrarCONTROLES: {fileID: 2028749654}
 --- !u!114 &1080040061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11057,7 +11057,7 @@ GameObject:
   - component: {fileID: 1712143005}
   m_Layer: 5
   m_Name: Felicitaciones
-  m_TagString: Untagged
+  m_TagString: UIFelicitaciones
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

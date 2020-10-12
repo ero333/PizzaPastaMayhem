@@ -7,19 +7,28 @@ using UnityEngine.UI;
 
 public class OpcionesControl : MonoBehaviour
 {
-    public GameObject Opciones;             // traer gameobject del objeto con las opciones (botones y demás)
+    [Header("Otros objetos")]
 
-    public GameObject BotonOpciones;        // traer gameobject del -> BOTON <- que abre el menu de opciones
-
-    public GameObject BotonFelicidades;     // traer gameobject del -> BOTON <- del cartel de felicitaciones
-
-    public GameObject BotonCerrarCONTROLES; // traer gameobject del -> BOTON <- que cierra la interfaz de los controles
-
-    public GameObject controles;            // traer gameobject del objeto que muestra los controles
+    public GameObject FelicitacionesAll;
 
     public GameObject LvlManager;
 
     public GameObject AudioSource;          // objeto de AudioSource
+
+    public EventSystem EventSys;            // variable del EventSystem. BUSQUEDA POR TAG
+
+    [Header("Menu de Opciones")]
+
+    public GameObject Opciones;             // traer gameobject del objeto con las opciones (botones y demás)
+
+    public GameObject controles;            // traer gameobject del objeto que muestra los controles
+
+
+    [Header("Botones")]
+
+    public GameObject BotonOpciones;        // traer gameobject del -> BOTON <- que abre el menu de opciones
+
+    public GameObject BotonFelicidades;     // traer gameobject del -> BOTON <- del cartel de felicitaciones
 
     public GameObject MuteButton1;
 
@@ -29,7 +38,7 @@ public class OpcionesControl : MonoBehaviour
 
     public GameObject MuteButton4;
 
-    public EventSystem EventSys;            // variable del EventSystem. BUSQUEDA POR TAG
+    public GameObject BotonCerrarCONTROLES; // traer gameobject del -> BOTON <- que cierra la interfaz de los controles
 
 
     // Start is called before the first frame update
@@ -48,11 +57,13 @@ public class OpcionesControl : MonoBehaviour
 
         EventSys = GameObject.FindGameObjectWithTag("EventSystem").GetComponent<EventSystem>();     // busca objetos por tags
 
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        FelicitacionesAll = GameObject.FindGameObjectWithTag("UIFelicitaciones");
 
         if (Input.GetKeyDown("p"))
         {
@@ -91,10 +102,19 @@ public class OpcionesControl : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            //Debug.Log("click click click");
 
-            EventSys.SetSelectedGameObject(BotonFelicidades);
+            if (FelicitacionesAll.activeInHierarchy == true)
+            {
+                CualSeleccionado();
+            }
+            //Debug.Log("click click click");
         }
+
+        if (EventSys.currentSelectedGameObject == null)
+        {
+            EventSys.SetSelectedGameObject(BotonOpciones);
+        }
+
 
     }
 
@@ -140,5 +160,20 @@ public class OpcionesControl : MonoBehaviour
         LvlManager.SendMessage("LvlSelector");
     }
     #endregion
+
+
+    public void CualSeleccionado()
+    {
+        if (EventSys.currentSelectedGameObject == BotonFelicidades)
+        {
+            EventSys.SetSelectedGameObject(null);
+        }
+
+        if (EventSys.currentSelectedGameObject == BotonOpciones)
+        {
+            EventSys.SetSelectedGameObject(BotonFelicidades);
+        }
+
+    }
 
 }

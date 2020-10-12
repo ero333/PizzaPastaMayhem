@@ -7171,6 +7171,7 @@ MonoBehaviour:
   Opciones: {fileID: 1298115414}
   BotonOpciones: {fileID: 969443430}
   BotonFelicidades: {fileID: 378058964}
+  FelicitacionesAll: {fileID: 985213535}
   BotonCerrarCONTROLES: {fileID: 1139321145}
   controles: {fileID: 233510053}
   LvlManager: {fileID: 0}

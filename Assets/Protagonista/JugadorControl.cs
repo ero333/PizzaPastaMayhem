@@ -93,7 +93,7 @@ public class JugadorControl : MonoBehaviour
 
     [Header("Vida")]
 
-    public float vidaMaxima;                                            // Cantidad de Vida total que va a tener el jugador. Modificable
+    private float vidaMaxima;                                            // Cantidad de Vida total que va a tener el jugador. Modificable
 
     public float vidaActual;                                            // Cantidad de vida que tiene el jugador actualmente. No modificable
 
@@ -120,7 +120,7 @@ public class JugadorControl : MonoBehaviour
 
     [Header("Municion")]
 
-    public float municionMáxima;
+    private float municionMáxima = 20;
 
     public float municionActual;
 
@@ -588,7 +588,7 @@ public class JugadorControl : MonoBehaviour
         {
             if (Body.GetComponent<SpriteRenderer>().flipX == false)
             {
-                Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                //Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                 anim.Play("PJ_Melee");
 
@@ -600,7 +600,7 @@ public class JugadorControl : MonoBehaviour
 
             if (Body.GetComponent<SpriteRenderer>().flipX == true)
             {
-                Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                //Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                 anim.Play("PJ_Melee");
 
@@ -616,6 +616,21 @@ public class JugadorControl : MonoBehaviour
 
 
 
+    }
+
+    public void CrearGolpe()
+    {
+        if (Body.GetComponent<SpriteRenderer>().flipX == false)
+        {
+            Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+
+        }
+
+        if (Body.GetComponent<SpriteRenderer>().flipX == true)
+        {
+            Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+
+        }
     }
 
 

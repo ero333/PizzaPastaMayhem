@@ -13,7 +13,6 @@ public class Parallax : MonoBehaviour
 
 
     public Transform Player; // traer posicion del gameobject
-    public bool HayMovimientoHorizontal = true;
 
 
     private float lastX;
@@ -34,19 +33,6 @@ public class Parallax : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        #region Fondo Sigue al jugador
-
-        Vector3 temp = transform.position;
-
-        if (HayMovimientoHorizontal)
-        {
-            temp.x = Player.transform.position.x;
-
-        }
-
-        transform.position = temp;
-
-        #endregion
 
 
 

@@ -45,7 +45,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -353,8 +353,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44929b0497ab02b47b904af5cec84538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaEnemiga: 10
   barraEnemiga: {fileID: 3491469856729905868}
+  vidaEnemiga: 10
   "Da\xF1oBala": 1
   "Da\xF1oPowerBala": 3
   "Da\xF1oSarten": 1

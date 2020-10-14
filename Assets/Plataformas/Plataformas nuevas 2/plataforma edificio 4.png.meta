@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 13d5792fd67c89241b12ee0ad8fa9479
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5810030976007816685
+    second: TOPleft
+  - first:
+      213: 5687745283170303976
+    second: TOPRIGHT
+  - first:
+      213: -7924320756300251029
+    second: BOTMIDDLE
+  - first:
+      213: -5589859394698147095
+    second: BOTLEFT
+  - first:
+      213: -235135285963802211
+    second: TOPMIDDLE
+  - first:
+      213: -4594503652458017829
+    second: BOTRIGHT
+  - first:
+      213: 8888035406075352235
+    second: plataforma edificio 4_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +132,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: TOPleft
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 455
+        width: 175
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ab9053c9f9e5fa0800000000000000
+      internalID: -5810030976007816685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOPRIGHT
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 455
+        width: 206
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eff448333eeeee40800000000000000
+      internalID: 5687745283170303976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOTMIDDLE
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 116
+        width: 876
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60087ac148270290800000000000000
+      internalID: -7924320756300251029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOTLEFT
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 116
+        width: 175
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea03a23f74dc62b0800000000000000
+      internalID: -5589859394698147095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TOPMIDDLE
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 455
+        width: 876
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99b7f504b1acbcf0800000000000000
+      internalID: -235135285963802211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOTRIGHT
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 116
+        width: 206
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb4104554b0d30c0800000000000000
+      internalID: -4594503652458017829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

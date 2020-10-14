@@ -40,6 +40,11 @@ public class AnimationEvents : MonoBehaviour
         PlayerAll.SendMessage("PowerProyectil");
     }
 
+    public void Melee()
+    {
+        PlayerAll.SendMessage("CrearGolpe");
+    }
+
     public void GenerarAmenaza()
     {
         PlayerAll.SendMessage("ThreatGenerator");

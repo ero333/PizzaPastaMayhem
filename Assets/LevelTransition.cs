@@ -6,17 +6,21 @@ using UnityEngine.SceneManagement;
 public class LevelTransition : MonoBehaviour
 {
     [Header("Variables que se mantienen")]
-    public int NumeroVidas = 2;
-    public float VidaTotal = 10f;
-    public float MunicioTotal = 50f;
+    private int NumeroVidas = 2;
+    private float VidaTotal = 100f;
+    private float MunicioTotal = 20f;
 
     float vidaActual;
+
+    Scene NivelActual;
 
 
     // Start is called before the first frame update
     void Start()
     {
         vidaActual = PlayerPrefs.GetFloat("VidaActual");
+
+        NivelActual = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
@@ -139,7 +143,10 @@ public class LevelTransition : MonoBehaviour
     }
 
 
-
+    public void PasarNivel()
+    {
+        SceneManager.LoadScene(NivelActual.buildIndex + 1);
+    }
 
 
 

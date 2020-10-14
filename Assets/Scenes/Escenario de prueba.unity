@@ -3098,7 +3098,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 904107835}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl2
+        m_MethodName: PasarNivel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6633,9 +6633,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76900c7eda68de94e809b2223ff66c69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumeroVidas: 2
-  VidaTotal: 10
-  MunicioTotal: 50
 --- !u!4 &904107836
 Transform:
   m_ObjectHideFlags: 0

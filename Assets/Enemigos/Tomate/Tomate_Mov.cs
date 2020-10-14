@@ -140,25 +140,25 @@ public class Tomate_Mov : MonoBehaviour
     {
         if (izquierda)
         {
-            transform.position = Vector3.MoveTowards(transform.position, BPoint.position, speed * Time.deltaTime); // Si está mirando hacia la izquierda, se mueve desde su posición actual hacia el punto B, eso por la cantidad de velocidad 
+            transform.position = Vector3.MoveTowards(transform.position, BPoint.position, speed * Time.deltaTime);  // Si está mirando hacia la izquierda, se mueve desde su posición actual hacia el punto B, eso por la cantidad de velocidad 
 
-            if (transform.position == BPoint.position) // Si su posición actual es el punto B, izquierda deja de ser verdadero y flipea el sprite
+            if (transform.position == BPoint.position)                                                              // Si su posición actual es el punto B, izquierda deja de ser verdadero y flipea el sprite
             {
                 izquierda = false;
 
-                transform.rotation = Quaternion.Euler(0, 180, 0); // gira el enemigo a 180 grados
+                transform.rotation = Quaternion.Euler(0, 180, 0);                                                   // gira el enemigo a 180 grados
             }
         }
 
         else
         {
-            transform.position = Vector3.MoveTowards(transform.position, APoint.position, speed * Time.deltaTime); // Si está mirando hacia la derecha, se mueve desde su posición actual hacia el punto A, eso por la cantidad de velocidad 
+            transform.position = Vector3.MoveTowards(transform.position, APoint.position, speed * Time.deltaTime);  // Si está mirando hacia la derecha, se mueve desde su posición actual hacia el punto A, eso por la cantidad de velocidad 
 
-            if (transform.position == APoint.position) // Si su posición actual es el punto A, izquierda es verdadero y flipea el sprite
+            if (transform.position == APoint.position)                                                              // Si su posición actual es el punto A, izquierda es verdadero y flipea el sprite
             {
                 izquierda = true;
 
-                transform.rotation = Quaternion.Euler(0, 0, 0); // gira el enemigo a 0 grados
+                transform.rotation = Quaternion.Euler(0, 0, 0);                                                     // gira el enemigo a 0 grados
             }
         }
     }

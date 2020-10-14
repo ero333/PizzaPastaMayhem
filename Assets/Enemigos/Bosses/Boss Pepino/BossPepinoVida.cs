@@ -33,7 +33,6 @@ public class BossPepinoVida : MonoBehaviour
         {
             SendMessage("Death");    // Le envía al gameobject un mensaje para que "reproduzca" este método
 
-            Destroy(ContenedorVida);
         }
     }
 

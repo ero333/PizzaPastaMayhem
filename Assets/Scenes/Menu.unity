@@ -1303,8 +1303,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NumeroVidas: 2
-  VidaTotal: 10
-  MunicioTotal: 50
+  VidaTotal: 100
+  MunicioTotal: 20
 --- !u!4 &1109139942
 Transform:
   m_ObjectHideFlags: 0
@@ -1724,7 +1724,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1109139941}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Reinicio
+        m_MethodName: EmpezarJuego
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

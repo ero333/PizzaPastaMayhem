@@ -6134,7 +6134,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822912254}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.526, y: -2.4, z: 0}
+  m_LocalPosition: {x: 1.9, y: -2.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 33893744}
@@ -6203,7 +6203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e3fc0edbef99474d9c9f89e3185ee0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gelatina: {fileID: 0}
   LVLDelivery: {fileID: 0}
 --- !u!114 &822912259
 MonoBehaviour:
@@ -6266,7 +6265,7 @@ MonoBehaviour:
   bala: {fileID: 5373548447348573373, guid: 2c79e6bc8337e094b9d192f6e6749341, type: 3}
   MeleeHit: {fileID: 6283934882753234349, guid: 8a36d6cec02dad946bfe419406c12ed1, type: 3}
   BalaPower: {fileID: 7760301762359053808, guid: 6f04ad82c709a4e4ababbae980dcfcdf, type: 3}
-  BalaPowerCooldownTime: 5
+  BalaPowerTimer: 0
   BalaPowerReady: 0
   MedidorBalaPower: {fileID: 716987566}
   balaGenR: {fileID: 795935145}
@@ -6283,20 +6282,6 @@ MonoBehaviour:
   municionActual: 0
   barraAmmo: {fileID: 1323722673}
   municionContador: {fileID: 300723661}
-  RecargaAmmo: 15
-  AlbondigaHit: 3
-  BalaAlbondigaHit: 1
-  "BalaMorr\xF3nHit": 1
-  JamonHit: 1
-  LechugaHit: 1
-  PancitoHit: 1
-  PepinoHit: 3
-  PatyHit: 1
-  PolloHit: 1
-  SalchichaHit: 1
-  ShockwaveHit: 1
-  TomateHit: 1
-  QuesoHit: 1
   Receta1: 0
   Receta2: 0
   Receta3: 0
@@ -6304,10 +6289,10 @@ MonoBehaviour:
   PowerSpeed: 8
   PowerSpeedJump: 10
   SpeedTornado: {fileID: 558311409}
-  PowerT: 10
+  PowerTimeStart: 0
   PowerShield: {fileID: 1942961966}
   Power2Activo: 0
-  ShieldTime: 5
+  ShieldTimeStart: 0
 --- !u!50 &822912261
 Rigidbody2D:
   serializedVersion: 4

@@ -97,9 +97,6 @@ public class LevelTransition : MonoBehaviour
         PlayerPrefs.SetFloat("VidaTotal", VidaTotal);
         PlayerPrefs.SetFloat("VidaActual", VidaTotal);
 
-        PlayerPrefs.SetFloat("MunicionMaxima", MunicioTotal);
-        PlayerPrefs.SetFloat("MunicionActual", MunicioTotal);
-
         RecetasReinicio();
     }
 
@@ -126,6 +123,19 @@ public class LevelTransition : MonoBehaviour
             PlayerPrefs.SetFloat("VidaActual", VidaTotal);
         }
 
+    }
+
+    public void MunicionReinicio()
+    {
+        PlayerPrefs.SetFloat("MunicionMaxima", MunicioTotal);
+        PlayerPrefs.SetFloat("MunicionActual", MunicioTotal);
+
+    }
+
+    public void EmpezarJuego()
+    {
+        Reinicio();
+        MunicionReinicio();
     }
 
 

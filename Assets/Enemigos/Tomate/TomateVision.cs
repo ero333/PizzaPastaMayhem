@@ -6,7 +6,7 @@ public class TomateVision : MonoBehaviour
 {
     public GameObject TomateBody;   // traer objeto con script
 
-    public GameObject TomateAll; // traer objeto que contiene a toda la torreta
+    public GameObject TomateAll;    // traer objeto que contiene a toda la torreta
 
     // Start is called before the first frame update
     void Start()

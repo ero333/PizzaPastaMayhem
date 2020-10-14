@@ -67,9 +67,9 @@ public class JugadorControl : MonoBehaviour
 
     public GameObject BalaPower;                                        // traer prefab del ataque especial
 
-    public float BalaPowerCooldownTime = 5f;                            // tiempo que dura el CD del power attack
+    private float BalaPowerCooldownTime = 45f;                          // tiempo que dura el CD del power attack
 
-    private float BalaPowerTimer;
+    public float BalaPowerTimer;
 
     public bool BalaPowerReady;                                         // bool que te permite activar o no el Power Attack
 
@@ -105,7 +105,7 @@ public class JugadorControl : MonoBehaviour
 
     public int vida;                                                    // cantidad de vidas del jugador
 
-    private float Curarse = 50f;                                        // cantidad de vida que me curo
+    private float Curarse = 10f;                                        // cantidad de vida que me curo
 
 
 
@@ -128,40 +128,9 @@ public class JugadorControl : MonoBehaviour
 
     public Text municionContador;                                       // traer objeto de texto con contador de municion
 
-    public int RecargaAmmo;                                             // numero que dice cuanto va a recargar el jugador al colisionar con X item
+    private int RecargaAmmo = 5;                                         // numero que dice cuanto va a recargar el jugador al colisionar con X item
 
 
-
-    #endregion
-
-    #region Variables Vida que me quitan cada enemigo
-    [Header("Daño Recibido")]
-
-    public float AlbondigaHit = 3f;
-
-    public float BalaAlbondigaHit = 1f;
-
-    public float BalaMorrónHit = 1f;
-
-    public float JamonHit = 1f;
-
-    public float LechugaHit = 1f;
-
-    public float PancitoHit = 1f;
-
-    public float PepinoHit = 3f;
-
-    public float PatyHit = 1f;
-
-    public float PolloHit = 1f;
-
-    public float SalchichaHit = 1f;
-
-    public float ShockwaveHit = 1f;
-
-    public float TomateHit = 1f;
-
-    public float QuesoHit = 1f;
 
     #endregion
 
@@ -186,17 +155,63 @@ public class JugadorControl : MonoBehaviour
 
 
 
-    public float PowerT = 5f;
+    private float PowerT = 10f;
 
-    private float PowerTimeStart;
+    public float PowerTimeStart;
 
     public GameObject PowerShield;                                      // traer game object del escudo
 
     public bool Power2Activo = false;
 
-    public float ShieldTime = 5f;
+    private float ShieldTime = 10f;
 
-    private float ShieldTimeStart;
+    public float ShieldTimeStart;
+
+    #endregion
+
+    #region Variables Vida que me quitan cada enemigo
+    [Header("Daño Recibido")]
+
+    private float PancitoHit = 10f;
+
+    private float PatyHit = 15f;
+
+    private float QuesoHit = 20f;
+
+    private float SalchichaHit = 15f;
+
+    private float AlbondigaHit = 20f;
+
+    private float BalaAlbondigaHit = 30f;
+
+    private float JamonHit = 20f;
+
+    private float ShockwaveHit = 40f;
+
+    private float PolloHit = 25f;
+
+    private float TomateHit = 25f;
+
+    private float LechugaHit = 2f;
+
+
+
+
+    private float BalaMorrónHit = 10f;
+
+
+    private float PepinoHit = 25f;
+
+
+    private float BossTacoHit = 5f;
+
+    private float BossTacoPunchHit = 20f;
+
+    private float BossTacoSierraHit = 15f;
+
+    private float MiniTacoHit = 1f;
+
+    private float MiniTacoPunchHit = 1f;
 
     #endregion
 
@@ -827,6 +842,58 @@ public class JugadorControl : MonoBehaviour
                     MarcoHP.SendMessage("HPHit");
 
                 }
+
+                if (collision.tag == "BossTaco")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= BossTacoHit;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "BossTacoPunch")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= BossTacoPunchHit;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "BossTacoSierra")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= BossTacoSierraHit;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+
+
+                if (collision.tag == "MiniTaco")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= MiniTacoHit;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "MiniTacoPunch")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= MiniTacoPunchHit;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
                 /*if (collision.tag == "Pancito")                                                       // si colisiona con un objeto con el tag mensionado
                 {
                     vidaActual -= PancitoHit;
@@ -988,7 +1055,7 @@ public class JugadorControl : MonoBehaviour
     {
         if(vidaActual <= vidaMaxima)
         {
-            vidaActual += (Curarse/ vidaMaxima);
+            vidaActual += Curarse;
         }
     }
 
@@ -1078,7 +1145,7 @@ public class JugadorControl : MonoBehaviour
 
             // El siguiente código hace que te recuperes la vida
 
-            vidaActual = vidaMaxima;                            // Su vida actual es la misma que la vida que tiene al máximo
+            vidaActual += 60;                            // Su vida actual es la misma que la vida que tiene al máximo
 
 
         }

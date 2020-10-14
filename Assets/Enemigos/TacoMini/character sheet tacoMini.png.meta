@@ -1,0 +1,1480 @@
+fileFormatVersion: 2
+guid: 9c9a260e57be00c43942cb5560af1fe4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2160382402948174579
+    second: character sheet taco boss_0
+  - first:
+      213: -4357589716903931677
+    second: character sheet taco boss_1
+  - first:
+      213: -2878028393259582072
+    second: character sheet taco boss_2
+  - first:
+      213: 1404845419774777888
+    second: character sheet taco boss_3
+  - first:
+      213: -7395395184542589205
+    second: character sheet taco boss_4
+  - first:
+      213: -8518206298597400936
+    second: character sheet taco boss_5
+  - first:
+      213: -2128380293348336854
+    second: character sheet taco boss_6
+  - first:
+      213: -8908496844694940812
+    second: character sheet taco boss_7
+  - first:
+      213: -2469152354443617566
+    second: character sheet taco boss_8
+  - first:
+      213: 6082469243314103261
+    second: character sheet taco boss_9
+  - first:
+      213: 2089626287579375596
+    second: character sheet taco boss_10
+  - first:
+      213: -4311892908768037337
+    second: character sheet taco boss_11
+  - first:
+      213: -2302178068497435392
+    second: character sheet taco boss_12
+  - first:
+      213: 8544005089181269787
+    second: character sheet taco boss_13
+  - first:
+      213: 2108915627185749677
+    second: character sheet taco boss_14
+  - first:
+      213: 3263055769838488605
+    second: character sheet taco boss_15
+  - first:
+      213: 7359480745607461990
+    second: character sheet taco boss_16
+  - first:
+      213: 2526164897401877261
+    second: character sheet taco boss_17
+  - first:
+      213: -5309020358901681913
+    second: character sheet taco boss_18
+  - first:
+      213: -2724583778888839647
+    second: character sheet taco boss_19
+  - first:
+      213: 8609674122026073213
+    second: character sheet taco boss_20
+  - first:
+      213: 2342184034963102066
+    second: character sheet taco boss_21
+  - first:
+      213: -3130646351430245739
+    second: character sheet taco boss_22
+  - first:
+      213: 1644802859820164879
+    second: character sheet taco boss_23
+  - first:
+      213: -6597053917968822513
+    second: character sheet taco boss_24
+  - first:
+      213: 1914086592333037593
+    second: character sheet taco boss_25
+  - first:
+      213: -1793235215232246687
+    second: character sheet taco boss_26
+  - first:
+      213: 3482517454737890129
+    second: character sheet taco boss_27
+  - first:
+      213: -1984245233475920337
+    second: character sheet taco boss_28
+  - first:
+      213: 8635847953588675051
+    second: character sheet taco boss_29
+  - first:
+      213: -6614569166472751933
+    second: character sheet taco boss_30
+  - first:
+      213: -3964656834428959196
+    second: character sheet taco boss_31
+  - first:
+      213: 4459382029913973707
+    second: character sheet taco boss_32
+  - first:
+      213: -4371392681399893057
+    second: character sheet taco boss_33
+  - first:
+      213: 2653103735337063820
+    second: character sheet taco boss_34
+  - first:
+      213: -8769345853483660452
+    second: character sheet taco boss_35
+  - first:
+      213: 851166922633953753
+    second: character sheet taco boss_36
+  - first:
+      213: 4105058388737517700
+    second: character sheet taco boss_37
+  - first:
+      213: -6211486662294449504
+    second: character sheet taco boss_38
+  - first:
+      213: -4202178457169964024
+    second: character sheet taco boss_39
+  - first:
+      213: -7964785927829463234
+    second: character sheet taco boss_40
+  - first:
+      213: 8115896070678808044
+    second: character sheet taco boss_41
+  - first:
+      213: 2088837545480506362
+    second: character sheet taco boss_42
+  - first:
+      213: 1314556397629281077
+    second: character sheet taco boss_43
+  - first:
+      213: -2388130145347335492
+    second: character sheet taco boss_44
+  - first:
+      213: -3693190912552720686
+    second: character sheet taco boss_45
+  - first:
+      213: 2274341449615100433
+    second: character sheet taco boss_46
+  - first:
+      213: -2842900555173295392
+    second: character sheet taco boss_47
+  - first:
+      213: 8128239607355094685
+    second: character sheet taco boss_48
+  - first:
+      213: -7244516817079648713
+    second: character sheet taco boss_49
+  - first:
+      213: 1138679522313615796
+    second: character sheet taco boss_50
+  - first:
+      213: -2757174177666375498
+    second: character sheet taco boss_51
+  - first:
+      213: 2793951844915891270
+    second: character sheet taco boss_52
+  - first:
+      213: -7151502107055704139
+    second: character sheet taco boss_53
+  - first:
+      213: 8056431158378784550
+    second: character sheet taco boss_54
+  - first:
+      213: 1091909181871669996
+    second: character sheet taco boss_55
+  - first:
+      213: -8337336083975678542
+    second: character sheet taco boss_56
+  - first:
+      213: 1093527379593188292
+    second: character sheet taco boss_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character sheet taco boss_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 4412
+        width: 499
+        height: 559
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0de44596a7c402e0800000000000000
+      internalID: -2160382402948174579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_1
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 4412
+        width: 498
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0db0f6d3bb683c0800000000000000
+      internalID: -4357589716903931677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_2
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 4412
+        width: 499
+        height: 480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d364ebc603f08d0800000000000000
+      internalID: -2878028393259582072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_3
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 4412
+        width: 480
+        height: 439
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a920257730f7310800000000000000
+      internalID: 1404845419774777888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_4
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 4412
+        width: 498
+        height: 476
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee54bb13474e5990800000000000000
+      internalID: -7395395184542589205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_5
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 4412
+        width: 502
+        height: 503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e5b98b08049c980800000000000000
+      internalID: -8518206298597400936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_6
+      rect:
+        serializedVersion: 2
+        x: 3241
+        y: 4412
+        width: 503
+        height: 536
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bd70c56697672e0800000000000000
+      internalID: -2128380293348336854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_7
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 4412
+        width: 498
+        height: 559
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4731549a159ae5480800000000000000
+      internalID: -8908496844694940812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3679
+        width: 538
+        height: 530
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea9119040fcbbdd0800000000000000
+      internalID: -2469152354443617566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_9
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 3679
+        width: 548
+        height: 544
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3e9fcec85496450800000000000000
+      internalID: 6082469243314103261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_10
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 3679
+        width: 546
+        height: 581
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7ac788908dffc10800000000000000
+      internalID: 2089626287579375596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_11
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 3679
+        width: 541
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726fa5fae341924c0800000000000000
+      internalID: -4311892908768037337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_12
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 3679
+        width: 521
+        height: 586
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005f3818e350d00e0800000000000000
+      internalID: -2302178068497435392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_13
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 3679
+        width: 511
+        height: 567
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f77cb4c57629670800000000000000
+      internalID: 8544005089181269787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_14
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 3679
+        width: 516
+        height: 563
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae3da3e69f544d10800000000000000
+      internalID: 2108915627185749677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2910
+        width: 530
+        height: 648
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c038b2fe3b84d20800000000000000
+      internalID: 3263055769838488605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_16
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2895
+        width: 572
+        height: 595
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c7245feb0222660800000000000000
+      internalID: 7359480745607461990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_17
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 2922
+        width: 659
+        height: 549
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0333b9079dbe0320800000000000000
+      internalID: 2526164897401877261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_18
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 2913
+        width: 641
+        height: 558
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701395aac129256b0800000000000000
+      internalID: -5309020358901681913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_19
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 2909
+        width: 679
+        height: 622
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e0a821d75503ad0800000000000000
+      internalID: -2724583778888839647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_20
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 2904
+        width: 665
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cbc3b7ff4bb7770800000000000000
+      internalID: 8609674122026073213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_21
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 2909
+        width: 671
+        height: 673
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279119a68fb118020800000000000000
+      internalID: 2342184034963102066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_22
+      rect:
+        serializedVersion: 2
+        x: 4833
+        y: 2909
+        width: 678
+        height: 622
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592a0a1fab5bd84d0800000000000000
+      internalID: -3130646351430245739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_23
+      rect:
+        serializedVersion: 2
+        x: 5557
+        y: 2913
+        width: 641
+        height: 577
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07a0298c7383d610800000000000000
+      internalID: 1644802859820164879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_24
+      rect:
+        serializedVersion: 2
+        x: 6301
+        y: 2922
+        width: 663
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f8e5f0a6e8274a0800000000000000
+      internalID: -6597053917968822513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_25
+      rect:
+        serializedVersion: 2
+        x: 7043
+        y: 2895
+        width: 604
+        height: 696
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910495d4d93309a10800000000000000
+      internalID: 1914086592333037593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_26
+      rect:
+        serializedVersion: 2
+        x: 7707
+        y: 2899
+        width: 600
+        height: 674
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c5c5d92162d17e0800000000000000
+      internalID: -1793235215232246687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2207
+        width: 536
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bdfb58c23645030800000000000000
+      internalID: 3482517454737890129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_28
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2212
+        width: 627
+        height: 586
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ed76f197b8674e0800000000000000
+      internalID: -1984245233475920337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_29
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 2212
+        width: 618
+        height: 581
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1efe785f1b8d770800000000000000
+      internalID: 8635847953588675051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_30
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 2212
+        width: 659
+        height: 549
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4d32a73645434a0800000000000000
+      internalID: -6614569166472751933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_31
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 2212
+        width: 1183
+        height: 521
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426898f5d95baf8c0800000000000000
+      internalID: -3964656834428959196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_32
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 2212
+        width: 959
+        height: 521
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc368c25458e2ed30800000000000000
+      internalID: 4459382029913973707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_33
+      rect:
+        serializedVersion: 2
+        x: 4801
+        y: 2212
+        width: 783
+        height: 498
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3ca635481b553c0800000000000000
+      internalID: -4371392681399893057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_34
+      rect:
+        serializedVersion: 2
+        x: 5627
+        y: 2212
+        width: 525
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8517016ac7b1d420800000000000000
+      internalID: 2653103735337063820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_35
+      rect:
+        serializedVersion: 2
+        x: 6190
+        y: 2212
+        width: 641
+        height: 494
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bcf8288660d4680800000000000000
+      internalID: -8769345853483660452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_36
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 2212
+        width: 627
+        height: 503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1c8247ec3ffcb00800000000000000
+      internalID: 851166922633953753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_37
+      rect:
+        serializedVersion: 2
+        x: 7477
+        y: 2212
+        width: 503
+        height: 526
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488efe2ead818f830800000000000000
+      internalID: 4105058388737517700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_38
+      rect:
+        serializedVersion: 2
+        x: 8021
+        y: 2207
+        width: 535
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2dcde5acd5cc9a0800000000000000
+      internalID: -6211486662294449504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_39
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1349
+        width: 614
+        height: 655
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804d59115fcdea5c0800000000000000
+      internalID: -4202178457169964024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_40
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1345
+        width: 669
+        height: 632
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fd1bbd565677190800000000000000
+      internalID: -7964785927829463234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_41
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1335
+        width: 706
+        height: 619
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce58cc6f97471a070800000000000000
+      internalID: 8115896070678808044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_42
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 1322
+        width: 649
+        height: 655
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb4dd33eaa0dfc10800000000000000
+      internalID: 2088837545480506362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_43
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 1303
+        width: 650
+        height: 688
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53319ed241e3e3210800000000000000
+      internalID: 1314556397629281077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_44
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1293
+        width: 844
+        height: 669
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08334848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba8b212948abded0800000000000000
+      internalID: -2388130145347335492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_45
+      rect:
+        serializedVersion: 2
+        x: 4339
+        y: 1267
+        width: 1061
+        height: 654
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08334848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d62891be662fbcc0800000000000000
+      internalID: -3693190912552720686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_46
+      rect:
+        serializedVersion: 2
+        x: 5447
+        y: 1253
+        width: 1236
+        height: 659
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09618825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a414a9f75109f10800000000000000
+      internalID: 2274341449615100433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_47
+      rect:
+        serializedVersion: 2
+        x: 6711
+        y: 1252
+        width: 1241
+        height: 628
+      alignment: 9
+      pivot: {x: 0.5, y: 0.102499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea8225e10dfb88d0800000000000000
+      internalID: -2842900555173295392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_48
+      rect:
+        serializedVersion: 2
+        x: 7966
+        y: 1253
+        width: 1241
+        height: 585
+      alignment: 9
+      pivot: {x: 0.4999992, y: 0.10997075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9639ad8bde4dc070800000000000000
+      internalID: 8128239607355094685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_51
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 644
+        width: 1241
+        height: 539
+      alignment: 9
+      pivot: {x: 0.4998091, y: 0.11260975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0e05c81bc8cb9d0800000000000000
+      internalID: -2757174177666375498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_52
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 644
+        width: 1259
+        height: 539
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1148949}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c42c3666c16c620800000000000000
+      internalID: 2793951844915891270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_53
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 645
+        width: 1260
+        height: 502
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1175165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7bc7259b2c0cc90800000000000000
+      internalID: -7151502107055704139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_54
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 647
+        width: 1260
+        height: 438
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12491932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6276e8824713ecf60800000000000000
+      internalID: 8056431158378784550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_55
+      rect:
+        serializedVersion: 2
+        x: 5442
+        y: 644
+        width: 1255
+        height: 405
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1427442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2c270ad9d372f00800000000000000
+      internalID: 1091909181871669996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_56
+      rect:
+        serializedVersion: 2
+        x: 6799
+        y: 644
+        width: 1259
+        height: 396
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b555953105db4c80800000000000000
+      internalID: -8337336083975678542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character sheet taco boss_57
+      rect:
+        serializedVersion: 2
+        x: 8144
+        y: 644
+        width: 1255
+        height: 396
+      alignment: 9
+      pivot: {x: 0.5, y: 0.151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3d0d4ab5dfc2f00800000000000000
+      internalID: 1093527379593188292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

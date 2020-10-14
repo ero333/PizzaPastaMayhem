@@ -87,7 +87,7 @@ public class BossPepinoManager : MonoBehaviour
 
     public void EstadoMuerto()
     {
-        estado = GameState.Ataque;
+        estado = GameState.Muerto;
     }
 
     #endregion

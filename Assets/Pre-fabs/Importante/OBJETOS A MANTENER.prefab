@@ -1315,13 +1315,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a2118613532ee394481208786e0ecb58, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.09
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 210
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -2224,7 +2224,6 @@ MonoBehaviour:
   MarcoHP: {fileID: 8179580552215912624}
   VidaContador: {fileID: 8179580552301198614}
   vida: 1
-  "municionM\xE1xima": 50
   municionActual: 0
   barraAmmo: {fileID: 8179580551016756071}
   municionContador: {fileID: 8179580552639239103}
@@ -5188,7 +5187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cielo: {fileID: 8179580552312028902}
   Horizonte: {fileID: 8179580552339031518}
-  parallaxSpeed: 0.2
+  parallaxSpeed: 0.02
   Player: {fileID: 0}
 --- !u!1 &8179580552289209553
 GameObject:

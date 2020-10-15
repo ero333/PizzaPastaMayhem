@@ -710,9 +710,9 @@ MonoBehaviour:
   vidaEnemiga: 40
   barraEnemiga: {fileID: 4942496412580073837}
   vidaActual: 0
-  "Da\xF1oBala": 1
+  "Da\xF1oBala": 2
   "Da\xF1oPowerBala": 5
-  "Da\xF1oSarten": 0.5
+  "Da\xF1oSarten": 0.7
   "Da\xF1oShield": 1
 --- !u!1 &4942496412246390710
 GameObject:

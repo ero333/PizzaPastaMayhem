@@ -588,7 +588,7 @@ public class JugadorControl : MonoBehaviour
         {
             if (Body.GetComponent<SpriteRenderer>().flipX == false)
             {
-                //Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                 anim.Play("PJ_Melee");
 
@@ -600,7 +600,7 @@ public class JugadorControl : MonoBehaviour
 
             if (Body.GetComponent<SpriteRenderer>().flipX == true)
             {
-                //Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                 anim.Play("PJ_Melee");
 
@@ -620,7 +620,7 @@ public class JugadorControl : MonoBehaviour
 
     public void CrearGolpe()
     {
-        if (Body.GetComponent<SpriteRenderer>().flipX == false)
+        /*if (Body.GetComponent<SpriteRenderer>().flipX == false)
         {
             Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
@@ -630,7 +630,7 @@ public class JugadorControl : MonoBehaviour
         {
             Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
-        }
+        }*/
     }
 
 

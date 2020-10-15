@@ -6,11 +6,13 @@ public class BossPepinoVida : MonoBehaviour
 {
     public float vidaEnemiga = 5f;          // vida que quiero que tenga el enemigo
 
-    private float vidaActual;               // vida actual del enemigo
+    public float vidaActual;               // vida actual del enemigo
 
     public GameObject ContenedorVida;       // Traer Gameobject que contiene toda la vida
 
     public GameObject barraEnemiga;         // traer la barra de vida del enemigo (vida visible)
+
+    public GameObject EnemyTag;
 
     public float DañoBala = 1f;             // daño que recibe por colisionar con la bala del jugador
 
@@ -32,6 +34,8 @@ public class BossPepinoVida : MonoBehaviour
         if (vidaActual <= 0)
         {
             SendMessage("Death");    // Le envía al gameobject un mensaje para que "reproduzca" este método
+
+            Destroy(EnemyTag);
 
         }
     }
@@ -72,6 +76,8 @@ public class BossPepinoVida : MonoBehaviour
 
             PerderHP(LargoBarraHP);
 
+            Debug.Log("hithitihiti");
+
         }
 
         #endregion
@@ -86,6 +92,7 @@ public class BossPepinoVida : MonoBehaviour
 
             PerderHP(LargoBarraHP);
 
+            Debug.Log("hithitihiti");
         }
 
         #endregion

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8756881016603674095}
   - component: {fileID: 8756881016603674093}
   - component: {fileID: 8756881016603674092}
+  - component: {fileID: 7232434130582334164}
   m_Layer: 0
   m_Name: Caida
   m_TagString: Caida
@@ -109,3 +110,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 86.74971, y: 5.2925}
   m_EdgeRadius: 0
+--- !u!114 &7232434130582334164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8756881016603674094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b5b6630b9b2a94387cdb3b4d9632b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -15,7 +15,7 @@ public class JamonVida : MonoBehaviour
 
     public GameObject barraEnemiga;             // traer la barra de vida del enemigo (vida visible)
 
-    private float vidaActual;                   // vida actual del enemigo
+    public float vidaActual;                   // vida actual del enemigo
 
 
 

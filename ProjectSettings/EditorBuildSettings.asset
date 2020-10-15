@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 276a2372944d60f4eb893a90e2383376
   - enabled: 1
-    path: Assets/Scenes/Escenario de prueba.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/NIVEL 1.unity
+    guid: e8c29cbc32d36aa499ccb2fc212ffc12
+  - enabled: 1
+    path: Assets/Scenes/NIVEL 2.unity
+    guid: 9a0f095beff2ca54cadf8b5b8e097f96
+  - enabled: 1
+    path: Assets/Scenes/NIVEL 3.unity
+    guid: 0a45d86284c58cf49ac45fd6625d17a7
+  - enabled: 1
+    path: Assets/Scenes/NIVEL 4.unity
+    guid: 3ba5b6834d00c3546b1f66ce847c946d
   - enabled: 1
     path: Assets/Scenes/Runner Remake.unity
     guid: ec54dfb39d6a44d469930abc00bdf24e
@@ -44,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CUTSCENEPRUEBA1.unity
     guid: c5dcb54fa6acbce4b90a1f9a8f65155f
+  - enabled: 1
+    path: Assets/Scenes/Escenario de prueba.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Boss-Fight1.unity
+    guid: 3bc06aa7e072ec84ca3c0e890b677fe7
   m_configObjects: {}

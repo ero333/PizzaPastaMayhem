@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/NIVEL 4.unity
     guid: 3ba5b6834d00c3546b1f66ce847c946d
   - enabled: 1
+    path: Assets/Scenes/NIVEL 7.unity
+    guid: 7c01b65f307636d4b92305785560fc59
+  - enabled: 1
     path: Assets/Scenes/Runner Remake.unity
     guid: ec54dfb39d6a44d469930abc00bdf24e
   - enabled: 1

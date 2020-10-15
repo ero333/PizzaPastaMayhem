@@ -27,7 +27,7 @@ public class WaveGenerator : MonoBehaviour
     // Start is called before the first frame update 
     void Start()
     {
-        Contador = 0;                       // Timer empieza en 0
+        Contador = TiempoPausa - 1 ;                       // Timer empieza en 0
         HordaStart = false;                 // La Horda empieza apagada
         EnemigosGenerandose = 0;
         TotalEnemigosGenerados = 0;

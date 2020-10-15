@@ -303,7 +303,7 @@ public class JugadorControl : MonoBehaviour
         PlayerPrefs.SetFloat("MunicionActual", municionActual);
 
 
-
+        Checkpoint = GameObject.FindGameObjectWithTag("Checkpoint").transform;  
 
 
         if (vidaActual > vidaMaxima)

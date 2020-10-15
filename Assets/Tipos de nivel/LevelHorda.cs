@@ -85,7 +85,7 @@ public class LevelHorda : MonoBehaviour
 
         foreach (GameObject Generador in Generadores) //todos los generadores que haya en la escena
         {
-            Generador.SendMessage("stopGen");
+            //Generador.SendMessage("stopGen");
 
             Destroy(Generador);
         }

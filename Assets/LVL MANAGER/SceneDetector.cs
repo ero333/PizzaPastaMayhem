@@ -70,6 +70,12 @@ public class SceneDetector : MonoBehaviour
             PlayerPrefs.SetInt("UltimoJugado", NivelActual.buildIndex); // setea el INT del Player Pref al numero de la escena actual (9)
         }
 
+        if (NivelActual.buildIndex == 10) // Detecta si la escena activa es 9
+        {
+            PlayerPrefs.SetInt("UltimoJugado", NivelActual.buildIndex); // setea el INT del Player Pref al numero de la escena actual (10)
+        }
+
+
     }
     public void EscenaAnterior()
     {
@@ -111,9 +117,14 @@ public class SceneDetector : MonoBehaviour
             SceneManager.LoadScene(8);
         }
 
-        if (LastScene == 9) // Si el Numero de la escena anterior fue 8
+        if (LastScene == 9) // Si el Numero de la escena anterior fue 9
         {
             SceneManager.LoadScene(9);
+        }
+
+        if (LastScene == 10) // Si el Numero de la escena anterior fue 10
+        {
+            SceneManager.LoadScene(10);
         }
     }
 }

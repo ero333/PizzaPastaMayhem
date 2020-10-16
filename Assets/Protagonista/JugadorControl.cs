@@ -209,9 +209,9 @@ public class JugadorControl : MonoBehaviour
 
     private float BossTacoSierraHit = 25f;
 
-    private float MiniTacoHit = 1f;
+    private float MiniTacoHit = 10f;
 
-    private float MiniTacoPunchHit = 1f;
+    private float MiniTacoPunchHit = 25f;
 
 
     private float CarniceroHit = 10;
@@ -966,6 +966,15 @@ public class JugadorControl : MonoBehaviour
 
             }
 
+            if (collision.tag == "PowerBomb")                                                         // si colisiona con un objeto con el tag mensionado
+            {
+                vidaActual = 0;
+
+                MarcoHP.SendMessage("HPHit");
+
+
+            }
+
             if (collision.tag == "SalsaHazard")                                                         // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
@@ -1447,6 +1456,8 @@ public class JugadorControl : MonoBehaviour
 
         Object[] AmenazaHazard = GameObject.FindGameObjectsWithTag("SalsaHazard");      // llamar a todos los objetos con esta TAG
 
+        Object[] AmenazaPowerBomb = GameObject.FindGameObjectsWithTag("PowerBomb");      // llamar a todos los objetos con esta TAG
+
         foreach (GameObject PanMonstruo in AmenazaPan)                                  // Por cada objeto que haya, los destruye
         {
             Destroy(PanMonstruo);                                                       // Destruye Dicho Objeto
@@ -1455,6 +1466,11 @@ public class JugadorControl : MonoBehaviour
         foreach (GameObject Hazard in AmenazaHazard)                                    // Por cada objeto que haya, los destruye
         {
             Destroy(Hazard);                                                            // Destruye Dicho Objeto
+        }
+
+        foreach (GameObject Bomb in AmenazaPowerBomb)                                  // Por cada objeto que haya, los destruye
+        {
+            Destroy(Bomb);                                                       // Destruye Dicho Objeto
         }
     }
 

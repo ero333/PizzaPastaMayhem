@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 2949085405068025120}
   - component: {fileID: 2949085405068025123}
   - component: {fileID: -4762245093518222620}
+  - component: {fileID: 5083130582389593626}
   m_Layer: 0
   m_Name: Lechuga
   m_TagString: Enemy
@@ -112,6 +113,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5083130582389593626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2949085405068025122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4e7e83a8a9bc744b3ceb462301e1fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ingrediente: {fileID: 8375465513008284824, guid: b8e897679393e994f89bd9d061a5cf2f, type: 3}
 --- !u!1 &2949085405782778208
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,7 +474,7 @@ MonoBehaviour:
   vidaEnemiga: 30
   barraEnemiga: {fileID: 2949085406089631707}
   "Da\xF1oBala": 1
-  "Da\xF1oPowerBala": 30
+  "Da\xF1oPowerBala": 15
   "Da\xF1oSarten": 2
   "Da\xF1oShield": 1
 --- !u!95 &2949085406115562763

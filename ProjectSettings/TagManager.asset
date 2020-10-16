@@ -70,6 +70,7 @@ TagManager:
   - CarniceroHammer
   - CarniceroTornado
   - CarniceroBullet
+  - PowerBomb
   layers:
   - Default
   - TransparentFX

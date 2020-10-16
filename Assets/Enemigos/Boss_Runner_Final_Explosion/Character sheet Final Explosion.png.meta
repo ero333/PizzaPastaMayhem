@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: bf4cece8dbec9b5478c8b0c5046ac1a4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8629187697397854204
+    second: Character sheet Final Explosion_0
+  - first:
+      213: -5010885822165298273
+    second: Character sheet Final Explosion_1
+  - first:
+      213: -5908370455685251846
+    second: Character sheet Final Explosion_2
+  - first:
+      213: 4648586565650402786
+    second: Character sheet Final Explosion_3
+  - first:
+      213: 8101320369655500128
+    second: Character sheet Final Explosion_4
+  - first:
+      213: -3020230261267688454
+    second: Character sheet Final Explosion_5
+  - first:
+      213: -1067201755377628568
+    second: Character sheet Final Explosion_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +62,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +94,192 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Character sheet Final Explosion_0
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 12
+        width: 800
+        height: 798
+      alignment: 9
+      pivot: {x: 0.5412489, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffe19bcd7801c770800000000000000
+      internalID: 8629187697397854204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Final Explosion_1
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 32
+        width: 800
+        height: 778
+      alignment: 9
+      pivot: {x: 0.5517082, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93dbcfb4e1c57ab0800000000000000
+      internalID: -5010885822165298273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Final Explosion_2
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 19
+        width: 800
+        height: 791
+      alignment: 9
+      pivot: {x: 0.5556583, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcb77bdf50410ea0800000000000000
+      internalID: -5908370455685251846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Final Explosion_3
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 5
+        width: 800
+        height: 800
+      alignment: 9
+      pivot: {x: 0.4930365, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edce392ad8138040800000000000000
+      internalID: 4648586565650402786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Final Explosion_4
+      rect:
+        serializedVersion: 2
+        x: 3988
+        y: 12
+        width: 800
+        height: 798
+      alignment: 9
+      pivot: {x: 0.539375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dc3fc14fbad6070800000000000000
+      internalID: 8101320369655500128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Final Explosion_5
+      rect:
+        serializedVersion: 2
+        x: 4858
+        y: 5
+        width: 800
+        height: 800
+      alignment: 9
+      pivot: {x: 0.49277467, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af31149449cf516d0800000000000000
+      internalID: -3020230261267688454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character sheet Final Explosion_6
+      rect:
+        serializedVersion: 2
+        x: 5769
+        y: 32
+        width: 800
+        height: 778
+      alignment: 9
+      pivot: {x: 0.543902, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a0b0368a98031f0800000000000000
+      internalID: -1067201755377628568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -112,6 +112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7605798207284352331}
   - component: {fileID: 7605798207284352324}
+  - component: {fileID: 3720113017834564406}
   m_Layer: 0
   m_Name: Salchicha
   m_TagString: Enemy
@@ -157,6 +158,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &3720113017834564406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7605798207284352325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4e7e83a8a9bc744b3ceb462301e1fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ingrediente: {fileID: 4674485106739804855, guid: 8cbd43b71a0c78c49896518a62a3a07a, type: 3}
 --- !u!1 &7605798207322079494
 GameObject:
   m_ObjectHideFlags: 0

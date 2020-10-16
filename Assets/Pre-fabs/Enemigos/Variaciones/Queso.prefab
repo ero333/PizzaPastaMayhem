@@ -214,10 +214,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barraEnemiga: {fileID: 4772883258396947178}
-  vidaEnemiga: 5
+  vidaEnemiga: 8
   "Da\xF1oBala": 1
-  "Da\xF1oPowerBala": 1
-  "Da\xF1oSarten": 1
+  "Da\xF1oPowerBala": 8
+  "Da\xF1oSarten": 4
   "Da\xF1oShield": 1
 --- !u!61 &4772883258364409143
 BoxCollider2D:

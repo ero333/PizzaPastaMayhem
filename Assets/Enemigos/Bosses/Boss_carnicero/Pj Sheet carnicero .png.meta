@@ -1,0 +1,2008 @@
+fileFormatVersion: 2
+guid: b489f4397f4617a4ca28c7427b727d36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2252327818104074621
+    second: Pj Sheet carnicero _0
+  - first:
+      213: -79071947265194899
+    second: Pj Sheet carnicero _1
+  - first:
+      213: -2736317188382323942
+    second: Pj Sheet carnicero _2
+  - first:
+      213: 4270172167784785432
+    second: Pj Sheet carnicero _3
+  - first:
+      213: -1257729247980077497
+    second: Pj Sheet carnicero _4
+  - first:
+      213: 3213464036949814189
+    second: Pj Sheet carnicero _5
+  - first:
+      213: -4979392401882668153
+    second: Pj Sheet carnicero _6
+  - first:
+      213: -4529298518793473403
+    second: Pj Sheet carnicero _7
+  - first:
+      213: -5899867126282967906
+    second: Pj Sheet carnicero _8
+  - first:
+      213: -5644389517409271621
+    second: Pj Sheet carnicero _9
+  - first:
+      213: 4971160417020958632
+    second: Pj Sheet carnicero _10
+  - first:
+      213: 7241663817050857735
+    second: Pj Sheet carnicero _11
+  - first:
+      213: -5811197275531122210
+    second: Pj Sheet carnicero _12
+  - first:
+      213: 6089288712627309208
+    second: Pj Sheet carnicero _13
+  - first:
+      213: 6092734365453419276
+    second: Pj Sheet carnicero _14
+  - first:
+      213: -389144680317413357
+    second: Pj Sheet carnicero _15
+  - first:
+      213: -7131888707659461860
+    second: Pj Sheet carnicero _16
+  - first:
+      213: -7580781228335029983
+    second: Pj Sheet carnicero _17
+  - first:
+      213: 575590052053163360
+    second: Pj Sheet carnicero _18
+  - first:
+      213: -7112806819874878410
+    second: Pj Sheet carnicero _19
+  - first:
+      213: -2327414148337367130
+    second: Pj Sheet carnicero _20
+  - first:
+      213: -5920438895229741132
+    second: Pj Sheet carnicero _21
+  - first:
+      213: -6558162683322070187
+    second: Pj Sheet carnicero _22
+  - first:
+      213: -3379786204036898528
+    second: Pj Sheet carnicero _23
+  - first:
+      213: -5453583643074433831
+    second: Pj Sheet carnicero _24
+  - first:
+      213: -6392381052847320070
+    second: Pj Sheet carnicero _25
+  - first:
+      213: -8678869080274421065
+    second: Pj Sheet carnicero _26
+  - first:
+      213: 6720456361902109819
+    second: Pj Sheet carnicero _27
+  - first:
+      213: 4286197246252625732
+    second: Pj Sheet carnicero _28
+  - first:
+      213: 4640990485363825777
+    second: Pj Sheet carnicero _29
+  - first:
+      213: 4689317470176466727
+    second: Pj Sheet carnicero _30
+  - first:
+      213: -3202465291470770586
+    second: Pj Sheet carnicero _31
+  - first:
+      213: 8761234045643325149
+    second: Pj Sheet carnicero _32
+  - first:
+      213: 6645048180570043407
+    second: Pj Sheet carnicero _33
+  - first:
+      213: 7408425836081499177
+    second: Pj Sheet carnicero _34
+  - first:
+      213: -4775549282326581420
+    second: Pj Sheet carnicero _35
+  - first:
+      213: 6123805914811055373
+    second: Pj Sheet carnicero _36
+  - first:
+      213: 1782464809578959688
+    second: Pj Sheet carnicero _37
+  - first:
+      213: 7718641183586048158
+    second: Pj Sheet carnicero _38
+  - first:
+      213: -3618134163339474473
+    second: Pj Sheet carnicero _39
+  - first:
+      213: -5904004346848094402
+    second: Pj Sheet carnicero _40
+  - first:
+      213: -7468829767167588615
+    second: Pj Sheet carnicero _41
+  - first:
+      213: 3877119495343119717
+    second: Pj Sheet carnicero _42
+  - first:
+      213: 8712816887680668164
+    second: Pj Sheet carnicero _43
+  - first:
+      213: 8928769427925783195
+    second: Pj Sheet carnicero _44
+  - first:
+      213: -5496263304797573133
+    second: Pj Sheet carnicero _45
+  - first:
+      213: 5057752456609897010
+    second: Pj Sheet carnicero _46
+  - first:
+      213: -5292226284610767585
+    second: Pj Sheet carnicero _47
+  - first:
+      213: 1537638657282076614
+    second: Pj Sheet carnicero _48
+  - first:
+      213: -8511098160525003340
+    second: Pj Sheet carnicero _49
+  - first:
+      213: -2924888228767505876
+    second: Pj Sheet carnicero _50
+  - first:
+      213: -7164845259346208147
+    second: Pj Sheet carnicero _51
+  - first:
+      213: -8429270613885362201
+    second: Pj Sheet carnicero _52
+  - first:
+      213: -3475976051467644061
+    second: Pj Sheet carnicero _53
+  - first:
+      213: 1310464636467778972
+    second: Pj Sheet carnicero _54
+  - first:
+      213: -8477864350767224905
+    second: Pj Sheet carnicero _55
+  - first:
+      213: -4027174867227261148
+    second: Pj Sheet carnicero _56
+  - first:
+      213: 489337435775377892
+    second: Pj Sheet carnicero _57
+  - first:
+      213: -5556040483635092199
+    second: Pj Sheet carnicero _58
+  - first:
+      213: -1692479878134080139
+    second: Pj Sheet carnicero _59
+  - first:
+      213: 8894646585916616106
+    second: Pj Sheet carnicero _60
+  - first:
+      213: -8834310054789692347
+    second: Pj Sheet carnicero _61
+  - first:
+      213: -2084201930415790284
+    second: Pj Sheet carnicero _62
+  - first:
+      213: -9138470914232032026
+    second: Pj Sheet carnicero _63
+  - first:
+      213: 2707481805431452695
+    second: Pj Sheet carnicero _64
+  - first:
+      213: 1702405810641742592
+    second: Pj Sheet carnicero _65
+  - first:
+      213: 8585793335387066835
+    second: Pj Sheet carnicero _66
+  - first:
+      213: -4697435622987510949
+    second: Pj Sheet carnicero _67
+  - first:
+      213: 6290665164824233028
+    second: Pj Sheet carnicero _68
+  - first:
+      213: 9118683672492922558
+    second: Pj Sheet carnicero _69
+  - first:
+      213: 5486284815945756229
+    second: Pj Sheet carnicero _70
+  - first:
+      213: -4398459452266526952
+    second: Pj Sheet carnicero _71
+  - first:
+      213: 812004744971065255
+    second: Pj Sheet carnicero _72
+  - first:
+      213: -8599277971322758249
+    second: Pj Sheet carnicero _73
+  - first:
+      213: 305751364627864325
+    second: Pj Sheet carnicero _74
+  - first:
+      213: 1524519088739999259
+    second: Pj Sheet carnicero _75
+  - first:
+      213: -1577144103360641910
+    second: Pj Sheet carnicero _76
+  - first:
+      213: 7976737232024395942
+    second: Pj Sheet carnicero _77
+  - first:
+      213: -3227434721877728138
+    second: Pj Sheet carnicero _78
+  - first:
+      213: -8599483591991685752
+    second: Pj Sheet carnicero _79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 170
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 4495
+        width: 369
+        height: 462
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e0d2468cf1eb0e0800000000000000
+      internalID: -2252327818104074621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _1
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 4495
+        width: 369
+        height: 452
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d644f8f9b7417eef0800000000000000
+      internalID: -79071947265194899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _2
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 4495
+        width: 366
+        height: 457
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b0da9c306a60ad0800000000000000
+      internalID: -2736317188382323942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _3
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 4495
+        width: 360
+        height: 457
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816629656f2b24b30800000000000000
+      internalID: 4270172167784785432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _4
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 4495
+        width: 364
+        height: 457
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e3786a9e5ab8ee0800000000000000
+      internalID: -1257729247980077497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _5
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 4495
+        width: 365
+        height: 457
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabe2e41484889c20800000000000000
+      internalID: 3213464036949814189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _6
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 4495
+        width: 369
+        height: 453
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78321801ef4a5eab0800000000000000
+      internalID: -4979392401882668153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _7
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 4495
+        width: 373
+        height: 456
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582bc919ef2b421c0800000000000000
+      internalID: -4529298518793473403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _8
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 4495
+        width: 369
+        height: 462
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9426e38b167f1ea0800000000000000
+      internalID: -5899867126282967906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3919
+        width: 530
+        height: 491
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0c1e0a3a91ba1b0800000000000000
+      internalID: -5644389517409271621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _10
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 3919
+        width: 521
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7540a9f0c1df440800000000000000
+      internalID: 4971160417020958632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _11
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 3919
+        width: 525
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701ad16afde8f7460800000000000000
+      internalID: 7241663817050857735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _12
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 3919
+        width: 526
+        height: 479
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9ef30fdda7a5fa0800000000000000
+      internalID: -5811197275531122210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _13
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 3919
+        width: 525
+        height: 480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a42fa52df718450800000000000000
+      internalID: 6089288712627309208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _14
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 3919
+        width: 525
+        height: 491
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c038aabef9dbd8450800000000000000
+      internalID: 6092734365453419276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _15
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 3923
+        width: 540
+        height: 476
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318927b99fa799af0800000000000000
+      internalID: -389144680317413357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _16
+      rect:
+        serializedVersion: 2
+        x: 4109
+        y: 3910
+        width: 539
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b865ab101760d90800000000000000
+      internalID: -7131888707659461860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _17
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 3914
+        width: 544
+        height: 484
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121242533a7abc690800000000000000
+      internalID: -7580781228335029983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 3088
+        width: 365
+        height: 462
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d90ec4a18ecf700800000000000000
+      internalID: 575590052053163360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _19
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 3070
+        width: 350
+        height: 474
+      alignment: 9
+      pivot: {x: 0.5262492, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cc161f1eb3a4d90800000000000000
+      internalID: -7112806819874878410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _20
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 3076
+        width: 603
+        height: 412
+      alignment: 9
+      pivot: {x: 0.1851033, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7022bc92d53bfd0800000000000000
+      internalID: -2327414148337367130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _21
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 3079
+        width: 553
+        height: 351
+      alignment: 9
+      pivot: {x: 0.20344596, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7dc6f413066dda0800000000000000
+      internalID: -5920438895229741132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _22
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 3082
+        width: 581
+        height: 564
+      alignment: 9
+      pivot: {x: 0.21053116, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b8d5149c9bcf4a0800000000000000
+      internalID: -6558162683322070187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _23
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 3089
+        width: 471
+        height: 696
+      alignment: 9
+      pivot: {x: 0.42735338, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0216d93ba569811d0800000000000000
+      internalID: -3379786204036898528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _24
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 3089
+        width: 517
+        height: 638
+      alignment: 9
+      pivot: {x: 0.3082542, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dceaa9229af054b0800000000000000
+      internalID: -5453583643074433831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _25
+      rect:
+        serializedVersion: 2
+        x: 3707
+        y: 3089
+        width: 503
+        height: 594
+      alignment: 9
+      pivot: {x: 0.15175742, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3191cfc43b947a0800000000000000
+      internalID: -6392381052847320070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _26
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 3089
+        width: 508
+        height: 594
+      alignment: 9
+      pivot: {x: 0.15935558, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba3f1add867e8780800000000000000
+      internalID: -8678869080274421065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _27
+      rect:
+        serializedVersion: 2
+        x: 4796
+        y: 3089
+        width: 586
+        height: 525
+      alignment: 9
+      pivot: {x: 0.2716927, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7470b3647bd34d50800000000000000
+      internalID: 6720456361902109819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _28
+      rect:
+        serializedVersion: 2
+        x: 5442
+        y: 3080
+        width: 908
+        height: 608
+      alignment: 9
+      pivot: {x: 0.54105383, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f252cafa1ab7b30800000000000000
+      internalID: 4286197246252625732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _29
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 3086
+        width: 657
+        height: 577
+      alignment: 9
+      pivot: {x: 0.75030917, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c1416e14c186040800000000000000
+      internalID: 4640990485363825777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _30
+      rect:
+        serializedVersion: 2
+        x: 7149
+        y: 3079
+        width: 641
+        height: 420
+      alignment: 9
+      pivot: {x: 0.7449252, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727d6e0e46dc31140800000000000000
+      internalID: 4689317470176466727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _31
+      rect:
+        serializedVersion: 2
+        x: 7805
+        y: 3071
+        width: 686
+        height: 646
+      alignment: 9
+      pivot: {x: 0.80246675, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66eed58e8ce8e83d0800000000000000
+      internalID: -3202465291470770586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _32
+      rect:
+        serializedVersion: 2
+        x: 8635
+        y: 3088
+        width: 373
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddef0ac02f7269970800000000000000
+      internalID: 8761234045643325149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _34
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2166
+        width: 368
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cc670eb0400d660800000000000000
+      internalID: 7408425836081499177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _35
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2148
+        width: 342
+        height: 474
+      alignment: 9
+      pivot: {x: 0.5262492, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f6d8bca37d9bdb0800000000000000
+      internalID: -4775549282326581420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _36
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2157
+        width: 573
+        height: 378
+      alignment: 9
+      pivot: {x: 0.1851033, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dbfb1c8012cf450800000000000000
+      internalID: 6123805914811055373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _37
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 2157
+        width: 554
+        height: 354
+      alignment: 9
+      pivot: {x: 0.1851033, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8439697ec469cb810800000000000000
+      internalID: 1782464809578959688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _38
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 2166
+        width: 484
+        height: 544
+      alignment: 9
+      pivot: {x: 0.1851033, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98d858e24f1e1b60800000000000000
+      internalID: 7718641183586048158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _39
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 2166
+        width: 461
+        height: 692
+      alignment: 9
+      pivot: {x: 0.449045, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9027ce52ec9cdc0800000000000000
+      internalID: -3618134163339474473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _40
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 2166
+        width: 503
+        height: 638
+      alignment: 9
+      pivot: {x: 0.3201936, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37d1c9c353c01ea0800000000000000
+      internalID: -5904004346848094402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _41
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 2166
+        width: 493
+        height: 595
+      alignment: 9
+      pivot: {x: 0.1673933, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6cc18f5e2695890800000000000000
+      internalID: -7468829767167588615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _42
+      rect:
+        serializedVersion: 2
+        x: 4468
+        y: 2166
+        width: 494
+        height: 595
+      alignment: 9
+      pivot: {x: 0.1673933, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d1baf93ab4ec530800000000000000
+      internalID: 3877119495343119717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _43
+      rect:
+        serializedVersion: 2
+        x: 5036
+        y: 2166
+        width: 521
+        height: 526
+      alignment: 9
+      pivot: {x: 0.323424, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4021b3ffbc42ae870800000000000000
+      internalID: 8712816887680668164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _44
+      rect:
+        serializedVersion: 2
+        x: 5654
+        y: 2168
+        width: 765
+        height: 565
+      alignment: 9
+      pivot: {x: 0.6100899, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9252e0fc7c59eb70800000000000000
+      internalID: 8928769427925783195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _45
+      rect:
+        serializedVersion: 2
+        x: 6503
+        y: 2167
+        width: 595
+        height: 345
+      alignment: 9
+      pivot: {x: 0.7241958, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffa68d05a959b3b0800000000000000
+      internalID: -5496263304797573133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _46
+      rect:
+        serializedVersion: 2
+        x: 7191
+        y: 2157
+        width: 609
+        height: 391
+      alignment: 9
+      pivot: {x: 0.7095496, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a971aef0fb03640800000000000000
+      internalID: 5057752456609897010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _47
+      rect:
+        serializedVersion: 2
+        x: 7875
+        y: 2148
+        width: 649
+        height: 629
+      alignment: 9
+      pivot: {x: 0.7007731, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f153acacb3c3e86b0800000000000000
+      internalID: -5292226284610767585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _48
+      rect:
+        serializedVersion: 2
+        x: 8614
+        y: 2166
+        width: 367
+        height: 576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfe438463ac65510800000000000000
+      internalID: 1537638657282076614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _49
+      rect:
+        serializedVersion: 2
+        x: 9022
+        y: 2166
+        width: 369
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b53d65115182e980800000000000000
+      internalID: -8511098160525003340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _50
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1410
+        width: 374
+        height: 470
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22679417a5b867d0800000000000000
+      internalID: -2924888228767505876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _51
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1419
+        width: 439
+        height: 479
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a1706923b519c90800000000000000
+      internalID: -7164845259346208147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _52
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1437
+        width: 406
+        height: 480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef59bf6907350b80800000000000000
+      internalID: -8429270613885362201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _53
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1405
+        width: 747
+        height: 433
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363918c923ad2cfc0800000000000000
+      internalID: -3475976051467644061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _54
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 1414
+        width: 549
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c959f5bc4a4bf2210800000000000000
+      internalID: 1310464636467778972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _55
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 1415
+        width: 858
+        height: 428
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b762966a43985a80800000000000000
+      internalID: -8477864350767224905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _56
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 1419
+        width: 974
+        height: 438
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427c98e8bc99c18c0800000000000000
+      internalID: -4027174867227261148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _57
+      rect:
+        serializedVersion: 2
+        x: 4796
+        y: 1419
+        width: 973
+        height: 438
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e121b22ec97ac600800000000000000
+      internalID: 489337435775377892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _58
+      rect:
+        serializedVersion: 2
+        x: 5816
+        y: 1417
+        width: 973
+        height: 440
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915ad370e9af4e2b0800000000000000
+      internalID: -5556040483635092199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _59
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 796
+        width: 974
+        height: 438
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d525a948a1388e0800000000000000
+      internalID: -1692479878134080139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _60
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 791
+        width: 552
+        height: 425
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad633ca1f1207b70800000000000000
+      internalID: 8894646585916616106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _61
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 796
+        width: 351
+        height: 539
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5444994bfc9366580800000000000000
+      internalID: -8834310054789692347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _62
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 785
+        width: 434
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4372269036d6313e0800000000000000
+      internalID: -2084201930415790284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _63
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 791
+        width: 374
+        height: 489
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4e5f60f11ad2180800000000000000
+      internalID: -9138470914232032026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _64
+      rect:
+        serializedVersion: 2
+        x: 3057
+        y: 791
+        width: 373
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71433907b58e29520800000000000000
+      internalID: 2707481805431452695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _65
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 187
+        width: 369
+        height: 466
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bacd6a01920a710800000000000000
+      internalID: 1702405810641742592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _66
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 182
+        width: 404
+        height: 461
+      alignment: 9
+      pivot: {x: 0.578561, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d199ae8c8dd62770800000000000000
+      internalID: 8585793335387066835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _67
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 183
+        width: 359
+        height: 387
+      alignment: 9
+      pivot: {x: 0.47502285, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b4090603b5fceb0800000000000000
+      internalID: -4697435622987510949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _68
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 187
+        width: 411
+        height: 452
+      alignment: 9
+      pivot: {x: 0.5167061, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444c54653aeec4750800000000000000
+      internalID: 6290665164824233028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _69
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 168
+        width: 480
+        height: 365
+      alignment: 9
+      pivot: {x: 0.5100006, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6581ebc721c8e70800000000000000
+      internalID: 9118683672492922558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _70
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 168
+        width: 674
+        height: 231
+      alignment: 9
+      pivot: {x: 0.3634667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ee017f8f2332c40800000000000000
+      internalID: 5486284815945756229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _71
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 169
+        width: 728
+        height: 202
+      alignment: 9
+      pivot: {x: 0.34150007, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817c1b4ae6885f2c0800000000000000
+      internalID: -4398459452266526952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _72
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 169
+        width: 724
+        height: 212
+      alignment: 9
+      pivot: {x: 0.33744586, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a79eeb6302d44b00800000000000000
+      internalID: 812004744971065255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _74
+      rect:
+        serializedVersion: 2
+        x: 4436
+        y: 168
+        width: 724
+        height: 236
+      alignment: 9
+      pivot: {x: 0.33774292, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b1c360f3f3e3400800000000000000
+      internalID: 305751364627864325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _75
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 169
+        width: 724
+        height: 331
+      alignment: 9
+      pivot: {x: 0.33685607, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e56a1b80e282510800000000000000
+      internalID: 1524519088739999259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _76
+      rect:
+        serializedVersion: 2
+        x: 5917
+        y: 169
+        width: 724
+        height: 349
+      alignment: 9
+      pivot: {x: 0.33764446, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8446974bcbdc1ae0800000000000000
+      internalID: -1577144103360641910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _77
+      rect:
+        serializedVersion: 2
+        x: 6683
+        y: 168
+        width: 738
+        height: 314
+      alignment: 9
+      pivot: {x: 0.3497397, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0627dff3013be60800000000000000
+      internalID: 7976737232024395942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _78
+      rect:
+        serializedVersion: 2
+        x: 7514
+        y: 164
+        width: 848
+        height: 161
+      alignment: 9
+      pivot: {x: 0.3497397, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67467ba5839d533d0800000000000000
+      internalID: -3227434721877728138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pj Sheet carnicero _79
+      rect:
+        serializedVersion: 2
+        x: 8404
+        y: 136
+        width: 858
+        height: 162
+      alignment: 9
+      pivot: {x: 0.3497397, y: 0.17097624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d098f2c3f78a880800000000000000
+      internalID: -8599483591991685752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

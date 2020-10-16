@@ -205,17 +205,22 @@ public class JugadorControl : MonoBehaviour
 
     private float BossTacoHit = 5f;
 
-    private float BossTacoPunchHit = 20f;
+    private float BossTacoPunchHit = 40f;
 
-    private float BossTacoSierraHit = 15f;
+    private float BossTacoSierraHit = 25f;
 
     private float MiniTacoHit = 1f;
 
     private float MiniTacoPunchHit = 1f;
 
+
+    private float CarniceroHit = 10;
+
+    private float CarniceroBulletHit = 25;
+
     #endregion
 
-    
+
     void Awake()
     {
         vida = PlayerPrefs.GetInt("vidas");                             // Recupera valores de estas variables 
@@ -909,6 +914,27 @@ public class JugadorControl : MonoBehaviour
                     MarcoHP.SendMessage("HPHit");
 
                 }
+
+                if (collision.tag == "Carnicero")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= CarniceroHit;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
+                if (collision.tag == "CarniceroBullet")                                                         // si colisiona con un objeto con el tag mensionado
+                {
+                    vidaActual -= CarniceroBulletHit;
+
+                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+
+                    MarcoHP.SendMessage("HPHit");
+
+                }
+
                 /*if (collision.tag == "Pancito")                                                       // si colisiona con un objeto con el tag mensionado
                 {
                     vidaActual -= PancitoHit;
@@ -950,6 +976,24 @@ public class JugadorControl : MonoBehaviour
             }
 
             if (collision.tag == "BossPepino")                                                         // si colisiona con un objeto con el tag mensionado
+            {
+                vidaActual = 0;
+
+                MarcoHP.SendMessage("HPHit");
+
+
+            }
+
+            if (collision.tag == "CarniceroTornado")                                                         // si colisiona con un objeto con el tag mensionado
+            {
+                vidaActual = 0;
+
+                MarcoHP.SendMessage("HPHit");
+
+
+            }
+
+            if (collision.tag == "CarniceroHammer")                                                         // si colisiona con un objeto con el tag mensionado
             {
                 vidaActual = 0;
 

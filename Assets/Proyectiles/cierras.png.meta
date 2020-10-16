@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: 0243ee8678a0b424b8184923afa0ad0f
+guid: bbe244d30affff04cb70271263098dbd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8907001974419466129
+    second: cierras_0
+  - first:
+      213: 6203138184807106602
+    second: cierras_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +117,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cierras_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 21
+        width: 459
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197a9faba170c9b70800000000000000
+      internalID: 8907001974419466129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cierras_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 21
+        width: 460
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28c61e3059f51650800000000000000
+      internalID: 6203138184807106602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

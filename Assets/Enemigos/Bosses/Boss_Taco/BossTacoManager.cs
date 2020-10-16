@@ -160,6 +160,12 @@ public class BossTacoManager : MonoBehaviour
         EstadoMuerto();
     }
 
+    public void Destruir()
+    {
+        Destroy(ObjectAll.gameObject);
+    }
+
+
     #region Estados Especificos
     public void EstadoQuieto()
     {

@@ -49,4 +49,15 @@ public class BalaMov : MonoBehaviour
     {
         
     }
+
+    private void OnCollisionStay2D(Collision2D collision)                              // si colisiona con plataforma
+    {
+        if ((collision.gameObject.tag == "CarniceroTornado"))
+        {
+            Destroy(gameObject);
+        }
+
+
+
+    }
 }

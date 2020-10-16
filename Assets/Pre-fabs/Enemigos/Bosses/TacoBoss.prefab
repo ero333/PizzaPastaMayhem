@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   estado: 1
-  Proyectil: {fileID: 9186213570677130050, guid: 84c511356228a204e9ddf7b41dc3add8, type: 3}
+  Proyectil: {fileID: 1606806114758924377, guid: e9e46dca7453a0e4dbde5520f188a83e, type: 3}
   ABot: {fileID: 7079425145054739218}
   BBot: {fileID: 7079425146066334675}
   ATop: {fileID: 7079425145752195278}

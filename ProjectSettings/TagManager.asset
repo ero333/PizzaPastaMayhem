@@ -66,6 +66,10 @@ TagManager:
   - BossTacoSierra
   - MiniTaco
   - MiniTacoPunch
+  - Carnicero
+  - CarniceroHammer
+  - CarniceroTornado
+  - CarniceroBullet
   layers:
   - Default
   - TransparentFX

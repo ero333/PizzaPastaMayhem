@@ -5972,9 +5972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76900c7eda68de94e809b2223ff66c69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumeroVidas: 2
-  VidaTotal: 10
-  MunicioTotal: 50
 --- !u!4 &1203938067
 Transform:
   m_ObjectHideFlags: 0
@@ -7723,13 +7720,11 @@ MonoBehaviour:
   balaGenL: {fileID: 87815064}
   MeleeR: {fileID: 477633557}
   MeleeL: {fileID: 1861434035}
-  vidaMaxima: 10
   vidaActual: 0
   barraHP: {fileID: 462615084}
   MarcoHP: {fileID: 777531175}
   VidaContador: {fileID: 99856972}
   vida: 1
-  "municionM\xE1xima": 50
   municionActual: 50
   barraAmmo: {fileID: 1557555521}
   municionContador: {fileID: 739947894}
@@ -10754,6 +10749,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7079425144952171871, guid: c81e8309b70afab4d899314b94edc0d9, type: 3}
+      propertyPath: Proyectil
+      value: 
+      objectReference: {fileID: 1606806114758924377, guid: e9e46dca7453a0e4dbde5520f188a83e, type: 3}
     - target: {fileID: 7079425145344319976, guid: c81e8309b70afab4d899314b94edc0d9, type: 3}
       propertyPath: m_Name
       value: TacoBoss

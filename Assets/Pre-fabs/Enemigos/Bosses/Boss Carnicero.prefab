@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   estado: 0
-  IdleTimeCD: 10
+  IdleTimeCD: 7
   IdleTimer: 0
   izquierda: 1
   SpeedWalk: 6

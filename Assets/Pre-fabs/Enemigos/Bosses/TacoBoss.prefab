@@ -335,12 +335,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19f133fc7e6c593409d4d1d2d46e8cc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaEnemiga: 5
+  vidaEnemiga: 175
   ContenedorVida: {fileID: 7079425146222010266}
   barraEnemiga: {fileID: 7079425145941043286}
-  "Da\xF1oBala": 1
-  "Da\xF1oPowerBala": 1
-  "Da\xF1oSarten": 1
+  "Da\xF1oBala": 3
+  "Da\xF1oPowerBala": 30
+  "Da\xF1oSarten": 0.3
   "Da\xF1oShield": 1
 --- !u!61 &7079425144952171843
 BoxCollider2D:
@@ -1034,7 +1034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.605191, y: -0.6993828}
+  m_AnchoredPosition: {x: 1.605191, y: -0.63}
   m_SizeDelta: {x: 0.8149984, y: 0.189429}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &7079425146222010270

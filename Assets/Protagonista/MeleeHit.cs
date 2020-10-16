@@ -16,6 +16,19 @@ public class MeleeHit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "BalaMorron")              // si colisiona con un objeto con el tag mensionado
+        {
+            Destroy(collision.gameObject);
+        }
+
+        if (collision.tag == "BalaAlbondiga")           // si colisiona con un objeto con el tag mensionado
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }

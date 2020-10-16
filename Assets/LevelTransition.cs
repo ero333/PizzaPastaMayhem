@@ -84,6 +84,19 @@ public class LevelTransition : MonoBehaviour
         SceneManager.LoadScene(9);
     }
 
+    public void BossFight1()
+    {
+        SceneManager.LoadScene("Boss-Fight1");
+    }
+    public void BossFight2()
+    {
+        SceneManager.LoadScene("Boss-Fight2");
+    }
+    public void BossFight3()
+    {
+        SceneManager.LoadScene("Boss-Fight3");
+    }
+
 
     public void CUTSCENE1()
     {

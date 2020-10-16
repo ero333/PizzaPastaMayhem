@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: 0243ee8678a0b424b8184923afa0ad0f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1145939249858170911
+    second: edificio 3_0
+  - first:
+      213: 2278993430963655699
+    second: edificio 3_1
+  - first:
+      213: 7487789335784571868
+    second: edificio 3_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +120,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: edificio 3_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 505
+        width: 1000
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314990a637c90af10800000000000000
+      internalID: 2278993430963655699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edificio 3_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 204
+        width: 938
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3c5689ab8f9e760800000000000000
+      internalID: 7487789335784571868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

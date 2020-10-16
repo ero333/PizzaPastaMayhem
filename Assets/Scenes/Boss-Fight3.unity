@@ -1209,6 +1209,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4417765048295228620, guid: c9113309771b77144bd437af1c3ccf88, type: 3}
+      propertyPath: IdleTimeCD
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4417765049264281321, guid: c9113309771b77144bd437af1c3ccf88, type: 3}
       propertyPath: m_Name
       value: Boss Carnicero

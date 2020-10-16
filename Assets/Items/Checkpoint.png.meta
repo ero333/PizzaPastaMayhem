@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: a354c823c3c422a478a9559771acce89
+guid: 1f6d108b44d125b4fb4bf8db638cb25f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5321671867433747359
-    second: edificio 2_0
-  - first:
-      213: -3502498968319849041
-    second: edificio 2_1
-  - first:
-      213: -5449924351315975875
-    second: edificio 2_0
+      213: -3448120935943364757
+    second: Checkpoint_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -55,7 +49,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,43 +116,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: edificio 2_1
+      name: Checkpoint_0
       rect:
         serializedVersion: 2
-        x: 166
-        y: 496
-        width: 985
-        height: 123
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 396
+        y: 74
+        width: 611
+        height: 633
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fad8f1fcebf946fc0800000000000000
-      internalID: -3502498968319849041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: edificio 2_0
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 181
-        width: 985
-        height: 315
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d316f0b6daafd54b0800000000000000
-      internalID: -5449924351315975875
+      spriteID: b6f12861740d520d0800000000000000
+      internalID: -3448120935943364757
       vertices: []
       indices: 
       edges: []

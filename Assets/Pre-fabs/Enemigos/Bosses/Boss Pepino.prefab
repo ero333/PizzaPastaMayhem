@@ -572,7 +572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   estado: 0
-  IdleTimeCD: 5
+  IdleTimeCD: 3
   IdleTimer: 0
   ObjectAll: {fileID: 3971301202299204824}
   ObjectBody: {fileID: 3971301203331355261}
@@ -596,8 +596,8 @@ MonoBehaviour:
   barraEnemiga: {fileID: 3971301203712304358}
   EnemyTag: {fileID: 3250209792874044204}
   "Da\xF1oBala": 2
-  "Da\xF1oPowerBala": 20
-  "Da\xF1oSarten": 0.35
+  "Da\xF1oPowerBala": 30
+  "Da\xF1oSarten": 0.5
   "Da\xF1oShield": 0.5
 --- !u!61 &3971301203331355251
 BoxCollider2D:

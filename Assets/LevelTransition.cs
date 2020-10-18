@@ -166,7 +166,10 @@ public class LevelTransition : MonoBehaviour
         SceneManager.LoadScene(NivelActual.buildIndex + 1);
     }
 
-
+    public void ReiniciarNivelActual()
+    {
+        SceneManager.LoadScene(NivelActual.buildIndex);
+    }
 
 
 

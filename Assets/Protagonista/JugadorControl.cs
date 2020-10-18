@@ -223,6 +223,9 @@ public class JugadorControl : MonoBehaviour
 
     void Awake()
     {
+        //NivelActual = SceneManager.GetActiveScene();
+
+
         vida = PlayerPrefs.GetInt("vidas");                             // Recupera valores de estas variables 
         vidaActual = PlayerPrefs.GetFloat("VidaActual");                // Recupera valores de estas variables
         if (vida <= 0)                                                  // Corrige Issue de que las vidas quedan en negativo
@@ -1320,10 +1323,10 @@ public class JugadorControl : MonoBehaviour
             /*Analytics.CustomEvent("game_over", new Dictionary<string, object>
             {
                 {"nivel", NivelActual.buildIndex }
-            });*/
+            });
 
             Debug.Log("GAME OVER");
-            Debug.Log("Moriste en el nivel: "+NivelActual.buildIndex);
+            Debug.Log("Moriste en el nivel: "+NivelActual.buildIndex);*/
             LevelManager.SendMessage("GameOverScreen");
         }
 
@@ -1336,27 +1339,60 @@ public class JugadorControl : MonoBehaviour
 
         if ((estado == GameState.muerto) && (vida >= 1))        // Si el jugador muere pero todavia le quedan vidas, aparece en el checkpoint
         {
-            transform.position = Checkpoint.position;           // jugador se teletransporta al checkpoint
+
+
+
+            // VIEJO SISTEMA DE CHECKPOINT
+
+            /*transform.position = Checkpoint.position;           // jugador se teletransporta al checkpoint
 
             estado = GameState.revive;                          // el jugador vuelve a estar vivo
 
             anim.Play("PJ_Revive");                             // Triggea animacion Idle
 
 
+            */
 
 
+
+
+
+
+
+
+            PlayerPrefs.SetFloat("VidaActual", vidaActual);
 
             if (vidaActual < vidaMaxima)                        // Detecta que la barra de vida del jugador sea menor a su total
             {
-                vidaActual = vidaMaxima;                        // Su vida actual es la misma que la vida que tiene al máximo
+                 vidaActual = vidaMaxima;                        // Su vida actual es la misma que la vida que tiene al máximo
 
-                float LargoBarraHP = vidaActual / vidaMaxima;   // cálculo necesario
+                 float LargoBarraHP = vidaActual / vidaMaxima;   // cálculo necesario
 
-                PerderHP(LargoBarraHP);                         // hace que se recupere la barra de vida visualmente
+                 PerderHP(LargoBarraHP);                         // hace que se recupere la barra de vida visualmente
+
+
+                /*if (vidaActual == vidaMaxima)
+                {
+                    LevelManager.SendMessage("ReiniciarNivelActual");
+                }*/
             }
+
+
+
+
 
         }
     }
+
+
+
+    // RESET DE LEVEL
+
+    public void ReiniciarScene()
+    {
+        LevelManager.SendMessage("ReiniciarNivelActual");
+    }
+
 
     #endregion
 

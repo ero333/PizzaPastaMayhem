@@ -55,4 +55,9 @@ public class AnimationEvents : MonoBehaviour
         PlayerAll.SendMessage("DestroyThreat");
     }
 
+    public void ResetLevel()
+    {
+        PlayerAll.SendMessage("ReiniciarScene");
+    }
+
 }

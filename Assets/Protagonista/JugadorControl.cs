@@ -289,9 +289,22 @@ public class JugadorControl : MonoBehaviour
 
 
 
-
-
         NivelActual = SceneManager.GetActiveScene();
+
+        Analytics.CustomEvent("level_start", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex }
+            });
+        
+        //Debug.Log("Level Start");
+        //Debug.Log("Empezaste el nivel:  "+NivelActual.buildIndex);
+
+
+
+
+
+
+
     }
 
     // Update is called once per frame
@@ -1320,12 +1333,12 @@ public class JugadorControl : MonoBehaviour
     {
         if ((estado == GameState.muerto) && (vida <= 0))        // Si el jugador muere pero se queda sin vidas, aparece pantalla de Game Over
         {
-            /*Analytics.CustomEvent("game_over", new Dictionary<string, object>
+            Analytics.CustomEvent("game_over", new Dictionary<string, object>
             {
-                {"nivel", NivelActual.buildIndex }
+                {"level_index", NivelActual.buildIndex }
             });
 
-            Debug.Log("GAME OVER");
+            /*Debug.Log("GAME OVER");
             Debug.Log("Moriste en el nivel: "+NivelActual.buildIndex);*/
             LevelManager.SendMessage("GameOverScreen");
         }
@@ -1400,6 +1413,14 @@ public class JugadorControl : MonoBehaviour
     public void NivelCompleto()                                 // Método que activa el bool "nivel completado", llamado desde el objeto "lvl manager"
     {
         NivelCompletado = true;
+
+        Analytics.CustomEvent("level_start", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex }
+            });
+
+        //Debug.Log("level_complete");
+        //Debug.Log("Completaste el nivel:  "+NivelActual.buildIndex);
     }
 
     public void NextLevel()

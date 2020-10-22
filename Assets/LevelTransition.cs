@@ -88,6 +88,20 @@ public class LevelTransition : MonoBehaviour
     {
         SceneManager.LoadScene(10);
     }
+    public void Lvl11()
+    {
+        SceneManager.LoadScene(11);
+    }
+
+    public void Lvl12()
+    {
+        SceneManager.LoadScene(12);
+    }
+
+    public void Lvl13()
+    {
+        SceneManager.LoadScene(13);
+    }
 
     public void BossFight1()
     {

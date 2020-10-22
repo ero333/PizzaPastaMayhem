@@ -6,7 +6,7 @@ public class CarniceroVida : MonoBehaviour
 {
     public float vidaEnemiga = 5f;          // vida que quiero que tenga el enemigo
 
-    private float vidaActual;               // vida actual del enemigo
+    public float vidaActual;               // vida actual del enemigo
 
     public GameObject barraEnemiga;         // traer la barra de vida del enemigo (vida visible)
 

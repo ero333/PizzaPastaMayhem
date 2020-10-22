@@ -70,9 +70,24 @@ public class SceneDetector : MonoBehaviour
             PlayerPrefs.SetInt("UltimoJugado", NivelActual.buildIndex); // setea el INT del Player Pref al numero de la escena actual (9)
         }
 
-        if (NivelActual.buildIndex == 10) // Detecta si la escena activa es 9
+        if (NivelActual.buildIndex == 10) // Detecta si la escena activa es 10
         {
             PlayerPrefs.SetInt("UltimoJugado", NivelActual.buildIndex); // setea el INT del Player Pref al numero de la escena actual (10)
+        }
+
+        if (NivelActual.buildIndex == 11) // Detecta si la escena activa es 11
+        {
+            PlayerPrefs.SetInt("UltimoJugado", NivelActual.buildIndex); // setea el INT del Player Pref al numero de la escena actual (11)
+        }
+
+        if (NivelActual.buildIndex == 12) // Detecta si la escena activa es 12
+        {
+            PlayerPrefs.SetInt("UltimoJugado", NivelActual.buildIndex); // setea el INT del Player Pref al numero de la escena actual (12)
+        }
+
+        if (NivelActual.buildIndex == 13) // Detecta si la escena activa es 13
+        {
+            PlayerPrefs.SetInt("UltimoJugado", NivelActual.buildIndex); // setea el INT del Player Pref al numero de la escena actual (13)
         }
 
 
@@ -125,6 +140,21 @@ public class SceneDetector : MonoBehaviour
         if (LastScene == 10) // Si el Numero de la escena anterior fue 10
         {
             SceneManager.LoadScene(10);
+        }
+
+        if (LastScene == 11) // Si el Numero de la escena anterior fue 11
+        {
+            SceneManager.LoadScene(11);
+        }
+
+        if (LastScene == 12) // Si el Numero de la escena anterior fue 12
+        {
+            SceneManager.LoadScene(12);
+        }
+
+        if (LastScene == 13) // Si el Numero de la escena anterior fue 13
+        {
+            SceneManager.LoadScene(13);
         }
     }
 }

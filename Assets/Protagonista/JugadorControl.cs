@@ -232,14 +232,10 @@ public class JugadorControl : MonoBehaviour
         {
             LevelManager.SendMessage("Reinicio");
 
-            SceneManager.LoadScene(NivelActual.buildIndex);
+            //SceneManager.LoadScene(NivelActual.buildIndex);
         }
 
-        if(vidaActual <= 0)
-        {
-            vidaActual = vidaMaxima;
-            SceneManager.LoadScene(NivelActual.buildIndex);
-        }
+
 
 
     }
@@ -255,7 +251,13 @@ public class JugadorControl : MonoBehaviour
 
 
 
+        if (vidaActual <= 0)                                            // NO SE POR QUÉ, PERO ESTE CÓDIGO ARREGLA EL ERROR INFERNAL DE MORIR+SALIR = VIDAACTUAL: 0
+        {
+            vidaActual = vidaMaxima;
 
+            Debug.Log("funciona");
+            //SceneManager.LoadScene(NivelActual.buildIndex);
+        }
 
 
 

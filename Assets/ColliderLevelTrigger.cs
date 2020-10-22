@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BossPepinoTrigger : MonoBehaviour
+public class ColliderLevelTrigger : MonoBehaviour
 {
+    Scene NivelActual;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        NivelActual = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
@@ -21,7 +23,7 @@ public class BossPepinoTrigger : MonoBehaviour
     {
         if (collision.tag == "Player")                             // si colisiona con un objeto con el tag mensionado
         {
-            SceneManager.LoadScene("Boss-Fight1");
+            SceneManager.LoadScene(NivelActual.buildIndex + 1);
         }
     }
 }

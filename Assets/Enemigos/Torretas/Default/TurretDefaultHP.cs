@@ -149,19 +149,20 @@ public class TurretDefaultHP : MonoBehaviour
     {
         AzarDrop = Random.Range(1, 100);                                            // numero al azar, probabilidades del drop de items
 
-        if (AzarDrop < 51)                                                          // si el numero al azar da entre 0 y 50, dropea ingrediente
+        if (AzarDrop >= 90)                                      // si el numero al azar da entre 50 y 75, dropea municion
+        {
+            Instantiate(AmmoDrop, DropPosition.position, Quaternion.identity);
+        }
+        else if (AzarDrop < 10)                                                          // si el numero al azar da entre 75 y 100, dropea vida
+        {
+            Instantiate(HPDrop, DropPosition.position, Quaternion.identity);
+        }
+
+        else                                                          // si el numero al azar da entre 0 y 50, dropea ingrediente
         {
             Instantiate(ItemDrop, DropPosition.position, Quaternion.identity);
         }
 
-        if ((AzarDrop > 50) && (AzarDrop < 75))                                      // si el numero al azar da entre 50 y 75, dropea municion
-        {
-            Instantiate(AmmoDrop, DropPosition.position, Quaternion.identity);
-        }
-        if (AzarDrop > 75)                                                          // si el numero al azar da entre 75 y 100, dropea vida
-        {
-            Instantiate(HPDrop, DropPosition.position, Quaternion.identity);
-        }
     }
 
     #endregion

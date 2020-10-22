@@ -408,7 +408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886038a1a7cd20847b546c903657980e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocidad: 1.2
+  Velocidad: 1.05
   APoint: {fileID: 5699864693825105522}
   BPoint: {fileID: 5699864692916044388}
 --- !u!95 &5699864692508496181

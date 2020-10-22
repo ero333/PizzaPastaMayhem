@@ -68,7 +68,7 @@ public class DialogosTest : MonoBehaviour
 
         if(Numero==10)
         {
-            LvlManager.SendMessage("Lvl4");
+            LvlManager.SendMessage("Lvl5");
         }
 
 

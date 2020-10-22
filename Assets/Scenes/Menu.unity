@@ -492,7 +492,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1157892752}
-        m_TargetAssemblyTypeName: ControlesMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlesMenuScript, Assembly-CSharp
         m_MethodName: OPENCLOSECONTROLES
         m_Mode: 1
         m_Arguments:
@@ -982,7 +982,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1157892752}
-        m_TargetAssemblyTypeName: ControlesMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlesMenuScript, Assembly-CSharp
         m_MethodName: OPENCLOSECONTROLES
         m_Mode: 1
         m_Arguments:
@@ -1302,9 +1302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76900c7eda68de94e809b2223ff66c69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumeroVidas: 2
-  VidaTotal: 100
-  MunicioTotal: 20
 --- !u!4 &1109139942
 Transform:
   m_ObjectHideFlags: 0
@@ -1330,7 +1327,7 @@ GameObject:
   - component: {fileID: 1157892751}
   - component: {fileID: 1157892752}
   m_Layer: 0
-  m_Name: ControlesVista
+  m_Name: MenuPrincipalCustom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1359,10 +1356,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1157892750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 142dbc875c8d44b41a67fc9f18f70103, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f4899c0631bed9449bc5aacef0113dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controles: {fileID: 206488388}
+  BotonEmpezar: {fileID: 1399922305}
+  EventSys: {fileID: 1165468649}
 --- !u!1 &1165468647
 GameObject:
   m_ObjectHideFlags: 0

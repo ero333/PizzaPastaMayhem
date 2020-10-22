@@ -618,7 +618,7 @@ MonoBehaviour:
   PlayerPoint: {fileID: 0}
   izquierda: 1
   PointStart: 1
-  speed: 5
+  speed: 3
   ObjectAll: {fileID: 4104384194597612306}
   ObjectBody: {fileID: 4104384194919238409}
   IngredienteDrop: {fileID: 8389549852549959575, guid: d5716b650e8b1c844a70b6dcbe3a01b2, type: 3}

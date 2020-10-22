@@ -21,25 +21,25 @@ EditorBuildSettings:
     path: Assets/Scenes/Boss-Fight1.unity
     guid: 3bc06aa7e072ec84ca3c0e890b677fe7
   - enabled: 1
-    path: Assets/Scenes/NIVEL 4.unity
+    path: Assets/Scenes/NIVEL 5.unity
     guid: 3ba5b6834d00c3546b1f66ce847c946d
   - enabled: 1
-    path: Assets/Scenes/NIVEL 5.unity
+    path: Assets/Scenes/NIVEL 6.unity
     guid: f2617378b24a8ec429a3bb3de5fd44c8
   - enabled: 1
-    path: Assets/Scenes/NIVEL 6.unity
+    path: Assets/Scenes/NIVEL 7.unity
     guid: 96954728f0e97384db14eaae489cfaac
   - enabled: 1
-    path: Assets/Scenes/NIVEL 7.unity
+    path: Assets/Scenes/NIVEL 8.unity
     guid: 7c01b65f307636d4b92305785560fc59
   - enabled: 1
-    path: Assets/Scenes/NIVEL 8.unity
+    path: Assets/Scenes/NIVEL 9.unity
     guid: 75c96bfd947914345ae3a965fdd52b92
   - enabled: 1
-    path: Assets/Scenes/Boss-Fight2.unity
+    path: Assets/Scenes/NIVEL 10 - Boss-Fight2.unity
     guid: b752bd18ba463ab439452267ed44517e
   - enabled: 1
-    path: Assets/Scenes/NIVEL 9.unity
+    path: Assets/Scenes/NIVEL 11.unity
     guid: e765cfd1e5176f44e9b3ed550cb471ec
   - enabled: 1
     path: Assets/Scenes/Boss-Fight3.unity

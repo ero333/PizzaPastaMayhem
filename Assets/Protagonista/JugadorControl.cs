@@ -24,7 +24,8 @@ public class JugadorControl : MonoBehaviour
 
     public Transform Checkpoint;                                        // traer game object donde se teletransportará el jugador al morir. busqueda por tag activada en el start
 
-
+    public float ejeX;
+    public float ejeY;
 
 
 
@@ -203,15 +204,15 @@ public class JugadorControl : MonoBehaviour
     private float PepinoHit = 25f;
 
 
-    private float BossTacoHit = 5f;
+    private float BossTacoHit = 20f;
 
-    private float BossTacoPunchHit = 40f;
+    private float BossTacoPunchHit = 50f;
 
-    private float BossTacoSierraHit = 25f;
+    private float BossTacoSierraHit = 35f;
 
-    private float MiniTacoHit = 10f;
+    private float MiniTacoHit = 20f;
 
-    private float MiniTacoPunchHit = 25f;
+    private float MiniTacoPunchHit = 40f;
 
 
     private float CarniceroHit = 10;
@@ -239,10 +240,19 @@ public class JugadorControl : MonoBehaviour
 
 
     }
+
+
+
+
+
+
+
     #region Start
     // Start is called before the first frame update
     void Start()
     {
+     
+
         vida = PlayerPrefs.GetInt("vidas");                             // Recupera valores de estas variables 
         vidaMaxima = PlayerPrefs.GetFloat("VidaTotal");                 // Recupera valores de estas variables
         vidaActual = PlayerPrefs.GetFloat("VidaActual");                // Recupera valores de estas variables
@@ -298,8 +308,8 @@ public class JugadorControl : MonoBehaviour
                 {"level_index", NivelActual.buildIndex }
             });
         
-        //Debug.Log("Level Start");
-        //Debug.Log("Empezaste el nivel:  "+NivelActual.buildIndex);
+        Debug.Log("Número de vidas = " + vida);
+        Debug.Log("Municion Actual = " + municionActual);
 
 
 
@@ -317,7 +327,6 @@ public class JugadorControl : MonoBehaviour
 
     void Update()
     {
-
 
         PlayerPrefs.SetInt("vidas", vida);                              // Todo cambio que el jugador reciba con esta variable, va a actualizar el player pref
         PlayerPrefs.SetFloat("VidaTotal", vidaMaxima);
@@ -1372,9 +1381,6 @@ public class JugadorControl : MonoBehaviour
 
 
 
-
-
-
             PlayerPrefs.SetFloat("VidaActual", vidaActual);
 
             if (vidaActual < vidaMaxima)                        // Detecta que la barra de vida del jugador sea menor a su total
@@ -1399,6 +1405,18 @@ public class JugadorControl : MonoBehaviour
         }
     }
 
+    public void Coordenadas()
+    {
+
+
+        ejeX = Body.transform.position.x;
+        ejeY = Body.transform.position.y;
+
+
+
+        Debug.Log("X = "+ejeX);
+        Debug.Log("Y = " + ejeY);
+    }
 
 
     // RESET DE LEVEL

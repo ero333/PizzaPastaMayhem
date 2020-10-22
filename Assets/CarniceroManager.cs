@@ -14,7 +14,7 @@ public class CarniceroManager : MonoBehaviour
     public float IdleTimer;
 
     private float NumeroAzar;                           // variable para el numero al azar
-    private bool muerto;
+    public bool muerto;
 
     [Header("Movimiento")]
 
@@ -91,8 +91,18 @@ public class CarniceroManager : MonoBehaviour
 
         if (estado == GameState.Muerto)
         {
-            ObjectAnim.SetBool("CarniceroMuere", true);
+           // ObjectAnim.SetBool("CarniceroMuere", true);
 
+        }
+
+
+        if(muerto)
+        {
+            estado = GameState.Muerto;
+
+            //  ObjectAnim.SetBool("CarniceroMuere", true);
+
+            //AnimacionMuerte();
         }
 
 
@@ -179,11 +189,21 @@ public class CarniceroManager : MonoBehaviour
         }
     }
 
+    public void Muriendo()
+    {
+        if(muerto)
+        {
+
+        }
+    }
+
     public void Death()
     {
         EstadoMuerto();
 
         ObjectAnim.SetBool("CarniceroMuere", true);
+
+        muerto = true;
 
     }
 
@@ -241,6 +261,11 @@ public class CarniceroManager : MonoBehaviour
     public void AnimacionTornado()
     {
         ObjectAnim.Play("Carnicero_Tornado");
+    }
+
+    public void AnimacionMuerte()
+    {
+        ObjectAnim.Play("Carnicero_Muerte");
     }
 
     #endregion

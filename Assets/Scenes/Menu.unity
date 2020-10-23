@@ -1711,7 +1711,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1109139941}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl1
+        m_MethodName: CUTSCENE1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

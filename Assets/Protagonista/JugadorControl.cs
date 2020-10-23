@@ -181,7 +181,7 @@ public class JugadorControl : MonoBehaviour
 
     private float QuesoHit = 15f;
 
-    private float SalchichaHit = 5f;
+    private float SalchichaHit = 2f;
 
     private float AlbondigaHit = 20f;
 

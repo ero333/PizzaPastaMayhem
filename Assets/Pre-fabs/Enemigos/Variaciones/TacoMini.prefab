@@ -326,10 +326,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barraEnemiga: {fileID: 7969156941698820648}
-  vidaEnemiga: 5
-  "Da\xF1oBala": 1
-  "Da\xF1oPowerBala": 1
-  "Da\xF1oSarten": 1
+  vidaEnemiga: 15
+  "Da\xF1oBala": 2
+  "Da\xF1oPowerBala": 6
+  "Da\xF1oSarten": 3
   "Da\xF1oShield": 1
 --- !u!114 &7969156942149579446
 MonoBehaviour:

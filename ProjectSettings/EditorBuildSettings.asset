@@ -78,6 +78,21 @@ EditorBuildSettings:
     path: Assets/Scenes/SelectorDeNiveles.unity
     guid: 0944fd07cde4f3f49a79bd00bff46ded
   - enabled: 1
+    path: Assets/Scenes/Cutscene LVL 1.unity
+    guid: a17736eca8a85fb418c83e2adb998c3e
+  - enabled: 1
+    path: Assets/Scenes/Cutscene LVL 2.unity
+    guid: cbc99a6dd282d224fa485d9e303aefa3
+  - enabled: 1
+    path: Assets/Scenes/Cutscene LVL 3.unity
+    guid: f43c74e6919eda545912d351660dcd25
+  - enabled: 1
+    path: Assets/Scenes/Cutscene LVL 4.unity
+    guid: b0499368567e51f42bf14fd20dfa222e
+  - enabled: 1
+    path: Assets/Scenes/Cutscene LVL 5.unity
+    guid: 48a34cca3260436478d31e3b28d6b27e
+  - enabled: 0
     path: Assets/Scenes/CUTSCENEPRUEBA1.unity
     guid: c5dcb54fa6acbce4b90a1f9a8f65155f
   - enabled: 0

@@ -11,7 +11,7 @@ public class DialogosTest : MonoBehaviour
 
     string[] Dialogo = new string[10];
 
-    public Text Texto; // traer objeto de texto con contador de municion
+    public Text Texto; 
 
 
     public GameObject NombrePj;

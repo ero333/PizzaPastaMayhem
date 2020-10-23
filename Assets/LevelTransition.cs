@@ -120,10 +120,75 @@ public class LevelTransition : MonoBehaviour
     }
 
 
+
+
     public void CUTSCENE1()
+    {
+        SceneManager.LoadScene("Cutscene LVL 1");
+    }
+
+    public void CUTSCENE2()
+    {
+        SceneManager.LoadScene("Cutscene LVL 2");
+    }
+
+    public void CUTSCENE3()
+    {
+        SceneManager.LoadScene("Cutscene LVL 3");
+    }
+
+    public void CUTSCENE4()
+    {
+        SceneManager.LoadScene("Cutscene LVL 4");
+    }
+
+    public void CUTSCENE5()
+    {
+        SceneManager.LoadScene("Cutscene LVL 5");
+    }
+
+    public void CUTSCENE6()
     {
         SceneManager.LoadScene("CUTSCENEPRUEBA1");
     }
+
+    public void CUTSCENE7()
+    {
+        SceneManager.LoadScene("CUTSCENEPRUEBA1");
+    }
+
+    public void CUTSCENE8()
+    {
+        SceneManager.LoadScene("CUTSCENEPRUEBA1");
+    }
+
+    public void CUTSCENE9()
+    {
+        SceneManager.LoadScene("CUTSCENEPRUEBA1");
+    }
+
+    public void CUTSCENE10()
+    {
+        SceneManager.LoadScene("CUTSCENEPRUEBA1");
+    }
+
+    public void CUTSCENE11()
+    {
+        SceneManager.LoadScene("CUTSCENEPRUEBA1");
+    }
+
+    public void CUTSCENE12()
+    {
+        SceneManager.LoadScene("CUTSCENEPRUEBA1");
+    }
+
+    public void CUTSCENE13()
+    {
+        SceneManager.LoadScene("CUTSCENEPRUEBA1");
+    }
+
+
+
 
     public void GameOverScreen()
     {

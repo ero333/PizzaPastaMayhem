@@ -347,7 +347,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.9915552, y: 5.360173}
+  m_Offset: {x: 1.105654, y: 5.360173}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -358,7 +358,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.717126, y: 11.262848}
+  m_Size: {x: 7.1198506, y: 11.262848}
   m_EdgeRadius: 0
 --- !u!1 &3194091189337199458
 GameObject:
@@ -3125,6 +3125,10 @@ MonoBehaviour:
   estado: 0
   Body: {fileID: 8179580551880923816}
   Checkpoint: {fileID: 8179580551875530920}
+  ejeX: 0
+  ejeY: 0
+  EnemigoAsesino: 
+  Asesinado: 0
   NivelCompletado: 0
   Felicidades: {fileID: 8179580551545986295}
   LevelManager: {fileID: 8179580551339089126}

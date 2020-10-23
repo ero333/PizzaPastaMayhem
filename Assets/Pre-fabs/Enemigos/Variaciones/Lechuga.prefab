@@ -438,7 +438,7 @@ MonoBehaviour:
   BPoint: {fileID: 2949085406102563005}
   izquierda: 1
   PointStart: 1
-  speed: 4
+  speed: 3
   ObjectAll: {fileID: 2949085405068025122}
   ObjectBody: {fileID: 2949085406115562765}
   HPDrop: {fileID: 5578138193744230183, guid: 81a80951424ccad4e834ed443f9873ac, type: 3}

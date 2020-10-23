@@ -511,7 +511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8179580551545986295, guid: 6c0d1fb51acbaa0459384e91e195b6b4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PasarNivel
+      value: CUTSCENE10
       objectReference: {fileID: 0}
     - target: {fileID: 8179580551623784436, guid: 6c0d1fb51acbaa0459384e91e195b6b4, type: 3}
       propertyPath: m_LocalPosition.y

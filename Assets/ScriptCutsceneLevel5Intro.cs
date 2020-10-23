@@ -17,6 +17,10 @@ public class ScriptCutsceneLevel5Intro : MonoBehaviour
 
     public Text Texto;
 
+    public GameObject NombreProta;
+
+    public GameObject NombreViejo;
+
 
     [Header("Sprites")]
 
@@ -122,10 +126,15 @@ public class ScriptCutsceneLevel5Intro : MonoBehaviour
         {
             Sprite4.SetActive(false);
             Sprite5.SetActive(true);
+
+
         }
 
         if (Numero == 5)
         {
+            NombreProta.SetActive(false);
+            NombreViejo.SetActive(true);
+
             Sprite5.SetActive(false);
             Sprite6.SetActive(true);
         }
@@ -140,12 +149,18 @@ public class ScriptCutsceneLevel5Intro : MonoBehaviour
         {
             Sprite7.SetActive(false);
             Sprite8.SetActive(true);
+
+            NombreProta.SetActive(true);
+            NombreViejo.SetActive(false);
         }
 
         if (Numero == 8)
         {
             Sprite8.SetActive(false);
             Sprite9.SetActive(true);
+
+            NombreProta.SetActive(false);
+            NombreViejo.SetActive(true);
         }
 
         if (Numero == 9)

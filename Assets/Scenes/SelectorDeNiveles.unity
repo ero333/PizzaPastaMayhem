@@ -307,7 +307,7 @@ RectTransform:
   - {fileID: 626775953}
   - {fileID: 713301424}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -398,7 +398,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl4
+        m_MethodName: CUTSCENE4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -469,6 +469,78 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367807129}
+  m_CullTransparentMesh: 0
+--- !u!1 &399106463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 399106464}
+  - component: {fileID: 399106466}
+  - component: {fileID: 399106465}
+  m_Layer: 5
+  m_Name: 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &399106464
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399106463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 534714971}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1280, y: 720}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &399106465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399106463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 524e9e9d32860f44589bbb89358a8bc7, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &399106466
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399106463}
   m_CullTransparentMesh: 0
 --- !u!1 &522569199
 GameObject:
@@ -554,7 +626,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl8
+        m_MethodName: CUTSCENE12
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -626,6 +698,105 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522569199}
   m_CullTransparentMesh: 0
+--- !u!1 &534714967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534714971}
+  - component: {fileID: 534714970}
+  - component: {fileID: 534714969}
+  - component: {fileID: 534714968}
+  m_Layer: 5
+  m_Name: Sprites
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &534714968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534714967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &534714969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534714967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &534714970
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534714967}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: -1607964513
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &534714971
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534714967}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.013888889, y: 0.013888889, z: 1}
+  m_Children:
+  - {fileID: 399106464}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1280, y: 720}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &541466936
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,7 +960,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl9
+        m_MethodName: CUTSCENE13
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -945,7 +1116,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: CUTSCENE1
+        m_MethodName: CUTSCENE5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1233,7 +1404,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl8
+        m_MethodName: CUTSCENE8
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1369,7 +1540,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1041684535
 GameObject:
@@ -1534,7 +1705,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl7
+        m_MethodName: CUTSCENE7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1927,7 +2098,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl6
+        m_MethodName: CUTSCENE6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2320,7 +2491,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl1
+        m_MethodName: CUTSCENE1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2571,7 +2742,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl3
+        m_MethodName: CUTSCENE3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2806,7 +2977,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl7
+        m_MethodName: CUTSCENE11
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2986,7 +3157,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl10
+        m_MethodName: CUTSCENE10
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3118,7 +3289,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl2
+        m_MethodName: CUTSCENE2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3232,7 +3403,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1765978388
 MonoBehaviour:
@@ -3411,7 +3582,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1765978386}
         m_TargetAssemblyTypeName: LevelTransition, Assembly-CSharp
-        m_MethodName: Lvl9
+        m_MethodName: CUTSCENE9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -72,7 +72,7 @@ public class TurretDefaultManager : MonoBehaviour
     public void AnimacionMuerte()
     {
         TurretAnim.Play("Fideo_Muere");
-        print("death");
+        //print("death");
     }
 
     public void AnimacionDisparo()

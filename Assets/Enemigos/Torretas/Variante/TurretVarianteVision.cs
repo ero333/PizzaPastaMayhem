@@ -28,7 +28,7 @@ public class TurretVarianteVision : MonoBehaviour
         {
             TurretBody.SendMessage("Vision"); //manda mensaje al script del enemigo
 
-            print("en rango");
+            //print("en rango");
 
 
 
@@ -51,7 +51,7 @@ public class TurretVarianteVision : MonoBehaviour
 
 
 
-            Debug.Log("fuera de rango");
+            //Debug.Log("fuera de rango");
 
 
 

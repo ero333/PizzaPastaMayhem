@@ -1490,7 +1490,7 @@ MonoBehaviour:
   EnemigosGenerandose: 0
   TotalEnemigosGenerados: 0
   Contador: 0
-  EntreSpawn: 5.4
+  EntreSpawn: 5
   TiempoPausa: 25
   DestroyAfterWave: 1
 --- !u!4 &707773572

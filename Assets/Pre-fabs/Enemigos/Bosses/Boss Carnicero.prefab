@@ -396,6 +396,7 @@ MonoBehaviour:
   estado: 0
   IdleTimeCD: 7
   IdleTimer: 0
+  muerto: 0
   izquierda: 1
   SpeedWalk: 6
   SpeedTornado: 4
@@ -426,7 +427,7 @@ MonoBehaviour:
   barraEnemiga: {fileID: 4417765048048285190}
   "Da\xF1oBala": 1
   "Da\xF1oPowerBala": 30
-  "Da\xF1oSarten": 0.5
+  "Da\xF1oSarten": 1
   "Da\xF1oShield": 1
 --- !u!1 &4417765048391555147
 GameObject:

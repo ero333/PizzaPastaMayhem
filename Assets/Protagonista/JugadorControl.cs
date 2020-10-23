@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using UnityEngine;
-using Debug = UnityEngine.Debug;
+//using Debug = UnityEngine.Debug;
 using UnityEngine.UI;
 using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
@@ -26,6 +26,8 @@ public class JugadorControl : MonoBehaviour
 
     public float ejeX;
     public float ejeY;
+    public string EnemigoAsesino;
+    public bool Asesinado;
 
 
 
@@ -177,21 +179,23 @@ public class JugadorControl : MonoBehaviour
 
     private float PatyHit = 15f;
 
-    private float QuesoHit = 20f;
+    private float QuesoHit = 15f;
 
-    private float SalchichaHit = 15f;
+    private float SalchichaHit = 5f;
 
     private float AlbondigaHit = 20f;
 
-    private float BalaAlbondigaHit = 30f;
+    private float BalaAlbondigaHit = 15f;
 
     private float JamonHit = 20f;
 
-    private float ShockwaveHit = 40f;
+    private float ShockwaveHit = 30f;
 
-    private float PolloHit = 25f;
 
-    private float TomateHit = 25f;
+
+    private float PolloHit = 15f;
+
+    private float TomateHit = 10f;
 
     private float LechugaHit = 2f;
 
@@ -251,7 +255,7 @@ public class JugadorControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     
+        Asesinado = false;
 
         vida = PlayerPrefs.GetInt("vidas");                             // Recupera valores de estas variables 
         vidaMaxima = PlayerPrefs.GetFloat("VidaTotal");                 // Recupera valores de estas variables
@@ -265,7 +269,7 @@ public class JugadorControl : MonoBehaviour
         {
             vidaActual = vidaMaxima;
 
-            Debug.Log("funciona");
+            //Debug.Log("funciona");
             //SceneManager.LoadScene(NivelActual.buildIndex);
         }
 
@@ -305,11 +309,15 @@ public class JugadorControl : MonoBehaviour
 
         Analytics.CustomEvent("level_start", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex }
+                {"level_index", NivelActual.buildIndex },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
             });
         
-        Debug.Log("Número de vidas = " + vida);
-        Debug.Log("Municion Actual = " + municionActual);
+        //Debug.Log("Número de vidas = " + vida);
+        //Debug.Log("Municion Actual = " + municionActual);
 
 
 
@@ -620,7 +628,7 @@ public class JugadorControl : MonoBehaviour
         {
             if (Body.GetComponent<SpriteRenderer>().flipX == false)
             {
-                Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                //Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                 anim.Play("PJ_Melee");
 
@@ -632,7 +640,7 @@ public class JugadorControl : MonoBehaviour
 
             if (Body.GetComponent<SpriteRenderer>().flipX == true)
             {
-                Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+                //Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
                 anim.Play("PJ_Melee");
 
@@ -652,7 +660,7 @@ public class JugadorControl : MonoBehaviour
 
     public void CrearGolpe()
     {
-        /*if (Body.GetComponent<SpriteRenderer>().flipX == false)
+        if (Body.GetComponent<SpriteRenderer>().flipX == false)
         {
             Instantiate(MeleeHit, MeleeR.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
@@ -662,7 +670,7 @@ public class JugadorControl : MonoBehaviour
         {
             Instantiate(MeleeHit, MeleeL.position, Quaternion.identity);            // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
 
-        }*/
+        }
     }
 
 
@@ -764,6 +772,10 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+
+                    EnemigoAsesino = collision.tag;
+
+
                 }
 
                 if (collision.tag == "BalaMorron")              // si colisiona con un objeto con el tag mensionado
@@ -774,6 +786,8 @@ public class JugadorControl : MonoBehaviour
                     anim.Play("PJ_Herido");                     // triggea la animación de que es herido
 
                     MarcoHP.SendMessage("HPHit");
+
+                    EnemigoAsesino = collision.tag;
 
                 }
 
@@ -786,6 +800,8 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
+
                 }
 
                 if (collision.tag == "Tomate")                  // si colisiona con un objeto con el tag mensionado
@@ -797,6 +813,8 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
+
                 }
 
                 if (collision.tag == "Jamón")                   // si colisiona con un objeto con el tag mensionado
@@ -807,6 +825,7 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
                 }
 
                 if (collision.tag == "Shockwave")               // si colisiona con un objeto con el tag mensionado
@@ -833,7 +852,7 @@ public class JugadorControl : MonoBehaviour
                         KnockBack(dir);
                     }
 
-
+                    EnemigoAsesino = collision.tag;
 
                 }
 
@@ -848,6 +867,8 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
+
                 }
 
                 if (collision.tag == "Lechuga")                                                         // si colisiona con un objeto con el tag mensionado
@@ -858,6 +879,7 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
                 }
 
                 if (collision.tag == "Pepino")                                                         // si colisiona con un objeto con el tag mensionado
@@ -867,6 +889,8 @@ public class JugadorControl : MonoBehaviour
                     anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
 
                     MarcoHP.SendMessage("HPHit");
+
+                    EnemigoAsesino = collision.tag;
 
                 }
 
@@ -878,6 +902,8 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
+
                 }
 
                 if (collision.tag == "Queso")                                                         // si colisiona con un objeto con el tag mensionado
@@ -887,6 +913,8 @@ public class JugadorControl : MonoBehaviour
                     anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
 
                     MarcoHP.SendMessage("HPHit");
+
+                    EnemigoAsesino = collision.tag;
 
                 }
 
@@ -898,6 +926,8 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
+
                 }
 
                 if (collision.tag == "BossTacoPunch")                                                         // si colisiona con un objeto con el tag mensionado
@@ -908,6 +938,8 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
+
                 }
 
                 if (collision.tag == "BossTacoSierra")                                                         // si colisiona con un objeto con el tag mensionado
@@ -917,6 +949,8 @@ public class JugadorControl : MonoBehaviour
                     anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
 
                     MarcoHP.SendMessage("HPHit");
+
+                    EnemigoAsesino = collision.tag;
 
                 }
 
@@ -930,6 +964,8 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
+
                 }
 
                 if (collision.tag == "MiniTacoPunch")                                                         // si colisiona con un objeto con el tag mensionado
@@ -939,6 +975,8 @@ public class JugadorControl : MonoBehaviour
                     anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
 
                     MarcoHP.SendMessage("HPHit");
+
+                    EnemigoAsesino = collision.tag;
 
                 }
 
@@ -950,6 +988,8 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
+
                 }
 
                 if (collision.tag == "CarniceroBullet")                                                         // si colisiona con un objeto con el tag mensionado
@@ -960,17 +1000,21 @@ public class JugadorControl : MonoBehaviour
 
                     MarcoHP.SendMessage("HPHit");
 
+                    EnemigoAsesino = collision.tag;
+
                 }
 
-                /*if (collision.tag == "Pancito")                                                       // si colisiona con un objeto con el tag mensionado
+                if (collision.tag == "Pancito")                                                       // si colisiona con un objeto con el tag mensionado
                 {
-                    vidaActual -= PancitoHit;
 
-                    anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
+                    EnemigoAsesino = collision.tag;
+                }
 
-                    MarcoHP.SendMessage("HPHit");
+                if (collision.tag == "Albondiga")                                                       // si colisiona con un objeto con el tag mensionado
+                {
+                    EnemigoAsesino = collision.tag;
 
-                }*/
+                }
 
             }
 
@@ -981,7 +1025,7 @@ public class JugadorControl : MonoBehaviour
 
                 MarcoHP.SendMessage("HPHit");
 
-
+                EnemigoAsesino = collision.tag;
             }
 
             if (collision.tag == "PanMonstruo")                                                         // si colisiona con un objeto con el tag mensionado
@@ -989,6 +1033,8 @@ public class JugadorControl : MonoBehaviour
                 vidaActual = 0;
 
                 MarcoHP.SendMessage("HPHit");
+
+                EnemigoAsesino = collision.tag;
 
 
             }
@@ -999,6 +1045,8 @@ public class JugadorControl : MonoBehaviour
 
                 MarcoHP.SendMessage("HPHit");
 
+                EnemigoAsesino = collision.tag;
+
 
             }
 
@@ -1007,6 +1055,8 @@ public class JugadorControl : MonoBehaviour
                 vidaActual = 0;
 
                 MarcoHP.SendMessage("HPHit");
+
+                EnemigoAsesino = collision.tag;
 
 
             }
@@ -1017,6 +1067,8 @@ public class JugadorControl : MonoBehaviour
 
                 MarcoHP.SendMessage("HPHit");
 
+                EnemigoAsesino = collision.tag;
+
 
             }
 
@@ -1026,6 +1078,8 @@ public class JugadorControl : MonoBehaviour
 
                 MarcoHP.SendMessage("HPHit");
 
+                EnemigoAsesino = collision.tag;
+
 
             }
 
@@ -1034,6 +1088,8 @@ public class JugadorControl : MonoBehaviour
                 vidaActual = 0;
 
                 MarcoHP.SendMessage("HPHit");
+
+                EnemigoAsesino = collision.tag;
 
 
             }
@@ -1094,6 +1150,7 @@ public class JugadorControl : MonoBehaviour
                     anim.Play("PJ_Herido");                                                             // triggea la animación de que es herido
 
                     MarcoHP.SendMessage("HPHit");
+
 
                 }
             }
@@ -1342,17 +1399,48 @@ public class JugadorControl : MonoBehaviour
     #region Revivir
     public void Limbo()
     {
+
         if ((estado == GameState.muerto) && (vida <= 0))        // Si el jugador muere pero se queda sin vidas, aparece pantalla de Game Over
         {
+
+            /*
+            Debug.Log("Perdiste en X = " + ejeX);
+            Debug.Log("Perdiste en Y = " + ejeY);
+            Debug.Log("Perdiste con " + municionActual + " munición");
+            */
+
             Analytics.CustomEvent("game_over", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex }
-            });
+                {"level_index", NivelActual.buildIndex },
+                
+                {"x", ejeX },
+                {"y", ejeY },
+                {"ammo", municionActual }
+
+                
+
+
+
+            }
+
+
+            );
 
             /*Debug.Log("GAME OVER");
             Debug.Log("Moriste en el nivel: "+NivelActual.buildIndex);*/
             LevelManager.SendMessage("GameOverScreen");
         }
+
+
+
+
+
+
+
+
+
+
+
 
         if (vida < 0)                                                     // Corrige Issue de que las vidas quedan en negativo
         {
@@ -1360,6 +1448,39 @@ public class JugadorControl : MonoBehaviour
 
             LevelManager.SendMessage("Reinicio");
         }
+
+
+
+        if(estado == GameState.muerto)
+        {
+            /*Debug.Log("Moriste en el nivel " + NivelActual.buildIndex);
+            Debug.Log("Moriste en las coordenadas X=" + ejeX + ", Y=" + ejeY);
+            Debug.Log("Moriste y te quedan " + vida + " vidas");
+            Debug.Log("Moriste teniendo " + municionActual + " de munición");
+            Debug.Log("Moriste por " + EnemigoAsesino);*/
+
+
+            Analytics.CustomEvent("morir", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", ejeX },
+                {"y", ejeY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+            );
+        }
+
+
+
 
         if ((estado == GameState.muerto) && (vida >= 1))        // Si el jugador muere pero todavia le quedan vidas, aparece en el checkpoint
         {
@@ -1377,6 +1498,12 @@ public class JugadorControl : MonoBehaviour
 
             */
 
+
+                /*Debug.Log("Moriste en el nivel " + NivelActual.buildIndex);
+                Debug.Log("Moriste en las coordenadas X=" + ejeX + ", Y=" + ejeY);
+                Debug.Log("Moriste y te quedan " + vida + " vidas");
+                Debug.Log("Moriste teniendo " + municionActual + " de munición");
+                Debug.Log("Moriste por " + EnemigoAsesino);*/
 
 
 
@@ -1401,7 +1528,6 @@ public class JugadorControl : MonoBehaviour
 
 
 
-
         }
     }
 
@@ -1414,8 +1540,10 @@ public class JugadorControl : MonoBehaviour
 
 
 
-        Debug.Log("X = "+ejeX);
-        Debug.Log("Y = " + ejeY);
+        //Debug.Log("X = "+ejeX);
+        //Debug.Log("Y = " + ejeY);
+
+
     }
 
 
@@ -1426,7 +1554,6 @@ public class JugadorControl : MonoBehaviour
         LevelManager.SendMessage("ReiniciarNivelActual");
     }
 
-
     #endregion
 
     #region Nivel Completado
@@ -1434,13 +1561,19 @@ public class JugadorControl : MonoBehaviour
     {
         NivelCompletado = true;
 
-        Analytics.CustomEvent("level_start", new Dictionary<string, object>
+
+        Analytics.CustomEvent("level_complete", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex }
+                {"level_index", NivelActual.buildIndex },
+
+                {"lifes", vida },
+                {"ammo", municionActual }
+
             });
 
-        //Debug.Log("level_complete");
-        //Debug.Log("Completaste el nivel:  "+NivelActual.buildIndex);
+        /*Debug.Log("level_complete");
+        Debug.Log("Completaste el nivel:  "+NivelActual.buildIndex);
+        Debug.Log("Completaste el nivel con  " + vida + " vidas y " + municionActual + "municion");*/
     }
 
     public void NextLevel()
@@ -1550,6 +1683,10 @@ public class JugadorControl : MonoBehaviour
             Destroy(Bomb);                                                       // Destruye Dicho Objeto
         }
     }
+
+
+
+
 
     #endregion
 

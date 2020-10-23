@@ -27,7 +27,7 @@ public class JamonVision : MonoBehaviour
         {
             JamonBody.SendMessage("JugadorEnRango"); //manda mensaje al script del enemigo
 
-            print("en rango");
+            //print("en rango");
 
         }
     }

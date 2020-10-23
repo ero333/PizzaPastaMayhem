@@ -525,9 +525,9 @@ MonoBehaviour:
   vidaEnemiga: 5
   barraEnemiga: {fileID: 5678102918090728522}
   EnemyAll: {fileID: 5678102917949984747}
-  "Da\xF1oBala": 0
-  "Da\xF1oPowerBala": 1
-  "Da\xF1oSarten": 1
+  "Da\xF1oBala": 4
+  "Da\xF1oPowerBala": 5
+  "Da\xF1oSarten": 5
   "Da\xF1oShield": 1
 --- !u!114 &5678102919411511890
 MonoBehaviour:

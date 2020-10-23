@@ -596,9 +596,9 @@ MonoBehaviour:
   ContenedorVida: {fileID: 3971301203607827407}
   barraEnemiga: {fileID: 3971301203712304358}
   EnemyTag: {fileID: 3250209792874044204}
-  "Da\xF1oBala": 2
-  "Da\xF1oPowerBala": 30
-  "Da\xF1oSarten": 0.5
+  "Da\xF1oBala": 0.5
+  "Da\xF1oPowerBala": 25
+  "Da\xF1oSarten": 1
   "Da\xF1oShield": 0.5
 --- !u!61 &3971301203331355251
 BoxCollider2D:

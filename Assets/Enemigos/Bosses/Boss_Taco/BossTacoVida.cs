@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BossTacoVida : MonoBehaviour
 {
-    public float vidaEnemiga = 5f;          // vida que quiero que tenga el enemigo
+    public float vidaEnemiga;          // vida que quiero que tenga el enemigo
 
-    private float vidaActual;               // vida actual del enemigo
+    public float vidaActual;               // vida actual del enemigo
 
     public GameObject ContenedorVida;       // Traer Gameobject que contiene toda la vida
 

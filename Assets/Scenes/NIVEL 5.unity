@@ -1838,6 +1838,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -2.19
       objectReference: {fileID: 0}
+    - target: {fileID: 8179580551623784438, guid: 6c0d1fb51acbaa0459384e91e195b6b4, type: 3}
+      propertyPath: ParedesWin
+      value: 
+      objectReference: {fileID: 474756570}
     - target: {fileID: 8179580551623784439, guid: 6c0d1fb51acbaa0459384e91e195b6b4, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2349,6 +2353,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &474756570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6014492529095533971, guid: 6c0d1fb51acbaa0459384e91e195b6b4, type: 3}
+  m_PrefabInstance: {fileID: 385317695}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &498991681
 GameObject:
   m_ObjectHideFlags: 0
@@ -4464,7 +4473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 809576339475390435, guid: 88086402e2467bc46b7179cb60598f81, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 162.98
+      value: 161.82
       objectReference: {fileID: 0}
     - target: {fileID: 809576339475390435, guid: 88086402e2467bc46b7179cb60598f81, type: 3}
       propertyPath: m_LocalPosition.y

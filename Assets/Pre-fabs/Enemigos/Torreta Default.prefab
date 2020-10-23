@@ -383,8 +383,8 @@ MonoBehaviour:
   barraEnemiga: {fileID: 3491469856729905868}
   vidaEnemiga: 10
   "Da\xF1oBala": 2
-  "Da\xF1oPowerBala": 5
-  "Da\xF1oSarten": 8
+  "Da\xF1oPowerBala": 8
+  "Da\xF1oSarten": 5
   "Da\xF1oShield": 1
   HPDrop: {fileID: 5578138193744230183, guid: 81a80951424ccad4e834ed443f9873ac, type: 3}
   AmmoDrop: {fileID: 6661339149648770415, guid: 488e808be9a5a50479dea2c1cc537194, type: 3}

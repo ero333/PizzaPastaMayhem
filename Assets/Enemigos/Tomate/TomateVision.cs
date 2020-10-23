@@ -27,7 +27,7 @@ public class TomateVision : MonoBehaviour
         {
             TomateBody.SendMessage("EstadoAtacando"); //manda mensaje al script del enemigo
 
-            print("en rango");
+            // print("en rango");
 
         }
     }

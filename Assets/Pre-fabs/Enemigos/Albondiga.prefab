@@ -639,6 +639,6 @@ MonoBehaviour:
   barraEnemiga: {fileID: 4104384193475271673}
   EnemyAll: {fileID: 4104384194597612306}
   "Da\xF1oBala": 1
-  "Da\xF1oPowerBala": 1
+  "Da\xF1oPowerBala": 5
   "Da\xF1oSarten": 5
   "Da\xF1oShield": 1

@@ -336,11 +336,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaEnemiga: 175
+  vidaActual: 0
   ContenedorVida: {fileID: 7079425146222010266}
   barraEnemiga: {fileID: 7079425145941043286}
-  "Da\xF1oBala": 3
+  "Da\xF1oBala": 0.5
   "Da\xF1oPowerBala": 30
-  "Da\xF1oSarten": 0.3
+  "Da\xF1oSarten": 1
   "Da\xF1oShield": 1
 --- !u!61 &7079425144952171843
 BoxCollider2D:

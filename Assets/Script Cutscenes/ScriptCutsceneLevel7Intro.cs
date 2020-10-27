@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ScriptCutsceneLevel6Intro : MonoBehaviour
+public class ScriptCutsceneLevel7Intro : MonoBehaviour
 {
     public GameObject LvlManager;
 
@@ -16,10 +16,6 @@ public class ScriptCutsceneLevel6Intro : MonoBehaviour
     string[] Dialogo = new string[4];
 
     public Text Texto;
-
-    public GameObject NombreProta;
-
-    public GameObject NombreViejo;
 
 
     [Header("Sprites")]
@@ -36,6 +32,8 @@ public class ScriptCutsceneLevel6Intro : MonoBehaviour
         Numero = 0;
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
+
+        PlayerPrefs.SetInt("DesbloqueasteNivel_6", 1);
     }
 
     // Update is called once per frame
@@ -54,7 +52,7 @@ public class ScriptCutsceneLevel6Intro : MonoBehaviour
 
         if (Numero == 4)
         {
-            LvlManager.SendMessage("Lvl6");
+            LvlManager.SendMessage("Lvl7");
         }
 
 
@@ -77,10 +75,10 @@ public class ScriptCutsceneLevel6Intro : MonoBehaviour
         {
             Texto.text = Dialogo[Numero];
 
-            Dialogo[0] = "¡Maravilloso! ¡Me has traido todas las gelatinas! ¡Ahora me podré bañar muy bien con ellas!";
-            Dialogo[1] = "¡El carnicero pasó por esa caverna de ahi! Pero cuidado, escuché ruidos muy raros viniendo de allí";
-            Dialogo[2] = "Esta cueva se ve asquerosa y muy oscura, pero... ¿Por qué tiene tan rico olor a facturas?";
-            Dialogo[3] = "Oof";
+            Dialogo[0] = "¡Que porrazo se dió el bicho!";
+            Dialogo[1] = "Pero... ¿Qué es ese ruido? Suena a un río.";
+            Dialogo[2] = "Ehhhh.....";
+            Dialogo[3] = "¡Dios, no! ¡Debo salir de aqui rápido!";
 
         }
 
@@ -102,10 +100,6 @@ public class ScriptCutsceneLevel6Intro : MonoBehaviour
 
         if (Numero == 2)
         {
-            NombreProta.SetActive(true);
-            NombreViejo.SetActive(false);
-
-
             Sprite2.SetActive(false);
             Sprite3.SetActive(true);
         }

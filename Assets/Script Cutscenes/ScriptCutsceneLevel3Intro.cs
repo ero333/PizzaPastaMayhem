@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ScriptCutsceneLevel9Intro : MonoBehaviour
+public class ScriptCutsceneLevel3Intro : MonoBehaviour
 {
     public GameObject LvlManager;
 
@@ -28,6 +28,8 @@ public class ScriptCutsceneLevel9Intro : MonoBehaviour
         Numero = 0;
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
+
+        PlayerPrefs.SetInt("DesbloqueasteNivel_2", 1);
     }
 
     // Update is called once per frame
@@ -35,7 +37,7 @@ public class ScriptCutsceneLevel9Intro : MonoBehaviour
     {
         if (Numero == 1)
         {
-            LvlManager.SendMessage("Lvl9");
+            LvlManager.SendMessage("Lvl3");
         }
 
         CadaDialogo();
@@ -52,7 +54,7 @@ public class ScriptCutsceneLevel9Intro : MonoBehaviour
         {
             Texto.text = Dialogo[Numero];
 
-            Dialogo[0] = "¡Puedo sentir que el carnicero está cerca! ¡Solo debo eliminar sus defensas y detenerlo de una vez!";
+            Dialogo[0] = "Luego de defender al pueblo, Giuseppe sigue al carnicero hacia el bosque.";
         }
 
     }

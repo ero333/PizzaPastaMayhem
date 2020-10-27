@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ScriptCutsceneLevel8Intro : MonoBehaviour
+public class ScriptCutsceneLevel4Intro : MonoBehaviour
 {
     public GameObject LvlManager;
 
@@ -13,9 +13,13 @@ public class ScriptCutsceneLevel8Intro : MonoBehaviour
 
     public int Numero;
 
-    string[] Dialogo = new string[2];
+    string[] Dialogo = new string[10];
 
     public Text Texto;
+
+    public GameObject NombreMisterioso;
+
+    public GameObject NombrePepino;
 
 
     [Header("Sprites")]
@@ -29,6 +33,8 @@ public class ScriptCutsceneLevel8Intro : MonoBehaviour
         Numero = 0;
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
+
+        PlayerPrefs.SetInt("DesbloqueasteNivel_3", 1);
     }
 
     // Update is called once per frame
@@ -47,7 +53,7 @@ public class ScriptCutsceneLevel8Intro : MonoBehaviour
 
         if (Numero == 2)
         {
-            LvlManager.SendMessage("Lvl8");
+            LvlManager.SendMessage("Lvl4");
         }
 
 
@@ -70,8 +76,8 @@ public class ScriptCutsceneLevel8Intro : MonoBehaviour
         {
             Texto.text = Dialogo[Numero];
 
-            Dialogo[0] = "¡Jojó! ¡Qué suerte tuve de salir de ahí con vida! Por lo menos acá afuera ya está todo mas tranquilo...";
-            Dialogo[1] = "...";
+            Dialogo[0] = "Al fin llegas, Chef mago. Ahora debes de enfrentarte a mi:";
+            Dialogo[1] = "¡El Vijia Pepino!";
         }
 
     }
@@ -85,6 +91,9 @@ public class ScriptCutsceneLevel8Intro : MonoBehaviour
 
         if (Numero == 1)
         {
+            NombreMisterioso.SetActive(false);
+            NombrePepino.SetActive(true);
+
             Sprite1.SetActive(false);
             Sprite2.SetActive(true);
         }

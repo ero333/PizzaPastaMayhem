@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ScriptCutsceneLevel7Intro : MonoBehaviour
+public class ScriptCutsceneOutro : MonoBehaviour
 {
     public GameObject LvlManager;
 
@@ -13,7 +13,7 @@ public class ScriptCutsceneLevel7Intro : MonoBehaviour
 
     public int Numero;
 
-    string[] Dialogo = new string[4];
+    string[] Dialogo = new string[2];
 
     public Text Texto;
 
@@ -22,9 +22,6 @@ public class ScriptCutsceneLevel7Intro : MonoBehaviour
 
     public GameObject Sprite1;
     public GameObject Sprite2;
-    public GameObject Sprite3;
-    public GameObject Sprite4;
-
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +29,8 @@ public class ScriptCutsceneLevel7Intro : MonoBehaviour
         Numero = 0;
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
+
+        PlayerPrefs.SetInt("DesbloqueasteNivel_13", 1);
     }
 
     // Update is called once per frame
@@ -48,9 +47,9 @@ public class ScriptCutsceneLevel7Intro : MonoBehaviour
             Numero++;
         }
 
-        if (Numero == 4)
+        if (Numero == 2)
         {
-            LvlManager.SendMessage("Lvl7");
+            LvlManager.SendMessage("Menu");
         }
 
 
@@ -69,15 +68,12 @@ public class ScriptCutsceneLevel7Intro : MonoBehaviour
 
     public void CadaDialogo()
     {
-        if (Numero < 4)
+        if (Numero < 2)
         {
             Texto.text = Dialogo[Numero];
 
-            Dialogo[0] = "¡Que porrazo se dió el bicho!";
-            Dialogo[1] = "Pero... ¿Qué es ese ruido? Suena a un río.";
-            Dialogo[2] = "Ehhhh.....";
-            Dialogo[3] = "¡Dios, no! ¡Debo salir de aqui rápido!";
-
+            Dialogo[0] = "Giuseppe corrió y corrió, Escapando de explosión mágica que consumió al carnicero.";
+            Dialogo[1] = "Giuseppe cumplió su mision, vengó a sus colegas chef mages y evitó la destrución de su pueblo, y posiblemente el mundo. Su mente solo se sentraba en volver a su pueblo y comenzar a enseñar magia culinaria a sus habitantes, ya que ahore es el último Chef Mage.";
         }
 
     }
@@ -95,17 +91,5 @@ public class ScriptCutsceneLevel7Intro : MonoBehaviour
             Sprite2.SetActive(true);
         }
 
-
-        if (Numero == 2)
-        {
-            Sprite2.SetActive(false);
-            Sprite3.SetActive(true);
-        }
-
-        if (Numero == 3)
-        {
-            Sprite3.SetActive(false);
-            Sprite4.SetActive(true);
-        }
     }
 }

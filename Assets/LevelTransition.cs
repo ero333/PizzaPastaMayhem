@@ -14,6 +14,7 @@ public class LevelTransition : MonoBehaviour
 
     Scene NivelActual;
 
+    int JuegoNoComenzado;
 
     // Start is called before the first frame update
     void Start()
@@ -122,7 +123,7 @@ public class LevelTransition : MonoBehaviour
 
 
 
-    public void CUTSCENE1()
+    public void CUTSCENE1(bool selector = false)
     {
         SceneManager.LoadScene("Cutscene LVL 1");
     }
@@ -257,7 +258,5 @@ public class LevelTransition : MonoBehaviour
     {
         SceneManager.LoadScene(NivelActual.buildIndex);
     }
-
-
 
 }

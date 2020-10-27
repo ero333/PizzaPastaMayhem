@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ScriptCutsceneLevel2Intro : MonoBehaviour
+public class ScriptCutsceneLevel11Intro : MonoBehaviour
 {
     public GameObject LvlManager;
 
@@ -28,6 +28,8 @@ public class ScriptCutsceneLevel2Intro : MonoBehaviour
         Numero = 0;
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
+
+        PlayerPrefs.SetInt("DesbloqueasteNivel_10", 1);
     }
 
     // Update is called once per frame
@@ -35,7 +37,7 @@ public class ScriptCutsceneLevel2Intro : MonoBehaviour
     {
         if (Numero == 1)
         {
-            LvlManager.SendMessage("Lvl2");
+            LvlManager.SendMessage("Lvl11");
         }
 
         CadaDialogo();
@@ -52,7 +54,7 @@ public class ScriptCutsceneLevel2Intro : MonoBehaviour
         {
             Texto.text = Dialogo[Numero];
 
-            Dialogo[0] = "El Carnicero ha pasado por tu pueblo, Giuseppe, y ha enviado a su ejército para acabar con todos sus habitantes ¡Debes luchar para salvarlos!";
+            Dialogo[0] = "¡El carnicero esta aqui! ¡Debo detenerlo a toda costa!";
         }
 
     }

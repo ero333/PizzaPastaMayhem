@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ScriptCutsceneLevel13Intro : MonoBehaviour
+public class ScriptCutsceneLevel8Intro : MonoBehaviour
 {
     public GameObject LvlManager;
 
@@ -29,6 +29,8 @@ public class ScriptCutsceneLevel13Intro : MonoBehaviour
         Numero = 0;
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
+
+        PlayerPrefs.SetInt("DesbloqueasteNivel_7", 1);
     }
 
     // Update is called once per frame
@@ -47,7 +49,7 @@ public class ScriptCutsceneLevel13Intro : MonoBehaviour
 
         if (Numero == 2)
         {
-            LvlManager.SendMessage("Lvl13");
+            LvlManager.SendMessage("Lvl8");
         }
 
 
@@ -70,8 +72,8 @@ public class ScriptCutsceneLevel13Intro : MonoBehaviour
         {
             Texto.text = Dialogo[Numero];
 
-            Dialogo[0] = "¡AGHH!! ¡N-no! ¡Debes morir! ¡Sino mi parte del trato no se completara! ¡¡el demonio me reclamara!!";
-            Dialogo[1] = "NOOOOOOOOOOOOOOOOOOOO!!!!!";
+            Dialogo[0] = "¡Jojó! ¡Qué suerte tuve de salir de ahí con vida! Por lo menos acá afuera ya está todo mas tranquilo...";
+            Dialogo[1] = "...";
         }
 
     }

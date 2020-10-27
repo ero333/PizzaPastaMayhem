@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ScriptCutsceneLevel4Intro : MonoBehaviour
+public class ScriptCutsceneLevel6Intro : MonoBehaviour
 {
     public GameObject LvlManager;
 
@@ -13,19 +13,22 @@ public class ScriptCutsceneLevel4Intro : MonoBehaviour
 
     public int Numero;
 
-    string[] Dialogo = new string[10];
+    string[] Dialogo = new string[4];
 
     public Text Texto;
 
-    public GameObject NombreMisterioso;
+    public GameObject NombreProta;
 
-    public GameObject NombrePepino;
+    public GameObject NombreViejo;
 
 
     [Header("Sprites")]
 
     public GameObject Sprite1;
     public GameObject Sprite2;
+    public GameObject Sprite3;
+    public GameObject Sprite4;
+
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +36,8 @@ public class ScriptCutsceneLevel4Intro : MonoBehaviour
         Numero = 0;
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
+
+        PlayerPrefs.SetInt("DesbloqueasteNivel_5", 1);
     }
 
     // Update is called once per frame
@@ -49,9 +54,9 @@ public class ScriptCutsceneLevel4Intro : MonoBehaviour
             Numero++;
         }
 
-        if (Numero == 2)
+        if (Numero == 4)
         {
-            LvlManager.SendMessage("Lvl4");
+            LvlManager.SendMessage("Lvl6");
         }
 
 
@@ -70,12 +75,15 @@ public class ScriptCutsceneLevel4Intro : MonoBehaviour
 
     public void CadaDialogo()
     {
-        if (Numero < 2)
+        if (Numero < 4)
         {
             Texto.text = Dialogo[Numero];
 
-            Dialogo[0] = "Al fin llegas, Chef mago. Ahora debes de enfrentarte a mi:";
-            Dialogo[1] = "¡El Vijia Pepino!";
+            Dialogo[0] = "¡Maravilloso! ¡Me has traido todas las gelatinas! ¡Ahora me podré bañar muy bien con ellas!";
+            Dialogo[1] = "¡El carnicero pasó por esa caverna de ahi! Pero cuidado, escuché ruidos muy raros viniendo de allí";
+            Dialogo[2] = "Esta cueva se ve asquerosa y muy oscura, pero... ¿Por qué tiene tan rico olor a facturas?";
+            Dialogo[3] = "Oof";
+
         }
 
     }
@@ -89,12 +97,25 @@ public class ScriptCutsceneLevel4Intro : MonoBehaviour
 
         if (Numero == 1)
         {
-            NombreMisterioso.SetActive(false);
-            NombrePepino.SetActive(true);
-
             Sprite1.SetActive(false);
             Sprite2.SetActive(true);
         }
 
+
+        if (Numero == 2)
+        {
+            NombreProta.SetActive(true);
+            NombreViejo.SetActive(false);
+
+
+            Sprite2.SetActive(false);
+            Sprite3.SetActive(true);
+        }
+
+        if (Numero == 3)
+        {
+            Sprite3.SetActive(false);
+            Sprite4.SetActive(true);
+        }
     }
 }

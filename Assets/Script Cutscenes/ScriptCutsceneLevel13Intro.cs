@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ScriptCutsceneOutro : MonoBehaviour
+public class ScriptCutsceneLevel13Intro : MonoBehaviour
 {
     public GameObject LvlManager;
 
@@ -29,6 +29,8 @@ public class ScriptCutsceneOutro : MonoBehaviour
         Numero = 0;
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
+
+        PlayerPrefs.SetInt("DesbloqueasteNivel_12", 1);
     }
 
     // Update is called once per frame
@@ -47,7 +49,7 @@ public class ScriptCutsceneOutro : MonoBehaviour
 
         if (Numero == 2)
         {
-            LvlManager.SendMessage("Menu");
+            LvlManager.SendMessage("Lvl13");
         }
 
 
@@ -70,8 +72,8 @@ public class ScriptCutsceneOutro : MonoBehaviour
         {
             Texto.text = Dialogo[Numero];
 
-            Dialogo[0] = "Giuseppe corrió y corrió, Escapando de explosión mágica que consumió al carnicero.";
-            Dialogo[1] = "Giuseppe cumplió su mision, vengó a sus colegas chef mages y evitó la destrución de su pueblo, y posiblemente el mundo. Su mente solo se sentraba en volver a su pueblo y comenzar a enseñar magia culinaria a sus habitantes, ya que ahore es el último Chef Mage.";
+            Dialogo[0] = "¡AGHH!! ¡N-no! ¡Debes morir! ¡Sino mi parte del trato no se completara! ¡¡el demonio me reclamara!!";
+            Dialogo[1] = "NOOOOOOOOOOOOOOOOOOOO!!!!!";
         }
 
     }

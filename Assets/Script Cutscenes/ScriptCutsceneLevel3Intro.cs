@@ -29,7 +29,7 @@ public class ScriptCutsceneLevel3Intro : MonoBehaviour
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
 
-        PlayerPrefs.SetInt("DesbloqueasteNivel_2", 1);
+        PlayerPrefs.SetInt("DesbloqueasteNivel_3", 1);
     }
 
     // Update is called once per frame

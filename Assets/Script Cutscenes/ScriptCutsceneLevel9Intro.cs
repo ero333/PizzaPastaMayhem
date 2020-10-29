@@ -29,7 +29,7 @@ public class ScriptCutsceneLevel9Intro : MonoBehaviour
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
 
-        PlayerPrefs.SetInt("DesbloqueasteNivel_8", 1);
+        PlayerPrefs.SetInt("DesbloqueasteNivel_9", 1);
     }
 
     // Update is called once per frame

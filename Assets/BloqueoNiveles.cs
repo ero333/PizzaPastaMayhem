@@ -43,7 +43,7 @@ public class BloqueoNiveles : MonoBehaviour
             Boton.SetActive(false);
         }
 
-
+        Boton1.SetActive(true);
 
 
 

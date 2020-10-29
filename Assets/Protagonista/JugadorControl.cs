@@ -29,6 +29,16 @@ public class JugadorControl : MonoBehaviour
     public string EnemigoAsesino;
     public bool Asesinado;
 
+    string R1 = "Receta 1";
+    string R2 = "Receta 2";
+    string R3 = "Receta 3";
+
+    string RecetaObtenida;
+
+    string RecetaUsada;
+
+
+
 
 
 
@@ -1119,7 +1129,25 @@ public class JugadorControl : MonoBehaviour
 
     public void VidaExtra()
     {
+        Coordenadas();
+
+
         vida++;
+
+        /*
+        print(NivelActual.buildIndex);
+        print(ejeX);
+        print(ejeY);
+        */
+
+        Analytics.CustomEvent("recoger_vidas", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+                {"x", ejeX },
+                {"y", ejeY },
+
+            });
     }
 
     #endregion
@@ -1201,12 +1229,58 @@ public class JugadorControl : MonoBehaviour
     void MasMunicion()
     {
             municionActual += RecargaAmmo;
+
+
+
+        Coordenadas();
+
+
+        /*
+        print(NivelActual.buildIndex);
+        print(ejeX);
+        print(ejeY);
+        */
+
+
+
+        Analytics.CustomEvent("recoger_ammo", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+                {"x", ejeX },
+                {"y", ejeY },
+
+            });
+
     }
 
     void MasVida()
     {
+
+
         if(vidaActual <= vidaMaxima)
         {
+            Coordenadas();
+
+            /*
+            print(NivelActual.buildIndex);
+            print(ejeX);
+            print(ejeY);
+
+            */
+
+
+            Analytics.CustomEvent("recoger_hppack", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+                {"x", ejeX },
+                {"y", ejeY },
+
+            });
+
+
+
             vidaActual += Curarse;
         }
     }
@@ -1248,9 +1322,20 @@ public class JugadorControl : MonoBehaviour
     {
         if ((Receta1 == true) && Input.GetKeyDown(KeyCode.Alpha1))
         {
-            print("Power1 activado");
+            //print("Power1 activado");
 
             SendMessage("Receta1Usada");
+
+
+            RecetaUsada = R1;
+
+            PowerAnalytic();
+
+
+
+
+
+
 
             Receta1 = false;
 
@@ -1267,9 +1352,20 @@ public class JugadorControl : MonoBehaviour
     {
         if ((Receta2 == true) && Input.GetKeyDown(KeyCode.Alpha2))
         {
-            print("Power2 activado");
+            //print("Power2 activado");
 
             SendMessage("Receta2Usada");
+
+
+
+
+            RecetaUsada = R2;
+
+            PowerAnalytic();
+
+
+
+
 
             Receta2 = false;
 
@@ -1286,9 +1382,22 @@ public class JugadorControl : MonoBehaviour
     {
         if ((Receta3 == true) && Input.GetKeyDown(KeyCode.Alpha3))
         {
-            print("Power3 activado");
+            //print("Power3 activado");
 
             SendMessage("Receta3Usada");
+
+
+
+
+
+
+            RecetaUsada = R3;
+
+            PowerAnalytic();
+
+
+
+
 
             Receta3 = false;
 
@@ -1301,6 +1410,32 @@ public class JugadorControl : MonoBehaviour
 
 
         }
+    }
+
+
+
+
+
+    #endregion
+
+    #region Power Up Usados Analytics
+
+    public void PowerAnalytic()
+    {
+
+        //print(RecetaUsada);
+        //print(NivelActual.buildIndex);
+
+
+        Analytics.CustomEvent("usar_powerup", new Dictionary<string, object>
+            {
+                {"¿Cuál?", RecetaUsada },
+                {"level_index", NivelActual.buildIndex }
+
+            });
+
+
+
     }
 
     #endregion

@@ -37,7 +37,7 @@ public class ScriptCutsceneLevel6Intro : MonoBehaviour
 
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
 
-        PlayerPrefs.SetInt("DesbloqueasteNivel_5", 1);
+        PlayerPrefs.SetInt("DesbloqueasteNivel_6", 1);
     }
 
     // Update is called once per frame

@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RecetasJugador : MonoBehaviour
 {
-
+    Scene NivelActual;
 
     #region Ingredientes_Receta_1
 
@@ -74,6 +75,9 @@ public class RecetasJugador : MonoBehaviour
 
 
 
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -88,6 +92,9 @@ public class RecetasJugador : MonoBehaviour
         TengoTomate = PlayerPrefs.GetInt("DropTomate");
         TengoLechuga = PlayerPrefs.GetInt("DropLechuga");
         TengoPollo = PlayerPrefs.GetInt("DropPollo");
+
+
+        NivelActual = SceneManager.GetActiveScene();
 
     }
 

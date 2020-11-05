@@ -8485,6 +8485,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8309523911135839691, guid: dc3d25b48ddb59b4386292d2d5e43223, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8309523912097166662, guid: dc3d25b48ddb59b4386292d2d5e43223, type: 3}
       propertyPath: m_Name
       value: LevelTrigger
@@ -8499,7 +8503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8309523912097166681, guid: dc3d25b48ddb59b4386292d2d5e43223, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3949.6736
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8309523912097166681, guid: dc3d25b48ddb59b4386292d2d5e43223, type: 3}
       propertyPath: m_LocalRotation.x

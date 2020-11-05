@@ -23,6 +23,8 @@ public class ColliderLevelTrigger : MonoBehaviour
     {
         if (collision.tag == "Player")                             // si colisiona con un objeto con el tag mensionado
         {
+            collision.SendMessage("NivelCompleto");
+            //print("nivel completado");
             SceneManager.LoadScene(NivelActual.buildIndex + 1);
         }
     }

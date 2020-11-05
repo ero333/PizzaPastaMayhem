@@ -60,6 +60,11 @@ public class AnimationEvents : MonoBehaviour
         PlayerAll.SendMessage("ReiniciarScene");
     }
 
+    public void NivelCompleto()
+    {
+        PlayerAll.SendMessage("NivelCompleto");
+    }
+
     public void ObtenerCoordenadas()
     {
         PlayerAll.SendMessage("Coordenadas");

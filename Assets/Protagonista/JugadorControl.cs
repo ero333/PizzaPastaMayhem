@@ -29,13 +29,13 @@ public class JugadorControl : MonoBehaviour
     public string EnemigoAsesino;
     public bool Asesinado;
 
-    string R1 = "Receta 1";
-    string R2 = "Receta 2";
-    string R3 = "Receta 3";
+    int R1 = 1;
+    int R2 = 2;
+    int R3 = 3;
 
     string RecetaObtenida;
 
-    string RecetaUsada;
+    int RecetaUsada;
 
 
 
@@ -1424,12 +1424,12 @@ public class JugadorControl : MonoBehaviour
     {
 
         //print(RecetaUsada);
-        //print(NivelActual.buildIndex);
+        //print("nivel actual= "+NivelActual.buildIndex);
 
 
         Analytics.CustomEvent("usar_powerup", new Dictionary<string, object>
             {
-                {"¿Cuál?", RecetaUsada },
+                {"cual", RecetaUsada },
                 {"level_index", NivelActual.buildIndex }
 
             });
@@ -1696,6 +1696,8 @@ public class JugadorControl : MonoBehaviour
     {
         NivelCompletado = true;
 
+        //print("level completed");
+        SwitchNiveles();
 
         Analytics.CustomEvent("level_complete", new Dictionary<string, object>
             {
@@ -1706,9 +1708,6 @@ public class JugadorControl : MonoBehaviour
 
             });
 
-        /*Debug.Log("level_complete");
-        Debug.Log("Completaste el nivel:  "+NivelActual.buildIndex);
-        Debug.Log("Completaste el nivel con  " + vida + " vidas y " + municionActual + "municion");*/
     }
 
     public void NextLevel()
@@ -1719,7 +1718,75 @@ public class JugadorControl : MonoBehaviour
         }
     }
 
+    public void SwitchNiveles()
+    {
+        int Nivel = NivelActual.buildIndex;
+        switch (Nivel)
+        {
+            case 1:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_2", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
 
+            case 2:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_3", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+            case 3:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_4", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+            case 4:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_5", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+            case 5:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_6", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+            case 6:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_7", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+            case 7:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_8", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+            case 8:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_9", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+            case 9:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_10", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+            case 10:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_11", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+            case 11:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_12", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+            case 12:
+                PlayerPrefs.SetInt("DesbloqueasteNivel_13", 1);
+                //print("Desbloqueaste nivel + " + (NivelActual.buildIndex + 1));
+                break;
+
+
+        }
+
+    }
 
     #endregion
 

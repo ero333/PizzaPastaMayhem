@@ -4917,6 +4917,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -3.84
       objectReference: {fileID: 0}
+    - target: {fileID: 8179580552150644310, guid: 6c0d1fb51acbaa0459384e91e195b6b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.2
+      objectReference: {fileID: 0}
     - target: {fileID: 8179580552830898216, guid: 6c0d1fb51acbaa0459384e91e195b6b4, type: 3}
       propertyPath: m_Name
       value: OBJETOS A MANTENER
@@ -5070,7 +5074,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5381793925884805929, guid: 20b219bf2b79fd94ebc0dcd4531291b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.85
+      value: -0.8522874
       objectReference: {fileID: 0}
     - target: {fileID: 5381793925884805929, guid: 20b219bf2b79fd94ebc0dcd4531291b1, type: 3}
       propertyPath: m_LocalPosition.z

@@ -1289,6 +1289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Tipo de Nivel_ Aniquilaci\xF3n"
       objectReference: {fileID: 0}
+    - target: {fileID: 6837048970580397625, guid: 425d4e999ccd6244a9ea2cfc41f1ed0c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6837048970580397626, guid: 425d4e999ccd6244a9ea2cfc41f1ed0c, type: 3}
       propertyPath: UI_Pasaste
       value: 

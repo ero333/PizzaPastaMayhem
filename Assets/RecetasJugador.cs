@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Analytics;
 
 public class RecetasJugador : MonoBehaviour
 {
@@ -73,6 +74,7 @@ public class RecetasJugador : MonoBehaviour
 
     #endregion
 
+    string IngredienteObtenido;
 
 
 
@@ -167,6 +169,10 @@ public class RecetasJugador : MonoBehaviour
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
             Pan.SetActive(true);
+
+            IngredienteObtenido = collision.gameObject.tag;
+
+            IngredientesAnalytics();
         }
 
         if ((collision.gameObject.tag == "DropPaty"))
@@ -176,6 +182,10 @@ public class RecetasJugador : MonoBehaviour
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
             Paty.SetActive(true);
+
+            IngredienteObtenido = collision.gameObject.tag;
+
+            IngredientesAnalytics();
         }
 
         if ((collision.gameObject.tag == "DropQueso"))
@@ -185,6 +195,10 @@ public class RecetasJugador : MonoBehaviour
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
             Queso.SetActive(true);
+
+            IngredienteObtenido = collision.gameObject.tag;
+
+            IngredientesAnalytics();
         }
 
         #endregion
@@ -197,6 +211,10 @@ public class RecetasJugador : MonoBehaviour
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
             Jamon.SetActive(true);
+
+            IngredienteObtenido = collision.gameObject.tag;
+
+            IngredientesAnalytics();
         }
 
         if ((collision.gameObject.tag == "DropSalchicha"))
@@ -206,6 +224,10 @@ public class RecetasJugador : MonoBehaviour
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
             Salchichas.SetActive(true);
+
+            IngredienteObtenido = collision.gameObject.tag;
+
+            IngredientesAnalytics();
         }
 
         if ((collision.gameObject.tag == "DropAlbondigas"))
@@ -215,6 +237,10 @@ public class RecetasJugador : MonoBehaviour
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
             Albondigas.SetActive(true);
+
+            IngredienteObtenido = collision.gameObject.tag;
+
+            IngredientesAnalytics();
         }
 
         #endregion
@@ -227,6 +253,10 @@ public class RecetasJugador : MonoBehaviour
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
             Pollo.SetActive(true);
+
+            IngredienteObtenido = collision.gameObject.tag;
+
+            IngredientesAnalytics();
         }
 
         if ((collision.gameObject.tag == "DropTomate"))
@@ -236,6 +266,10 @@ public class RecetasJugador : MonoBehaviour
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
             Tomates.SetActive(true);
+
+            IngredienteObtenido = collision.gameObject.tag;
+
+            IngredientesAnalytics();
         }
 
         if ((collision.gameObject.tag == "DropLechuga"))
@@ -245,6 +279,10 @@ public class RecetasJugador : MonoBehaviour
             Destroy(collision.gameObject); // Al colisionar con objeto, este mismo se destruye
 
             Lechuga.SetActive(true);
+
+            IngredienteObtenido = collision.gameObject.tag;
+
+            IngredientesAnalytics();
         }
         #endregion
 
@@ -465,6 +503,24 @@ public class RecetasJugador : MonoBehaviour
         PlayerPrefs.SetInt("DropTomate", TengoTomate);
         PlayerPrefs.SetInt("DropLechuga", TengoLechuga);
         PlayerPrefs.SetInt("DropPollo", TengoPollo);
+    }
+
+
+
+
+    public void IngredientesAnalytics()
+    {
+        //print(IngredienteObtenido.Remove(0,4));
+        //print(NivelActual.buildIndex);
+
+
+        Analytics.CustomEvent("usar_powerup", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"ingrediente", IngredienteObtenido.Remove(0,4) },
+
+
+            });
     }
 }
 

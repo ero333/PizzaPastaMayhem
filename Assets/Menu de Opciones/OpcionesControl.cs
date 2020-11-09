@@ -4,6 +4,8 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEngine.Analytics;
 
 public class OpcionesControl : MonoBehaviour
 {
@@ -40,10 +42,16 @@ public class OpcionesControl : MonoBehaviour
 
     public GameObject BotonCerrarCONTROLES; // traer gameobject del -> BOTON <- que cierra la interfaz de los controles
 
+    Scene NivelActual;
+
 
     // Start is called before the first frame update
     void Start()
     {
+
+        NivelActual = SceneManager.GetActiveScene();
+
+
         LvlManager = GameObject.FindGameObjectWithTag("LVLMANAGER");
 
 
@@ -139,6 +147,20 @@ public class OpcionesControl : MonoBehaviour
         if (controles.activeInHierarchy == false)
         {
             controles.SetActive(true);
+
+            print("abristecontroles en nivel "+NivelActual.buildIndex);
+
+
+
+
+            Analytics.CustomEvent("ver_controles", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+
+            });
+
+            
         }
         else
         {
@@ -159,6 +181,14 @@ public class OpcionesControl : MonoBehaviour
     {
         LvlManager.SendMessage("LvlSelector");
     }
+
+
+    public void ReinicarLvLActual()
+    {
+        LvlManager.SendMessage("ReiniciarNivelActual");
+    }
+
+
     #endregion
 
 
@@ -175,5 +205,7 @@ public class OpcionesControl : MonoBehaviour
         }
 
     }
+
+
 
 }

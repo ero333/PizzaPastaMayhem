@@ -26,6 +26,9 @@ public class JugadorControl : MonoBehaviour
 
     public float ejeX;
     public float ejeY;
+    int EnteroX;
+    int EnteroY;
+
     public string EnemigoAsesino;
     public bool Asesinado;
 
@@ -217,12 +220,14 @@ public class JugadorControl : MonoBehaviour
 
     private float PepinoHit = 25f;
 
+    private float PepinoBossContact = 40f;
 
-    private float BossTacoHit = 20f;
 
-    private float BossTacoPunchHit = 50f;
+    private float BossTacoHit = 25f;
 
-    private float BossTacoSierraHit = 35f;
+    private float BossTacoPunchHit = 100f;
+
+    private float BossTacoSierraHit = 40f;
 
     private float MiniTacoHit = 20f;
 
@@ -270,8 +275,9 @@ public class JugadorControl : MonoBehaviour
         vida = PlayerPrefs.GetInt("vidas");                             // Recupera valores de estas variables 
         vidaMaxima = PlayerPrefs.GetFloat("VidaTotal");                 // Recupera valores de estas variables
         vidaActual = PlayerPrefs.GetFloat("VidaActual");                // Recupera valores de estas variables
-        municionMáxima = PlayerPrefs.GetFloat("MunicionMaxima");        // Recupera valores de estas variables
-        municionActual = PlayerPrefs.GetFloat("MunicionActual");        // Recupera valores de estas variables
+        //municionMáxima = PlayerPrefs.GetFloat("MunicionMaxima");        // Recupera valores de estas variables
+        //municionActual = PlayerPrefs.GetFloat("MunicionActual");        // Recupera valores de estas variables
+        municionActual = municionMáxima;
 
 
 
@@ -346,11 +352,13 @@ public class JugadorControl : MonoBehaviour
     void Update()
     {
 
+
+
         PlayerPrefs.SetInt("vidas", vida);                              // Todo cambio que el jugador reciba con esta variable, va a actualizar el player pref
         PlayerPrefs.SetFloat("VidaTotal", vidaMaxima);
         PlayerPrefs.SetFloat("VidaActual", vidaActual);
-        PlayerPrefs.SetFloat("MunicionMaxima", municionMáxima);
-        PlayerPrefs.SetFloat("MunicionActual", municionActual);
+        //PlayerPrefs.SetFloat("MunicionMaxima", municionMáxima);
+        //PlayerPrefs.SetFloat("MunicionActual", municionActual);
 
 
         Checkpoint = GameObject.FindGameObjectWithTag("Checkpoint").transform;  
@@ -613,6 +621,8 @@ public class JugadorControl : MonoBehaviour
                     RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);            // jugador se queda quieto al atacar
                 }
 
+                AnalyticsDisparo();
+
                 MunicionJugador();
             }
 
@@ -626,6 +636,32 @@ public class JugadorControl : MonoBehaviour
 
     }
 
+
+    public void AnalyticsDisparo()
+    {
+        Coordenadas();
+        
+        print(EnteroX);
+        print(EnteroY);
+        print("Disparaste en nivel "+ NivelActual.buildIndex);
+
+        
+
+
+
+        Analytics.CustomEvent("disparar", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+                {"x", EnteroX },
+                {"y", EnteroY },
+
+
+
+            });
+
+        
+    }
 
     #endregion
 
@@ -692,6 +728,10 @@ public class JugadorControl : MonoBehaviour
     {
         if ((Input.GetKeyDown("a")) && (BalaPowerReady == true))
         {
+
+            AnalyticsPowerHit();
+
+
             if (Body.GetComponent<SpriteRenderer>().flipX == false)
             {
 
@@ -701,7 +741,6 @@ public class JugadorControl : MonoBehaviour
 
                 RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);                // jugador se queda quieto al atacar
 
-                BalaPowerReady = false;
 
             }
 
@@ -714,7 +753,6 @@ public class JugadorControl : MonoBehaviour
 
                 RBPlayer.velocity = new Vector2(0, RBPlayer.velocity.y);                // jugador se queda quieto al atacar
 
-                BalaPowerReady = false;
             }
 
         }
@@ -725,11 +763,15 @@ public class JugadorControl : MonoBehaviour
         if (Body.GetComponent<SpriteRenderer>().flipX == true)
         {
             Instantiate(BalaPower, balaGenL.position, Quaternion.identity);             // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+
+            BalaPowerReady = false;
         }
 
         if (Body.GetComponent<SpriteRenderer>().flipX == false)
         {
             Instantiate(BalaPower, balaGenR.position, Quaternion.identity);             // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
+
+            BalaPowerReady = false;
         }
 
     }
@@ -749,7 +791,29 @@ public class JugadorControl : MonoBehaviour
 
     }
 
+    public void AnalyticsPowerHit()
+    {
+        Coordenadas();
+        /*
+        print(EnteroX);
+        print(EnteroY);
+        print("lanzaste PH en nivel "+ NivelActual.buildIndex);
 
+        */
+
+
+
+        Analytics.CustomEvent("usar_powerhit", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+                {"x", EnteroX },
+                {"y", EnteroY },
+
+
+
+            });
+    }
 
 
     #endregion
@@ -1073,7 +1137,7 @@ public class JugadorControl : MonoBehaviour
 
             if (collision.tag == "BossPepino")                                                         // si colisiona con un objeto con el tag mensionado
             {
-                vidaActual = 0;
+                vidaActual -= PepinoBossContact;
 
                 MarcoHP.SendMessage("HPHit");
 
@@ -1134,18 +1198,22 @@ public class JugadorControl : MonoBehaviour
 
         vida++;
 
-        /*
+        
         print(NivelActual.buildIndex);
-        print(ejeX);
-        print(ejeY);
-        */
+        print(EnteroX);
+        print(EnteroY);
+        
 
+/*
+        print("vida extra X = " + EnteroX);
+        print("vida extra Y = " + EnteroY);
+*/
         Analytics.CustomEvent("recoger_vidas", new Dictionary<string, object>
             {
                 {"level_index", NivelActual.buildIndex },
 
-                {"x", ejeX },
-                {"y", ejeY },
+                {"x", EnteroX },
+                {"y", EnteroY },
 
             });
     }
@@ -1247,8 +1315,8 @@ public class JugadorControl : MonoBehaviour
             {
                 {"level_index", NivelActual.buildIndex },
 
-                {"x", ejeX },
-                {"y", ejeY },
+                {"x", EnteroX },
+                {"y", EnteroY },
 
             });
 
@@ -1274,8 +1342,8 @@ public class JugadorControl : MonoBehaviour
             {
                 {"level_index", NivelActual.buildIndex },
 
-                {"x", ejeX },
-                {"y", ejeY },
+                {"x", EnteroX },
+                {"y", EnteroY },
 
             });
 
@@ -1544,12 +1612,17 @@ public class JugadorControl : MonoBehaviour
             Debug.Log("Perdiste con " + municionActual + " munición");
             */
 
+
+            print(EnteroX);
+            print(EnteroY);
+
+
             Analytics.CustomEvent("game_over", new Dictionary<string, object>
             {
                 {"level_index", NivelActual.buildIndex },
                 
-                {"x", ejeX },
-                {"y", ejeY },
+                {"x", EnteroX },
+                {"y", EnteroY },
                 {"ammo", municionActual }
 
                 
@@ -1599,8 +1672,8 @@ public class JugadorControl : MonoBehaviour
             {
                 {"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
-                {"x", ejeX },
-                {"y", ejeY },
+                {"x", EnteroX },
+                {"y", EnteroY },
                 {"lifes", vida },
                 {"ammo", municionActual }
 
@@ -1673,7 +1746,8 @@ public class JugadorControl : MonoBehaviour
         ejeX = Body.transform.position.x;
         ejeY = Body.transform.position.y;
 
-
+        EnteroX = (int)ejeX;
+        EnteroY = (int)ejeY;
 
         //Debug.Log("X = "+ejeX);
         //Debug.Log("Y = " + ejeY);

@@ -707,12 +707,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b0b3746d8de5b94095c2720150bbb87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaEnemiga: 30
+  vidaEnemiga: 20
   barraEnemiga: {fileID: 4942496412580073837}
   vidaActual: 0
-  "Da\xF1oBala": 2
+  "Da\xF1oBala": 3
   "Da\xF1oPowerBala": 10
-  "Da\xF1oSarten": 2
+  "Da\xF1oSarten": 3
   "Da\xF1oShield": 1
 --- !u!1 &4942496412246390710
 GameObject:

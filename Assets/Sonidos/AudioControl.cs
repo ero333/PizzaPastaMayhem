@@ -1,14 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Analytics;
 
 public class AudioControl : MonoBehaviour
 {
+    Scene NivelActual;
+
     public GameObject[] audios; // array de gameobjects
 
     public GameObject PlayerAll; // objeto del jugador con audios
 
     bool isMuted;
+
+    int AudioMuteado;
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +31,9 @@ public class AudioControl : MonoBehaviour
             audios[i].GetComponent<AudioSource>().mute = isMuted;
         }
 
+        AudioMuteado = PlayerPrefs.GetInt("MUTED");
 
+        NivelActual = SceneManager.GetActiveScene();
 
     }
 
@@ -34,6 +43,46 @@ public class AudioControl : MonoBehaviour
         if (Input.GetKeyDown("m"))
         {
             Mute();
+
+
+
+
+            if(isMuted)
+            {
+
+
+                print("AudioMuteado en nivel "+NivelActual.buildIndex);
+
+
+                Analytics.CustomEvent("desactivar_musica", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+
+            });
+
+
+            }
+
+            if (!isMuted)
+            {
+
+
+
+
+                print("AudioDesmuteado en nivel " + NivelActual.buildIndex);
+
+
+                Analytics.CustomEvent("activar_musica", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+
+            });
+
+
+            }
+
         }
     }
 

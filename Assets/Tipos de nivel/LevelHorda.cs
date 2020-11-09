@@ -19,6 +19,8 @@ public class LevelHorda : MonoBehaviour
 
     public Text Cronometro; // traer objeto de texto con cronometro
 
+    public Text Sobrevive;
+
 
 
     // Start is called before the first frame update
@@ -41,6 +43,11 @@ public class LevelHorda : MonoBehaviour
         CountDown();
 
         Cronometro.text = Timer.ToString("0"); // muestra el número del cronometro como texto con numeros enteros
+
+        if(GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+        {
+            Sobrevive.gameObject.SetActive(false);
+        }
 
     }
 

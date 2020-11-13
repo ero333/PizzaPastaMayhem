@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CheckpointManager : MonoBehaviour
 {
-    public GameObject Checkpoint;
+    //public GameObject Checkpoint;
 
     Object[] CheckpointOff;
 
@@ -12,17 +12,25 @@ public class CheckpointManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CheckpointOff = GameObject.FindGameObjectsWithTag("Checkpoint");
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        CheckpointOff = GameObject.FindGameObjectsWithTag("Checkpoint");
 
         if (GameObject.FindGameObjectsWithTag("Checkpoint").Length == 0) // detecta si hay enemigos en la escena actual
         {
-            Checkpoint.SetActive(true);
-            Destroy(gameObject);
+            //Checkpoint.SetActive(true);
+
+            //Instantiate(Checkpoint, transform.position, Quaternion.identity);
+
+            //Destroy(gameObject);
+
+            //this.transform.gameObject.tag = "Checkpoint";
+
+            //this.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 
@@ -36,6 +44,11 @@ public class CheckpointManager : MonoBehaviour
             {
                 Destroy(Checkpoints.gameObject);
             }
+
+            this.transform.gameObject.tag = "Checkpoint";
+
+            this.GetComponent<BoxCollider2D>().enabled = false;
+
         }
     }
 }

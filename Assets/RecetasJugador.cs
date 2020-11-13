@@ -363,7 +363,7 @@ public class RecetasJugador : MonoBehaviour
 
         TengoTomate = 0;
 
-        TengoJamon = 0;
+        TengoPollo = 0;
 
         Tomates.SetActive(false);
 

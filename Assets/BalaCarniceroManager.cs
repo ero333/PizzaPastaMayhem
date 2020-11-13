@@ -6,6 +6,8 @@ public class BalaCarniceroManager : MonoBehaviour
 {
     public GameObject playerBody; //En el start puse que busque al jugador, sino traer objeto del jugador
 
+    public GameObject CarniceroBody;
+
     public float timer = 2.5f; // tiempo para su destruccion
 
     private float balaSpeed;  // velocidad de la bala
@@ -30,14 +32,16 @@ public class BalaCarniceroManager : MonoBehaviour
 
         playerBody = GameObject.FindGameObjectWithTag("Player"); // detecta al jugador
 
-        if (playerBody.transform.position.x > transform.position.x)      //checkea si el robot está de un lado o no
+        CarniceroBody = GameObject.FindGameObjectWithTag("Carnicero");
+
+        if (CarniceroBody.transform.position.x < transform.position.x)      //checkea si el robot está de un lado o no
         {
             balaSpeed = (manualSpeed * 1); // velocidad de la bala
 
             BalaEnemiga.flipX = true;  //Flipear (o no) sprite
         }
 
-        else if (playerBody.transform.position.x < transform.position.x)     //checkea si el robot está de un lado o no
+        else if (CarniceroBody.transform.position.x > transform.position.x)     //checkea si el robot está de un lado o no
         {
             balaSpeed = (manualSpeed * -1); // velocidad de la bala
 

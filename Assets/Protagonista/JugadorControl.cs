@@ -1708,17 +1708,24 @@ public class JugadorControl : MonoBehaviour
         {
 
 
+            if((NivelActual.buildIndex==6)|| (NivelActual.buildIndex == 7)|| (NivelActual.buildIndex == 13))
+            {
+                SceneManager.LoadScene(NivelActual.buildIndex);
+            }
 
-            // VIEJO SISTEMA DE CHECKPOINT
 
-            /*transform.position = Checkpoint.position;           // jugador se teletransporta al checkpoint
+
+
+            //  SISTEMA DE CHECKPOINT
+
+            transform.position = Checkpoint.position;           // jugador se teletransporta al checkpoint
 
             estado = GameState.revive;                          // el jugador vuelve a estar vivo
 
             anim.Play("PJ_Revive");                             // Triggea animacion Idle
 
 
-            */
+            
 
 
                 /*Debug.Log("Moriste en el nivel " + NivelActual.buildIndex);

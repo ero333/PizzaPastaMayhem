@@ -2088,6 +2088,14 @@ public class JugadorControl : MonoBehaviour
 
             });
 
+
+
+
+        if(vida ==1)
+        {
+            vida++;
+        }
+
     }
 
     public void NextLevel()

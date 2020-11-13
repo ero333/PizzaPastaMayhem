@@ -119,9 +119,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscene LVL 14.unity
     guid: 7ee89e20b8fc61e4a85616e69bf2ee3b
+  - enabled: 1
+    path: "Assets/Scenes/Cr\xE9ditos.unity"
+    guid: 05291a60a02ea0e4ba32b493d8f02b0f
   - enabled: 0
-    path: Assets/Scenes/CUTSCENEPRUEBA1.unity
-    guid: c5dcb54fa6acbce4b90a1f9a8f65155f
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/Escenario de prueba.unity
     guid: 2cda990e2423bbf4892e6590ba056729

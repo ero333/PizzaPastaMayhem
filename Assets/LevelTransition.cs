@@ -193,6 +193,10 @@ public class LevelTransition : MonoBehaviour
         SceneManager.LoadScene("Cutscene LVL 14");
     }
 
+    public void Creditos()
+    {
+        SceneManager.LoadScene("Créditos");
+    }
 
 
 

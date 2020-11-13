@@ -49,7 +49,7 @@ public class ScriptCutsceneOutro : MonoBehaviour
 
         if (Numero == 2)
         {
-            LvlManager.SendMessage("Menu");
+            LvlManager.SendMessage("Creditos");
         }
 
 

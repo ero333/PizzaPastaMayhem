@@ -57,6 +57,8 @@ public class JugadorControl : MonoBehaviour
 
     Scene NivelActual;
 
+    string MorirLvl;
+
 
     #region Variables Movimiento
     [Header("Movimiento")]
@@ -1661,13 +1663,23 @@ public class JugadorControl : MonoBehaviour
 
         if(estado == GameState.muerto)
         {
-            /*Debug.Log("Moriste en el nivel " + NivelActual.buildIndex);
-            Debug.Log("Moriste en las coordenadas X=" + ejeX + ", Y=" + ejeY);
-            Debug.Log("Moriste y te quedan " + vida + " vidas");
-            Debug.Log("Moriste teniendo " + municionActual + " de munición");
-            Debug.Log("Moriste por " + EnemigoAsesino);*/
+
+            /*
+            print("Moriste en el nivel " + NivelActual.buildIndex);
+            print("Moriste en las coordenadas X=" + ejeX + ", Y=" + ejeY);
+            print("Moriste y te quedan " + vida + " vidas");
+            print("Moriste teniendo " + municionActual + " de munición");
+            print("Moriste por " + EnemigoAsesino);
+
+            */
+
+          //  SwitchMorirAnalytics();
 
 
+
+
+
+            /*
             Analytics.CustomEvent("morir", new Dictionary<string, object>
             {
                 {"level_index", NivelActual.buildIndex },
@@ -1682,9 +1694,11 @@ public class JugadorControl : MonoBehaviour
 
 
             }
-
+            
 
             );
+
+            */
         }
 
 
@@ -1762,6 +1776,291 @@ public class JugadorControl : MonoBehaviour
     {
         LevelManager.SendMessage("ReiniciarNivelActual");
     }
+
+
+
+
+
+
+
+    public void SwitchMorirAnalytics()
+    {
+        int Nivel = NivelActual.buildIndex;
+        switch(Nivel)
+        {
+            case 1:
+
+
+
+                /*
+                print("Moriste en el nivel " + NivelActual.buildIndex);
+                print("Moriste en las coordenadas X=" + EnteroX + ", Y=" + EnteroY);
+                print("Moriste y te quedan " + vida + " vidas");
+                print("Moriste teniendo " + municionActual + " de munición");
+                print("Moriste por " + EnemigoAsesino);
+
+
+                */
+
+
+
+                Analytics.CustomEvent("morir1", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+
+
+
+
+
+
+                break;
+            case 2:
+                Analytics.CustomEvent("morir2", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+            case 3:
+                Analytics.CustomEvent("morir3", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+            case 4:
+                Analytics.CustomEvent("morir4", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+            );
+                break;
+            case 5:
+                Analytics.CustomEvent("morir5", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+            case 6:
+                Analytics.CustomEvent("morir6", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+            case 7:
+                Analytics.CustomEvent("morir7", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+            case 8:
+                Analytics.CustomEvent("morir8", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+            case 9:
+
+                Analytics.CustomEvent("morir9", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+            case 10:
+                Analytics.CustomEvent("morir10", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+            case 11:
+                Analytics.CustomEvent("morir11", new Dictionary<string, object>
+            {
+                //{"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+            case 12:
+                Analytics.CustomEvent("morir12", new Dictionary<string, object>
+            {
+                //{"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+            case 13:
+                Analytics.CustomEvent("morir13", new Dictionary<string, object>
+            {
+                //{"level_index", NivelActual.buildIndex },
+                {"enemy", EnemigoAsesino},
+                {"x", EnteroX },
+                {"y", EnteroY },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            }
+
+
+);
+                break;
+        }
+    }
+
+
 
     #endregion
 

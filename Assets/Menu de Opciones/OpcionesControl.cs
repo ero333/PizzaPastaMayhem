@@ -185,6 +185,20 @@ public class OpcionesControl : MonoBehaviour
 
     public void ReinicarLvLActual()
     {
+
+
+        //print("reiniciaste nivel "+NivelActual.buildIndex);
+
+
+        
+        Analytics.CustomEvent("reiniciar_nivel", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+
+            });
+        
+
         LvlManager.SendMessage("ReiniciarNivelActual");
     }
 

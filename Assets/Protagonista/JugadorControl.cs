@@ -1673,19 +1673,19 @@ public class JugadorControl : MonoBehaviour
 
             */
 
-          //  SwitchMorirAnalytics();
+            SwitchMorirAnalytics();
 
 
 
 
 
-            /*
+            
             Analytics.CustomEvent("morir", new Dictionary<string, object>
             {
                 {"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
-                {"x", EnteroX },
-                {"y", EnteroY },
+                //{"x", EnteroX },
+                //{"y", EnteroY },
                 {"lifes", vida },
                 {"ammo", municionActual }
 
@@ -1698,7 +1698,7 @@ public class JugadorControl : MonoBehaviour
 
             );
 
-            */
+            
         }
 
 
@@ -1813,7 +1813,7 @@ public class JugadorControl : MonoBehaviour
 
                 Analytics.CustomEvent("morir1", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex },
+                //{"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
@@ -1838,7 +1838,7 @@ public class JugadorControl : MonoBehaviour
             case 2:
                 Analytics.CustomEvent("morir2", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex },
+                //{"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
@@ -1857,7 +1857,7 @@ public class JugadorControl : MonoBehaviour
             case 3:
                 Analytics.CustomEvent("morir3", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex },
+                //{"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
@@ -1876,7 +1876,7 @@ public class JugadorControl : MonoBehaviour
             case 4:
                 Analytics.CustomEvent("morir4", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex },
+                //{"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
@@ -1895,7 +1895,7 @@ public class JugadorControl : MonoBehaviour
             case 5:
                 Analytics.CustomEvent("morir5", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex },
+                //{"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
@@ -1914,7 +1914,7 @@ public class JugadorControl : MonoBehaviour
             case 6:
                 Analytics.CustomEvent("morir6", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex },
+                //{"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
@@ -1933,7 +1933,7 @@ public class JugadorControl : MonoBehaviour
             case 7:
                 Analytics.CustomEvent("morir7", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex },
+                //{"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
@@ -1952,7 +1952,7 @@ public class JugadorControl : MonoBehaviour
             case 8:
                 Analytics.CustomEvent("morir8", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex },
+                //{"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
@@ -1972,7 +1972,7 @@ public class JugadorControl : MonoBehaviour
 
                 Analytics.CustomEvent("morir9", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex },
+                //{"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
@@ -1991,7 +1991,7 @@ public class JugadorControl : MonoBehaviour
             case 10:
                 Analytics.CustomEvent("morir10", new Dictionary<string, object>
             {
-                {"level_index", NivelActual.buildIndex },
+                //{"level_index", NivelActual.buildIndex },
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },

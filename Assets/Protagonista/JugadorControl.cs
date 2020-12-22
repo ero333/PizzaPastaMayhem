@@ -1492,14 +1492,31 @@ public class JugadorControl : MonoBehaviour
 
     public void PowerAnalytic()
     {
+        string nombreanalytics = "usar_powerup_" + RecetaUsada;
 
-        //print(RecetaUsada);
-        //print("nivel actual= "+NivelActual.buildIndex);
+        
+        print(nombreanalytics);
+        print(RecetaUsada);
+        print("nivel actual= "+NivelActual.buildIndex);
+
+        
 
 
+        /* CODIGO ANALYTICS VIEJO
+         * 
+         * 
+         * 
         Analytics.CustomEvent("usar_powerup", new Dictionary<string, object>
             {
                 {"cual", RecetaUsada },
+                {"level_index", NivelActual.buildIndex }
+
+            });
+
+        */
+
+        Analytics.CustomEvent(nombreanalytics, new Dictionary<string, object>
+            {
                 {"level_index", NivelActual.buildIndex }
 
             });
@@ -1792,6 +1809,14 @@ public class JugadorControl : MonoBehaviour
 
     public void SwitchMorirAnalytics()
     {
+
+
+        print("Moriste en el nivel " + NivelActual.buildIndex);
+        print("Moriste en las coordenadas X=" + EnteroX + ", Y=" + EnteroY);
+        print("Moriste y te quedan " + vida + " vidas");
+        print("Moriste teniendo " + municionActual + " de munición");
+        print("Moriste por " + EnemigoAsesino);
+
         int Nivel = NivelActual.buildIndex;
         switch(Nivel)
         {

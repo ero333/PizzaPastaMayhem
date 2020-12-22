@@ -76,8 +76,9 @@ public class RecetasJugador : MonoBehaviour
 
     string IngredienteObtenido;
 
-
-
+    int ActiveReceta1;
+    int ActiveReceta2;
+    int ActiveReceta3;
 
 
     // Start is called before the first frame update
@@ -98,6 +99,7 @@ public class RecetasJugador : MonoBehaviour
 
         NivelActual = SceneManager.GetActiveScene();
 
+        ActiveReceta1 = PlayerPrefs.GetInt("Rec1a");
     }
 
     // Update is called once per frame
@@ -173,6 +175,8 @@ public class RecetasJugador : MonoBehaviour
             IngredienteObtenido = collision.gameObject.tag;
 
             IngredientesAnalytics();
+
+            Receta1Activada();
         }
 
         if ((collision.gameObject.tag == "DropPaty"))
@@ -186,6 +190,8 @@ public class RecetasJugador : MonoBehaviour
             IngredienteObtenido = collision.gameObject.tag;
 
             IngredientesAnalytics();
+
+            Receta1Activada();
         }
 
         if ((collision.gameObject.tag == "DropQueso"))
@@ -199,6 +205,8 @@ public class RecetasJugador : MonoBehaviour
             IngredienteObtenido = collision.gameObject.tag;
 
             IngredientesAnalytics();
+
+            Receta1Activada();
         }
 
         #endregion
@@ -215,6 +223,8 @@ public class RecetasJugador : MonoBehaviour
             IngredienteObtenido = collision.gameObject.tag;
 
             IngredientesAnalytics();
+
+            Receta2Activada();
         }
 
         if ((collision.gameObject.tag == "DropSalchicha"))
@@ -228,6 +238,8 @@ public class RecetasJugador : MonoBehaviour
             IngredienteObtenido = collision.gameObject.tag;
 
             IngredientesAnalytics();
+
+            Receta2Activada();
         }
 
         if ((collision.gameObject.tag == "DropAlbondigas"))
@@ -241,6 +253,8 @@ public class RecetasJugador : MonoBehaviour
             IngredienteObtenido = collision.gameObject.tag;
 
             IngredientesAnalytics();
+
+            Receta2Activada();
         }
 
         #endregion
@@ -257,6 +271,8 @@ public class RecetasJugador : MonoBehaviour
             IngredienteObtenido = collision.gameObject.tag;
 
             IngredientesAnalytics();
+
+            Receta3Activada();
         }
 
         if ((collision.gameObject.tag == "DropTomate"))
@@ -270,6 +286,8 @@ public class RecetasJugador : MonoBehaviour
             IngredienteObtenido = collision.gameObject.tag;
 
             IngredientesAnalytics();
+
+            Receta3Activada();
         }
 
         if ((collision.gameObject.tag == "DropLechuga"))
@@ -283,6 +301,8 @@ public class RecetasJugador : MonoBehaviour
             IngredienteObtenido = collision.gameObject.tag;
 
             IngredientesAnalytics();
+
+            Receta3Activada();
         }
         #endregion
 
@@ -326,6 +346,8 @@ public class RecetasJugador : MonoBehaviour
         Queso.SetActive(false);
 
         TextoListo1.SetActive(false);
+
+        ActiveReceta1 = 0;
     }
 
     #endregion
@@ -349,6 +371,8 @@ public class RecetasJugador : MonoBehaviour
         Jamon.SetActive(false);
 
         TextoListo2.SetActive(false);
+
+        ActiveReceta2 = 0;
     }
 
     #endregion
@@ -372,11 +396,81 @@ public class RecetasJugador : MonoBehaviour
         Pollo.SetActive(false);
 
         TextoListo3.SetActive(false);
+
+        ActiveReceta3 = 0;
     }
     #endregion
 
 
     #endregion
+
+    public void Receta1Activada()
+    {
+        if ((TengoPan == 1) && (TengoPaty == 1) && (TengoQueso == 1))
+        {
+            if (ActiveReceta1 == 0)
+            {
+                ActiveReceta1 = 1;
+
+                print("active receta 1");
+
+                Analytics.CustomEvent("activar_powerup_1", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+
+
+            });
+
+            }
+        }
+    }
+
+    public void Receta2Activada()
+    {
+        if ((TengoJamon == 1) && (TengoSalchicha == 1) && (TengoAlbondigas == 1))
+        {
+            if (ActiveReceta2 == 0)
+            {
+                ActiveReceta2 = 1;
+
+                print("active receta 2");
+
+                Analytics.CustomEvent("activar_powerup_2", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+
+
+            });
+            }
+        }
+    }
+
+    public void Receta3Activada()
+    {
+        if ((TengoPollo == 1) && (TengoLechuga == 1) && (TengoTomate == 1))
+        {
+            if (ActiveReceta3 == 0)
+            {
+                ActiveReceta3 = 1;
+
+
+                print("active receta 3");
+
+                Analytics.CustomEvent("activar_powerup_3", new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+
+
+
+            });
+
+
+            }
+        }
+    }
+
 
     #region Activacion de UI
 
@@ -503,6 +597,10 @@ public class RecetasJugador : MonoBehaviour
         PlayerPrefs.SetInt("DropTomate", TengoTomate);
         PlayerPrefs.SetInt("DropLechuga", TengoLechuga);
         PlayerPrefs.SetInt("DropPollo", TengoPollo);
+
+        PlayerPrefs.SetInt("Rec1a", ActiveReceta1);
+        PlayerPrefs.SetInt("Rec2a", ActiveReceta2);
+        PlayerPrefs.SetInt("Rec3a", ActiveReceta3);
     }
 
 
@@ -522,5 +620,7 @@ public class RecetasJugador : MonoBehaviour
 
             });
     }
+
+
 }
 

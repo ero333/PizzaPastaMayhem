@@ -132,11 +132,15 @@ public class OpcionesControl : MonoBehaviour
         if (Opciones.activeInHierarchy == false)
         {
             Opciones.SetActive(true);
+
+            Time.timeScale = 0f;
         }
         else
         {
             Opciones.SetActive(false);
             controles.SetActive(false);
+
+            Time.timeScale = 1f;
         }
     }
     #endregion

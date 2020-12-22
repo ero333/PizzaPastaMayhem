@@ -612,7 +612,7 @@ public class RecetasJugador : MonoBehaviour
         //print(NivelActual.buildIndex);
 
 
-        Analytics.CustomEvent("usar_powerup", new Dictionary<string, object>
+        Analytics.CustomEvent("recoger_ingrediente", new Dictionary<string, object>
             {
                 {"level_index", NivelActual.buildIndex },
                 {"ingrediente", IngredienteObtenido.Remove(0,4) },

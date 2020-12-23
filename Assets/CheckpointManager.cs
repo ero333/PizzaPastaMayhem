@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
+using UnityEngine.SceneManagement;
 
 public class CheckpointManager : MonoBehaviour
 {
@@ -8,11 +10,14 @@ public class CheckpointManager : MonoBehaviour
 
     Object[] CheckpointOff;
 
+    Scene NivelActual;
+
+    public GameObject Player;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        NivelActual = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
@@ -32,6 +37,8 @@ public class CheckpointManager : MonoBehaviour
 
             //this.GetComponent<BoxCollider2D>().enabled = false;
         }
+
+        Player = GameObject.FindGameObjectWithTag("PlayerAll");
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -49,6 +56,13 @@ public class CheckpointManager : MonoBehaviour
 
             this.GetComponent<BoxCollider2D>().enabled = false;
 
+            CheckpointAnalytics();
+
         }
+    }
+
+    void CheckpointAnalytics()
+    {
+        Player.SendMessage("AnalyticsCheckpoint");
     }
 }

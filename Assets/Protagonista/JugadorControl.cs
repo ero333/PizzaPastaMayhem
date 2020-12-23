@@ -272,6 +272,8 @@ public class JugadorControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
+
         Asesinado = false;
 
         vida = PlayerPrefs.GetInt("vidas");                             // Recupera valores de estas variables 
@@ -2091,6 +2093,29 @@ public class JugadorControl : MonoBehaviour
                 break;
         }
     }
+
+
+
+
+
+    public void AnalyticsCheckpoint() // llamado por el generador de checkpoint
+    {
+        Coordenadas();        
+        string nombreCheckpointAnalytics = "checkpoint" + NivelActual.buildIndex;
+        print("alcanzaste el "+ nombreCheckpointAnalytics + " en coordenada de X: "+EnteroX);
+
+
+
+          Analytics.CustomEvent(nombreCheckpointAnalytics, new Dictionary<string, object>
+              {
+                  {"level_index", NivelActual.buildIndex },
+                  {"x", EnteroX },
+
+
+              });
+
+    }
+
 
 
 

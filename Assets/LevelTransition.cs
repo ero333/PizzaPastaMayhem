@@ -198,6 +198,11 @@ public class LevelTransition : MonoBehaviour
         SceneManager.LoadScene("Créditos");
     }
 
+    public void Calificar()
+    {
+
+    }
+
 
 
     public void GameOverScreen()

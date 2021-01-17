@@ -72,6 +72,7 @@ TagManager:
   - CarniceroBullet
   - PowerBomb
   - NivelTrigger
+  - Launch
   layers:
   - Default
   - TransparentFX

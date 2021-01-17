@@ -413,6 +413,7 @@ public class RecetasJugador : MonoBehaviour
                 ActiveReceta1 = 1;
 
                 print("active receta 1");
+                print("en nivel " + NivelActual.buildIndex);
 
                 Analytics.CustomEvent("activar_powerup_1", new Dictionary<string, object>
             {

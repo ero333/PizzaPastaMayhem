@@ -1683,10 +1683,10 @@ public class JugadorControl : MonoBehaviour
         if(estado == GameState.muerto)
         {
 
-            /*
-            print("Moriste en el nivel " + NivelActual.buildIndex);
-            print("Moriste en las coordenadas X=" + ejeX + ", Y=" + ejeY);
-            print("Moriste y te quedan " + vida + " vidas");
+            
+            print("Evento morir: Nivel " + NivelActual.buildIndex + ",enemy "+ EnemigoAsesino + ", vida "+vida+", ammo "+ municionActual);
+            //print("Moriste en las coordenadas X=" + ejeX + ", Y=" + ejeY);
+            /*print("Moriste y te quedan " + vida + " vidas");
             print("Moriste teniendo " + municionActual + " de munición");
             print("Moriste por " + EnemigoAsesino);
 
@@ -1698,7 +1698,7 @@ public class JugadorControl : MonoBehaviour
 
 
 
-            
+
             Analytics.CustomEvent("morir", new Dictionary<string, object>
             {
                 {"level_index", NivelActual.buildIndex },
@@ -1712,10 +1712,26 @@ public class JugadorControl : MonoBehaviour
 
 
 
-            }
-            
+            });
 
-            );
+
+
+
+
+
+            print("Evento morir_"+EnemigoAsesino+": Nivel " + NivelActual.buildIndex + ", vida " + vida + ", ammo " + municionActual);
+
+            Analytics.CustomEvent("morir_"+EnemigoAsesino, new Dictionary<string, object>
+            {
+                {"level_index", NivelActual.buildIndex },
+                {"lifes", vida },
+                {"ammo", municionActual }
+
+
+
+
+
+            });
 
             
         }

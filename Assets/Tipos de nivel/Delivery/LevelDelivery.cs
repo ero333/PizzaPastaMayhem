@@ -28,6 +28,8 @@ public class LevelDelivery : MonoBehaviour
 
     public float JugadorContador;                                           // Numero de las gelatinas que va agarrando el jugador
 
+    public bool MsgEnviado;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +44,8 @@ public class LevelDelivery : MonoBehaviour
         ObjetosARecolectar();
 
         JugadorContador = 0;
+
+        MsgEnviado = false;
 
     }
 
@@ -59,13 +63,19 @@ public class LevelDelivery : MonoBehaviour
 
             completado = true;                                              // activa bool
 
-            PlayerAll.SendMessage("NivelCompleto");                         // envia mensaje al jugador
+            //PlayerAll.SendMessage("NivelCompleto");                         // envia mensaje al jugador
 
 
         }
 
+        if (completado && !MsgEnviado)
+        {
+            PlayerAll.SendMessage("NivelCompleto");                         // envia mensaje al jugador
+            MsgEnviado = true;
+        }
 
-        if(Input.GetKeyDown("g"))
+
+        if (Input.GetKeyDown("g"))
         {
             GelatinaMenos();
         }

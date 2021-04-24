@@ -326,7 +326,7 @@ public class JugadorControl : MonoBehaviour
 
 
         NivelActual = SceneManager.GetActiveScene();
-
+        print("Evento level_start: lvl" + NivelActual.buildIndex + "+vida " + vida + "+ ammo " + municionActual);
         Analytics.CustomEvent("level_start", new Dictionary<string, object>
             {
                 {"level_index", NivelActual.buildIndex },
@@ -645,9 +645,8 @@ public class JugadorControl : MonoBehaviour
     {
         Coordenadas();
         
-        print(EnteroX);
-        print(EnteroY);
-        print("Disparaste en nivel "+ NivelActual.buildIndex);
+
+        print("Evento disparar: lvl"+ NivelActual.buildIndex+"+X"+EnteroX+"+Y"+EnteroY);
 
         
 
@@ -1497,11 +1496,11 @@ public class JugadorControl : MonoBehaviour
         string nombreanalytics = "usar_powerup_" + RecetaUsada;
 
         
-        print(nombreanalytics);
+        /*print(nombreanalytics);
         print(RecetaUsada);
-        print("nivel actual= "+NivelActual.buildIndex);
+        print("nivel actual= "+NivelActual.buildIndex);*/
 
-        
+        print("Evento " + nombreanalytics + ": Nivel " + NivelActual.buildIndex);
 
 
         /* CODIGO ANALYTICS VIEJO
@@ -2142,7 +2141,7 @@ public class JugadorControl : MonoBehaviour
     {
         NivelCompletado = true;
 
-        //print("level completed");
+        print("evento level_complete: lvl" + NivelActual.buildIndex+"+vida "+vida+"+ ammo "+municionActual);
         SwitchNiveles();
 
         Analytics.CustomEvent("level_complete", new Dictionary<string, object>

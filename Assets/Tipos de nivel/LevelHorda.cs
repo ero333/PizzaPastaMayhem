@@ -21,6 +21,7 @@ public class LevelHorda : MonoBehaviour
 
     public Text Sobrevive;
 
+    public bool MsgEnviado;
 
 
     // Start is called before the first frame update
@@ -34,6 +35,8 @@ public class LevelHorda : MonoBehaviour
 
         completado = false;
 
+        MsgEnviado = false;
+
         HordaGeneratorStart();
     }
 
@@ -44,9 +47,16 @@ public class LevelHorda : MonoBehaviour
 
         Cronometro.text = Timer.ToString("0"); // muestra el número del cronometro como texto con numeros enteros
 
-        if(GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+        if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
         {
             Sobrevive.gameObject.SetActive(false);
+        }
+
+        if (completado && !MsgEnviado)
+        {
+            PlayerAll.SendMessage("NivelCompleto"); // envia mensaje al jugador
+
+            MsgEnviado = true;
         }
 
     }
@@ -64,7 +74,7 @@ public class LevelHorda : MonoBehaviour
 
             completado = true; // activa bool
 
-            PlayerAll.SendMessage("NivelCompleto"); // envia mensaje al jugador
+            //PlayerAll.SendMessage("NivelCompleto"); // envia mensaje al jugador
 
             Cronometro.gameObject.SetActive(false); // destruye el cronometro
         }

@@ -14,10 +14,14 @@ public class LevelAniquilacion : MonoBehaviour
 
     public GameObject Player;
 
+    public bool MsgEnviado;
+
     // Start is called before the first frame update
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("PlayerAll");
+
+        MsgEnviado = false;
 
     }
 
@@ -34,12 +38,18 @@ public class LevelAniquilacion : MonoBehaviour
 
             completado = true;
 
-            Player.SendMessage("NivelCompleto");
 
             if(completado)
             {
                 UI_Pasaste.SetActive(true);
             }
+        }
+
+
+        if(completado && !MsgEnviado)
+        {
+            Player.SendMessage("NivelCompleto");
+            MsgEnviado = true;
         }
 
     }

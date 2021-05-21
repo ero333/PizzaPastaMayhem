@@ -152,7 +152,7 @@ public class OpcionesControl : MonoBehaviour
         {
             controles.SetActive(true);
 
-            print("abristecontroles en nivel "+NivelActual.buildIndex);
+            print("Evento ver_controles: Nivel " + NivelActual.buildIndex);
 
 
 
@@ -191,10 +191,10 @@ public class OpcionesControl : MonoBehaviour
     {
 
 
-        //print("reiniciaste nivel "+NivelActual.buildIndex);
+        print("Evento reiniciar_nivel: Nivel " + NivelActual.buildIndex);
 
 
-        
+
         Analytics.CustomEvent("reiniciar_nivel", new Dictionary<string, object>
             {
                 {"level_index", NivelActual.buildIndex },

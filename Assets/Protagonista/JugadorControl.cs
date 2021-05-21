@@ -243,6 +243,23 @@ public class JugadorControl : MonoBehaviour
     #endregion
 
 
+
+
+
+    #region contadores
+
+    [Header("Municion")]
+    public int ContadorHp;
+    public int ContadorAmmo;
+    public int ContadorVida;
+    public int ContadorIngrediente;
+    public int ContadorPowerHit;
+    public int ContadorDisparos;
+
+
+
+    #endregion
+
     void Awake()
     {
         //NivelActual = SceneManager.GetActiveScene();
@@ -272,6 +289,8 @@ public class JugadorControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        ResetContadores();
         Time.timeScale = 1f;
 
         Asesinado = false;
@@ -602,6 +621,8 @@ public class JugadorControl : MonoBehaviour
         {
             if (municionActual > 0)
             {
+
+                ContadorDisparos++;
                 if (Body.GetComponent<SpriteRenderer>().flipX == false)
                 {
                     Instantiate(bala, balaGenR.position, Quaternion.identity);          // Crea objeto. Orden de parentesis: qué objeto, dónde (o sobre qué objeto) y la rotación
@@ -645,7 +666,7 @@ public class JugadorControl : MonoBehaviour
     {
         Coordenadas();
         
-
+        /*
         print("Evento disparar: lvl"+ NivelActual.buildIndex+"+X"+EnteroX+"+Y"+EnteroY);
 
         
@@ -662,7 +683,7 @@ public class JugadorControl : MonoBehaviour
 
 
             });
-
+        */
         
     }
 
@@ -734,6 +755,7 @@ public class JugadorControl : MonoBehaviour
 
             AnalyticsPowerHit();
 
+            ContadorPowerHit++;
 
             if (Body.GetComponent<SpriteRenderer>().flipX == false)
             {
@@ -797,13 +819,10 @@ public class JugadorControl : MonoBehaviour
     public void AnalyticsPowerHit()
     {
         Coordenadas();
+
         /*
-        print(EnteroX);
-        print(EnteroY);
-        print("lanzaste PH en nivel "+ NivelActual.buildIndex);
 
-        */
-
+        print("Evento usar_powerhit: Nivel " + NivelActual.buildIndex + " + x" + EnteroX + " + y" + EnteroY);
 
 
         Analytics.CustomEvent("usar_powerhit", new Dictionary<string, object>
@@ -816,6 +835,8 @@ public class JugadorControl : MonoBehaviour
 
 
             });
+
+        */
     }
 
 
@@ -831,6 +852,18 @@ public class JugadorControl : MonoBehaviour
         {
             Destroy(collision.gameObject);
             VidaExtra();
+
+        }
+
+        if (collision.tag == "DropHP")                             // si colisiona con un objeto con el tag mensionado
+        {
+            ContadorHp++;
+
+        }
+
+        if (collision.tag == "DropAmmo")                             // si colisiona con un objeto con el tag mensionado
+        {
+            ContadorAmmo++;
 
         }
 
@@ -1201,16 +1234,12 @@ public class JugadorControl : MonoBehaviour
 
         vida++;
 
-        
-        print(NivelActual.buildIndex);
-        print(EnteroX);
-        print(EnteroY);
-        
+        ContadorVida++;
 
-/*
-        print("vida extra X = " + EnteroX);
-        print("vida extra Y = " + EnteroY);
-*/
+
+        /*
+        print("Evento recoger_vidas: Nivel " + NivelActual.buildIndex + " + x" + EnteroX + " + y" + EnteroY);
+
         Analytics.CustomEvent("recoger_vidas", new Dictionary<string, object>
             {
                 {"level_index", NivelActual.buildIndex },
@@ -1219,6 +1248,10 @@ public class JugadorControl : MonoBehaviour
                 {"y", EnteroY },
 
             });
+
+        */
+
+
     }
 
     #endregion
@@ -1305,14 +1338,8 @@ public class JugadorControl : MonoBehaviour
 
         Coordenadas();
 
-
         /*
-        print(NivelActual.buildIndex);
-        print(ejeX);
-        print(ejeY);
-        */
-
-
+        print("Evento recoger_ammo: Nivel " + NivelActual.buildIndex + " + x" + EnteroX + " + y" + EnteroY);
 
         Analytics.CustomEvent("recoger_ammo", new Dictionary<string, object>
             {
@@ -1322,7 +1349,7 @@ public class JugadorControl : MonoBehaviour
                 {"y", EnteroY },
 
             });
-
+        */
     }
 
     void MasVida()
@@ -1334,12 +1361,7 @@ public class JugadorControl : MonoBehaviour
             Coordenadas();
 
             /*
-            print(NivelActual.buildIndex);
-            print(ejeX);
-            print(ejeY);
-
-            */
-
+            print("Evento recoger_hppack: Nivel " + NivelActual.buildIndex + " + x" + EnteroX + " + y" + EnteroY);
 
             Analytics.CustomEvent("recoger_hppack", new Dictionary<string, object>
             {
@@ -1350,7 +1372,7 @@ public class JugadorControl : MonoBehaviour
 
             });
 
-
+            */
 
             vidaActual += Curarse;
         }
@@ -1626,16 +1648,8 @@ public class JugadorControl : MonoBehaviour
         if ((estado == GameState.muerto) && (vida <= 0))        // Si el jugador muere pero se queda sin vidas, aparece pantalla de Game Over
         {
 
-            /*
-            Debug.Log("Perdiste en X = " + ejeX);
-            Debug.Log("Perdiste en Y = " + ejeY);
-            Debug.Log("Perdiste con " + municionActual + " munición");
-            */
 
-
-            print(EnteroX);
-            print(EnteroY);
-
+            print("Evento game_over: level_index " + NivelActual.buildIndex + " + X" + EnteroX + " + Y" + EnteroY+" + ammo "  + municionActual+" + hp_pack "+ContadorHp+" + ammo_pack "+ContadorAmmo);
 
             Analytics.CustomEvent("game_over", new Dictionary<string, object>
             {
@@ -1643,7 +1657,10 @@ public class JugadorControl : MonoBehaviour
                 
                 {"x", EnteroX },
                 {"y", EnteroY },
+                {"hp_pack", ContadorHp },
+                {"ammo_pack", ContadorAmmo },
                 {"ammo", municionActual }
+
 
                 
 
@@ -1683,19 +1700,14 @@ public class JugadorControl : MonoBehaviour
         {
 
             
-            print("Evento morir: Nivel " + NivelActual.buildIndex + ",enemy "+ EnemigoAsesino + ", vida "+vida+", ammo "+ municionActual);
-            //print("Moriste en las coordenadas X=" + ejeX + ", Y=" + ejeY);
-            /*print("Moriste y te quedan " + vida + " vidas");
-            print("Moriste teniendo " + municionActual + " de munición");
-            print("Moriste por " + EnemigoAsesino);
 
-            */
+
 
             SwitchMorirAnalytics();
 
 
 
-
+            print("Evento morir: Nivel " + NivelActual.buildIndex + ",enemy " + EnemigoAsesino + ", vida " + vida + ", ammo " + municionActual);
 
 
             Analytics.CustomEvent("morir", new Dictionary<string, object>
@@ -1704,8 +1716,8 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 //{"x", EnteroX },
                 //{"y", EnteroY },
-                {"lifes", vida },
-                {"ammo", municionActual }
+                //{"lifes", vida },
+                //{"ammo", municionActual }
 
 
 
@@ -1717,8 +1729,8 @@ public class JugadorControl : MonoBehaviour
 
 
 
-
-            print("Evento morir_"+EnemigoAsesino+": Nivel " + NivelActual.buildIndex + ", vida " + vida + ", ammo " + municionActual);
+            /*
+            print("Evento morir_<enemigo>"+EnemigoAsesino+": Nivel " + NivelActual.buildIndex + ", vida " + vida + ", ammo " + municionActual);
 
             Analytics.CustomEvent("morir_"+EnemigoAsesino, new Dictionary<string, object>
             {
@@ -1731,7 +1743,7 @@ public class JugadorControl : MonoBehaviour
 
 
             });
-
+            */
             
         }
 
@@ -1762,11 +1774,7 @@ public class JugadorControl : MonoBehaviour
             
 
 
-                /*Debug.Log("Moriste en el nivel " + NivelActual.buildIndex);
-                Debug.Log("Moriste en las coordenadas X=" + ejeX + ", Y=" + ejeY);
-                Debug.Log("Moriste y te quedan " + vida + " vidas");
-                Debug.Log("Moriste teniendo " + municionActual + " de munición");
-                Debug.Log("Moriste por " + EnemigoAsesino);*/
+
 
 
 
@@ -1804,8 +1812,7 @@ public class JugadorControl : MonoBehaviour
         EnteroX = (int)ejeX;
         EnteroY = (int)ejeY;
 
-        //Debug.Log("X = "+ejeX);
-        //Debug.Log("Y = " + ejeY);
+
 
 
     }
@@ -1826,13 +1833,8 @@ public class JugadorControl : MonoBehaviour
 
     public void SwitchMorirAnalytics()
     {
+        print("Evento morir<level_index>: Nivel " + NivelActual.buildIndex + ",enemy " + EnemigoAsesino + ", vida " + vida + ", ammo " + municionActual);
 
-
-        print("Moriste en el nivel " + NivelActual.buildIndex);
-        print("Moriste en las coordenadas X=" + EnteroX + ", Y=" + EnteroY);
-        print("Moriste y te quedan " + vida + " vidas");
-        print("Moriste teniendo " + municionActual + " de munición");
-        print("Moriste por " + EnemigoAsesino);
 
         int Nivel = NivelActual.buildIndex;
         switch(Nivel)
@@ -1840,16 +1842,6 @@ public class JugadorControl : MonoBehaviour
             case 1:
 
 
-
-                /*
-                print("Moriste en el nivel " + NivelActual.buildIndex);
-                print("Moriste en las coordenadas X=" + EnteroX + ", Y=" + EnteroY);
-                print("Moriste y te quedan " + vida + " vidas");
-                print("Moriste teniendo " + municionActual + " de munición");
-                print("Moriste por " + EnemigoAsesino);
-
-
-                */
 
 
 
@@ -1859,7 +1851,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -1884,7 +1876,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -1903,7 +1895,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -1922,7 +1914,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -1941,7 +1933,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -1960,7 +1952,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -1979,7 +1971,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -1998,7 +1990,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -2018,7 +2010,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -2037,7 +2029,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -2056,7 +2048,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -2075,7 +2067,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -2094,7 +2086,7 @@ public class JugadorControl : MonoBehaviour
                 {"enemy", EnemigoAsesino},
                 {"x", EnteroX },
                 {"y", EnteroY },
-                {"lifes", vida },
+                //{"lifes", vida },
                 {"ammo", municionActual }
 
 
@@ -2115,19 +2107,24 @@ public class JugadorControl : MonoBehaviour
 
     public void AnalyticsCheckpoint() // llamado por el generador de checkpoint
     {
+
+        /*
+
         Coordenadas();        
         string nombreCheckpointAnalytics = "checkpoint" + NivelActual.buildIndex;
-        print("alcanzaste el "+ nombreCheckpointAnalytics + " en coordenada de X: "+EnteroX);
+        print("Evento checkpoint<level_index>: Nivel " + NivelActual.buildIndex+" + x"+EnteroX);
 
 
 
-          Analytics.CustomEvent(nombreCheckpointAnalytics, new Dictionary<string, object>
+        Analytics.CustomEvent(nombreCheckpointAnalytics, new Dictionary<string, object>
               {
                   {"level_index", NivelActual.buildIndex },
                   {"x", EnteroX },
 
 
               });
+
+        */
 
     }
 
@@ -2141,7 +2138,7 @@ public class JugadorControl : MonoBehaviour
     {
         NivelCompletado = true;
 
-        print("evento level_complete: lvl" + NivelActual.buildIndex+"+vida "+vida+"+ ammo "+municionActual);
+        print("evento level_complete: lvl" + NivelActual.buildIndex+"+vida "+vida+"+ ammo "+municionActual+" + power_hit "+ContadorPowerHit+" + ingredientes "+ContadorIngrediente+" + disparar "+ContadorDisparos);
         SwitchNiveles();
 
         Analytics.CustomEvent("level_complete", new Dictionary<string, object>
@@ -2149,7 +2146,11 @@ public class JugadorControl : MonoBehaviour
                 {"level_index", NivelActual.buildIndex },
 
                 {"lifes", vida },
-                {"ammo", municionActual }
+                {"ammo", municionActual },
+                {"usar_powerhit", ContadorPowerHit },
+                {"ingredientes", ContadorIngrediente },
+                {"disparar", ContadorDisparos }
+
 
             });
 
@@ -2345,6 +2346,23 @@ public class JugadorControl : MonoBehaviour
 
     #endregion
 
+
+
+
+    void ResetContadores()
+    {
+        ContadorAmmo = 0;
+        ContadorHp = 0;
+        ContadorIngrediente = 0;
+        ContadorVida = 0;
+        ContadorPowerHit = 0;
+        ContadorDisparos = 0;
+    }
+
+    public void AgarreIngrediente()
+    {
+        ContadorIngrediente++;
+    }
 }
 
 

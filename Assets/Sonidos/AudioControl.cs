@@ -51,7 +51,7 @@ public class AudioControl : MonoBehaviour
             {
 
 
-                print("AudioMuteado en nivel "+NivelActual.buildIndex);
+                print("Evento desactivar_musica: Nivel " + NivelActual.buildIndex);
 
 
                 Analytics.CustomEvent("desactivar_musica", new Dictionary<string, object>
@@ -70,7 +70,7 @@ public class AudioControl : MonoBehaviour
 
 
 
-                print("AudioDesmuteado en nivel " + NivelActual.buildIndex);
+                print("Evento activar_musica: Nivel " + NivelActual.buildIndex);
 
 
                 Analytics.CustomEvent("activar_musica", new Dictionary<string, object>

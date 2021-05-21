@@ -100,6 +100,9 @@ public class CalificarJuego : MonoBehaviour
 
     public void CalificacionAnalytics()
     {
+
+        print("Evento calificacion: nota " + Puntaje);
+
         Analytics.CustomEvent("calificacion", new Dictionary<string, object>
             {
                 {"nota", Puntaje },

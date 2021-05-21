@@ -177,6 +177,8 @@ public class RecetasJugador : MonoBehaviour
             IngredientesAnalytics();
 
             Receta1Activada();
+
+            SendMessage("AgarreIngrediente");
         }
 
         if ((collision.gameObject.tag == "DropPaty"))
@@ -192,6 +194,8 @@ public class RecetasJugador : MonoBehaviour
             IngredientesAnalytics();
 
             Receta1Activada();
+
+            SendMessage("AgarreIngrediente");
         }
 
         if ((collision.gameObject.tag == "DropQueso"))
@@ -207,6 +211,8 @@ public class RecetasJugador : MonoBehaviour
             IngredientesAnalytics();
 
             Receta1Activada();
+
+            SendMessage("AgarreIngrediente");
         }
 
         #endregion
@@ -225,6 +231,8 @@ public class RecetasJugador : MonoBehaviour
             IngredientesAnalytics();
 
             Receta2Activada();
+
+            SendMessage("AgarreIngrediente");
         }
 
         if ((collision.gameObject.tag == "DropSalchicha"))
@@ -240,6 +248,8 @@ public class RecetasJugador : MonoBehaviour
             IngredientesAnalytics();
 
             Receta2Activada();
+
+            SendMessage("AgarreIngrediente");
         }
 
         if ((collision.gameObject.tag == "DropAlbondigas"))
@@ -255,6 +265,8 @@ public class RecetasJugador : MonoBehaviour
             IngredientesAnalytics();
 
             Receta2Activada();
+
+            SendMessage("AgarreIngrediente");
         }
 
         #endregion
@@ -273,6 +285,8 @@ public class RecetasJugador : MonoBehaviour
             IngredientesAnalytics();
 
             Receta3Activada();
+
+            SendMessage("AgarreIngrediente");
         }
 
         if ((collision.gameObject.tag == "DropTomate"))
@@ -288,6 +302,8 @@ public class RecetasJugador : MonoBehaviour
             IngredientesAnalytics();
 
             Receta3Activada();
+
+            SendMessage("AgarreIngrediente");
         }
 
         if ((collision.gameObject.tag == "DropLechuga"))
@@ -303,6 +319,8 @@ public class RecetasJugador : MonoBehaviour
             IngredientesAnalytics();
 
             Receta3Activada();
+
+            SendMessage("AgarreIngrediente");
         }
         #endregion
 
@@ -412,8 +430,13 @@ public class RecetasJugador : MonoBehaviour
             {
                 ActiveReceta1 = 1;
 
+                /*
                 print("active receta 1");
                 print("en nivel " + NivelActual.buildIndex);
+
+                */
+
+                print("Evento activar_powerup_1: Nivel " + NivelActual.buildIndex);
 
                 Analytics.CustomEvent("activar_powerup_1", new Dictionary<string, object>
             {
@@ -435,7 +458,9 @@ public class RecetasJugador : MonoBehaviour
             {
                 ActiveReceta2 = 1;
 
-                print("active receta 2");
+                //print("active receta 2");
+
+                print("Evento activar_powerup_2: Nivel " + NivelActual.buildIndex);
 
                 Analytics.CustomEvent("activar_powerup_2", new Dictionary<string, object>
             {
@@ -457,7 +482,9 @@ public class RecetasJugador : MonoBehaviour
                 ActiveReceta3 = 1;
 
 
-                print("active receta 3");
+                //print("active receta 3");
+
+                print("Evento activar_powerup_3: Nivel " + NivelActual.buildIndex);
 
                 Analytics.CustomEvent("activar_powerup_3", new Dictionary<string, object>
             {
@@ -609,9 +636,10 @@ public class RecetasJugador : MonoBehaviour
 
     public void IngredientesAnalytics()
     {
-        //print(IngredienteObtenido.Remove(0,4));
-        //print(NivelActual.buildIndex);
 
+        /*
+
+        print("Evento recoger_ingrediente: Nivel " + NivelActual.buildIndex+" + ingrediente "+ IngredienteObtenido.Remove(0, 4));
 
         Analytics.CustomEvent("recoger_ingrediente", new Dictionary<string, object>
             {
@@ -620,6 +648,8 @@ public class RecetasJugador : MonoBehaviour
 
 
             });
+
+        */
     }
 
 

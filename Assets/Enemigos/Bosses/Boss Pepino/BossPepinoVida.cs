@@ -76,7 +76,7 @@ public class BossPepinoVida : MonoBehaviour
 
             PerderHP(LargoBarraHP);
 
-            Debug.Log("hithitihiti");
+
 
         }
 
@@ -92,7 +92,7 @@ public class BossPepinoVida : MonoBehaviour
 
             PerderHP(LargoBarraHP);
 
-            Debug.Log("hithitihiti");
+
         }
 
         #endregion

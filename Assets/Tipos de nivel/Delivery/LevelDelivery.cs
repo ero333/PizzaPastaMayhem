@@ -70,7 +70,7 @@ public class LevelDelivery : MonoBehaviour
 
         if (completado && !MsgEnviado)
         {
-            PlayerAll.SendMessage("NivelCompleto");                         // envia mensaje al jugador
+            //PlayerAll.SendMessage("NivelCompleto");                         // envia mensaje al jugador
             MsgEnviado = true;
         }
 
